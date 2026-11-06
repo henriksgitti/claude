@@ -1,0 +1,81 @@
+{
+  "phase": 1,
+  "phases": {
+    "1": "Validate",
+    "2": "Build (starts only when the CEO says so)"
+  },
+  "tasks": [
+    {
+      "id": "V1",
+      "phase": 1,
+      "title": "Problem statement and assumptions",
+      "description": "Idea is broad. Propose 3-5 candidate problem spaces within cancer, each with a one-line problem statement, who has it, and key assumptions. Recommend one. Output: research/problem-statement.md",
+      "owner": "researcher",
+      "done": false
+    },
+    {
+      "id": "V2",
+      "phase": 1,
+      "title": "Target customer profile",
+      "description": "Who has the problem, who pays, who decides (may differ in healthcare). Demographics/firmographics, current behavior, triggers. Output: research/customer-profile.md",
+      "owner": "researcher",
+      "done": false
+    },
+    {
+      "id": "V3",
+      "phase": 1,
+      "title": "Competitor map",
+      "description": "Direct, indirect, substitutes. Name, URL, offering, pricing if public, funding if public, positioning, gaps. Output: research/competitor-map.md",
+      "owner": "researcher",
+      "done": false
+    },
+    {
+      "id": "V4",
+      "phase": 1,
+      "title": "Market size estimate with sources",
+      "description": "TAM/SAM/SOM, bottom-up preferred. Every number sourced; show the math. Output: research/market-size.md",
+      "owner": "researcher",
+      "done": false
+    },
+    {
+      "id": "V5",
+      "phase": 1,
+      "title": "Pricing benchmarks",
+      "description": "What comparable products charge and how (subscription, per-test, per-seat, reimbursement codes). Propose a pricing hypothesis. Output: research/pricing.md",
+      "owner": "researcher",
+      "done": false
+    },
+    {
+      "id": "V6",
+      "phase": 1,
+      "title": "Where target customers talk online",
+      "description": "Communities, forums, subreddits, patient groups, professional networks, conferences — with URLs and rough size/activity. Read only; no posting. Output: research/channels.md",
+      "owner": "researcher",
+      "done": false
+    },
+    {
+      "id": "V7",
+      "phase": 1,
+      "title": "10 interview questions (Mom Test style)",
+      "description": "Questions about past behavior and real spending, not opinions or hypotheticals. No pitching. Include who to interview and how to recruit (CEO executes). Output: research/interview-guide.md",
+      "owner": "researcher",
+      "done": false
+    },
+    {
+      "id": "V8",
+      "phase": 1,
+      "title": "Riskiest assumptions list",
+      "description": "Rank assumptions by risk x uncertainty. Top 3 each with: test method, cost/time, kill criterion. Output: research/riskiest-assumptions.md",
+      "owner": "researcher",
+      "done": false
+    },
+    {
+      "id": "V9",
+      "phase": 1,
+      "title": "Critic review of all Phase 1 research",
+      "description": "Review each file in research/ against its sources. Output: research/reviews/",
+      "owner": "critic",
+      "done": false
+    }
+  ]
+}
