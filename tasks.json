@@ -41,7 +41,8 @@
       "title": "Pain mining: clinicians, nurses, practice & hospital staff",
       "description": "Same method as A3 (all source types: forums, reviews incl. employee reviews, job postings, tenders, trade press, insurer reports) for doctors, nurses, care staff, practice/hospital admins (e.g. documentation burden, staffing, scheduling, billing, care coordination). Output: research/pain-professionals.md",
       "owner": "researcher",
-      "done": false
+      "done": true,
+      "notes": "Draft in research/pain-professionals.md (2026-11-06): 10 problems (S1–S10) with [A]/[B] backing, TED purchase evidence and opened [C] counts. Thin [C] (kununu page 1 only, low-traffic forums, Reddit unused). Awaiting critic review (A8)."
     },
     {
       "id": "A5",
@@ -78,6 +79,16 @@
       "done": false,
       "added_by": "critic 2026-11-06",
       "reason": "A7 (long list) and B1 build on the trends inference table and the source recipes; the framing issues would otherwise carry over as facts."
+    },
+    {
+      "id": "A11",
+      "stage": "A",
+      "title": "Hospital billing audits & coding: size, rules 2027, incumbents",
+      "description": "Verify the size and dynamics of hospital MD billing audits and coding work (S3 in research/pain-professionals.md): GKV-SV § 275c / § 17c Abs. 6 KHG statistics (audit counts, objection rates, repayment sums), MD Bund reports, KHVVG switch to sample audits from 2027 and any BStabG audit-quota change (primary texts), and incumbent coding/CDI vendors in DE with public evidence of customers. Output: research/hospital-billing-audits.md",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "researcher 2026-11-06",
+      "reason": "A4 found hospital coding/MD-audit work has the clearest budget owner among staff-side problems (Charité coding-services framework, AI coding tender), but audit volumes, 2027 rule changes and incumbents are unverified; A7/B1 need this before scoring."
     },
     {
       "id": "A7",
