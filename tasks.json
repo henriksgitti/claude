@@ -50,7 +50,8 @@
       "title": "Pain mining: pharma, clinical research, payers, health admin",
       "description": "Same method as A3 (all source types: forums, reviews incl. employee reviews, job postings, tenders, trade press, insurer reports) for pharma, CROs/clinical trial staff, insurers (GKV/PKV), public health, medtech. Output: research/pain-industry.md",
       "owner": "researcher",
-      "done": false
+      "done": true,
+      "notes": "Draft in research/pain-industry.md (2026-11-06): 10 problems (I1–I10) with [A]/[B] backing, TED payer tenders (9 buyers for invoice processing, 3 MD AI buyers), own CT.gov trial-share count. [C] thin (industry pain not in open forums; Elsmar blocked; Reddit unused). Awaiting critic review (A8)."
     },
     {
       "id": "A6",
@@ -89,6 +90,26 @@
       "done": false,
       "added_by": "researcher 2026-11-06",
       "reason": "A4 found hospital coding/MD-audit work has the clearest budget owner among staff-side problems (Charité coding-services framework, AI coding tender), but audit volumes, 2027 rule changes and incumbents are unverified; A7/B1 need this before scoring."
+    },
+    {
+      "id": "A12",
+      "stage": "A",
+      "title": "Insurer invoice processing (§ 302 SGB V) and MD assessment automation: incumbents, contract values, buying route",
+      "description": "Follow-up to I5/I6 in research/pain-industry.md. Read TED award notices (can-standard) for the 9 payer invoice/receipt-processing tenders and the 3 MD AI tenders since 2025: winners, contract values, durations. Identify incumbent BPO/software vendors (e.g. via award notices, vendor sites, filings), whether insurers buy directly or via gkv informatik / BITMARCK / AOK Systems, and how the 2027 admin cap (§ 4 Abs. 5 SGB V) and PNOG change demand. Output: research/payer-processing.md",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "researcher 2026-11-06",
+      "reason": "A5 found the clearest public willingness to pay so far (multi-year insurer tenders with millions of invoices; MD AI pilots), but incumbents and award values are unknown; A7/B1 need them to judge achievability."
+    },
+    {
+      "id": "A13",
+      "stage": "A",
+      "title": "Clinical-trial recruitment in Germany: site economics, vendors, Kapazitätsinitiative 2030",
+      "description": "Follow-up to I1/I2 in research/pain-industry.md. Verify with primary/[A] data where possible: CTIS-based German trial counts, per-patient site fees and recruitment budgets, the MFG 5 % recruitment incentive (rules and uptake), details of the BPI/BVMA/vfa 'Kapazitätsinitiative Klinische Forschung 2030', and DACH recruitment/feasibility vendors with public evidence of customers or funding (websites, filings). Output: research/trial-recruitment-de.md",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "researcher 2026-11-06",
+      "reason": "I1 is the best founder-fit problem in A5 (strong [A]/[B] pain: 72 % of university sites under-recruit; DE share 15.4 %→10.5 %), but competition, prices and the sponsors' view that digital tools are a minor hurdle are unverified."
     },
     {
       "id": "A7",
