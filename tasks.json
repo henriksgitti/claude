@@ -14,7 +14,8 @@
       "title": "Trends & policy scan (DE/EU)",
       "description": "Structural healthcare problems that will grow in the next 5–15 years, Germany/EU focus: ageing, care/nursing workforce shortage, chronic disease, hospital reform, digitization laws (DiGA, ePA, GDNG, EHDS), cost pressure. For each: sourced data, who is affected, who pays. Output: research/trends.md",
       "owner": "researcher",
-      "done": false
+      "done": true,
+      "notes": "Draft in research/trends.md (2026-11-06). Awaiting critic review (A8). Open [UNVERIFIED] items listed in the file (PNOG cabinet version, RKI prevalence, primary Destatis releases)."
     },
     {
       "id": "A2",
@@ -55,6 +56,16 @@
       "description": "Funding programs (e.g. EXIST, Bavarian state programs, EU EIC/Horizon health calls) with eligibility, amounts, deadlines, and whether a part-time founder qualifies; Munich accelerators/incubators with health focus; active health/digital-health investors (pre-seed/seed) in Munich/DACH; where to find co-founders (CTO, clinical). Output: research/munich-ecosystem.md",
       "owner": "researcher",
       "done": false
+    },
+    {
+      "id": "A9",
+      "stage": "A",
+      "title": "Reimbursement & funding routes for digital health products in DE (status late 2026)",
+      "description": "Current status and conditions of each route a small health-tech startup could sell through: DiGA (after FinanzKommission/BStabG/GeDIG changes), DiPA, §64e/Selektivverträge, PNOG digital fund for outpatient care (cabinet/Bundestag version, Förderrichtlinie timing), hospital transformation fund eligibility for software, KHZG follow-up. Per route: who decides, amounts, timing, evidence required. Primary sources (BMG, BfArM, GKV-SV, Bundestag Drucksachen). Output: research/reimbursement-routes.md",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "researcher 2026-11-06",
+      "reason": "A1 found payers in cost-cutting mode, DiGA rules tightening, and new public digitisation funds (PNOG €1.6bn, transformation fund); B1 criterion 3 (willingness/ability to pay) needs a verified map of these routes."
     },
     {
       "id": "A7",
