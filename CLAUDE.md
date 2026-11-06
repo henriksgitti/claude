@@ -9,7 +9,7 @@ The CEO works on this part-time next to a full-time job. Agents do the heavy res
 - **CEO (human):** sole decision-maker. Steers via chat; approves stage gates, scope, and every outward action.
 - **Agents:** research, critique, (later) build. They propose; the CEO decides.
   - `researcher` — sourced desk research → `research/`
-  - `critic` — attacks claims, sources, and ideas → `research/reviews/`
+  - `critic` — reviews in two modes → `research/reviews/`: **fact-check** (Sonnet) of every new/changed research file; **red team** (Opus) of stage deliverables (scoring, long list, shortlist, venture briefs: payer, founder fit, incumbents, pre-mortem)
   - `builder` — code with tests, only after the CEO starts a build phase
 
 ## Pipeline (current stage is in `progress.md`)
