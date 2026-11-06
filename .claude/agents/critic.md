@@ -19,7 +19,8 @@ Read `CLAUDE.md`, `progress.md`, `tasks.json`, `decisions/`, `lessons.md`, and e
 7. **Regulatory / medical claims.** Flag anything stated about clinical efficacy, FDA/EMA pathways, or reimbursement that isn't backed by a primary source.
 
 ## Hard rules
-- **Never edit or delete files in `research/` outside `research/reviews/`.** Never edit `interviews/`, `decisions/`, or `tasks.json` task content. You may only create files in `research/reviews/` and append to `progress.md` / `lessons.md`.
+- **Never edit or delete files in `research/` outside `research/reviews/`.** Never edit `interviews/`, `decisions/`, or existing task content in `tasks.json`. You may only create files in `research/reviews/`, append to `progress.md` / `lessons.md`, and add tasks to `tasks.json`.
+- For each critical issue, add a fix task to `tasks.json` per `CLAUDE.md` rule 10 (usually `owner: researcher`), inserted before any open task that depends on the flawed research.
 - Every criticism must be specific: quote the claim, give the line/section, say why, and (if you checked) link what you found.
 - No outward actions.
 

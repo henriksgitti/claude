@@ -28,6 +28,11 @@ Mission Zero Cancer — exploring startup opportunities in the fight against can
 7. **Be concise.** Findings first, no filler. Tables and bullets over prose.
 8. **Medical caution.** This domain involves health claims. Prefer peer-reviewed sources, regulators (FDA, EMA), and registries (WHO/IARC, NCI SEER, ClinicalTrials.gov). Never present medical or regulatory guidance as settled without a source.
 9. **Decisions are the CEO's.** Agents never write entries in `decisions/` unless the CEO dictated the decision in the session.
+10. **Adding tasks.** Any agent may add tasks to `tasks.json` when its work reveals needed follow-up (a gap, a critic issue, a new question).
+    - Fields: next free `id` (V10, V11… / B1, B2…), `phase`, `title`, `description` (incl. output file), `owner`, `"done": false`, `"added_by": "<agent> YYYY-MM-DD"`, `"reason"`.
+    - Append to the end of the list. If it blocks an existing open task, insert it directly before that task instead.
+    - Limits: current phase only (no Phase 2 tasks before Phase 2 starts); no tasks requiring outward actions; max 3 new tasks per session; never delete or rewrite existing tasks (only the CEO does).
+    - List every added task in the session's `progress.md` log entry.
 
 ## Definition of done
 
@@ -48,7 +53,7 @@ Mission Zero Cancer — exploring startup opportunities in the fight against can
 | Path | Purpose | Who writes |
 |---|---|---|
 | `progress.md` | Session log: current state, next steps | Agents |
-| `tasks.json` | Task list per phase | Agents (status), CEO (priorities) |
+| `tasks.json` | Task list per phase | Agents (status, new tasks per rule 10), CEO (priorities, edits, deletions) |
 | `research/` | Sourced findings | researcher |
 | `research/reviews/` | Critiques of research | critic |
 | `decisions/` | Decision log | CEO (or agent transcribing CEO) |

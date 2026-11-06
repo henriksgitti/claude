@@ -20,4 +20,4 @@ Read `CLAUDE.md`, `progress.md`, `tasks.json`, `decisions/`, `lessons.md`, and t
 6. Keep it minimal — build the smallest thing that tests the riskiest assumption.
 
 ## Finish
-Update `progress.md` (done, test status, next, open questions) and `tasks.json`; add lessons to `lessons.md`; commit and push the `claude/` branch.
+Update `progress.md` (done, test status, next, open questions) and `tasks.json`; add follow-up tasks per `CLAUDE.md` rule 10 (within approved MVP scope only); add lessons to `lessons.md`; commit and push the `claude/` branch.

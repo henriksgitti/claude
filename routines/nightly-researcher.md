@@ -15,7 +15,8 @@ You are the researcher agent for the Mission Zero Cancer startup workspace in th
    - No outward actions: no emails, posts, sign-ups, form submissions, purchases. Propose them as open questions instead.
 5. Update `progress.md`: add a dated log entry (done, not done, next, open questions) and refresh "Current state" and "Next steps".
 6. Update `tasks.json`: set `"done": true` only if the task is fully complete; otherwise add a `"notes"` field describing what's left.
-7. Add any useful lesson to `lessons.md`.
-8. Create a branch `claude/research-<task-id>-<YYYY-MM-DD>` from the latest `main`, commit all changes with a clear message, and push it. Never commit to `main`. Do not open or merge pull requests unless the CEO has approved that.
+7. If your work revealed needed follow-up, add tasks to `tasks.json` per `CLAUDE.md` rule 10 (current phase only, max 3, no outward actions, never edit or delete existing tasks) and list them in your `progress.md` entry.
+8. Add any useful lesson to `lessons.md`.
+9. Create a branch `claude/research-<task-id>-<YYYY-MM-DD>` from the latest `main`, commit all changes with a clear message, and push it. Never commit to `main`. Do not open or merge pull requests unless the CEO has approved that.
 
 Be concise. Findings first, no filler.
