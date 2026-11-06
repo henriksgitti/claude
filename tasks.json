@@ -68,9 +68,10 @@
       "title": "Reimbursement & funding routes for digital health products in DE (status late 2026)",
       "description": "Current status and conditions of each route a small health-tech startup could sell through: DiGA (after FinanzKommission/BStabG/GeDIG changes), DiPA, §64e/Selektivverträge, PNOG digital fund for outpatient care (cabinet/Bundestag version, Förderrichtlinie timing), hospital transformation fund eligibility for software, KHZG follow-up. Per route: who decides, amounts, timing, evidence required. Primary sources (BMG, BfArM, GKV-SV, Bundestag Drucksachen). Output: research/reimbursement-routes.md",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "researcher 2026-11-06",
-      "reason": "A1 found payers in cost-cutting mode, DiGA rules tightening, and new public digitisation funds (PNOG €1.6bn, transformation fund); B1 criterion 3 (willingness/ability to pay) needs a verified map of these routes."
+      "reason": "A1 found payers in cost-cutting mode, DiGA rules tightening, and new public digitisation funds (PNOG €1.6bn, transformation fund); B1 criterion 3 (willingness/ability to pay) needs a verified map of these routes.",
+      "notes": "Draft in research/reimbursement-routes.md (2026-11-06). Gaps: national uptake of § 8 Abs. 8 SGB XI grant; PNOG still a bill (2nd/3rd reading planned 11 Dec 2026); current DiGA count (BfArM directory JS/401). '§64e' in description is genome sequencing; covered § 140a/§ 68a-b instead. Awaiting critic review (A8)."
     },
     {
       "id": "A10",

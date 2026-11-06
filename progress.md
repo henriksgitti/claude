@@ -2,12 +2,12 @@
 
 ## Current state
 - Project: **Healthcare Venture** (scope opened from cancer to healthcare on 2026-11-06, see `decisions/2026-11-06-scope-pipeline.md`).
-- Stage: **A — Scan** (in progress). A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). A6 Munich ecosystem drafted (`research/munich-ecosystem.md`). Cancer-only work archived in `archive/`; its V1 draft feeds A7.
+- Stage: **A — Scan** (in progress). A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). A6 Munich ecosystem drafted (`research/munich-ecosystem.md`). A9 reimbursement/funding routes drafted (`research/reimbursement-routes.md`). Cancer-only work archived in `archive/`; its V1 draft feeds A7.
 - Infrastructure: worker session on environment `healthcare-venture`. WebFetch fails DNS for many hosts (destatis.de, bundesgesundheitsministerium.de, vdek.com), but `curl` through the proxy reaches them: fetch with curl + local text extraction. Reddit is effectively unusable: direct fetch is bot-checked and `site:reddit.com` search returns almost no reddit.com hits (A2). Working alternatives and recipes are listed in `research/sources-map.md`.
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
 ## Next steps
-1. Researcher: A9, A10, A11, A12, A13, A14, A7 (one per run), using the recipes in `research/sources-map.md`. Critic: A8 alongside (`research/pain-patients.md`, `research/pain-professionals.md`, `research/pain-industry.md` and `research/munich-ecosystem.md` ready for review).
+1. Researcher: A10, A11, A12, A13, A14, A7 (one per run), using the recipes in `research/sources-map.md`. A10 should also update the PNOG scope in `research/trends.md` (cabinet version now covers residential homes too, see `research/reimbursement-routes.md` §4). Critic: A8 alongside (`research/munich-ecosystem.md` and `research/reimbursement-routes.md` ready for review).
 2. Then B1 (score, top 5) → CEO picks 2–3.
 
 ## Open questions
@@ -25,6 +25,20 @@
 - Next:
 - Open questions:
 -->
+
+### 2026-11-06 — A9 Reimbursement & funding routes for digital health products in DE (researcher)
+- Done: `research/reimbursement-routes.md`. 11 routes, each with who decides, amount, timing, evidence and status, almost all from primary law texts and drafts.
+  - DiGA: BStabG (in force 30 Jul 2026) adds volume discounts from 2027 (2 % above 3,000 uses/yr, up to 30 % above 100,000) and mandatory first-year price caps. GKV spent €171m in 2025 (0.05 % of GKV spending).
+  - DiPA: still zero listed (BMG, Jun 2026). €53/month. Benefits navigation and admin apps are excluded by law.
+  - PNOG fund (cabinet 30 Sep 2026): €1.6bn federal + €0.4bn Länder, now also for residential homes. Payouts from 1 Jul 2027; guideline due 30 Jun 2027. My math: ≈€62k per facility over 5 years. Bundestag vote planned 11 Dec 2026.
+  - Precedent: the €12k digitisation grant had been used up by only ~20–30 % of facilities in Berlin/Brandenburg by 2024.
+  - Hospitals: the transformation fund is not a software budget. No KHZG successor. The KHZG penalty starts weighting actual use: 20 % of it in 2027, 80 % in 2031.
+  - Insurers: § 140a contracts are now bound by contribution stability; admin-cost cap from 2027; Innovationsfonds down to €100m/yr.
+  - Inference: B2B sales to providers out of their own budgets come first; DiGA/DiPA are later options.
+- Not done / blocked: national uptake of the § 8 Abs. 8 grant (only regional vdek data); the current DiGA count (BfArM directory needs JS); the PNOG Bundestag Drucksache (AOK timetable used instead); prevention-course subsidy amounts; PKV. The task's "§64e" is genome sequencing, so § 140a/§ 68a–b were covered instead.
+- Next: A10. Critic: review `research/reimbursement-routes.md`.
+- Tasks added: none.
+- Open questions: none new. Note for B1: suggest that a willingness-to-pay score of 4–5 requires a first revenue route within 12 months that does not depend on a reimbursement listing (`research/reimbursement-routes.md` §7).
 
 ### 2026-11-06 — A6 Munich ecosystem: grants, capital, co-founders (researcher)
 - Done: `research/munich-ecosystem.md`. Grants (10 programs, with part-time fit), hubs (11), investors (~17), co-founder channels (9), all with sources.
