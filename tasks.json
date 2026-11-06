@@ -11,7 +11,8 @@
       "title": "Problem statement and assumptions",
       "description": "Idea is broad. Propose 3-5 candidate problem spaces within cancer, each with a one-line problem statement, who has it, and key assumptions. Recommend one. Output: research/problem-statement.md",
       "owner": "researcher",
-      "done": false
+      "done": false,
+      "notes": "2026-11-06 run: draft written with 5 candidates + provisional recommendation, but ALL numbers are [UNVERIFIED] because every source host tried was blocked by the session network allowlist (pubmed.ncbi.nlm.nih.gov, pmc.ncbi.nlm.nih.gov, www.cancer.org, www.iarc.who.int, ascopost.com). Left: open each lead URL listed in research/problem-statement.md, confirm or correct the numbers, add global/EU data (IARC), then remove [UNVERIFIED] tags. Requires those hosts to be allowed."
     },
     {
       "id": "V2",
