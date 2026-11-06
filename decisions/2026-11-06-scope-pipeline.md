@@ -1,0 +1,12 @@
+# Open scope to healthcare; venture pipeline; Munich
+- Date: 2026-11-06
+- Decision:
+  - Scope opened from cancer to healthcare broadly. Project renamed "Healthcare Venture".
+  - Goal: evidence-backed venture briefs ready to found in Munich (grants, capital, co-founders).
+  - Desk research first (Reddit, forums, whole internet); interviews moved to the end (Stage D).
+  - Pipeline A Scan → B Score (CEO picks 2–3) → C Deep dive (CEO picks 1) → D Launch pack.
+  - Schedule: 3 researcher + 2 critic runs per night; morning brief to the CEO's phone.
+  - Agents may not merge changes to CLAUDE.md, founder-brief.md, agents, routines, decisions.
+  - Environment switched to full internet access.
+- Reason: CEO works part-time and wants to found in Munich; wants AI to do deep research while keeping decisions with the CEO.
+- Supersedes: cancer-only Phase 1 tasks (archived in `archive/`).
