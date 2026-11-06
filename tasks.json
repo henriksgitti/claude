@@ -79,9 +79,10 @@
       "title": "Apply critic fixes to trends.md and sources-map.md",
       "description": "Fix the should-fix items in research/reviews/2026-11-06-trends.md (8.5% FTE cut is conditional; draft-law wording for GeDIG/PNOG in the inference table; add the existing §8 Abs. 8 SGB XI €12k care-digitisation subsidy and its uptake if sourceable; Pflegestatistik corrections; verify ~32,000 care facilities and ~1,700 hospitals via Destatis) and research/reviews/2026-11-06-sources-map.md (TED counts include award notices and are not de-duplicated; tender coverage limits; LinkedIn count reliability; add Munich/Bavaria and provider-directory sources). Output: updated research/trends.md and research/sources-map.md",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "critic 2026-11-06",
-      "reason": "A7 (long list) and B1 build on the trends inference table and the source recipes; the framing issues would otherwise carry over as facts."
+      "reason": "A7 (long list) and B1 build on the trends inference table and the source recipes; the framing issues would otherwise carry over as facts.",
+      "notes": "Done 2026-11-06: trends.md and sources-map.md revised per both critic reviews. Verified 32,054 care facilities (Destatis 2023) and 1,807 hospitals (Destatis 2025); PNOG updated to cabinet draft (ambulant + stationär, Länder 25%) plus § 113e Transformationsstellen; § 8 Abs. 8 uptake added (DAK: ~11,300 of ~17,500 facilities used it, €81.2m = ~40% of funds); TED de-duplicated (637 notices = 384 procedures); Munich/Bavaria, provider-directory, filings and gematik sources added. Open: national (AOK/GKV-SV) uptake figure; incumbent care-software vendors."
     },
     {
       "id": "A11",
@@ -124,6 +125,16 @@
       "reason": "A7/B1 will read the A3-A5 WTP columns as evidence. Tender WTP currently counts budgets a startup cannot bid for (AOK Hessen requires EUR 6m annual turnover, MUL Lausitz EUR 1m/yr in-field turnover, Charite 3 university-hospital references)."
     },
     {
+      "id": "A15",
+      "stage": "A",
+      "title": "Update reimbursement-routes.md: § 113e Transformationsstellen and § 8 Abs. 8 uptake",
+      "description": "Add the PNOG § 113e Transformationsstellen route (residential homes, 2028–2032, up to 10% of the staffing corridor, catalogue of proven relief systems from 30 Sep 2027) as its own route with who decides, amount, timing, evidence; replace the 'weak uptake' framing of the § 8 Abs. 8 grant with the DAK national-share data (≈11,300 of ≈17,500 DAK-processed facilities used it; €81.2m ≈ 40% of funds) next to the vdek 'full amount used' figures; try once more for an AOK or GKV-SV uptake figure. Sources already opened in research/trends.md §2 (A10). Output: updated research/reimbursement-routes.md",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "researcher 2026-11-06",
+      "reason": "A10 found that reimbursement-routes.md (A9) omits § 113e, a recurring care-rate-funded budget for staff-relief tech in nursing homes, and that its '20–30 % uptake' reads as facility uptake while the vdek figure means 'full amount used'; DAK data show ~65% facility uptake. B1 criterion 3 reads this file."
+    },
+    {
       "id": "A7",
       "stage": "A",
       "title": "Long list of 20–30 problems",
@@ -138,7 +149,7 @@
       "description": "Review each Stage A research file as it appears (sources, grades, cherry-picking, [C]-only claims). Mark done when every A file has a current review. Output: research/reviews/",
       "owner": "critic",
       "done": false,
-      "notes": "2026-11-06 critic: reviewed trends.md (pass, minor fixes), sources-map.md (pass, minor fixes), scoring.md (needs work before B1). Still to review: A3, A4, A5, A6, A9, A10, A7 outputs. | 2026-11-06 critic run 2: reviewed pain-industry.md (needs work), pain-professionals.md (needs work), pain-patients.md (pass, minor fixes); added A14. Still to review: A6, A9, A10, A11, A12, A13, A7 outputs."
+      "notes": "2026-11-06 critic: reviewed trends.md (pass, minor fixes), sources-map.md (pass, minor fixes), scoring.md (needs work before B1). Still to review: A3, A4, A5, A6, A9, A10, A7 outputs. | 2026-11-06 critic run 2: reviewed pain-industry.md (needs work), pain-professionals.md (needs work), pain-patients.md (pass, minor fixes); added A14. Still to review: A6, A9, A10, A11, A12, A13, A7 outputs. | 2026-11-06 researcher A10: trends.md and sources-map.md revised; ready for re-check."
     },
     {
       "id": "B1",

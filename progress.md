@@ -2,12 +2,12 @@
 
 ## Current state
 - Project: **Healthcare Venture** (scope opened from cancer to healthcare on 2026-11-06, see `decisions/2026-11-06-scope-pipeline.md`).
-- Stage: **A — Scan** (in progress). A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). A6 Munich ecosystem drafted (`research/munich-ecosystem.md`). A9 reimbursement/funding routes drafted (`research/reimbursement-routes.md`). Cancer-only work archived in `archive/`; its V1 draft feeds A7.
+- Stage: **A — Scan** (in progress). A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). A6 Munich ecosystem drafted (`research/munich-ecosystem.md`). A9 reimbursement/funding routes drafted (`research/reimbursement-routes.md`). A10 applied the critic fixes to `research/trends.md` and `research/sources-map.md`. Cancer-only work archived in `archive/`; its V1 draft feeds A7.
 - Infrastructure: worker session on environment `healthcare-venture`. WebFetch fails DNS for many hosts (destatis.de, bundesgesundheitsministerium.de, vdek.com), but `curl` through the proxy reaches them: fetch with curl + local text extraction. Reddit is effectively unusable: direct fetch is bot-checked and `site:reddit.com` search returns almost no reddit.com hits (A2). Working alternatives and recipes are listed in `research/sources-map.md`.
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
 ## Next steps
-1. Researcher: A10, A11, A12, A13, A14, A7 (one per run), using the recipes in `research/sources-map.md`. A10 should also update the PNOG scope in `research/trends.md` (cabinet version now covers residential homes too, see `research/reimbursement-routes.md` §4). Critic: A8 alongside (`research/munich-ecosystem.md` and `research/reimbursement-routes.md` ready for review).
+1. Researcher: A11, A12, A13, A14, A15, A7 (one per run), using the recipes in `research/sources-map.md`. Critic: A8 alongside (`research/munich-ecosystem.md`, `research/reimbursement-routes.md` and the revised `research/trends.md` / `research/sources-map.md` ready for review).
 2. Then B1 (score, top 5) → CEO picks 2–3.
 
 ## Open questions
@@ -25,6 +25,21 @@
 - Next:
 - Open questions:
 -->
+
+### 2026-11-06 — A10 Apply critic fixes to trends.md and sources-map.md (researcher)
+- Done: revised `research/trends.md` and `research/sources-map.md` per both critic reviews.
+  - Counts verified [A]: 32,054 care facilities in Dec 2023 (16,505 nursing homes + 15,549 outpatient services, Destatis) and 1,807 hospitals in 2025 (529 public, 549 non-profit, 729 private; Destatis PM 28 Oct 2026). KHZG €4.3bn verified (BMG); DigitalRadar 33.3 → 55.0 (DKG).
+  - Framing fixed: the 8.5% FTE cut is a conditional ("müssten"); PNOG and GeDIG are marked as draft everywhere (GeDIG 2nd/3rd reading planned 13 Nov, PNOG 11 Dec 2026); KIM 40% = "applied for"; Pflegestatistik: 800,000 in homes, the definition explains the rise only "zum Teil", 640,000 Pflegegrad-1 people used no services. The old-age-ratio row was correct (33 → 43/45/47 by 2038); I added a note on the second measure.
+  - PNOG updated to the cabinet draft: €1.6bn for outpatient **and residential** care, Länder "sollen" co-fund 25%. New: § 113e "Transformationsstellen" lets nursing homes convert up to 10% of the staffing corridor into a tech budget (2028–2032), but only for systems on an evidence catalogue (from 30 Sep 2027).
+  - § 8 Abs. 8 grant uptake: DAK processes 48% of facilities. ~11,300 of its ~17,500 used the grant by mid-2025 (64.6%), but only €81.2m ≈ 40% of the funds was drawn. This softens A9's "weak uptake": facilities apply, but small amounts.
+  - TED de-duplicated: 637 notices = 384 procedures (366 contract notices = 232 procedures, 139 buyers). Medical-software CPV contract notices: 140 procedures from 110 buyers. Added coverage limits (public buyers only; 729 private hospitals invisible).
+  - Job counts downgraded to [C]; kununu needs ≥3 employers; App Store recipe must report the low-star share.
+  - New source sections: Munich/Bavaria (KVB, StMGP Krankenhausplan 2026 PDF, Bavarian statistics office, LGL, BKG, AOK Bayern, München Klinik) and provider directories/filings (G-BA quality reports, InEK, AOK-Pflegenavigator, CGM/NEXUS IR, Bundesanzeiger, gematik dashboard = JS only).
+  - ClinicalTrials.gov: "Munich" finds 300 recruiting trials, "Munich OR München" 669. A13 must use both spellings.
+- Not done / blocked: national (AOK or GKV-SV) uptake of the § 8 Abs. 8 grant not found; incumbent care-software vendors not checked (`[UNVERIFIED]`). Blocked: pflegelotse.de (reset), pflegeportal.bayern.de and lfstat.bayern.de (502).
+- Next: A11. Critic: re-check `research/trends.md` and `research/sources-map.md`.
+- Tasks added: A15 (update `research/reimbursement-routes.md` with § 113e and the DAK uptake data), inserted before A7.
+- Open questions: none new.
 
 ### 2026-11-06 — A9 Reimbursement & funding routes for digital health products in DE (researcher)
 - Done: `research/reimbursement-routes.md`. 11 routes, each with who decides, amount, timing, evidence and status, almost all from primary law texts and drafts.
