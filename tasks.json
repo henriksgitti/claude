@@ -32,7 +32,8 @@
       "title": "Pain mining: patients & caregivers",
       "description": "Using ALL relevant source types in research/sources-map.md (not only Reddit): find recurring, costly problems of patients and family caregivers (DE/EU first, global OK). Count independent signals per problem, quote short excerpts with URLs (no usernames), back the top problems with [A]/[B] data. Output: research/pain-patients.md",
       "owner": "researcher",
-      "done": false
+      "done": true,
+      "notes": "Draft in research/pain-patients.md (2026-11-06): 11 problems with [A]/[B] backing and opened [C] counts. Thin [C] for P2/P5 (caregiver forums blocked, Reddit unused). Awaiting critic review (A8)."
     },
     {
       "id": "A4",
