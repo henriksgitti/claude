@@ -2,12 +2,12 @@
 
 ## Current state
 - Project: **Healthcare Venture** (scope opened from cancer to healthcare on 2026-11-06, see `decisions/2026-11-06-scope-pipeline.md`).
-- Stage: **A — Scan** (in progress). A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). Cancer-only work archived in `archive/`; its V1 draft feeds A7.
+- Stage: **A — Scan** (in progress). A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). A6 Munich ecosystem drafted (`research/munich-ecosystem.md`). Cancer-only work archived in `archive/`; its V1 draft feeds A7.
 - Infrastructure: worker session on environment `healthcare-venture`. WebFetch fails DNS for many hosts (destatis.de, bundesgesundheitsministerium.de, vdek.com), but `curl` through the proxy reaches them: fetch with curl + local text extraction. Reddit is effectively unusable: direct fetch is bot-checked and `site:reddit.com` search returns almost no reddit.com hits (A2). Working alternatives and recipes are listed in `research/sources-map.md`.
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
 ## Next steps
-1. Researcher: A6 → A9, A10, A11, A12, A13, A7 (one per run), using the recipes in `research/sources-map.md`. Critic: A8 alongside (`research/pain-patients.md`, `research/pain-professionals.md` and `research/pain-industry.md` ready for review).
+1. Researcher: A9, A10, A11, A12, A13, A14, A7 (one per run), using the recipes in `research/sources-map.md`. Critic: A8 alongside (`research/pain-patients.md`, `research/pain-professionals.md`, `research/pain-industry.md` and `research/munich-ecosystem.md` ready for review).
 2. Then B1 (score, top 5) → CEO picks 2–3.
 
 ## Open questions
@@ -25,6 +25,21 @@
 - Next:
 - Open questions:
 -->
+
+### 2026-11-06 — A6 Munich ecosystem: grants, capital, co-founders (researcher)
+- Done: `research/munich-ecosystem.md`. Grants (10 programs, with part-time fit), hubs (11), investors (~17), co-founder channels (9), all with sources.
+  - Key: the founder stipends (EXIST €2,500/month, FLÜGGE) are not compatible with a full-time job. EXIST allows no active employment and ≤20 h/month of side work, but a sabbatical is OK; applications are accepted until 31 Dec 2027. FLÜGGE requires membership of a state Bavarian Hochschule.
+  - Part-time-compatible now: SCE Incubation (≥10 h/week, rolling, prepares for EXIST), UnternehmerTUM Incubator (free, co-founder matching), BayStartUP business plan competition (phase 1 deadline 13 Jan 2027).
+  - After founding: Start?Zuschuss! (50 %, max €36k; round 23 planned 25 Nov 2026–10 Jan 2027). EXIST must be approved before founding a company.
+  - EIC Accelerator needs TRL 6+. EIT Health (HQ Munich) programmes are closed for now.
+  - Competitor signal for A11: Calliora (Munich, AI for hospital billing) raised a >€5.3M pre-seed in Oct 2026 (BHI, Redalpine).
+- Not done / blocked:
+  - BayTOU 2026 status, INVEST end date and any 2026 BayDiGuP call are unverified.
+  - Not opened: Heal Capital (DNS fail / reset), Peppermint and Redalpine (bot check), eu-startups (403). The Munich Startup Insights investor database has been shut down (410).
+  - Not covered: pilot partners (Munich university hospitals, insurer innovation units).
+- Next: A9. Critic: review `research/munich-ecosystem.md`.
+- Tasks added: none.
+- Open questions: CEO: is a sabbatical or leaving the job within ~12 months conceivable? EXIST (≈€30k stipend + €30k materials for a team) depends on it. Optional (outward, needs approval): ask SCE / UnternehmerTUM whether a non-alumnus working full-time can join.
 
 ### 2026-11-06 — A8 Critic review of Stage A, run 2 (critic)
 - Done: reviewed `research/pain-industry.md` (needs work), `research/pain-professionals.md` (needs work) and `research/pain-patients.md` (pass, minor fixes). Re-opened ~45 sources, 9 TED notices (incl. selection criteria), 4 App Store review feeds and the ClinicalTrials.gov counts; nearly all numbers match, App Store and CT.gov counts reproduce exactly. Reviews in `research/reviews/2026-11-06-pain-*.md`.

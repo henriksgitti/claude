@@ -59,7 +59,8 @@
       "title": "Munich ecosystem: grants, capital, co-founders",
       "description": "Funding programs (e.g. EXIST, Bavarian state programs, EU EIC/Horizon health calls) with eligibility, amounts, deadlines, and whether a part-time founder qualifies; Munich accelerators/incubators with health focus; active health/digital-health investors (pre-seed/seed) in Munich/DACH; where to find co-founders (CTO, clinical). Output: research/munich-ecosystem.md",
       "owner": "researcher",
-      "done": false
+      "done": true,
+      "notes": "Draft in research/munich-ecosystem.md (2026-11-06): grants table with part-time fit (EXIST/FLÜGGE need leaving the job; SCE Incubation ≥10 h/week, BayStartUP 13 Jan 2027, Start?Zuschuss! 25 Nov 2026–10 Jan 2027), 10 hubs, ~17 investors, 9 co-founder channels. [UNVERIFIED]: BayTOU 2026 status, INVEST end date, Heal Capital/Peppermint/Redalpine sites. Awaiting critic review (A8)."
     },
     {
       "id": "A9",
