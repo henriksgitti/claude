@@ -1,57 +1,57 @@
 # Problem statement and assumptions — candidate problem spaces
-Task: V1 | Date: 2026-11-06 | Status: draft (blocked — no source could be opened)
+Task: V1 | Date: 2026-11-06 (run 2) | Status: draft (partially verified)
 
-> **Read this first.** In this run every source host tried (pubmed.ncbi.nlm.nih.gov, pmc.ncbi.nlm.nih.gov, www.cancer.org, www.iarc.who.int, ascopost.com) was blocked by the session's network allowlist. Only WebSearch result summaries were available, which do not count as "opened" sources. **Every number below is therefore `[UNVERIFIED]`** and must not be treated as fact, built on, or cited until a later run opens the listed URL and confirms it. URLs are listed as *leads to verify*, not as support.
+> **Verification status.** Run 2 opened: IARC GLOBOCAN 2024 fact sheets (World, Portugal, Germany), CDC *Preventing Chronic Disease* (colorectal 45–75), CDC MMWR (lung screening, 2017 data). Still not opened: PubMed / PMC (bot/cookie check, not bypassed), frontiersin.org and uspreventiveservicestaskforce.org (DNS blocked by session allowlist), ascopubs.org (HTTP 403). Claims tagged `[UNVERIFIED]` come from search summaries only and must not be built on.
 
 ## Findings
-- 5 candidate problem spaces proposed (table below): (A) low lung-cancer screening uptake, (B) colorectal-screening gap in newly eligible 45–49-year-olds, (C) low cancer clinical-trial enrollment, (D) financial toxicity for patients, (E) delays from diagnosis to treatment start / care coordination.
-- (A) Search summaries report ~18.1% of eligible US adults up to date on lung-cancer screening in 2022 (BRFSS), vs 76.6% breast and 61.4% colorectal `[UNVERIFIED]` — leads: https://pmc.ncbi.nlm.nih.gov/articles/pmid/38856988, https://www.healio.com/news/pulmonology/20261023/uptake-of-lung-cancer-screening-in-us-low-behind-breast-colorectal-cancer
-- (C) Search summaries report a 7.1% national participation rate in cancer treatment trials (JCO 2024, Commission on Cancer data), 21.6% at NCI comprehensive centers vs 4.1% at community programs `[UNVERIFIED]` — lead: https://pubmed.ncbi.nlm.nih.gov/38564681/
-- (D) Search summaries report a pooled financial-toxicity prevalence of 48% (95% CI 38–58%, 30 studies, COST scale) `[UNVERIFIED]` — lead: https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2023.1266533/pdf
-- **Recommendation (inference, provisional):** (A) lung-cancer screening uptake — largest reported gap between eligible and screened, a defined eligible population, and an existing guideline/coverage basis `[UNVERIFIED]`. This recommendation stands only if the numbers verify; the CEO should treat it as a hypothesis to narrow, not a conclusion.
+- **Scale (verified):** GLOBOCAN 2024 estimates **20 636 441** new cancer cases and **9 762 507** deaths worldwide; lung is #1 in both cases (2 637 005; 12.8%) and deaths (1 861 839; 19.1%), colorectum #3 in cases (2 041 007) and #2 in deaths (917 895). https://gco.iarc.who.int/media/globocan/factsheets/populations/900-world-fact-sheet.pdf
+- **Founder home markets (verified):** Portugal 69 439 new cases / 33 590 deaths (colorectum #1 by cases, 10 732; lung #1 by deaths, 5 589). Germany 566 587 / 256 954 (lung #1 by deaths). https://gco.iarc.who.int/media/globocan/factsheets/populations/620-portugal-fact-sheet.pdf ; https://gco.iarc.who.int/media/globocan/factsheets/populations/276-germany-fact-sheet.pdf
+- **(B) Colorectal screening gap (verified, US):** "Only 61.4% of adults aged 45 to 75 were up to date with CRC screening, below the Healthy People 2030 target (72.8%)"; 45–49-year-olds: 29.8% (95% CI 28.6%–31.0%), BRFSS 2022 (CDC PCD, 7 Aug 2025). https://www.cdc.gov/pcd/issues/2025/25_0175.htm
+- **(A) Lung screening gap (partly verified, old data):** in 10 US states, 2017 BRFSS, 12.7% of adults 55–80 met USPSTF criteria and 12.5% of those reported a screening CT in the last 12 months (MMWR, 28 Feb 2020, **data >3 years old**). https://www.cdc.gov/mmwr/volumes/69/wr/mm6908a1.htm . The newer national 18.1% (2022) figure is still `[UNVERIFIED]`.
+- **(C) Trial enrollment 7.1% and (D) financial toxicity 48%** remain `[UNVERIFIED]` (sources not reachable this run).
+- **Recommendation (inference, changed from run 1):** rank **C (clinical-trial enrollment / recruitment)** first on combined size + founder fit; **A** second. Reason: `founder-brief.md` names clinical research and AI/automation as the founder's sweet spot and flags a clear B2B payer (sponsors/CROs); A has the strongest *verified* gap signal but is a US-centric, health-system-sold play. C's core number is unverified, so this is a hypothesis for the CEO, not a conclusion.
 
 ## Details
 
 ### Candidate problem spaces
-| # | Problem statement (one line) | Who has it | Who might pay (inference) | Key data point (all `[UNVERIFIED]`) | Lead URL to verify |
+| # | Problem statement (one line) | Who has it | Who might pay (inference) | Key data point | Status |
 |---|---|---|---|---|---|
-| A | Most people eligible for lung-cancer screening never get screened. | Current/former heavy smokers 50–80 (US USPSTF 2021 criteria `[UNVERIFIED]`) | Health systems, payers (Medicare Advantage, Medicaid plans), employers | 18.1% up to date in 2022; state range 9.7% (WY) – 31.0% (RI); 16.4% under 2021 criteria vs 19.6% under 2013; uninsured 3.7% | https://pmc.ncbi.nlm.nih.gov/articles/pmid/38856988 ; https://ascopost.com/news/march-2024/eligibility-for-and-prevalence-of-lung-cancer-screening-in-the-united-states-in-2022/ |
-| B | Newly eligible adults 45–49 rarely do colorectal screening. | US adults 45–49 (eligible since USPSTF 2021 `[UNVERIFIED]`) | Payers (quality measures, e.g. HEDIS COL-E `[UNVERIFIED]`), primary-care groups | 61.4% of 45–75 up to date (BRFSS 2022) vs 29.8% of 45–49; Healthy People 2030 target 72.8% | https://www.cdc.gov/pcd/issues/2025/25_0175.htm ; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12335306/ |
-| C | Few adult cancer patients enroll in clinical trials, especially outside big centers. | Patients at community cancer programs; trial sponsors and sites with slow accrual | Pharma/CRO sponsors, trial sites | 7.1% treatment-trial participation; 21.6% NCI comprehensive centers vs 4.1% community programs | https://pubmed.ncbi.nlm.nih.gov/38564681/ |
-| D | Cancer treatment causes financial hardship for about half of patients. | Patients in active treatment and their families | Hospitals (bad debt), employers, payers, patient-advocacy orgs | Pooled prevalence 48% (95% CI 38–58%, I² 99.4%); very high heterogeneity across measures | https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2023.1266533/pdf |
-| E | Time from diagnosis to first treatment is growing, and delay is linked to worse survival. | Newly diagnosed patients, esp. those transferring care between institutions | Cancer centers, payers | Median TTI rose 21 → 29 days; 1.2–3.2% absolute mortality increase per week of delay (curative settings, PLoS ONE 2019 — >3 years old); head-and-neck TTI >67 days "unacceptable" | https://doaj.org/article/0910c4e3845c48d9b1b4ec944c98300f ; https://pubmed.ncbi.nlm.nih.gov/39761486/ |
+| A | Most people eligible for lung-cancer screening never get screened. | Current/former heavy smokers (US: USPSTF criteria; 2021 criteria `[UNVERIFIED]`) | Health systems, payers | 12.5% of eligible adults screened in last 12 months, 10 states, 2017 ([MMWR](https://www.cdc.gov/mmwr/volumes/69/wr/mm6908a1.htm)); 18.1% nationally 2022 `[UNVERIFIED]` | Partly verified (old) |
+| B | Newly eligible adults 45–49 rarely do colorectal screening. | US adults 45–49 | Payers, primary-care groups | 29.8% up to date (45–49) vs 61.4% (45–75), target 72.8% ([CDC PCD 2025](https://www.cdc.gov/pcd/issues/2025/25_0175.htm)) | Verified |
+| C | Few adult cancer patients enroll in clinical trials, especially outside big centers. | Patients at community programs; sponsors/sites with slow accrual | Pharma/CRO sponsors, trial sites | 7.1% participation; 21.6% NCI comprehensive vs 4.1% community `[UNVERIFIED]` | Not verified |
+| D | Cancer treatment causes financial hardship for about half of patients. | Patients in treatment, families | Hospitals, employers, payers, advocacy orgs | Pooled prevalence 48% (95% CI 38–58%) `[UNVERIFIED]` | Not verified |
+| E | Time from diagnosis to first treatment is growing; delay linked to worse survival. | Newly diagnosed patients | Cancer centers, payers | Median TTI 21 → 29 days; 1.2–3.2% mortality increase per week of delay `[UNVERIFIED]` (2019 data, >3 years old) | Not verified |
 
-### Key assumptions per candidate (all to be tested; none verified)
+### Ranking: size/urgency × founder fit (inference)
+Founder fit criteria from `founder-brief.md`: non-clinical founder; strengths in AI-agent implementation and health innovation; interests in drug development and clinical research; PT and DACH access; "big but achievable" (first pilot within ~12 months).
+
+| Rank | # | Size/urgency | Founder fit | Why (inference) |
+|---|---|---|---|---|
+| 1 | C | High (trials are the bottleneck for new therapies `[UNVERIFIED]`) | **High** | Matches stated interest (clinical research) and the "sweet spot" (trial ops/recruitment); B2B buyer with budget (sponsors); recruitment is a global problem, so PT/DACH sites are a plausible entry. Risk: core number unverified; EHR data access; crowded vendor space (V3). |
+| 2 | A | High (lung = #1 cancer killer worldwide, PT and DE — verified GLOBOCAN) | Medium | Biggest *verified* gap signal, but data are US and old; buyers are health systems; EU organised lung screening status `[UNVERIFIED]`. |
+| 3 | E | Medium–high | Medium–high | Care coordination / navigation is in the founder's sweet spot; evidence on navigation is mixed `[UNVERIFIED]`. |
+| 4 | B | Medium (colorectum #1 by cases in PT, #2 deaths worldwide — verified) | Medium | Verified gap, but at-home test vendors likely already strong (V3); payer-driven US model. |
+| 5 | D | High for patients | Low–medium | Patients are a weak paying customer; product fit with AI automation unclear. |
+
+### Key assumptions per candidate (none tested)
 | # | Assumption that must hold for a startup |
 |---|---|
-| A | (1) The main barrier is patient/clinician outreach and logistics, not supply of CT capacity. (2) A payer or health system will pay to raise screening rates (quality bonuses or downstream revenue). (3) Eligible patients can be identified from available data (smoking history is often missing in records `[UNVERIFIED]`). |
-| B | (1) Low uptake at 45–49 is an awareness/convenience gap, not just recency of the guideline change. (2) Plans pay for closing quality-measure gaps. (3) Space is not already saturated by at-home stool-test vendors (competitor check needed, V3). |
-| C | (1) Community oncologists would refer if matching were easy. (2) Sponsors pay per-enrolled-patient for faster accrual. (3) Data access (EHR) is achievable for a startup. |
-| D | (1) A product can measurably reduce out-of-pocket burden (e.g. aid-program matching). (2) Hospitals or employers will pay, since patients in distress are a weak paying customer. |
-| E | (1) Delay is driven by coordination failures a software/service product can fix. (2) Navigation programs show benefit — one 2025 JCO OP randomized trial reported timely post-op radiotherapy 74% vs 39% with enhanced navigation `[UNVERIFIED]`, but an AACR 2024 abstract found navigation encounters were not a significant determinant `[UNVERIFIED]` — mixed signal. |
-
-### Why A is the provisional recommendation (inference)
-- Largest reported gap (≈18% screened vs ≈61–77% for colorectal/breast) suggests the most room to improve `[UNVERIFIED]`.
-- Clear, guideline-defined target population, which makes customer definition (V2) and market sizing (V4) tractable.
-- Payer-aligned: screening rates appear to vary by insurance type (Medicare 26.3% vs private 14.4% vs uninsured 3.7% `[UNVERIFIED]`), hinting payers may care.
-- Risks: crowded with health-system navigator programs (unknown — V3); CEO may not want US-only focus; lung screening carries false-positive and incidental-finding burdens that need sourcing.
-- Runner-up: C (trial enrollment) — clearer B2B payer (sponsors) but harder data access.
+| A | (1) Barrier is outreach/logistics, not CT capacity. (2) A payer/health system pays to raise screening. (3) Eligible patients can be identified from records (smoking history often missing `[UNVERIFIED]`). |
+| B | (1) Low 45–49 uptake is awareness/convenience, not guideline recency. (2) Plans pay to close quality-measure gaps. (3) Not saturated by at-home stool-test vendors (V3). |
+| C | (1) Community oncologists would refer if matching were easy. (2) Sponsors pay per enrolled patient. (3) A startup can get EHR/data access (GDPR in EU). |
+| D | (1) A product measurably reduces out-of-pocket burden. (2) Hospitals/employers will pay. |
+| E | (1) Delay is driven by coordination failures software can fix. (2) Navigation improves outcomes — mixed signal `[UNVERIFIED]`. |
 
 ## Gaps / [UNVERIFIED]
-- **All quantitative claims above are `[UNVERIFIED]`.** Hosts blocked this run: pubmed.ncbi.nlm.nih.gov, pmc.ncbi.nlm.nih.gov, www.cancer.org, www.iarc.who.int, ascopost.com. Not attempted (per instruction to stop after repeated blocks): cdc.gov, ncbi.nlm.nih.gov, frontiersin.org, doaj.org, healio.com, uspreventiveservicestaskforce.org.
-- No global/EU data (IARC GLOBOCAN, Europe's Beating Cancer Plan) — US-only bias; needed if the CEO targets Europe (routine runs on Lisbon time).
-- USPSTF criteria for lung (2021) and colorectal (2021) screening not opened.
-- Data for E (PLoS ONE 2019) is older than 3 years.
-- No competitor or willingness-to-pay evidence for any candidate (V3, V5).
+- C, D, E core numbers and A's 2022 national figure: unverified. Leads: https://pubmed.ncbi.nlm.nih.gov/38564681/ (C), https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2023.1266533/full (D), https://pubmed.ncbi.nlm.nih.gov/39761486/ (E), https://pmc.ncbi.nlm.nih.gov/articles/pmid/38856988 (A).
+- PubMed/PMC show a cookie/bot check; not bypassed (by design). Need an allowlisted API route (e.g. eutils.ncbi.nlm.nih.gov — currently 403 at proxy, or europepmc/ebi.ac.uk — currently blocked).
+- USPSTF criteria (lung 2021, colorectal 2021) not opened.
+- No EU/PT/DE screening-uptake or trial-enrollment rates yet — needed for a PT/DACH entry (follow-up task V10).
+- MMWR lung data are from 2017 (published 2020): >3 years old, 10 states only.
 
 ## Sources
-None opened this run. Leads to verify (from WebSearch results, 2026-11-06, not opened):
-- https://pmc.ncbi.nlm.nih.gov/articles/pmid/38856988 — lung screening prevalence 2022 (A)
-- https://ascopost.com/news/march-2024/eligibility-for-and-prevalence-of-lung-cancer-screening-in-the-united-states-in-2022/ — lung screening 2013 vs 2021 criteria (A)
-- https://www.healio.com/news/pulmonology/20261023/uptake-of-lung-cancer-screening-in-us-low-behind-breast-colorectal-cancer — lung vs breast/colorectal comparison (A)
-- https://www.cdc.gov/pcd/issues/2025/25_0175.htm — colorectal screening 45–75, BRFSS 2022 (B)
-- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12335306/ — same study, PMC copy (B)
-- https://pubmed.ncbi.nlm.nih.gov/38564681/ — cancer trial participation 7.1% (C)
-- https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2023.1266533/pdf — financial toxicity meta-analysis (D)
-- https://doaj.org/article/0910c4e3845c48d9b1b4ec944c98300f — PLoS ONE 2019 time-to-treatment (E)
-- https://pubmed.ncbi.nlm.nih.gov/39761486/ — time-to-treatment study (E)
+- https://gco.iarc.who.int/media/globocan/factsheets/populations/900-world-fact-sheet.pdf — GLOBOCAN 2024 world cases/deaths, top cancers (fact sheet dated Sept 2026), accessed 2026-11-06
+- https://gco.iarc.who.int/media/globocan/factsheets/populations/620-portugal-fact-sheet.pdf — Portugal 2024 cases/deaths, top cancers, accessed 2026-11-06
+- https://gco.iarc.who.int/media/globocan/factsheets/populations/276-germany-fact-sheet.pdf — Germany 2024 cases/deaths, top cancers, accessed 2026-11-06
+- https://www.cdc.gov/pcd/issues/2025/25_0175.htm — colorectal screening 45–75 and 45–49, BRFSS 2022, HP2030 target (B), accessed 2026-11-06
+- https://www.cdc.gov/mmwr/volumes/69/wr/mm6908a1.htm — lung screening eligibility/uptake, 10 states, 2017 (A), accessed 2026-11-06

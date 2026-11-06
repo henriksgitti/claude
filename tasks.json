@@ -12,7 +12,7 @@
       "description": "Idea is broad. Propose 3-5 candidate problem spaces within cancer, each with a one-line problem statement, who has it, and key assumptions. Recommend one. Output: research/problem-statement.md Rank candidates by (a) size/urgency of the problem and (b) fit with founder-brief.md (\"think big but achievable\").",
       "owner": "researcher",
       "done": false,
-      "notes": "2026-11-06 run: draft written with 5 candidates + provisional recommendation, but ALL numbers are [UNVERIFIED] because every source host tried was blocked by the session network allowlist (pubmed.ncbi.nlm.nih.gov, pmc.ncbi.nlm.nih.gov, www.cancer.org, www.iarc.who.int, ascopost.com). Left: open each lead URL listed in research/problem-statement.md, confirm or correct the numbers, add global/EU data (IARC), then remove [UNVERIFIED] tags. Requires those hosts to be allowed."
+      "notes": "2026-11-06 run: draft written with 5 candidates + provisional recommendation, but ALL numbers are [UNVERIFIED] because every source host tried was blocked by the session network allowlist (pubmed.ncbi.nlm.nih.gov, pmc.ncbi.nlm.nih.gov, www.cancer.org, www.iarc.who.int, ascopost.com). Left: open each lead URL listed in research/problem-statement.md, confirm or correct the numbers, add global/EU data (IARC), then remove [UNVERIFIED] tags. Requires those hosts to be allowed. | 2026-11-06 run 2: verified GLOBOCAN 2024 (world, PT, DE), CDC colorectal 45-75 (B), CDC MMWR lung 2017 (A, old). Added founder-fit ranking; recommendation now C (trial enrollment), A second. Left: verify C (pubmed 38564681), D (frontiersin), E, and A's 2022 national figure; PubMed/PMC behind bot check, frontiersin.org and uspreventiveservicestaskforce.org DNS-blocked, ascopubs 403. Needs CEO to allowlist an NCBI/Europe PMC API route or those hosts."
     },
     {
       "id": "V2",
@@ -77,6 +77,16 @@
       "description": "Review each file in research/ against its sources. Output: research/reviews/",
       "owner": "critic",
       "done": false
+    },
+    {
+      "id": "V10",
+      "phase": 1,
+      "title": "EU / Portugal / DACH evidence for top candidates (C, A)",
+      "description": "Find Europe/Portugal/Germany data for the top-ranked V1 candidates: cancer clinical-trial participation rates and trial site/recruitment landscape (C); organised lung-cancer screening status and uptake (A). Sources: EMA/CTIS, EU Council screening recommendation, national registries, peer-reviewed. Output: research/eu-evidence.md",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "researcher 2026-11-06",
+      "reason": "V1 evidence is US-only while the founder is in Lisbon with DACH ties (founder-brief.md); first customers may be EU."
     }
   ]
 }
