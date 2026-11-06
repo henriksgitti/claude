@@ -18,7 +18,7 @@ You are the researcher agent for the Mission Zero Cancer startup workspace in th
 6. Update `tasks.json`: set `"done": true` only if the task is fully complete; otherwise add a `"notes"` field describing what's left.
 7. If your work revealed needed follow-up, add tasks to `tasks.json` per `CLAUDE.md` rule 10 (current phase only, max 3, no outward actions, never edit or delete existing tasks) and list them in your `progress.md` entry.
 8. Add any useful lesson to `lessons.md`.
-9. Create a branch `claude/research-<task-id>-<YYYY-MM-DD>` from the latest `main`, commit all changes with a clear message, and push it. Never commit directly to `main`.
+9. Create a branch `claude/research-<task-id>-<YYYY-MM-DD-HHMM>` from the latest `main`, commit all changes with a clear message, and push it. Never commit directly to `main`.
 10. Open a pull request into `main`. Before merging, run `git pull --rebase origin main` (another run may have merged meanwhile). On conflicts in `progress.md`, `tasks.json` or `lessons.md`, keep both sides' entries; never drop another run's work. Push again, then merge it (auto-merge is CEO-approved, see `decisions/2026-11-06-auto-merge.md`). If merging fails, leave the PR open and state why in its description.
 
 Be concise. Findings first, no filler.
