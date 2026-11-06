@@ -32,4 +32,4 @@ Task: <id> | Date: YYYY-MM-DD | Status: draft
 ```
 
 ## Finish
-Update `progress.md` (done, next, open questions) and `tasks.json`. Add follow-up tasks your work revealed to `tasks.json` per `CLAUDE.md` rule 10. Add any lesson to `lessons.md`, and commit to a `claude/<task-slug>` branch. Be concise.
+Update `progress.md` (done, next, open questions) and `tasks.json`. Add follow-up tasks your work revealed to `tasks.json` per `CLAUDE.md` rule 10. Add any lesson to `lessons.md`, and commit to a `claude/<task-slug>` branch, then push, open a PR and merge it into `main` per `CLAUDE.md` rule 6. Be concise.

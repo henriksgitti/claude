@@ -12,7 +12,7 @@
 ## Open questions
 - Which part of the cancer space does the CEO want to focus on (prevention, screening/early detection, diagnostics, treatment access, patient navigation, survivorship, research tooling)? Any no-go areas (e.g. regulated medical devices)?
 - Is the CEO targeting B2C, B2B (hospitals, insurers, pharma), or open?
-- Workflow: nightly routines branch from `main`. Merge their PRs (or each night re-does the same task). Approve whether routines may open PRs themselves.
+- Not yet verified: whether scheduled runs have permission to merge into `main`. Check the first run's PR.
 
 ---
 
