@@ -26,6 +26,13 @@
 - Open questions:
 -->
 
+### 2026-11-06 — A8 Critic review of Stage A, run 2 (critic)
+- Done: reviewed `research/pain-industry.md` (needs work), `research/pain-professionals.md` (needs work) and `research/pain-patients.md` (pass, minor fixes). Re-opened ~45 sources, 9 TED notices (incl. selection criteria), 4 App Store review feeds and the ClinicalTrials.gov counts; nearly all numbers match, App Store and CT.gov counts reproduce exactly. Reviews in `research/reviews/2026-11-06-pain-*.md`.
+- Top issues: (1) tenders used as "High WTP" (I5, S3, S8) exclude startups: AOK Hessen requires EUR 6m annual turnover, MUL Lausitz EUR 1m/yr in-field turnover, Charite 3 university-hospital references, Helios a KHZG certificate; DAK's re-tender ("weiterhin") has an incumbent. They prove buyer budget, not startup access. (2) DAK "EUR 890m" is claims volume processed, not contract value; "9 buyers" mixes scanning BPO with billing checks; "1.52m assessments in 2014" is not in the cited vdek page. (3) Harzklinikum "LLM discharge letter" tender is a clinical decision-support system (likely MDR software, needs primary source); A3 [C] counts mix opened threads with titles; ePA app tally picks the worst-rated standalone ident apps.
+- Not done: ~40 sources not re-opened (sample-based); Jones Day (Biotech Act) behind Cloudflare on re-fetch. No venture briefs yet (no pre-mortem).
+- Tasks added: A14 (researcher: apply A3-A5 fixes, incl. tender eligibility per WTP item), inserted before A7. A8 left open (notes updated).
+- Open questions: none new.
+
 ### 2026-11-06 — A5 Pain mining: pharma, clinical research, payers, health admin (researcher)
 - Done: `research/pain-industry.md`, with 10 problems (I1–I10), each with who has it, who pays, [A]/[B] backing, [C] counts and purchase evidence.
   - Clinical trials (I1/I2), best founder fit:
