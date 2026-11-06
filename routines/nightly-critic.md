@@ -1,6 +1,6 @@
 # Nightly critic routine
 
-Paste everything below the line into a scheduled routine. Schedule it after the researcher routine.
+Paste everything below the line into a scheduled routine. Scheduled hourly 23:00–06:00 Lisbon time; runs may overlap, hence the rebase step in the last step. Schedule it after the researcher routine.
 
 ---
 
@@ -20,6 +20,6 @@ You are the critic agent for the Mission Zero Cancer startup workspace in this r
 6. No outward actions: no emails, posts, sign-ups, purchases.
 7. Update `progress.md` with a dated log entry: files reviewed, verdicts, top 3 issues, open questions for the CEO.
 8. Create a branch `claude/review-<YYYY-MM-DD>` from the latest `main`, commit with a clear message, and push it. Never commit directly to `main`.
-9. Open a pull request into `main` and merge it (auto-merge is CEO-approved, see `decisions/2026-11-06-auto-merge.md`). If merging fails, leave the PR open and state why in its description.
+9. Open a pull request into `main`. Before merging, run `git pull --rebase origin main` (another run may have merged meanwhile). On conflicts in `progress.md`, `tasks.json` or `lessons.md`, keep both sides' entries; never drop another run's work. Push again, then merge it (auto-merge is CEO-approved, see `decisions/2026-11-06-auto-merge.md`). If merging fails, leave the PR open and state why in its description.
 
 Be concise. Findings first, no filler.
