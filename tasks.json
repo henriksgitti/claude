@@ -69,6 +69,16 @@
       "reason": "A1 found payers in cost-cutting mode, DiGA rules tightening, and new public digitisation funds (PNOG €1.6bn, transformation fund); B1 criterion 3 (willingness/ability to pay) needs a verified map of these routes."
     },
     {
+      "id": "A10",
+      "stage": "A",
+      "title": "Apply critic fixes to trends.md and sources-map.md",
+      "description": "Fix the should-fix items in research/reviews/2026-11-06-trends.md (8.5% FTE cut is conditional; draft-law wording for GeDIG/PNOG in the inference table; add the existing §8 Abs. 8 SGB XI €12k care-digitisation subsidy and its uptake if sourceable; Pflegestatistik corrections; verify ~32,000 care facilities and ~1,700 hospitals via Destatis) and research/reviews/2026-11-06-sources-map.md (TED counts include award notices and are not de-duplicated; tender coverage limits; LinkedIn count reliability; add Munich/Bavaria and provider-directory sources). Output: updated research/trends.md and research/sources-map.md",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "critic 2026-11-06",
+      "reason": "A7 (long list) and B1 build on the trends inference table and the source recipes; the framing issues would otherwise carry over as facts."
+    },
+    {
       "id": "A7",
       "stage": "A",
       "title": "Long list of 20–30 problems",
@@ -82,7 +92,8 @@
       "title": "Critic review of Stage A",
       "description": "Review each Stage A research file as it appears (sources, grades, cherry-picking, [C]-only claims). Mark done when every A file has a current review. Output: research/reviews/",
       "owner": "critic",
-      "done": false
+      "done": false,
+      "notes": "2026-11-06 critic: reviewed trends.md (pass, minor fixes), sources-map.md (pass, minor fixes), scoring.md (needs work before B1). Still to review: A3, A4, A5, A6, A9, A10, A7 outputs."
     },
     {
       "id": "B1",
