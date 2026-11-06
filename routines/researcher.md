@@ -1,0 +1,6 @@
+Scheduled RESEARCHER run (Healthcare Venture). The CEO is not available.
+
+1. `git checkout main && git pull origin main`. If unpushed work from an earlier run exists, push it to its claude/ branch first; never discard it.
+2. Spawn the `researcher` subagent (Agent tool, subagent_type "researcher") with this prompt: "Read CLAUDE.md and follow it exactly. Take the next researcher task per rule 7 (skip tasks with blocked_by or owner ceo). If there is none, add a progress.md log entry saying so. Go deep: many searches, EN + DE, cross-check sources, grade evidence. Finish per rule 9: commit and push a branch claude/research-<task-id>-<YYYYMMDD-HHMM> created from the latest main. Do NOT open or merge a PR. Report: task, branch, done or what's left, blocked hosts."
+3. If a branch was pushed: open a PR into main with the GitHub tools. If it changes CLAUDE.md, founder-brief.md, .claude/agents/, routines/ or decisions/, do not merge: prefix the title with [CEO REVIEW] and leave it open. Otherwise merge it (CEO-approved auto-merge). On conflict: rebase the branch on main, keep both sides' entries in progress.md / tasks.json / lessons.md, push, then merge. If merging still fails, leave the PR open and state why in its description.
+4. Reply in max 4 lines: task, PR link, merged yes/no, blockers.

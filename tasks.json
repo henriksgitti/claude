@@ -1,92 +1,101 @@
 {
-  "phase": 1,
-  "phases": {
-    "1": "Validate",
-    "2": "Build (starts only when the CEO says so)"
+  "project": "Healthcare Venture",
+  "current_stage": "A",
+  "stages": {
+    "A": "Scan",
+    "B": "Score (gate: CEO picks 2–3)",
+    "C": "Deep dive (gate: CEO picks 1)",
+    "D": "Launch pack (gate: CEO go/no-go)"
   },
   "tasks": [
     {
-      "id": "V1",
-      "phase": 1,
-      "title": "Problem statement and assumptions",
-      "description": "Idea is broad. Propose 3-5 candidate problem spaces within cancer, each with a one-line problem statement, who has it, and key assumptions. Recommend one. Output: research/problem-statement.md Rank candidates by (a) size/urgency of the problem and (b) fit with founder-brief.md (\"think big but achievable\").",
-      "owner": "researcher",
-      "done": false,
-      "notes": "2026-11-06 run: draft written with 5 candidates + provisional recommendation, but ALL numbers are [UNVERIFIED] because every source host tried was blocked by the session network allowlist (pubmed.ncbi.nlm.nih.gov, pmc.ncbi.nlm.nih.gov, www.cancer.org, www.iarc.who.int, ascopost.com). Left: open each lead URL listed in research/problem-statement.md, confirm or correct the numbers, add global/EU data (IARC), then remove [UNVERIFIED] tags. Requires those hosts to be allowed. | 2026-11-06 run 2: verified GLOBOCAN 2024 (world, PT, DE), CDC colorectal 45-75 (B), CDC MMWR lung 2017 (A, old). Added founder-fit ranking; recommendation now C (trial enrollment), A second. Left: verify C (pubmed 38564681), D (frontiersin), E, and A's 2022 national figure; PubMed/PMC behind bot check, frontiersin.org and uspreventiveservicestaskforce.org DNS-blocked, ascopubs 403. Needs CEO to allowlist an NCBI/Europe PMC API route or those hosts."
-    },
-    {
-      "id": "V2",
-      "phase": 1,
-      "title": "Target customer profile",
-      "description": "Who has the problem, who pays, who decides (may differ in healthcare). Demographics/firmographics, current behavior, triggers. Output: research/customer-profile.md",
+      "id": "A1",
+      "stage": "A",
+      "title": "Trends & policy scan (DE/EU)",
+      "description": "Structural healthcare problems that will grow in the next 5–15 years, Germany/EU focus: ageing, care/nursing workforce shortage, chronic disease, hospital reform, digitization laws (DiGA, ePA, GDNG, EHDS), cost pressure. For each: sourced data, who is affected, who pays. Output: research/trends.md",
       "owner": "researcher",
       "done": false
     },
     {
-      "id": "V3",
-      "phase": 1,
-      "title": "Competitor map",
-      "description": "Direct, indirect, substitutes. Name, URL, offering, pricing if public, funding if public, positioning, gaps. Output: research/competitor-map.md",
+      "id": "A2",
+      "stage": "A",
+      "title": "Source map: where healthcare pain is discussed online",
+      "description": "List subreddits (EN + DE), forums, review sites, professional communities, job boards, and patient groups where patients, caregivers, clinicians, nurses, pharma/CRO staff, and health admins complain. Size/activity, language, and a tested search recipe for each (Reddit blocks direct fetch from cloud servers: use web search with site:reddit.com, note when only snippets were seen). Read only, no posting. Output: research/sources-map.md",
       "owner": "researcher",
       "done": false
     },
     {
-      "id": "V4",
-      "phase": 1,
-      "title": "Market size estimate with sources",
-      "description": "TAM/SAM/SOM, bottom-up preferred. Every number sourced; show the math. Output: research/market-size.md",
+      "id": "A3",
+      "stage": "A",
+      "title": "Pain mining: patients & caregivers",
+      "description": "Using research/sources-map.md: find recurring, costly problems of patients and family caregivers (DE/EU first, global OK). Count independent signals per problem, quote short excerpts with URLs (no usernames), back the top problems with [A]/[B] data. Output: research/pain-patients.md",
       "owner": "researcher",
       "done": false
     },
     {
-      "id": "V5",
-      "phase": 1,
-      "title": "Pricing benchmarks",
-      "description": "What comparable products charge and how (subscription, per-test, per-seat, reimbursement codes). Propose a pricing hypothesis. Output: research/pricing.md",
+      "id": "A4",
+      "stage": "A",
+      "title": "Pain mining: clinicians, nurses, practice & hospital staff",
+      "description": "Same method as A3 for doctors, nurses, care staff, practice/hospital admins (e.g. documentation burden, staffing, scheduling, billing, care coordination). Output: research/pain-professionals.md",
       "owner": "researcher",
       "done": false
     },
     {
-      "id": "V6",
-      "phase": 1,
-      "title": "Where target customers talk online",
-      "description": "Communities, forums, subreddits, patient groups, professional networks, conferences — with URLs and rough size/activity. Read only; no posting. Output: research/channels.md",
+      "id": "A5",
+      "stage": "A",
+      "title": "Pain mining: pharma, clinical research, payers, health admin",
+      "description": "Same method as A3 for pharma, CROs/clinical trial staff, insurers (GKV/PKV), public health, medtech. Output: research/pain-industry.md",
       "owner": "researcher",
       "done": false
     },
     {
-      "id": "V7",
-      "phase": 1,
-      "title": "10 interview questions (Mom Test style)",
-      "description": "Questions about past behavior and real spending, not opinions or hypotheticals. No pitching. Include who to interview and how to recruit (CEO executes). Output: research/interview-guide.md",
+      "id": "A6",
+      "stage": "A",
+      "title": "Munich ecosystem: grants, capital, co-founders",
+      "description": "Funding programs (e.g. EXIST, Bavarian state programs, EU EIC/Horizon health calls) with eligibility, amounts, deadlines, and whether a part-time founder qualifies; Munich accelerators/incubators with health focus; active health/digital-health investors (pre-seed/seed) in Munich/DACH; where to find co-founders (CTO, clinical). Output: research/munich-ecosystem.md",
       "owner": "researcher",
       "done": false
     },
     {
-      "id": "V8",
-      "phase": 1,
-      "title": "Riskiest assumptions list",
-      "description": "Rank assumptions by risk x uncertainty. Top 3 each with: test method, cost/time, kill criterion. Output: research/riskiest-assumptions.md",
+      "id": "A7",
+      "stage": "A",
+      "title": "Long list of 20–30 problems",
+      "description": "Merge A1–A5 and archive/cancer-problem-statement.md into 20–30 distinct problems. Per problem: one-line statement, who has it, who pays, evidence count and grades, links to supporting research. Output: research/longlist.md",
       "owner": "researcher",
       "done": false
     },
     {
-      "id": "V9",
-      "phase": 1,
-      "title": "Critic review of all Phase 1 research",
-      "description": "Review each file in research/ against its sources. Output: research/reviews/",
+      "id": "A8",
+      "stage": "A",
+      "title": "Critic review of Stage A",
+      "description": "Review each Stage A research file as it appears (sources, grades, cherry-picking, [C]-only claims). Mark done when every A file has a current review. Output: research/reviews/",
       "owner": "critic",
       "done": false
     },
     {
-      "id": "V10",
-      "phase": 1,
-      "title": "EU / Portugal / DACH evidence for top candidates (C, A)",
-      "description": "Find Europe/Portugal/Germany data for the top-ranked V1 candidates: cancer clinical-trial participation rates and trial site/recruitment landscape (C); organised lung-cancer screening status and uptake (A). Sources: EMA/CTIS, EU Council screening recommendation, national registries, peer-reviewed. Output: research/eu-evidence.md",
+      "id": "B1",
+      "stage": "B",
+      "title": "Score long list, pick top 5",
+      "description": "Score every long-list problem with research/scoring.md (table + evidence links), rank, write the top 5 with reasoning and a one-paragraph venture sketch each. Then add a ceo task: 'Pick 2–3 ideas for deep dive' with options and a recommendation. Output: research/shortlist.md",
+      "owner": "researcher",
+      "done": false
+    },
+    {
+      "id": "B2",
+      "stage": "B",
+      "title": "Critic review of shortlist",
+      "description": "Stress-test scoring and the top 5: inflated scores, weak evidence, missed killers. Output: research/reviews/",
+      "owner": "critic",
+      "done": false
+    },
+    {
+      "id": "C1",
+      "stage": "C",
+      "title": "Venture briefs for the CEO's picks",
+      "description": "One venture brief per idea the CEO picked, using templates/venture-brief.md, in ventures/<slug>/brief.md. Split into one task per idea when unblocked.",
       "owner": "researcher",
       "done": false,
-      "added_by": "researcher 2026-11-06",
-      "reason": "V1 evidence is US-only while the founder is in Lisbon with DACH ties (founder-brief.md); first customers may be EU."
+      "blocked_by": "CEO decision: pick 2–3 ideas from research/shortlist.md"
     }
   ]
 }

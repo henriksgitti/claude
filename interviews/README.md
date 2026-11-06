@@ -1,6 +1,6 @@
 # interviews/
 
-Customer interview notes. **Written by the CEO only.** Agents may read these but must never create, edit, summarize-into, or fabricate interview notes here.
+Customer interview notes (Stage D). **Written by the CEO, or transcribed verbatim by an agent from notes the CEO pasted in chat.** Agents must never invent, summarize-into, or edit interview content.
 
 Suggested filename: `YYYY-MM-DD-<role>-<n>.md` (no full names or identifying health details — anonymize).
 

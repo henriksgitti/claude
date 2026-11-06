@@ -1,23 +1,18 @@
 # Progress
 
 ## Current state
-- Phase: **1 — Validate** (in progress)
-- Workspace set up: CLAUDE.md, tasks.json, folders, subagents, routines, founder brief.
-- V1 draft (`research/problem-statement.md`), run 2: 5 candidates ranked by size × founder fit; provisional pick now **C — clinical-trial enrollment/recruitment**, runner-up A (lung screening). Verified: GLOBOCAN 2024 (world/PT/DE), US colorectal screening gap (B), US lung screening 2017 (A, old). Still `[UNVERIFIED]`: C, D, E core numbers and A 2022 figure. V1 open.
-- No interviews conducted. No decisions recorded.
+- Project: **Healthcare Venture** (scope opened from cancer to healthcare on 2026-11-06, see `decisions/2026-11-06-scope-pipeline.md`).
+- Stage: **A — Scan** (not started). Cancer-only work archived in `archive/`; its V1 draft feeds A7.
+- Infrastructure: worker session on environment `healthcare-venture` (full internet). Reddit blocks direct fetch from cloud servers; use web search (site:reddit.com).
+- No interviews (by design until Stage D). Decisions: see `decisions/`.
 
 ## Next steps
-1. CEO: allowlist frontiersin.org, uspreventiveservicestaskforce.org, and an NCBI/Europe PMC API route (see open questions), then re-run V1 to verify C/D/E.
-2. CEO picks a problem space from the 5 candidates → record in `decisions/`.
-3. V10: EU/PT/DACH evidence for candidates C and A.
+1. Researcher: A1 → A7 (one per run). Critic: A8 alongside.
+2. Then B1 (score, top 5) → CEO picks 2–3.
 
 ## Open questions
-- Which part of the cancer space does the CEO want to focus on (prevention, screening/early detection, diagnostics, treatment access, patient navigation, survivorship, research tooling)? Any no-go areas (e.g. regulated medical devices)?
-- Is the CEO targeting B2C, B2B (hospitals, insurers, pharma), or open?
-- **Network access (run 2, 2026-11-06):** reachable — cdc.gov, gco.iarc.who.int (via WebFetch). Bot/cookie check (not bypassed) — pubmed.ncbi.nlm.nih.gov, pmc.ncbi.nlm.nih.gov. DNS-blocked — www.frontiersin.org, www.uspreventiveservicestaskforce.org. Proxy 403 — eutils.ncbi.nlm.nih.gov. HTTP 403 — ascopubs.org, cdc.gov via curl (WebFetch works). No response — doaj.org, ascopost.com, healio.com, www.iarc.who.int, www.ebi.ac.uk, api.crossref.org. Allowing eutils.ncbi.nlm.nih.gov or www.ebi.ac.uk (Europe PMC API) would unlock most papers.
-- **Network allowlist blocks primary sources (run 1).** Blocked on 2026-11-06: pubmed.ncbi.nlm.nih.gov, pmc.ncbi.nlm.nih.gov, www.cancer.org, www.iarc.who.int, ascopost.com. Likely also needed: ncbi.nlm.nih.gov, cdc.gov, cancer.gov, seer.cancer.gov, clinicaltrials.gov, fda.gov, ema.europa.eu, uspreventiveservicestaskforce.org, frontiersin.org, doaj.org, healio.com. Can the CEO allow these? Without it, research cannot meet rule 1.
-- Does the CEO want US focus, EU/Portugal focus, or global? V1 leads are US-only.
-- Not yet verified: whether scheduled runs have permission to merge into `main`. Check the first run's PR.
+- Optional: a Reddit API key (free Reddit app, created by the CEO) would allow reading full threads instead of search snippets.
+- CEO: own budget, target date to go full-time, no-go areas (see `founder-brief.md`).
 
 ---
 
