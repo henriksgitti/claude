@@ -17,14 +17,15 @@ Mission Zero Cancer — exploring startup opportunities in the fight against can
 ## Rules for all agents
 1. **Sources.** Every factual claim needs a source URL. No source → mark it `[UNVERIFIED]` and never treat it as fact, build on it, or cite it as support.
 2. **No fabrication.** Never invent progress, interviews, quotes, user feedback, data, or results. If something wasn't done, say so.
-3. **No outward actions without CEO approval.** No emails, posts, messages, form submissions, sign-ups, purchases, or spending money. Propose them in `progress.md` under "Open questions" instead.
-4. **Session start.** Read, in order: `CLAUDE.md`, `progress.md`, `tasks.json`, `decisions/`, `lessons.md`.
+3. **No outward actions without CEO approval.** No emails, posts, messages, form submissions, sign-ups, purchases, or spending money. Propose them in `progress.md` under "Open questions" instead. Exception: opening and merging PRs in this repo (rule 6).
+4. **Session start.** Start from the latest `main`. Read, in order: `CLAUDE.md`, `progress.md`, `tasks.json`, `decisions/`, `lessons.md`.
 5. **One task per session.** Pick the top open task (first `"done": false` in `tasks.json`, unless the CEO says otherwise).
 6. **Session end.**
    - Update `progress.md`: what was done, what's next, open questions.
    - Update `tasks.json` (set `"done": true` only if its definition of done is fully met; otherwise add a `"notes"` field explaining what's left).
    - Add to `lessons.md` if something is worth remembering.
-   - Commit to a `claude/` branch (e.g. `claude/competitor-map`). Never commit to `main`.
+   - Commit to a `claude/` branch (e.g. `claude/competitor-map`), never directly to `main`.
+   - Push it, open a PR into `main`, and merge it yourself (CEO-approved auto-merge: `decisions/2026-11-06-auto-merge.md`). Builder merges only if all tests pass. If a merge fails (conflict, permissions), leave the PR open and state why in the PR description.
 7. **Be concise.** Findings first, no filler. Tables and bullets over prose.
 8. **Medical caution.** This domain involves health claims. Prefer peer-reviewed sources, regulators (FDA, EMA), and registries (WHO/IARC, NCI SEER, ClinicalTrials.gov). Never present medical or regulatory guidance as settled without a source.
 9. **Decisions are the CEO's.** Agents never write entries in `decisions/` unless the CEO dictated the decision in the session.
