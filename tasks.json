@@ -23,7 +23,8 @@
       "title": "Source map: every place healthcare pain and market signals show up",
       "description": "Reddit is only one source. Map ALL useful source types (EN + DE), test access for each, and give a search recipe: (1) communities & forums: Reddit, German forums (e.g. care/nursing, doctor, patient forums), public Facebook/LinkedIn groups, DocCheck, patient-organisation forums; (2) reviews: app stores (health apps, DiGA), Trustpilot, Google reviews/Jameda of providers, Kununu/Glassdoor employee reviews (staff pain in hospitals, care homes, practices); (3) job postings (StepStone, Indeed, LinkedIn Jobs): what roles/tasks providers struggle to staff or automate; (4) public tenders (TED, service.bund.de, DTVP): what hospitals/insurers buy; (5) funding & innovation data: G-BA Innovationsfonds projects, CORDIS/EU projects, Crunchbase/Dealroom public pages, startup lists of Munich accelerators; (6) policy & payers: Bundestag documents, BMG, G-BA, insurer reports (TK, AOK, Barmer, DAK Reports); (7) statistics & science: Destatis, Eurostat, OECD, PubMed/Europe PMC; (8) trade press & events: Ärzteblatt, kma-online, Handelsblatt Inside Digital Health, DMEA/conference agendas, podcasts/YouTube; (9) demand signals: Google Trends, patents, ClinicalTrials.gov/EU CTR. Per source: what signal it gives (pain / willingness to pay / competition / funding), grade [A]/[B]/[C], access result (works / blocked / snippet-only). Read only, no posting or sign-ups. Output: research/sources-map.md",
       "owner": "researcher",
-      "done": false
+      "done": true,
+      "notes": "Draft in research/sources-map.md (2026-11-06): ~200 URLs access-tested; Reddit blocked (needs CEO API key); TED/Innovationsfonds/CORDIS/kununu/App Store/LinkedIn Jobs/Europe PMC/PubMed E-utils/CT.gov work. Awaiting critic review (A8)."
     },
     {
       "id": "A3",

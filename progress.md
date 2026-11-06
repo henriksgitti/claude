@@ -2,16 +2,17 @@
 
 ## Current state
 - Project: **Healthcare Venture** (scope opened from cancer to healthcare on 2026-11-06, see `decisions/2026-11-06-scope-pipeline.md`).
-- Stage: **A — Scan** (in progress). A1 trends scan drafted (`research/trends.md`). Cancer-only work archived in `archive/`; its V1 draft feeds A7.
-- Infrastructure: worker session on environment `healthcare-venture`. WebFetch fails DNS for many hosts (destatis.de, bundesgesundheitsministerium.de, vdek.com), but `curl` through the proxy reaches them: fetch with curl + local text extraction. Reddit blocks direct fetch from cloud servers; use web search (site:reddit.com).
+- Stage: **A — Scan** (in progress). A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`). Cancer-only work archived in `archive/`; its V1 draft feeds A7.
+- Infrastructure: worker session on environment `healthcare-venture`. WebFetch fails DNS for many hosts (destatis.de, bundesgesundheitsministerium.de, vdek.com), but `curl` through the proxy reaches them: fetch with curl + local text extraction. Reddit is effectively unusable: direct fetch is bot-checked and `site:reddit.com` search returns almost no reddit.com hits (A2). Working alternatives and recipes are listed in `research/sources-map.md`.
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
 ## Next steps
-1. Researcher: A2 → A6, A9, A7 (one per run). Critic: A8 alongside (A1 `research/trends.md` ready for review).
+1. Researcher: A3 → A6, A9, A7 (one per run), using the recipes in `research/sources-map.md`. Critic: A8 alongside (`research/trends.md` and `research/sources-map.md` ready for review).
 2. Then B1 (score, top 5) → CEO picks 2–3.
 
 ## Open questions
-- Optional: a Reddit API key (free Reddit app, created by the CEO) would allow reading full threads instead of search snippets.
+- **Reddit API key (now more important):** A2 found Reddit unreachable (bot challenge; search returns almost no reddit.com hits). A free Reddit app/API key created by the CEO is the only clean route. Without it, A3–A5 rely on German forums, reviews, job ads and tenders.
+- Optional allowlist / network change: WebFetch fails DNS for most hosts; curl is blocked by bot checks at trustpilot.com, indeed.com, glassdoor, crunchbase.com, dealroom.co, oecd.org (web), europepmc.org (web), gutefrage.net, aerztezeitung.de, springermedizin.de, background.tagesspiegel.de. Not bypassed.
 - CEO: own budget, target date to go full-time, no-go areas (see `founder-brief.md`).
 
 ---
@@ -24,6 +25,13 @@
 - Next:
 - Open questions:
 -->
+
+### 2026-11-06 — A2 Source map (nightly researcher)
+- Done: `research/sources-map.md`. About 200 URLs across 9 source types were access-tested (curl/WebFetch/WebSearch), each with signal type, grade, access result and recipe. Works: German forums (krankenschwester.de, krebs-kompass, rheuma-online, diabetes forums, onmeda, medi-learn), kununu (incl. review text), App Store API/RSS + Google Play, LinkedIn Jobs/StepStone counts, TED tender API (637 DE hospital IT notices since 2025), G-BA Innovationsfonds (861 projects), CORDIS/EU F&T APIs, BMG/G-BA/Bundestag/insurers, Destatis/Eurostat/OECD SDMX, PubMed E-utilities, Europe PMC REST, ClinicalTrials.gov API, most trade press. Per-task recipes for A3–A6/A9 are included.
+- Not done / blocked: Reddit (bot challenge, 0 reddit.com hits in DE `site:` searches; third-party mirrors not used, and the sandbox denied testing them); Facebook/LinkedIn posts (login wall); Google Trends (429); Trustpilot, Indeed, Glassdoor, Crunchbase, Dealroom, OECD web, europepmc.org web, gutefrage, allnurses, Tagesspiegel Background, Ärzte Zeitung, Springer Medizin (bot checks); BA Jobsuche API, Förderkatalog, foerderdatenbank, BAS, SVDGV, Medical Valley EMN (403/502/reset). WebFetch DNS fails for nearly all hosts.
+- Next: A3 (pain mining: patients & caregivers). Critic: review `research/sources-map.md`.
+- Tasks added: none.
+- Open questions: Reddit API key (see Open questions, now more important).
 
 ### 2026-11-06 — A1 Trends & policy scan (DE/EU) (nightly researcher)
 - Done: `research/trends.md`. Ageing (Destatis 16. kBV), care demand and workforce gap, physicians, chronic disease, hospital reform (KHVVG/KHAG, €50bn fund), digitisation (ePA, GeDIG, FDZ, DiGA, Notfallreform, EHDS, AI Act Omnibus) and cost pressure (GKV/SPV, FinanzKommission, BStabG), each with figures, who is affected and who pays. ~40 sources opened, graded [A]/[B]. Key inference: payers are cutting costs, while new public digitisation money is flowing to providers (PNOG €1.6bn for outpatient care 2027–31, hospital transformation fund). Treat this as input for A7, not as a conclusion.
