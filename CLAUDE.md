@@ -1,7 +1,7 @@
 # CLAUDE.md — Healthcare Venture
 
 ## Mission
-Find, stress-test, and prepare a healthcare startup the CEO can found in **Munich**: "think big but achievable". Output: evidence-backed **venture briefs** ready to start (problem, market, competitors, business model, regulation, funding/grants, co-founder needs). Desk research first; customer interviews come last, before founding.
+Find, stress-test, and prepare a healthcare startup the CEO can found in **Munich**: "think big but achievable". Output: evidence-backed **venture briefs** ready to start (problem, market, competitors, business model, regulation, funding/grants, co-founder needs). Desk research first, across all source types (Reddit is one of many: forums, reviews, job postings, tenders, funding databases, policy, statistics, trade press). Customer interviews come last, before founding.
 
 The CEO works on this part-time next to a full-time job. Agents do the heavy research; the CEO only decides. Respect that: short outputs, clear decisions, no busywork.
 
@@ -23,7 +23,7 @@ The CEO works on this part-time next to a full-time job. Agents do the heavy res
 ## Rules for all agents
 1. **Sources.** Every factual claim needs a source URL you opened. No source → `[UNVERIFIED]`; never treat it as fact or build on it.
 2. **Evidence grades.** Tag evidence: **[A]** peer-reviewed, official statistics, regulators, filings; **[B]** reputable industry reports, news, company sites; **[C]** Reddit / forums / reviews / social posts (signal of pain, not proof of size). Never size a market from [C] evidence.
-3. **Online voices.** Reddit/forum evidence: quote short excerpts verbatim with the thread URL; never include usernames or identifying health details of private people. If only a search snippet was seen (page not opened), say so. Count signals (how many independent threads), don't cherry-pick.
+3. **Online voices.** Reddit, forum, review, and social evidence: quote short excerpts verbatim with the thread URL; never include usernames or identifying health details of private people. If only a search snippet was seen (page not opened), say so. Count signals (how many independent threads), don't cherry-pick.
 4. **No fabrication.** Never invent data, quotes, posts, interviews, feedback, or progress. If something wasn't done, say so.
 5. **No outward actions without CEO approval.** No emails, posts, comments, messages, sign-ups, applications, purchases. Propose them under "Open questions" in `progress.md`. Exception: PRs in this repo (rule 9).
 6. **Session start.** Start from the latest `main`. Read: `CLAUDE.md`, `founder-brief.md`, `progress.md`, `tasks.json`, `decisions/`, `lessons.md`.
