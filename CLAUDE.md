@@ -1,7 +1,7 @@
 # CLAUDE.md — Mission Zero Cancer
 
 ## Idea
-Mission Zero Cancer — exploring startup opportunities in the fight against cancer. The specific problem, customer, and product are NOT yet chosen; Phase 1 exists to find and validate one.
+Mission Zero Cancer — exploring startup opportunities in the fight against cancer. The specific problem, customer, and product are NOT yet chosen; Phase 1 exists to find and validate one. CEO goal: "think big but achievable". Rank every option by fit with `founder-brief.md`.
 
 ## Mission
 1. **Validate** a specific startup idea with real evidence.
@@ -18,7 +18,7 @@ Mission Zero Cancer — exploring startup opportunities in the fight against can
 1. **Sources.** Every factual claim needs a source URL. No source → mark it `[UNVERIFIED]` and never treat it as fact, build on it, or cite it as support.
 2. **No fabrication.** Never invent progress, interviews, quotes, user feedback, data, or results. If something wasn't done, say so.
 3. **No outward actions without CEO approval.** No emails, posts, messages, form submissions, sign-ups, purchases, or spending money. Propose them in `progress.md` under "Open questions" instead. Exception: opening and merging PRs in this repo (rule 6).
-4. **Session start.** Start from the latest `main`. Read, in order: `CLAUDE.md`, `progress.md`, `tasks.json`, `decisions/`, `lessons.md`.
+4. **Session start.** Start from the latest `main`. Read, in order: `CLAUDE.md`, `founder-brief.md`, `progress.md`, `tasks.json`, `decisions/`, `lessons.md`.
 5. **One task per session.** Pick the top open task (first `"done": false` in `tasks.json`, unless the CEO says otherwise).
 6. **Session end.**
    - Update `progress.md`: what was done, what's next, open questions.
@@ -53,6 +53,7 @@ Mission Zero Cancer — exploring startup opportunities in the fight against can
 ## Repo map
 | Path | Purpose | Who writes |
 |---|---|---|
+| `founder-brief.md` | CEO profile, goal, constraints | CEO only |
 | `progress.md` | Session log: current state, next steps | Agents |
 | `tasks.json` | Task list per phase | Agents (status, new tasks per rule 10), CEO (priorities, edits, deletions) |
 | `research/` | Sourced findings | researcher |

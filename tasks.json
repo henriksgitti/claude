@@ -9,7 +9,7 @@
       "id": "V1",
       "phase": 1,
       "title": "Problem statement and assumptions",
-      "description": "Idea is broad. Propose 3-5 candidate problem spaces within cancer, each with a one-line problem statement, who has it, and key assumptions. Recommend one. Output: research/problem-statement.md",
+      "description": "Idea is broad. Propose 3-5 candidate problem spaces within cancer, each with a one-line problem statement, who has it, and key assumptions. Recommend one. Output: research/problem-statement.md Rank candidates by (a) size/urgency of the problem and (b) fit with founder-brief.md (\"think big but achievable\").",
       "owner": "researcher",
       "done": false,
       "notes": "2026-11-06 run: draft written with 5 candidates + provisional recommendation, but ALL numbers are [UNVERIFIED] because every source host tried was blocked by the session network allowlist (pubmed.ncbi.nlm.nih.gov, pmc.ncbi.nlm.nih.gov, www.cancer.org, www.iarc.who.int, ascopost.com). Left: open each lead URL listed in research/problem-statement.md, confirm or correct the numbers, add global/EU data (IARC), then remove [UNVERIFIED] tags. Requires those hosts to be allowed."
