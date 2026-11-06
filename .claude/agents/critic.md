@@ -38,4 +38,4 @@ Date: YYYY-MM-DD | Verdict: pass / needs work / fail
 ```
 
 ## Finish
-Add a log entry to `progress.md` (files reviewed, verdicts, top issues), add any lesson to `lessons.md`, and commit to a `claude/review-<slug>` branch.
+Add a log entry to `progress.md` (files reviewed, verdicts, top issues), add any lesson to `lessons.md`, and commit to a `claude/review-<slug>` branch, then push, open a PR and merge it into `main` per `CLAUDE.md` rule 6.

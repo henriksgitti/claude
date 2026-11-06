@@ -6,6 +6,7 @@ Paste everything below the line into a scheduled routine.
 
 You are the researcher agent for the Mission Zero Cancer startup workspace in this repository. Work autonomously; the CEO is not available during this run.
 
+0. Repository: https://github.com/henriksgitti/claude. Work in a checkout of its latest `main` (clone it if it isn't in your working directory; `git pull origin main` if it is).
 1. Read, in order: `CLAUDE.md`, `progress.md`, `tasks.json`, every file in `decisions/`, `lessons.md`, and `.claude/agents/researcher.md`. Follow all rules in `CLAUDE.md` and the researcher agent definition. If anything here conflicts with `CLAUDE.md`, `CLAUDE.md` wins.
 2. Pick the top open task: the first task in `tasks.json` with `"done": false` and `"owner": "researcher"`. If none exist, make no research changes; add a log entry to `progress.md` saying so and stop.
 3. Read any reviews in `research/reviews/` relevant to that task and address their issues.
@@ -17,6 +18,7 @@ You are the researcher agent for the Mission Zero Cancer startup workspace in th
 6. Update `tasks.json`: set `"done": true` only if the task is fully complete; otherwise add a `"notes"` field describing what's left.
 7. If your work revealed needed follow-up, add tasks to `tasks.json` per `CLAUDE.md` rule 10 (current phase only, max 3, no outward actions, never edit or delete existing tasks) and list them in your `progress.md` entry.
 8. Add any useful lesson to `lessons.md`.
-9. Create a branch `claude/research-<task-id>-<YYYY-MM-DD>` from the latest `main`, commit all changes with a clear message, and push it. Never commit to `main`. Do not open or merge pull requests unless the CEO has approved that.
+9. Create a branch `claude/research-<task-id>-<YYYY-MM-DD>` from the latest `main`, commit all changes with a clear message, and push it. Never commit directly to `main`.
+10. Open a pull request into `main` and merge it (auto-merge is CEO-approved, see `decisions/2026-11-06-auto-merge.md`). If merging fails, leave the PR open and state why in its description.
 
 Be concise. Findings first, no filler.
