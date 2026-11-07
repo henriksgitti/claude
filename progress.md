@@ -2,12 +2,12 @@
 
 ## Current state
 - Project: **Healthcare Venture** (scope opened from cancer to healthcare on 2026-11-06, see `decisions/2026-11-06-scope-pipeline.md`).
-- Stage: **A — Scan** (in progress). A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). A6 Munich ecosystem drafted (`research/munich-ecosystem.md`). A9 reimbursement/funding routes drafted (`research/reimbursement-routes.md`). A10 applied the critic fixes to `research/trends.md` and `research/sources-map.md`. A11 drafted `research/hospital-billing-audits.md` (MD audits, 2027 rules, incumbents). A12 drafted `research/payer-processing.md` (insurer § 302 outsourcing, MD AI tenders, buying routes). Cancer-only work archived in `archive/`; its V1 draft feeds A7.
+- Stage: **A — Scan** (in progress). A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). A6 Munich ecosystem drafted (`research/munich-ecosystem.md`). A9 reimbursement/funding routes drafted (`research/reimbursement-routes.md`). A10 applied the critic fixes to `research/trends.md` and `research/sources-map.md`. A11 drafted `research/hospital-billing-audits.md` (MD audits, 2027 rules, incumbents). A12 drafted `research/payer-processing.md` (insurer § 302 outsourcing, MD AI tenders, buying routes). A13 drafted `research/trial-recruitment-de.md` (CTIS count, 5 % rule, Kapazitätsinitiative, vendors). Cancer-only work archived in `archive/`; its V1 draft feeds A7.
 - Infrastructure: worker session on environment `healthcare-venture`. WebFetch fails DNS for many hosts (destatis.de, bundesgesundheitsministerium.de, vdek.com), but `curl` through the proxy reaches them: fetch with curl + local text extraction. Reddit is effectively unusable: direct fetch is bot-checked and `site:reddit.com` search returns almost no reddit.com hits (A2). Working alternatives and recipes are listed in `research/sources-map.md`.
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
 ## Next steps
-1. Researcher: A13, A14, A15, A16, A17, A7 (one per run), using the recipes in `research/sources-map.md`. Critic: A8 alongside (`research/munich-ecosystem.md`, `research/reimbursement-routes.md` and the revised `research/trends.md` / `research/sources-map.md` ready for review).
+1. Researcher: A14, A15, A16, A17, A7, A18 (one per run), using the recipes in `research/sources-map.md`. Critic: A8 alongside (`research/munich-ecosystem.md`, `research/reimbursement-routes.md` and the revised `research/trends.md` / `research/sources-map.md` ready for review).
 2. Then B1 (score, top 5) → CEO picks 2–3.
 
 ## Open questions
@@ -26,6 +26,20 @@
 - Next:
 - Open questions:
 -->
+
+### 2026-11-07 — A13 Clinical-trial recruitment in Germany (researcher)
+- Done: `research/trial-recruitment-de.md`.
+  - Own CTIS count of all 12,788 public trials [A]: Germany is in 668 of 1,356 (49.3 %) new commercial EU trials in 2025, second only to Spain. It also has the most single-country commercial trials. But its share of trial participants is ~2.9 % [B]. *Inference:* the gap is patients per site, not trial placement.
+  - Sponsors cite "fehlende Patienten" for missed targets (72 % of university sites in oncology miss plan by ≥25 %). Sites themselves (N=169, Jan 2026) rate patient identification as a big hurdle in only 4–9 % of cases; staffing/funding is the big hurdle (50–74 %) [B].
+  - EHR "patient-finder" systems at 6 MIRACUM university hospitals showed no significant enrolment effect (npj Digit Med 2026) [A].
+  - 5 % rule [A]: the BStabG moved it from the G-BA assessment (deleted) to an exemption from the new 8.5 % discount (§ 130a Abs. 1c) for drugs launched from 2027. The BfArM portal is live. Uptake data: none.
+  - The Kapazitätsinitiative 2030 is a lobby proposal (3 funding lines incl. recruitment capacity) with no budget or government commitment [B].
+  - Sites are paid for patient identification under the 2025 joint costing recommendations, but euro amounts per patient are not public.
+  - Vendors: Clariness (incl. Viomedo) merged with SubjectWell (Jan 2026); TriNetX owns Clinerion; Trialbee and Inato report 6,000+ sites each. **MPIRIQ (Munich, 2024)** already sells practice-based trial pre-screening at €99–329/month.
+- Not done / blocked: per-patient site fees and sponsor recruitment budgets (not public; Stage D interviews); 5 % rule uptake; DGPharMed survey original; MPIRIQ funding (snippet only). Blocked: forschen-fuer-gesundheit.de, htgf.de, probando.de, ancora.ai, norstella.com, iduneo.com; the Bundesagentur job API returned no JSON.
+- Next: A14 (should also update `pain-industry.md` I1 with this file: barometer published 28 Sep 2026; vendors now verified; the "CTMS 65 products" line is not recruitment competition). Critic: fact-check `research/trial-recruitment-de.md`.
+- Tasks added: none.
+- Open questions: none new.
 
 ### 2026-11-07 — A12 Insurer invoice processing and MD assessment automation (researcher)
 - Done: `research/payer-processing.md`. Read the award notices for all payer/MD tenders in TED, plus the public tender documents of the new MD-IT AI framework.
