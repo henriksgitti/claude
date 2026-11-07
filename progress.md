@@ -29,6 +29,8 @@
 - **Critic view on the two questions above:** "≤5 years" = vendor age at its earliest named paid sale to this signer type, sale dated 2021+, vendor independent (not a JV/subsidiary of an incumbent). Unnamed customer claims count only with one independent confirming source; otherwise "K2 unproven" (not a knock-out).
 - **CEO, 10 minutes, no outreach (most valuable test before B1):** for each of the ~10 signer clusters in `research/reviews/2026-11-07-redteam-longlist.md` F3, do you know one person who signs such purchases or has bought from a company <3 years old? Without this, founder fit scores 4 M on nearly every row and separates nothing.
 
+- **CEO (before B1), from the red team of A18 (`research/reviews/2026-11-07-redteam-longlist-fields.md`):** under v3, triggers in force before Sep 2027 pass K1 but are captured by incumbents before you go full-time, while 2028 triggers (GOÄ, § 113e, short-stay flat rates) fail K1 as bills. Should K1 accept a budget line "in force by the start of the 12-month clock" (ties to S6)? Recommendation: yes, if the 12-month clock starts Sep 2027, tagged L until the law passes. Also: only L01 (employer eldercare benefit) combines an open route with a €100m+ ceiling; expect the shortlist to say so.
+
 ---
 
 ## Log
@@ -48,6 +50,14 @@
 - Next:
 - Open questions:
 -->
+
+### 2026-11-07 — A8 Critic red team: A18 long-list scoring fields (critic, RED TEAM)
+- Done: `research/reviews/2026-11-07-redteam-longlist-fields.md` — verdict **needs work before B1**. Reviewed `research/longlist-scoring-fields.md` with `research/longlist.md` under `scoring.md` v3.
+- Top issues: (G1) K1/K2 evidence often belongs to another product than the wedge (L05 TI onboarding backed by voize; L08 by Recare; L21 BPO wedge backed by Kasse spend; L06 labelled "adjacent" but calibration says K1 pass); (G2) "Job: opex, no observed purchase" fails K1 (L12, L20, L24); (G3) accessible rows are too small to fund, only L01 has a €100m+ ceiling; (G4) in-force triggers precede the founder's Sep 2027 start, later triggers are bills; (G5) DORA makes L24 near-closed. Missing incumbents: pme Familienservice (L01), ePA eML (L08), Insiders Technologies (L21/L24).
+- B1 will wrongly pass K1: L06, L12, L20, L21, L24; wrongly pass K2: L05, L08; may wrongly fail: L11. Tier-B candidates with one desk test each: L01, L20, L03, L11, L07 (reserve L23).
+- Not done: no sources opened as pages (search summaries only, used as pointers); no fact-check of A18.
+- Tasks added: A26 (researcher, before B1).
+- Open questions: K1 "in force" vs Sep 2027 clock (added above).
 
 ### 2026-11-07 — A8 Critic fact-check run 8: scoring.md v3 and A22 changes (critic, FACT-CHECK)
 - Done: `research/reviews/2026-11-07-scoring-v3-and-A22.md` — verdict **pass with minor fixes**, no critical issues. All 19 scoring.md sources opened; legal thresholds (Art. 20 BayWiVG EUR 100k, § 22 Abs. 2 SVHV EUR 50k, § 280 Abs. 3 SGB V, Art. 5 BayUniKlinG, § 45 SGB XI) and BAS circular quotes reproduce; calibration arithmetic reproduces. A22 TED deadlines (7 notices) match; DTVP links 404 as stated.
