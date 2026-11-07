@@ -188,9 +188,10 @@
       "title": "Apply CEO-approved scoring v2 fixes to research/scoring.md",
       "description": "Apply the one-line fixes the CEO approves from research/reviews/2026-11-07-redteam-scoring-v2.md (must-fix 1-6: K2 needs a sourced young-vendor/channel example else 'K2 unproven'; buyer-specific direct-award thresholds incl. § 22 Abs. 2 SVHV and 'unknown' tender = closed; score per A18 wedge; K1 'category' and 'in force'; tier definitions and R4 order; M vs L definitions incl. criteria 4/5 and unknown = 2. Should-fix 7-10 if approved, incl. the extra A18 field). Then run the cheap calibration (S1, S3, I5, P3 under old vs new text) and report rank changes. Output: research/scoring.md (+ short calibration note in the same file). CEO decision 2026-11-07 (chat, corrected): ONLY must-fix 1-6 approved. Do NOT apply fixes 7-10.",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "critic 2026-11-07",
-      "reason": "Red team v2: K2 as written passes almost every row (routes only need to be legally possible; below-threshold and private purchases are invisible in TED), tiers are undefined, and 'inference' sits in both M and L, so a row whose every observed tender is closed to startups can still score ~78/90 and reach the top 5. B1 cannot apply the method consistently without these edits."
+      "reason": "Red team v2: K2 as written passes almost every row (routes only need to be legally possible; below-threshold and private purchases are invisible in TED), tiers are undefined, and 'inference' sits in both M and L, so a row whose every observed tender is closed to startups can still score ~78/90 and reach the top 5. B1 cannot apply the method consistently without these edits.",
+      "notes": "Done 2026-11-07 (researcher): research/scoring.md v3 with fixes 1-6, sourced direct-award table, calibration note (L06/L07/L21/L03: all four end 'unproven'). Open: municipal hospital GmbH below-threshold rules [UNVERIFIED]; CEO question on how '<=5 years' is measured (progress.md Open questions)."
     },
     {
       "id": "A21",
