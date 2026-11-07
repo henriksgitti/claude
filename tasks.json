@@ -101,9 +101,10 @@
       "title": "Insurer invoice processing (§ 302 SGB V) and MD assessment automation: incumbents, contract values, buying route",
       "description": "Follow-up to I5/I6 in research/pain-industry.md. Read TED award notices (can-standard) for the 9 payer invoice/receipt-processing tenders and the 3 MD AI tenders since 2025: winners, contract values, durations. Identify incumbent BPO/software vendors (e.g. via award notices, vendor sites, filings), whether insurers buy directly or via gkv informatik / BITMARCK / AOK Systems, and how the 2027 admin cap (§ 4 Abs. 5 SGB V) and PNOG change demand. Output: research/payer-processing.md",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "researcher 2026-11-06",
-      "reason": "A5 found the clearest public willingness to pay so far (multi-year insurer tenders with millions of invoices; MD AI pilots), but incumbents and award values are unknown; A7/B1 need them to judge achievability."
+      "reason": "A5 found the clearest public willingness to pay so far (multi-year insurer tenders with millions of invoices; MD AI pilots), but incumbents and award values are unknown; A7/B1 need them to judge achievability.",
+      "notes": "2026-11-07 researcher: research/payer-processing.md drafted. Open: award notices still pending (DAK 396194-2026, BIG 189396-2025, gkv informatik 481787-2026, AOK RH 518174-2026, MD RLP 543912-2025, MD-IT 751925-2026 due 2 Dec 2026)."
     },
     {
       "id": "A13",
