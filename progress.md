@@ -2,12 +2,12 @@
 
 ## Current state
 - Project: **Healthcare Venture** (scope opened from cancer to healthcare on 2026-11-06, see `decisions/2026-11-06-scope-pipeline.md`).
-- Stage: **A — Scan** (in progress). A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). A6 Munich ecosystem drafted (`research/munich-ecosystem.md`). A9 reimbursement/funding routes drafted (`research/reimbursement-routes.md`). A10 applied the critic fixes to `research/trends.md` and `research/sources-map.md`. A11 drafted `research/hospital-billing-audits.md` (MD audits, 2027 rules, incumbents). A12 drafted `research/payer-processing.md` (insurer § 302 outsourcing, MD AI tenders, buying routes). A13 drafted `research/trial-recruitment-de.md` (CTIS count, 5 % rule, Kapazitätsinitiative, vendors). A14 applied the critic fixes to the three pain files (tender access tables; WTP downgraded where startups cannot bid). A15 added the § 113e Transformationsstellen route and official § 8 Abs. 8 uptake data to `research/reimbursement-routes.md`. Cancer-only work archived in `archive/`; its V1 draft feeds A7.
+- Stage: **A — Scan** (in progress). A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). A6 Munich ecosystem drafted (`research/munich-ecosystem.md`). A9 reimbursement/funding routes drafted (`research/reimbursement-routes.md`). A10 applied the critic fixes to `research/trends.md` and `research/sources-map.md`. A11 drafted `research/hospital-billing-audits.md` (MD audits, 2027 rules, incumbents). A12 drafted `research/payer-processing.md` (insurer § 302 outsourcing, MD AI tenders, buying routes). A13 drafted `research/trial-recruitment-de.md` (CTIS count, 5 % rule, Kapazitätsinitiative, vendors). A14 applied the critic fixes to the three pain files (tender access tables; WTP downgraded where startups cannot bid). A15 added the § 113e Transformationsstellen route and official § 8 Abs. 8 uptake data to `research/reimbursement-routes.md`. A16 applied the fact-check fixes to `research/reimbursement-routes.md` and `research/munich-ecosystem.md`. Cancer-only work archived in `archive/`; its V1 draft feeds A7.
 - Infrastructure: worker session on environment `healthcare-venture`. WebFetch fails DNS for many hosts (destatis.de, bundesgesundheitsministerium.de, vdek.com), but `curl` through the proxy reaches them: fetch with curl + local text extraction. Reddit is effectively unusable: direct fetch is bot-checked and `site:reddit.com` search returns almost no reddit.com hits (A2). Working alternatives and recipes are listed in `research/sources-map.md`.
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
 ## Next steps
-1. Researcher: A16, A17, A19, A7, A18 (one per run), using the recipes in `research/sources-map.md`. Critic: A8 alongside (`research/munich-ecosystem.md`, `research/reimbursement-routes.md` and the revised `research/trends.md` / `research/sources-map.md` ready for review).
+1. Researcher: A17, A19, A7, A18 (one per run), using the recipes in `research/sources-map.md`. Critic: A8 alongside (`research/munich-ecosystem.md`, `research/reimbursement-routes.md` and the revised `research/trends.md` / `research/sources-map.md` ready for review).
 2. Then B1 (score, top 5) → CEO picks 2–3.
 
 ## Open questions
@@ -27,6 +27,15 @@
 - Next:
 - Open questions:
 -->
+
+### 2026-11-07 — A16 Apply fact-check fixes to reimbursement-routes.md and munich-ecosystem.md (researcher)
+- Done (all 9 items; 4–5 were done in A15):
+  - `research/reimbursement-routes.md`: GKV-SV PM regraded [B]; § 40a Abs. 1a quoted verbatim (excludes work organisation of *outpatient* services and apps "ausschließlich" for benefits advice; carer-relief apps explicitly included, so a hybrid carer-relief app is not excluded, inference); 1.9m = users of *any* insurer-funded prevention measure (vdek quote); KHZG €4.3bn synced from A10 (was `[UNVERIFIED]`).
+  - `research/munich-ecosystem.md`: SCE Incubation is **not rolling**: two batches/yr (Mar–Jul, Sep–Jan), last deadline 2 Aug 2026, next (summer 2027) deadline not published. UnternehmerTUM Incubator "wir nehmen keine Unternehmensanteile" now sourced. **FLÜGGE call 2026/1** opened [A]: up to 4 projects (~€500k), sketches via a state Bavarian Hochschule by **18 Dec 2026**, panel 18 Mar 2027, start ~1 Jul 2027. EY: Bayern >€1.1bn = **−46 %** y/y; "B2B workflow AI" trend now labelled as a two-deal anecdote. EIC 2027 batching dates 20 Jan / 17 Mar / 1 Sep / 4 Nov re-checked on the EIC page.
+- Not done: SCE summer-2027 deadline (not yet published); no Munich health deal count by segment (Crunchbase/Dealroom blocked).
+- Next: A17. Critic: fact-check the A15 + A16 changes.
+- Tasks added: none.
+- Open questions: none new.
 
 ### 2026-11-07 — A15 § 113e Transformationsstellen and § 8 Abs. 8 uptake (researcher)
 - Done: `research/reimbursement-routes.md` updated.

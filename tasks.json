@@ -145,10 +145,10 @@
       "title": "Apply fact-check fixes to reimbursement-routes.md and munich-ecosystem.md",
       "description": "Per research/reviews/2026-11-07-reimbursement-routes.md and 2026-11-07-munich-ecosystem.md: (1) regrade the GKV-SV press release from [A] to [B]; (2) DiPA exclusion wording per § 40a Abs. 1a (work organisation of outpatient services only; 'ausschließlich' information/advice); (3) 1.9m prevention users = any insurer-funded measure, not ZPP-certified; (4) PNOG Länder co-funding 'sollen' + condition, align with trends.md; (5) remove or mark as unsourced inference the claim 'low IT capacity, not missing money, limits adoption'; (6) SCE Incubation: replace 'rolling' with the actual intake dates (page shows deadline 2 Aug 2026), drop 'no equity' for UnternehmerTUM unless sourced; (7) FLÜGGE: 'intends to fund up to six', cite the current call; (8) add EY Bayern -46% and note the two-deal basis of the 'B2B workflow AI' trend; (9) re-source EIC 2027 cut-off dates. Combine with A15 in one pass. Output: updated research/reimbursement-routes.md and research/munich-ecosystem.md",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "critic 2026-11-07",
       "reason": "Fact-check found no fabrication but one unsupported claim (SCE rolling) and several grade/wording overreaches that B1 and the founder-path recommendation read.",
-      "notes": "A15 (2026-11-07) already did items 4 and 5 in reimbursement-routes.md; items 1–3 and 6–9 remain."
+      "notes": "Done 2026-11-07: items 4–5 by A15; items 1–3 and 6–9 by A16 (GKV-SV PM [B]; § 40a Abs. 1a verbatim, navigation-only vs carer-relief hybrid; 1.9m = any insurer-funded prevention; SCE two batches/yr, deadline 2 Aug 2026 passed, next not published; UnternehmerTUM 'keine Unternehmensanteile' now sourced; FLÜGGE 2026/1 call: up to 4 projects, ~€500k, sketches by 18 Dec 2026; EY Bayern −46 % + two-deal caveat; EIC 2027 dates re-checked). Also synced KHZG €4.3bn (review critical 3)."
     },
     {
       "id": "A17",
