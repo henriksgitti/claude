@@ -246,7 +246,8 @@
       "done": false,
       "added_by": "critic 2026-11-07",
       "reason": "Each test decides K1/K2 or criterion 8 for a row that the red team flags as likely mis-placed in B1 (L05, L07, L20, L21, L24, L01/L03, L26, L11).",
-      "notes": "2026-11-07 A18 already answered: calliora named hospital (none found), voize earliest named customer (Caritas Stuttgart, Jan 2022), TechBoost intake (published; requires completed B2B customer projects), BPO-startup partnership (none found), pharmacy shortage tool (none found, 3 searches), PKV young-vendor customer (none found), heycare (founded 2022; named employers Mar 2026, first-sale date not shown). Still open: AMNOG procedures per year, care-suite AI documentation, Destatis recognitions by country."
+      "notes": "2026-11-07 A18 already answered: calliora named hospital (none found), voize earliest named customer (Caritas Stuttgart, Jan 2022), TechBoost intake (published; requires completed B2B customer projects), BPO-startup partnership (none found), pharmacy shortage tool (none found, 3 searches), PKV young-vendor customer (none found), heycare (founded 2022; named employers Mar 2026, first-sale date not shown). Still open: AMNOG procedures per year, care-suite AI documentation, Destatis recognitions by country.",
+      "blocked_by": "Deferred by CEO 2026-11-07: not run before B1; B1 lists these desk tests as open checks per shortlisted idea."
     },
     {
       "id": "A8",
@@ -275,13 +276,14 @@
       "owner": "researcher",
       "done": false,
       "added_by": "critic 2026-11-07",
-      "reason": "Red team of A18: B1 would otherwise pass K1/K2 on evidence about other products (L05 voize, L08 Recare, L21 Kasse spend for a BPO wedge) and on generic opex, and wrongly fail L11 without a search."
+      "reason": "Red team of A18: B1 would otherwise pass K1/K2 on evidence about other products (L05 voize, L08 Recare, L21 Kasse spend for a BPO wedge) and on generic opex, and wrongly fail L11 without a search.",
+      "blocked_by": "Deferred by CEO 2026-11-07: not run before B1; B1 lists these desk tests as open checks per shortlisted idea."
     },
     {
       "id": "B1",
       "stage": "B",
       "title": "Score long list, pick top 5",
-      "description": "Score every long-list problem with research/scoring.md (table + evidence links), rank, write the top 5 with reasoning and a one-paragraph venture sketch each. Then add a ceo task: 'Pick 2–3 ideas for deep dive' with options and a recommendation. Output: research/shortlist.md",
+      "description": "Score every long-list problem with research/scoring.md (table + evidence links), rank, write the top 5 with reasoning and a one-paragraph venture sketch each. Then add a ceo task: 'Pick 2–3 ideas for deep dive' with options and a recommendation. Output: research/shortlist.md CEO 2026-11-07: run right after A25. For each shortlisted idea, list the still-open desk tests from A24 and A26 (and any remaining critic issues) as 'Open checks' instead of running them.",
       "owner": "researcher",
       "done": false
     },

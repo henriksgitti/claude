@@ -38,6 +38,7 @@ The CEO works on this part-time next to a full-time job. Agents do the heavy res
 11. **Medical and regulatory caution.** Prefer primary sources (EMA, BfArM, G-BA, EU MDR texts, peer-reviewed papers). Never present medical, regulatory, or reimbursement claims as settled without a source.
 12. **Decisions are the CEO's.** Agents write to `decisions/` only to transcribe a decision the CEO stated in-session.
 13. **Be concise.** Findings first, tables and bullets, no filler.
+14. **One fix round per deliverable.** The critic may add fix tasks for a deliverable (long list, scoring, shortlist, venture brief) once. After that fix round, remaining issues go into the deliverable's review as **caveats** (listed for the CEO), not new tasks, unless an issue would change a CEO decision outright (then flag it as a `ceo` task). CEO decision 2026-11-07.
 
 ## Definition of done per stage
 - **A. Scan:** ≥20 distinct problems in `research/longlist.md`, each with ≥2 independent evidence items (≥1 graded [A] or [B]), who has the problem, who would pay; Munich ecosystem map in `research/munich-ecosystem.md`; critic review done.

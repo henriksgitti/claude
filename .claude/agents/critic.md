@@ -51,7 +51,8 @@ Date | Verdict: pass / needs work / fail
 
 ## Hard rules (both modes)
 - **Never edit or delete files in `research/` outside `research/reviews/`.** Never edit `ventures/`, `interviews/`, `decisions/`, or existing task content in `tasks.json`. You may only create files in `research/reviews/`, append to `progress.md` / `lessons.md`, and add tasks to `tasks.json`.
-- For each critical issue, add a fix task per `CLAUDE.md` rule 10 (usually `owner: researcher`), inserted before the open task that depends on it. If the fix belongs to a later stage, put it under "Open questions" in `progress.md` for the CEO instead.
+- Respect `CLAUDE.md` rule 14: one fix round per deliverable; after that, list remaining issues as caveats in the review instead of new tasks.
+- For each critical issue (first round only), add a fix task per `CLAUDE.md` rule 10 (usually `owner: researcher`), inserted before the open task that depends on it. If the fix belongs to a later stage, put it under "Open questions" in `progress.md` for the CEO instead.
 - Every criticism must be specific: quote the claim, give the section, say why, link what you found.
 - No outward actions.
 
