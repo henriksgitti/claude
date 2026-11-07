@@ -17,7 +17,7 @@ Interpretation for agents:
 - **Location:** found in Munich, Germany. First market likely Germany/DACH, then EU.
 - **Time:** part-time until September 2027, then full-time on the chosen idea. Agents do the research; the CEO decides. Plan grants, co-founder search and validation so the company can start then.
 - **Research approach:** desk research first (Reddit, forums, whole internet). Customer interviews later, as validation before founding.
-- **Funding:** wants grants, investors, and co-founders. Budget of own money: not stated.
+- **Funding:** wants grants, investors, and co-founders. Own money: €10,000.
 
 ## Profile
 - **Education:** Bachelor's in Digital Transformation / Innovation (non-scientific, non-technical); Master's in Innovation, Nova SBE Lisbon, specialization Health Innovation.
@@ -31,6 +31,6 @@ Interpretation for agents:
 - **Sweet spot (hypothesis):** AI/automation for workflow, operations, and access problems in healthcare: e.g. clinical trial operations, care coordination, administrative burden, nursing/staff shortage.
 
 ## Open (CEO to fill in when ready)
-- Own budget for validation and founding: (TBD)
+- Own budget for validation and founding: **€10,000** personal money (CEO, 2026-11-07). Ideas must reach a grant, pre-seed or paying pilot before needing more.
 - Target date to go full-time: **September 2027** (CEO, 2026-11-07).
-- No-go areas: (TBD)
+- No-go areas: **none** (CEO, 2026-11-07). Founder-fit gaps above still apply.
