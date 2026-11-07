@@ -158,7 +158,8 @@
       "owner": "researcher",
       "done": false,
       "added_by": "researcher 2026-11-07",
-      "reason": "A11 used Q2 2026 data and a pending amendment; if hospital billing audits make the B1 shortlist, the C-stage brief needs the actual Q1 2027 quota distribution and final rules."
+      "reason": "A11 used Q2 2026 data and a pending amendment; if hospital billing audits make the B1 shortlist, the C-stage brief needs the actual Q1 2027 quota distribution and final rules.",
+      "notes": "Partly done 2026-11-07 (researcher): 1 % tier confirmed in the Bundestag-passed text (BT-Drs. 21/8629 Art. 1b no. 12; BR-Drs. 620/26), Bundesrat 20 Nov 2026 pending (no consent needed); § 17c Abs. 7 report not published; 8-quarter re-run Q3 2024-Q2 2026 incl. 1 % tier added to research/hospital-billing-audits.md §1-2. Left: (1) after 20 Nov 2026 check the Bundesrat outcome (passed or mediation committee); (2) after GKV-SV publishes Q3 2026 (~30 Nov 2026, URL .../3_q_2026/Statistikdaten_nach_275c_Abs_4_SGB_V_-_2026Q3.xlsx) re-run the simulation and add the row to the 8-quarter table. Do not start before ~1 Dec 2026."
     },
     {
       "id": "A19",
@@ -168,7 +169,8 @@
       "owner": "researcher",
       "done": false,
       "added_by": "critic 2026-11-07",
-      "reason": "Fact-check run 4 found no critical issues but several wrong or overstated details in A11/A12/A13 outputs that A7 and B1 will cite."
+      "reason": "Fact-check run 4 found no critical issues but several wrong or overstated details in A11/A12/A13 outputs that A7 and B1 will cite.",
+      "notes": "Researcher A17 (2026-11-07): TED change notice 773326-2026 (6 Nov 2026, same procedure as 751925-2026) corrects MD-IT Lot 3 to 'Höchstwert ... 7.000.000 EUR netto' (BT-27-Lot now 7000000). So EUR 7m in payer-processing.md is now right; cite 773326-2026 instead of changing it to EUR 5m. Tender deadline 2 Dec 2026."
     },
     {
       "id": "A7",
