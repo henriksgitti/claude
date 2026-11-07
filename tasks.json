@@ -226,6 +226,26 @@
       "reason": "Red-team of research/scoring.md: B1 cannot judge who signs, whether a 1-2-person startup can sell to them, or market size bottom-up without these fields; tenders prove budget, not startup access (research/reviews/2026-11-07-redteam-scoring.md F2, F5, W7)."
     },
     {
+      "id": "A23",
+      "stage": "A",
+      "title": "Apply red-team fixes to research/longlist.md (who-pays labels, clusters, merges)",
+      "description": "Per research/reviews/2026-11-07-redteam-longlist.md F2-F3 (can run with or right after A18): (1) per row, separate 'spend on this job' from 'adjacent spend' in Who pays (at least L02, L04, L05, L06, L08, L14, L26); (2) add a signer-cluster column (about 10 clusters, table F3); (3) decide and record with reasons: merge L10 into L07 and L30 into L26; exclude L19 (same reason as S6) or un-exclude S6; L25 budget ends 2026; note that L22 is the opposite side of L07. Output: research/longlist.md.",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "critic 2026-11-07",
+      "reason": "Red team of longlist.md: 'proven' labels count care, labour, physician fees and grant pools as spend on a product job, which would pass K1 wrongly in B1; 30 rows are about 10 buyer clusters, so the top 5 may be variants of one bet."
+    },
+    {
+      "id": "A24",
+      "stage": "A",
+      "title": "Desk tests from the long-list red team (K1/K2 deciders before B1)",
+      "description": "Run desk tests 2-10 in research/reviews/2026-11-07-redteam-longlist.md ('Cheapest tests'), skipping any A18 already answered: calliora named hospital; voize earliest named customer and date; Telekom TechBoost open intake and any BPO-startup AI partnership (L21); paid pharmacy shortage tool with a named pharmacy (L20); named PKV customer of a young claims vendor (L24); heycare founding year and a dated named employer (L01/L03); AMNOG procedures per year (L26 5 % pool); care-software suites shipping AI documentation (L05); Destatis nursing recognitions by country of training (L11). Record found / none found with URL and grade. No outward actions. Output: research/longlist.md (A18 table notes) or research/longlist-tests.md.",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "critic 2026-11-07",
+      "reason": "Each test decides K1/K2 or criterion 8 for a row that the red team flags as likely mis-placed in B1 (L05, L07, L20, L21, L24, L01/L03, L26, L11)."
+    },
+    {
       "id": "A8",
       "stage": "A",
       "title": "Critic review of Stage A",

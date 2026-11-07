@@ -19,6 +19,16 @@
 
 - **CEO (quick, before B1): how is "≤5 years old" in K2 fix 1 measured?** Today, or at the time of the first paid sale? Today excludes voize (founded 2020; named customer) as evidence for L05. Also: does a vendor claim of unnamed customers (calliora: "private, public and church hospitals in five states") count? As written: no. Recommendation: measure at the time of the sale; keep "named" strict. See calibration note in `research/scoring.md`.
 
+- **CEO (before B1), from the red team of scoring v3 (`research/reviews/2026-11-07-redteam-scoring-v3.md`): approve 4 one-line edits?**
+  - S1: fill the top 5 from tier B by R4 total instead of base total.
+  - S2: the K2 example vendor must appear in criterion 8; if it is the category leader, criterion 8 ≤ 2.
+  - S3: a channel counts only if it is open to new entrants.
+  - S4: wedges are fixed in A18 before scoring, and the top 5 holds at most one wedge per signer cluster.
+  - Also: does the 12-month clock start in Sep 2027 (S6)?
+  - Recommendation: approve S1–S4 and the Sep 2027 clock.
+- **Critic view on the two questions above:** "≤5 years" = vendor age at its earliest named paid sale to this signer type, sale dated 2021+, vendor independent (not a JV/subsidiary of an incumbent). Unnamed customer claims count only with one independent confirming source; otherwise "K2 unproven" (not a knock-out).
+- **CEO, 10 minutes, no outreach (most valuable test before B1):** for each of the ~10 signer clusters in `research/reviews/2026-11-07-redteam-longlist.md` F3, do you know one person who signs such purchases or has bought from a company <3 years old? Without this, founder fit scores 4 M on nearly every row and separates nothing.
+
 ---
 
 ## Log
@@ -38,6 +48,27 @@
 - Next:
 - Open questions:
 -->
+
+### 2026-11-07 — A8 Critic red team of longlist.md and scoring.md v3 (critic, RED TEAM)
+- Done: `research/reviews/2026-11-07-redteam-longlist.md` (verdict: **needs work**) and `research/reviews/2026-11-07-redteam-scoring-v3.md` (verdict: **needs work**, small edits).
+- Top issues, long list:
+  - (F1) No row shows why *this* founder wins. €10k, part-time and no buyer network block ISO 27001 / § 80 SGB X-type prerequisites for institutional buyers.
+  - (F2) "Proven" who-pays labels count care, labour, physician fees and grant pools as spend on a product job (L02, L04, L05, L06, L14, L26).
+  - (F3) 30 rows ≈ 10 signer clusters. Merge L10→L07 and L30→L26; exclude L19 (S6 rule); L25 fails K1.
+  - (F4) The 2027 triggers favour funded incumbents (Tiplu, calliora, voize). The founder starts in Sep 2027.
+- Rows to watch:
+  - Likely too high: L21 (borrowed caery channel), L06/L07 (base-total fallback), L13 (confidence-high commodity), L05 (voize = K2 evidence and leader), L22.
+  - Likely under-researched: L20 pharmacies, L24 PKV, the employer wedge of L01/L03, lung screening in L17, L11 (only language edge).
+- Top issues, scoring v3:
+  - (S1) With no tier A, the top 5 is filled by base total, so the confidence rules do not affect the order. Fix: order tier B by R4 total.
+  - (S2) K2 evidence selects crowded categories.
+  - (S3) The channel clause accepts another firm's channel.
+  - (S4) Wedge proliferation.
+  - Also: €500k achievability anchor vs €10k own budget; 12-month clock start; JV/subsidiary loophole in "≤5 years".
+- Not done: no source re-checks (red-team scope); A18 fields not yet available, so signers/wedges in the review are inference.
+- Next: researcher A22, A18, then A23/A24; CEO decisions under Open questions before B1.
+- Tasks added: A23 (researcher, long-list labels/clusters/merges), A24 (researcher, desk tests), both before A8.
+- Open questions: S1–S4 approval, the 12-month clock, the founder-access check (see Open questions).
 
 ### 2026-11-07 — A8 Critic fact-check run 7 (critic, FACT-CHECK)
 - Done: re-checked the A21 changes in `research/longlist.md`, `research/pain-industry.md`, `research/payer-processing.md` (review: `research/reviews/2026-11-07-A21-longlist-payer-pain-industry-recheck.md`). Verdict: pass with minor fixes. MD Nordrhein terms (EUR 600k average in-field turnover, 4.0 FTE, 2 productive AI references, consortia) reproduce from the downloaded aumass tender package; MD RLP re-tender deadline 5 Sep 2025 and MD Nordrhein 3 Dec 2026 confirmed via TED API; tender tables recount 36 notices (match) but 32 buyers (file says 33); the 15 zero-[C] rows match.
