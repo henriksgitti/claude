@@ -39,6 +39,14 @@
 - Open questions:
 -->
 
+### 2026-11-07 — A8 Critic fact-check run 7 (critic, FACT-CHECK)
+- Done: re-checked the A21 changes in `research/longlist.md`, `research/pain-industry.md`, `research/payer-processing.md` (review: `research/reviews/2026-11-07-A21-longlist-payer-pain-industry-recheck.md`). Verdict: pass with minor fixes. MD Nordrhein terms (EUR 600k average in-field turnover, 4.0 FTE, 2 productive AI references, consortia) reproduce from the downloaded aumass tender package; MD RLP re-tender deadline 5 Sep 2025 and MD Nordrhein 3 Dec 2026 confirmed via TED API; tender tables recount 36 notices (match) but 32 buyers (file says 33); the 15 zero-[C] rows match.
+- Top issues: (1) buyer count 32 not 33, and gkv informatik also unread; (2) stale "MD RLP could apply / open" wording at `pain-industry.md` lines 39 and 224; (3) MD Nordrhein also requires one reference with >= EUR 500k net own development work (omitted), and the "subcontractor" route is inference.
+- Not done: unchanged text not re-opened; A18 output does not exist yet; full read of `pain-patients.md` and `pain-professionals.md` after A14 still outstanding.
+- Next: researcher A22 (small fixes, can combine with A18).
+- Tasks added: A22 (researcher).
+- Open questions: none.
+
 ### 2026-11-07 — A20 Apply CEO-approved scoring v2 fixes 1–6 (researcher)
 - Done: `research/scoring.md` v3: fixes 1–6 applied (K2 evidence rule / 'K2 unproven'; buyer-specific direct-award table; wedge = unit of scoring; K1 'category' and 'in force'; R1 M vs L incl. unknown = 2 L; R4 order and tiers). Fixes 7–10 not applied (CEO).
   - Thresholds now sourced [A]: § 22 Abs. 2 SVHV €50k since 1 Jul 2026 (BAS circulars Jan + Jun 2026); applies to MDs via § 280 Abs. 3 SGB V + SVHV Eingangsformel; Bavarian university hospitals are outside BayHO purchasing rules (Art. 5 BayUniKlinG), so the €100k BayWiVG limit may not apply to them `[UNVERIFIED]`.
