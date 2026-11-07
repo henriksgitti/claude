@@ -7,7 +7,7 @@
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
 ## Next steps
-1. Researcher: A18 (scoring fields per long-list row; head start in its task notes); A20 (now unblocked) first; A17 blocked until 2026-12-01 (external data). Critic: optional re-check of `research/longlist.md` after A21.
+1. Researcher: A18 (scoring fields per long-list row; head start in its task notes; must record per wedge one young-vendor example with a named paying customer, or 'none found', since v3 K2 needs it). A20 done (scoring v3). A17 blocked until 2026-12-01 (external data). Critic: fact-check of `research/scoring.md` v3.
 2. Then B1 (score, top 5) → CEO picks 2–3.
 
 ## Open questions
@@ -16,6 +16,8 @@
 - ~~CEO: own budget, no-go areas, target date~~ Answered 2026-11-07: €10k own money, no no-go areas, full-time from September 2027 (`founder-brief.md`).
 - ~~CEO decision before B1: replace the scoring method?~~ **Decided 2026-11-07 (chat): option (b) + confidence ranking.** `research/scoring.md` now has knock-outs K1/K2 and confidence rules R1–R4 (H/M/L per score, L capped at 3, tiers + sensitivity check). Still useful for founder fit: the 10-minute founder-access check in the red-team review ("Cheapest tests" 1).
 - **CEO decision before B1: approve the scoring v2 fixes?** `research/reviews/2026-11-07-redteam-scoring-v2.md` lists 10 one-line edits to `research/scoring.md` (must-fix 1–6: K2 needs a sourced example of the route in use, else 'K2 unproven'; buyer-specific direct-award limits incl. § 22 Abs. 2 SVHV ≤€50k for insurers; score per A18 wedge; define K1 'category' and 'in force'; define tiers and the R4 order; separate M from L). Recommendation: approve 1–6 now; 7–10 optional. **Decided 2026-11-07 (chat): only fixes 1–6 approved; 7–10 not applied.** A20 unblocked.
+
+- **CEO (quick, before B1): how is "≤5 years old" in K2 fix 1 measured?** Today, or at the time of the first paid sale? Today excludes voize (founded 2020; named customer) as evidence for L05. Also: does a vendor claim of unnamed customers (calliora: "private, public and church hospitals in five states") count? As written: no. Recommendation: measure at the time of the sale; keep "named" strict. See calibration note in `research/scoring.md`.
 
 ---
 
@@ -36,6 +38,15 @@
 - Next:
 - Open questions:
 -->
+
+### 2026-11-07 — A20 Apply CEO-approved scoring v2 fixes 1–6 (researcher)
+- Done: `research/scoring.md` v3: fixes 1–6 applied (K2 evidence rule / 'K2 unproven'; buyer-specific direct-award table; wedge = unit of scoring; K1 'category' and 'in force'; R1 M vs L incl. unknown = 2 L; R4 order and tiers). Fixes 7–10 not applied (CEO).
+  - Thresholds now sourced [A]: § 22 Abs. 2 SVHV €50k since 1 Jul 2026 (BAS circulars Jan + Jun 2026); applies to MDs via § 280 Abs. 3 SGB V + SVHV Eingangsformel; Bavarian university hospitals are outside BayHO purchasing rules (Art. 5 BayUniKlinG), so the €100k BayWiVG limit may not apply to them `[UNVERIFIED]`.
+  - Calibration (L06, L07, L21, L03): v2 order L06 78 > L07 75 > L21 70 (L03 out); v3 L21 70 = L06 70 > L07 67 > L03 59 (L03 revived by a § 45 SGB XI wedge). **All four end 'unproven'**, so none can be tier A; B1 will likely fill the top 5 from tier B unless A18 finds named young-vendor customers.
+- Not done: municipal hospital GmbH purchasing rules; caery and Gesundheit von Morgen founding years.
+- Next: critic fact-check of `research/scoring.md`; researcher A18, then B1.
+- Tasks added: none.
+- Open questions: '≤5 years' measurement and unnamed-customer claims (see Open questions).
 
 ### 2026-11-07 — A21 Apply fact-check fixes to research/longlist.md (researcher)
 - Done (all 5 issues in `research/reviews/2026-11-07-longlist.md`): MD RLP AI PoC restated as "accessible when tendered, closed 5 Sep 2025, no award in TED" (Findings, L23 row and details); tender count fixed to 36 notices from 33 buyers, 6 still unread (the review said 9 rows; my recount of the two tables gives 6 notices from 6 buyers after reading MD Nordrhein); L10 "~1m cases" = catalogue scope, WIdO counts added; BR-Drs. 620/26 added (Bundestag 15 Oct 2026, not yet law, Bundesrat 20 Nov); [C] gaps list corrected (15 rows without opened voices); L19 marked one [B] only; €15bn gap now points to `trends.md`.
