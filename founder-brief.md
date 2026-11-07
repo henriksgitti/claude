@@ -1,6 +1,6 @@
 # Founder brief
 
-Written by the CEO (Henrik). Last updated 2026-11-06. Agents: use this to score opportunities. Do not edit; only the CEO does.
+Written by the CEO (Henrik). Last updated 2026-11-07. Agents: use this to score opportunities. Do not edit; only the CEO does.
 
 ## Goal (CEO's words)
 > "Build a company that contributes to tackle future healthcare problems. I want to think big but achievable."
@@ -15,7 +15,7 @@ Interpretation for agents:
 ## Constraints
 - **Scope:** healthcare broadly (opened 2026-11-06; previously cancer only).
 - **Location:** found in Munich, Germany. First market likely Germany/DACH, then EU.
-- **Time:** part-time for now (full-time job). Agents do the research; the CEO decides.
+- **Time:** part-time until September 2027, then full-time on the chosen idea. Agents do the research; the CEO decides. Plan grants, co-founder search and validation so the company can start then.
 - **Research approach:** desk research first (Reddit, forums, whole internet). Customer interviews later, as validation before founding.
 - **Funding:** wants grants, investors, and co-founders. Budget of own money: not stated.
 
@@ -32,5 +32,5 @@ Interpretation for agents:
 
 ## Open (CEO to fill in when ready)
 - Own budget for validation and founding: (TBD)
-- Target date to go full-time: (TBD)
+- Target date to go full-time: **September 2027** (CEO, 2026-11-07).
 - No-go areas: (TBD)

@@ -7,15 +7,15 @@
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
 ## Next steps
-1. Researcher: A18 (scoring fields per long-list row; head start in its task notes); A17 remainder after ~1 Dec 2026; A20 after CEO approval. Critic: optional re-check of `research/longlist.md` after A21.
+1. Researcher: A18 (scoring fields per long-list row; head start in its task notes); A20 (now unblocked) first; A17 blocked until 2026-12-01 (external data). Critic: optional re-check of `research/longlist.md` after A21.
 2. Then B1 (score, top 5) → CEO picks 2–3.
 
 ## Open questions
 - **Reddit API key (now more important):** A2 found Reddit unreachable (bot challenge; search returns almost no reddit.com hits). A free Reddit app/API key created by the CEO is the only clean route. Without it, A3–A5 rely on German forums, reviews, job ads and tenders.
 - Optional allowlist / network change: WebFetch fails DNS for most hosts; curl is blocked by bot checks at trustpilot.com, indeed.com, glassdoor, crunchbase.com, dealroom.co, oecd.org (web), europepmc.org (web), gutefrage.net, aerztezeitung.de, springermedizin.de, background.tagesspiegel.de. Not bypassed.
-- CEO: own budget, target date to go full-time, no-go areas (see `founder-brief.md`).
+- CEO: own budget and no-go areas (see `founder-brief.md`). Target date to go full-time: **September 2027** (answered 2026-11-07).
 - ~~CEO decision before B1: replace the scoring method?~~ **Decided 2026-11-07 (chat): option (b) + confidence ranking.** `research/scoring.md` now has knock-outs K1/K2 and confidence rules R1–R4 (H/M/L per score, L capped at 3, tiers + sensitivity check). Still useful for founder fit: the 10-minute founder-access check in the red-team review ("Cheapest tests" 1).
-- **CEO decision before B1: approve the scoring v2 fixes?** `research/reviews/2026-11-07-redteam-scoring-v2.md` lists 10 one-line edits to `research/scoring.md` (must-fix 1–6: K2 needs a sourced example of the route in use, else 'K2 unproven'; buyer-specific direct-award limits incl. § 22 Abs. 2 SVHV ≤€50k for insurers; score per A18 wedge; define K1 'category' and 'in force'; define tiers and the R4 order; separate M from L). Recommendation: approve 1–6 now; 7–10 optional. Task A20 (researcher) is blocked on this.
+- **CEO decision before B1: approve the scoring v2 fixes?** `research/reviews/2026-11-07-redteam-scoring-v2.md` lists 10 one-line edits to `research/scoring.md` (must-fix 1–6: K2 needs a sourced example of the route in use, else 'K2 unproven'; buyer-specific direct-award limits incl. § 22 Abs. 2 SVHV ≤€50k for insurers; score per A18 wedge; define K1 'category' and 'in force'; define tiers and the R4 order; separate M from L). Recommendation: approve 1–6 now; 7–10 optional. **Decided 2026-11-07 (chat): all 10 approved.** A20 unblocked; fix 10 added to A18.
 
 ---
 
