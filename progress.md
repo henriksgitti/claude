@@ -2,12 +2,12 @@
 
 ## Current state
 - Project: **Healthcare Venture** (scope opened from cancer to healthcare on 2026-11-06, see `decisions/2026-11-06-scope-pipeline.md`).
-- Stage: **A — Scan** (in progress). A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). A6 Munich ecosystem drafted (`research/munich-ecosystem.md`). A9 reimbursement/funding routes drafted (`research/reimbursement-routes.md`). A10 applied the critic fixes to `research/trends.md` and `research/sources-map.md`. A11 drafted `research/hospital-billing-audits.md` (MD audits, 2027 rules, incumbents). A12 drafted `research/payer-processing.md` (insurer § 302 outsourcing, MD AI tenders, buying routes). A13 drafted `research/trial-recruitment-de.md` (CTIS count, 5 % rule, Kapazitätsinitiative, vendors). Cancer-only work archived in `archive/`; its V1 draft feeds A7.
+- Stage: **A — Scan** (in progress). A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). A6 Munich ecosystem drafted (`research/munich-ecosystem.md`). A9 reimbursement/funding routes drafted (`research/reimbursement-routes.md`). A10 applied the critic fixes to `research/trends.md` and `research/sources-map.md`. A11 drafted `research/hospital-billing-audits.md` (MD audits, 2027 rules, incumbents). A12 drafted `research/payer-processing.md` (insurer § 302 outsourcing, MD AI tenders, buying routes). A13 drafted `research/trial-recruitment-de.md` (CTIS count, 5 % rule, Kapazitätsinitiative, vendors). A14 applied the critic fixes to the three pain files (tender access tables; WTP downgraded where startups cannot bid). Cancer-only work archived in `archive/`; its V1 draft feeds A7.
 - Infrastructure: worker session on environment `healthcare-venture`. WebFetch fails DNS for many hosts (destatis.de, bundesgesundheitsministerium.de, vdek.com), but `curl` through the proxy reaches them: fetch with curl + local text extraction. Reddit is effectively unusable: direct fetch is bot-checked and `site:reddit.com` search returns almost no reddit.com hits (A2). Working alternatives and recipes are listed in `research/sources-map.md`.
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
 ## Next steps
-1. Researcher: A14, A15, A16, A17, A7, A18 (one per run), using the recipes in `research/sources-map.md`. Critic: A8 alongside (`research/munich-ecosystem.md`, `research/reimbursement-routes.md` and the revised `research/trends.md` / `research/sources-map.md` ready for review).
+1. Researcher: A15, A16, A17, A7, A18 (one per run), using the recipes in `research/sources-map.md`. Critic: A8 alongside (`research/munich-ecosystem.md`, `research/reimbursement-routes.md` and the revised `research/trends.md` / `research/sources-map.md` ready for review).
 2. Then B1 (score, top 5) → CEO picks 2–3.
 
 ## Open questions
@@ -26,6 +26,19 @@
 - Next:
 - Open questions:
 -->
+
+### 2026-11-07 — A14 Apply critic fixes to the three pain files (researcher)
+- Done: `research/pain-industry.md`, `research/pain-professionals.md`, `research/pain-patients.md` revised.
+  - Read the eligibility criteria (TED `selection-criterion-description-lot`) of 34 tender notices used as WTP evidence and added a "Tender access check" table to the industry and professionals files. Only one is open to a new company: the MD Rheinland-Pfalz AI PoC (one PoC reference, no turnover minimum). UK Saarland speech recognition has no turnover minimum but needs 2 live hospital references. All others need €250k–€10m turnover, university-hospital/GKV references, ISO 9001/27001 or a KHZG certificate [A].
+  - WTP downgraded: I5 and S3 → "high buyer budget, low direct startup access"; S1, S7, S8 → "no direct access". I5 split into scan/intake BPO (5 buyers) vs billing check (3). DAK €890m reworded as claims volume checked.
+  - Harzklinikum 492877-2025 re-labelled as clinical decision support; MDR caveat from MDR Annex VIII Rule 11 (EUR-Lex) and MDCG 2019-11 rev. 1 [A]: decision-support features → class IIa+.
+  - Sourced or fixed: 92 insurers; 15 MDs (MD Bund report); 1.52m (2014) → 1,431,000 assessments in 2013 (MDS); 19m → 17.7m inpatients 2025 (Destatis); 1.8m nurses → 446,425 + 817,711 care-facility staff (2023); 150,000 → 191,875 contract practitioners.
+  - [C] counts split into opened vs titles only (A3); leadership 9/9 → 8/9 (A4); ePA contrast added (main insurer apps 4.5–4.8 vs ePA apps 1.3–2.5); €469 marked as among users, self-estimate; voize study COI checked (first author employed by voize); 91 % AOK figure confirmed.
+  - I1 updated from A13 (sponsor vs site view, CTIS share, vendors verified, CTMS line removed).
+- Not done: thresholds that sit only in tender documents (DAK, gkv informatik, MD Nordrhein, 5 hospital tenders); I4 counter-source; below-threshold buys are invisible in TED.
+- Next: A15. Critic: fact-check the three revised pain files.
+- Tasks added: none.
+- Open questions: none new.
 
 ### 2026-11-07 — A13 Clinical-trial recruitment in Germany (researcher)
 - Done: `research/trial-recruitment-de.md`.
