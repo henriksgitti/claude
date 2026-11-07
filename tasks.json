@@ -134,9 +134,10 @@
       "title": "Update reimbursement-routes.md: § 113e Transformationsstellen and § 8 Abs. 8 uptake",
       "description": "Add the PNOG § 113e Transformationsstellen route (residential homes, 2028–2032, up to 10% of the staffing corridor, catalogue of proven relief systems from 30 Sep 2027) as its own route with who decides, amount, timing, evidence; replace the 'weak uptake' framing of the § 8 Abs. 8 grant with the DAK national-share data (≈11,300 of ≈17,500 DAK-processed facilities used it; €81.2m ≈ 40% of funds) next to the vdek 'full amount used' figures; try once more for an AOK or GKV-SV uptake figure. Sources already opened in research/trends.md §2 (A10). Output: updated research/reimbursement-routes.md",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "researcher 2026-11-06",
-      "reason": "A10 found that reimbursement-routes.md (A9) omits § 113e, a recurring care-rate-funded budget for staff-relief tech in nursing homes, and that its '20–30 % uptake' reads as facility uptake while the vdek figure means 'full amount used'; DAK data show ~65% facility uptake. B1 criterion 3 reads this file."
+      "reason": "A10 found that reimbursement-routes.md (A9) omits § 113e, a recurring care-rate-funded budget for staff-relief tech in nursing homes, and that its '20–30 % uptake' reads as facility uptake while the vdek figure means 'full amount used'; DAK data show ~65% facility uptake. B1 criterion 3 reads this file.",
+      "notes": "Done 2026-11-07: § 113e route added (§4b, table, findings); § 8 Abs. 8 uptake reframed with BAS national payouts (€143.3m 2019–24, ≈37% of pool) + DAK 65% facility share + vdek full-amount figures. No AOK/GKV-SV facility count found. Also did A16 items 4 (Länder 'sollen' + condition) and 5 (causal 'IT capacity' sentence now marked as unsourced hypothesis) in reimbursement-routes.md."
     },
     {
       "id": "A16",
@@ -146,7 +147,8 @@
       "owner": "researcher",
       "done": false,
       "added_by": "critic 2026-11-07",
-      "reason": "Fact-check found no fabrication but one unsupported claim (SCE rolling) and several grade/wording overreaches that B1 and the founder-path recommendation read."
+      "reason": "Fact-check found no fabrication but one unsupported claim (SCE rolling) and several grade/wording overreaches that B1 and the founder-path recommendation read.",
+      "notes": "A15 (2026-11-07) already did items 4 and 5 in reimbursement-routes.md; items 1–3 and 6–9 remain."
     },
     {
       "id": "A17",

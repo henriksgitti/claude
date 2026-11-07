@@ -126,7 +126,7 @@ Grades per `CLAUDE.md` rule 2: **[A]** official statistics, ministries, regulato
 - **Primary Destatis releases not opened** for 2024 health spending and 2025 causes of death (used [B] reports citing Destatis). The Destatis host works via curl; the press-release URLs just weren't found.
 - **RKI/GBE prevalence data** (diabetes, multimorbidity, mental health) not opened; the chronic-disease section rests on [B] society factsheets.
 - **PNOG figures now come from the cabinet draft (30 Sep 2026)** (A10). It is still a bill: amounts, scope and dates may change in the Bundestag (2nd/3rd reading planned 11 Dec 2026). Bundesrat Drs. not opened.
-- **National uptake of the § 8 Abs. 8 grant** is only known for DAK-processed facilities (48% of all; most others via AOK). No AOK or GKV-SV figure found; a Bundestag question would close this.
+- **National uptake of the § 8 Abs. 8 grant:** the facility share is only known for DAK-processed facilities (48% of all; most others via AOK). National payouts are now known from the BAS: €143.3m in 2019–2024, ≈37% of the pool (A15, see `research/reimbursement-routes.md` §4).
 - **Incumbent care-software vendors** that would absorb PNOG money (critic's list: Vivendi/Connext, MediFox, DAN, Snap) are not checked here: `[UNVERIFIED]`. Needed in A7/B1 for any care-documentation idea.
 - Unverified items: primary-care law status; MFA shortage; Critical Medicines Act; TI cost refunds for care facilities; e-billing via TI mandatory from 1 Dec 2026 (AOK PDF snippet only).
 - KBV "over 5,000 vacant GP seats" is from Apr 2024 (2.5 yrs old); a 2026 figure is not verified.
