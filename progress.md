@@ -2,12 +2,12 @@
 
 ## Current state
 - Project: **Healthcare Venture** (scope opened from cancer to healthcare on 2026-11-06, see `decisions/2026-11-06-scope-pipeline.md`).
-- Stage: **A — Scan** (in progress). A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). A6 Munich ecosystem drafted (`research/munich-ecosystem.md`). A9 reimbursement/funding routes drafted (`research/reimbursement-routes.md`). A10 applied the critic fixes to `research/trends.md` and `research/sources-map.md`. A11 drafted `research/hospital-billing-audits.md` (MD audits, 2027 rules, incumbents). Cancer-only work archived in `archive/`; its V1 draft feeds A7.
+- Stage: **A — Scan** (in progress). A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). A6 Munich ecosystem drafted (`research/munich-ecosystem.md`). A9 reimbursement/funding routes drafted (`research/reimbursement-routes.md`). A10 applied the critic fixes to `research/trends.md` and `research/sources-map.md`. A11 drafted `research/hospital-billing-audits.md` (MD audits, 2027 rules, incumbents). A12 drafted `research/payer-processing.md` (insurer § 302 outsourcing, MD AI tenders, buying routes). Cancer-only work archived in `archive/`; its V1 draft feeds A7.
 - Infrastructure: worker session on environment `healthcare-venture`. WebFetch fails DNS for many hosts (destatis.de, bundesgesundheitsministerium.de, vdek.com), but `curl` through the proxy reaches them: fetch with curl + local text extraction. Reddit is effectively unusable: direct fetch is bot-checked and `site:reddit.com` search returns almost no reddit.com hits (A2). Working alternatives and recipes are listed in `research/sources-map.md`.
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
 ## Next steps
-1. Researcher: A12, A13, A14, A15, A16, A17, A7 (one per run), using the recipes in `research/sources-map.md`. Critic: A8 alongside (`research/munich-ecosystem.md`, `research/reimbursement-routes.md` and the revised `research/trends.md` / `research/sources-map.md` ready for review).
+1. Researcher: A13, A14, A15, A16, A17, A7 (one per run), using the recipes in `research/sources-map.md`. Critic: A8 alongside (`research/munich-ecosystem.md`, `research/reimbursement-routes.md` and the revised `research/trends.md` / `research/sources-map.md` ready for review).
 2. Then B1 (score, top 5) → CEO picks 2–3.
 
 ## Open questions
@@ -26,6 +26,19 @@
 - Next:
 - Open questions:
 -->
+
+### 2026-11-07 — A12 Insurer invoice processing and MD assessment automation (researcher)
+- Done: `research/payer-processing.md`. Read the award notices for all payer/MD tenders in TED, plus the public tender documents of the new MD-IT AI framework.
+  - § 302 outsourcing [A]: 13 awards, 2024–26. IQVIA Health System Services (formerly DAVASO) won 5; the others went to SPS, GFS, mediakom, AZ Emmendingen, GEOS and QuantCo. Where bids are reported, each tender drew only 1–3. Values: €5.5m–€34.3m per lot. One public-law route (§ 88 SGB X) bypasses tenders entirely. DAK €890m is the claims volume checked, not the contract value.
+  - Shift from outsourcing to AI software [A]: DAK explored buying AI billing-check software to bring the work back in-house. TK bought DRG scoring software from QuantCo. BITMARCK builds AI "von Krankenkassen für Krankenkassen" [B].
+  - Largest new budget [A]: MD-IT framework, 48 months, €88m max for AI case summaries in hospital billing audits. It is explicitly triggered by the statutory audit quotas; bids are due 2 Dec 2026. A startup cannot bid as prime contractor (needs €5m turnover, 25 staff, 2 references); subcontractors are allowed.
+  - Most accessible entry [A]: small MD PoC tenders. MD RLP's GenAI care-assessment PoC drew 40 requests to participate and asks for only one PoC reference. The MDs have 2,148 physician FTE and produce only 3.7 % of opinions externally.
+  - Admin cap [A]: § 4 Abs. 5 (from 2027) and Abs. 6 (2026: +8 % vs 2024). PNOG slightly reduces care-assessment volume. There are 92 insurers, not 93.
+  - Inference: direct § 302 sales fail K2. Payer/MD audit AI has a real budget, but the realistic way in is as a subcontractor or through a small PoC.
+- Not done / blocked: most contract values are withheld; several awards are still pending (DAK, BIG, gkv informatik, AOK Rheinland/Hamburg, MD RLP re-tender). AOK Hessen taking checks back in-house is a search snippet only (aok.de: WebFetch DNS fails, page is JS-rendered). caery customers not found. No [C] buyer voices.
+- Next: A13. Critic: review `research/payer-processing.md`. A14 should fix "93 insurers" → 92 and the I5 WTP wording using this file.
+- Tasks added: none.
+- Open questions: none new. (The MD-IT deadline of 2 Dec 2026 is informational only; any contact with bidders would need CEO approval.)
 
 ### 2026-11-07 — CEO decision: scoring method (orchestrator)
 - Done: applied the CEO's choice to `research/scoring.md`: option (b) knock-outs K1 (no buyer with proven spend) and K2 (no startup-accessible first sale in ≤12 months), plus ranking by confidence (R1–R4: H/M/L tag per score, L counts ≤3, criterion 3 or 5 at L = "unproven", sensitivity check, tiers instead of exact ranks). The 9 criteria and weights are unchanged (max 90), so `templates/venture-brief.md` needs no change.
