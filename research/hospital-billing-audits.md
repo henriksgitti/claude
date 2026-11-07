@@ -1,0 +1,156 @@
+# Hospital billing audits & coding: size, 2027 rules, incumbents
+Task: A11 | Date: 2026-11-07 | Status: draft
+
+## Findings
+- **The audit regime gets much stricter on 1 Jan 2027, and this is enacted law, not a draft.** The GKV-Beitragssatzstabilisierungsgesetz (BStabG, BGBl. 2026 I Nr. 228, promulgated 29 Jul 2026) rewrites § 275c SGB V [A] ([BStabG art. 1 no. 66](https://www.buzer.de/gesetz/17632/a340690.htm); [art. 8 (2): no. 64–66 in force 1 Jan 2027](https://www.buzer.de/gesetz/17632/a340708.htm)):
+  - Audit quota up to **5 %** if ≥80 % of audited invoices pass (today ≥60 %), up to **20 %** at 65–80 %, up to **40 %** below 65 % (today max. 15 %). No cap below 50 % passed (today below 20 %).
+  - Penalty ("Aufschlag") of **€500** per reduced invoice for hospitals below 80 % (today €400 below 60 %). The insurer pays the hospital **€500** (today €300) for each audit without a reduction.
+  - The final law is stricter than the government draft (draft: 5/15/25 %, "uncapped" below 40 %) [A] ([BT-Drs. 21/6130, p. 141](https://dserver.bundestag.de/btd/21/061/2106130.pdf)). The draft priced the audit changes at "Minderausgaben von rund 1,6 Milliarden Euro pro Jahr" from 2027 for the GKV (same source).
+  - Since 30 Jul 2026, the MD must also include any billing anomaly it finds, even outside the audit question [A] ([§ 17c Abs. 1 KHG](https://www.buzer.de/17c_KHG.htm)).
+- **The task's premise "switch to sample audits from 2027" is wrong.** The KHVVG draft (2024) proposed replacing single-case audits with "Stichproben", and the insurers fought it [B] ([vdek, 23 Apr 2024](https://www.vdek.com/presse/pressemitteilungen/2024/krankenhausversorgungsverbesserungsgesetz-khvvg-beitragsgelder-verantwortungsvoll-einsetzen/_jcr_content/par/download/file.res/vdek_pm_Einzelfallpruefung_KHVVG.pdf)). The enacted KHVVG only changed the penalty (€400) and exempted the new Vorhaltebudget from single-case audits [A] ([KHVVG art. 1 no. 15](https://www.buzer.de/1_KHVVG.htm)). Single-case audits stay and grow. `research/pain-professionals.md` S3 should be corrected.
+- **Size today: ~1.14m MD audits a year; half find an overcharge; ~€1.6bn flows back to insurers.** GKV-SV statistics for 2025 [A] ([GKV-SV § 17c Abs. 6 KHG annual statistics 2025, XLSX](https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/krankenhaeuser/abrechnung/mdk_pruefstatistiken/jahr_2025/Statistikdaten_nach__17c_Abs._6_Satz_1_-_2025.xlsx)):
+  - 1,138,534 MD reports; 556,490 invoices reduced (48.9 %), average reduction €2,219.51; €183,094,800 in penalties.
+  - My math: 556,490 × €2,219.51 ≈ **€1.24bn** reductions + 131,458 × €1,251.83 ≈ **€0.16bn** settled in the pre-audit case dialogue + €0.18bn penalties ≈ **€1.58bn** (2025).
+  - The audit triggers are mostly medical necessity, not coding: secondary misallocation (length of stay) 46 %, primary misallocation (inpatient needed?) 22 %, **coding 27 %** of audit reasons.
+- **2027 effect, static simulation: ~7 in 10 hospitals would land in the 40 % tier.** Applying the 2027 thresholds to the Q2 2026 per-hospital results (1,603 hospital IKs, 3,497,255 final invoices in the quarter): 1,100 IKs at 40 %, 231 at 20 %, 193 at 5 % (79 without results); 532 IKs below 50 % (no cap) [A data, my math] ([GKV-SV § 275c Abs. 4 statistics Q2 2026, XLSX](https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/krankenhaeuser/abrechnung/mdk_pruefstatistiken/2_q_2026/Statistikdaten_nach_275c_Abs_4_SGB_V_-_2026Q2.xlsx)). Tiplu's own simulation says the same: "knapp 7 von 10 Kliniken eine Prüfquote von mindestens 40 %" [B] ([Tiplu, 29 Sep 2026](https://tiplu.de/generative-ki-datenbasis/)). *Inference:* the legal cap rises roughly 4×, but the MD's capacity (2,135 physician FTE) is the real ceiling, so actual audits will rise by less.
+- **Hospitals are already spending, and most plan to buy AI for it.** DKI flash survey for the DKG (306 of 1,038 general hospitals ≥100 beds, 14–16 Sep 2026) [B] ([DKI, 24 Sep 2026](https://www.dkgev.de/fileadmin/Mediapool/1_DKG/1.7_Presse/2026-10-06__Blitzumfrage_MD-Pr%C3%BCfungen.pdf)):
+  - Mean 3.9 FTE (median 2.5) per hospital work mainly on MD audits, ≈ €236k/yr (median €150k). Extrapolated: ~4,000 FTE and ~€245m/yr nationally.
+  - 98 % expect higher audit quotas from 2027. 53 % hired or plan to hire extra audit staff (mean 2.3 FTE, mean €178k/yr).
+  - **9 % already use AI to handle MD audits, 51 % plan to**. Stated AI cost ("Anschaffung und laufende Kosten"): mean €68,147, median €40,000, quartiles €17,500–95,000.
+  - Caveat: self-estimates for the hospitals' lobby, which campaigns against the audits.
+- **The market is not empty: two well-placed incumbents already sell exactly this, plus a funded Munich startup.**
+  - **Tiplu (Hamburg, LOGEX since Jul 2026):** MOMO coding software with a new LLM "Kodieragent" (full-case coding, ships 2027) and an "MBEG-Assistent" that drafts the medical justifications insurers request, "bereits in rund 30 Krankenhäusern im Einsatz". ML network of "über 130 Partner-Krankenhäusern". Marketed directly at the BStabG [B] ([Tiplu](https://tiplu.de/generative-ki-datenbasis/); [LOGEX deal](https://tiplu.de/tiplu-logex/)).
+  - **calliora (Munich, founded 2023):** AI layer over hospital systems for coding, case review, MD-audit management and controlling; a "double-digit number of hospitals" in five states; $6m pre-seed (BHI, redalpine), Oct 2026 [B] ([Trending Topics](https://www.trendingtopics.eu/calliora-funding-hospital-billing-ai/); [calliora](https://www.calliora.com)).
+  - Legacy coding software: ID Berlin (ID DIACOS/EFIX, incl. "ID EFIX MD"; ">1.400 Einrichtungen") and Dedalus ORBIS RICO (AI coding with an "MDK Monitor") [B]. See the incumbent table.
+
+## Details
+
+### 1. Audit statistics (GKV-SV, § 17c Abs. 6 KHG and § 275c Abs. 4 SGB V) [A]
+Source: GKV-SV annual and quarterly XLSX files ([overview page](https://www.gkv-spitzenverband.de/krankenversicherung/krankenhaeuser/krankenhaeuser_abrechnung/kh_pruefung_statistik/pruefquoten_und_statistik.jsp)). National rows ("MD99 bundesweit"):
+
+| | 2023 | 2024 | 2025 |
+|---|---|---|---|
+| MD reports (Gutachten) | 1,262,013 | 1,192,500 | 1,138,534 |
+| Invoices not reduced | 651,920 | 620,270 | 582,044 (51.1 %) |
+| Invoices reduced | 610,093 | 572,230 | 556,490 (48.9 %) |
+| Avg reduction per reduced invoice | €1,971.77 | €2,090.00 | €2,219.51 |
+| Reductions, my math (count × avg) | ≈ €1.20bn | ≈ €1.20bn | ≈ €1.24bn |
+| Pre-audit case dialogue ("Vorverfahren"): cases | 382,785 | 348,132 | 331,543 |
+| … resolved for insurer / avg repayment | 161,501 / €918.62 | 148,481 / €996.94 | 131,458 / €1,251.83 |
+| Case discussions before court ("Erörterungen") | 72,828 (6 %) | 99,871 (9 %) | 126,655 (11 %) |
+
+- Audit reasons 2025 (counts of reasons; 550,055 audits had several): primary misallocation 414,987 (22 %), secondary misallocation 890,365 (46 %), coding 523,868 (27 %), indication/NUB 61,711 (3 %), other 25,423 (1 %).
+- Bavaria (MD02) 2025: 173,510 MD reports, 77,251 reduced, avg €2,262.63 (same file). Q2 2026: 292 Bavarian IKs, of which 145 at 5 %, 129 at 10 %, 18 at 15 %.
+- Data notes: the 2024 penalty columns look inconsistent (806,858 invoices "mit Aufschlag" > 572,230 reduced invoices), so I did not use 2024 penalties. 2025 data lacks 555 of 149,823 expected records (0.37 %).
+- Q2 2026 quarter: 3,497,255 final invoices; max. auditable in Q4 2026 under today's rules: 441,834 (12.6 %). Median realised audit quota per hospital: 7.94 %. Unobjected share in completed audits: 49.5 %.
+- **2027 simulation (my math, static).** Using each hospital's Q2 2026 unobjected share and invoice count: the max. auditable volume rises from ~336,000 (9.6 %, today's tiers, same method) to ~1.30m invoices per quarter (37.2 %), ≈ 3.9×. 42.5 % of invoices come from hospitals below 50 % (no cap). Limits: the Q1 2027 quota uses Q3 2026 results (published ~end of Nov 2026); quotas are caps, not targets; hospitals will react; MD capacity binds.
+- **MD capacity [A]:** 12,480 staff (11,020 FTE), incl. 2,513 physicians (2,135 FTE) and 477 coding specialists (424 FTE), as of 31 Dec 2023. 1,313,000 hospital billing audits in 2024 against 14,372,000 GKV hospital cases; 50.6 % "nicht korrekt" ([MD "Zahlen Daten Fakten 2024"](https://www.medizinischerdienst.de/fileadmin/MD-zentraler-Ordner/Downloads/16_Zahlen_Daten_Fakten/2024_Zahlen-Daten-Fakten.pdf)). *Inference:* a 4× cap on ~285k audits per quarter would need far more MD reviewers than exist, so audits will be rationed to the worst hospitals and the MD and insurers become buyers of automation too.
+- **MD already outsources [A]:** MD Niedersachsen tendered "Beauftragung externer Gutachtenfirmen (DRG-Abrechnungsprüfungen)": "insgesamt ca. 20.000 Aufträge, verteilt auf eine Dauer von 4 Monaten", 4 lots × €500,000 = €2m (≈ €100 per audit, my math); selection on turnover and references (TED 383478-2026, [TED API](https://api.ted.europa.eu/v3/notices/search)).
+
+### 2. Rules (primary texts) [A]
+| Rule | Today (until 31 Dec 2026) | From 1 Jan 2027 | Source |
+|---|---|---|---|
+| Audit quota tiers (by share of audited invoices not reduced) | ≥60 %: 5 %; 40–60 %: 10 %; <40 %: 15 % | ≥80 %: 5 %; 65–80 %: 20 %; <65 %: 40 % | [§ 275c Abs. 2](https://www.buzer.de/275c_SGB_V.htm); [BStabG art. 1 no. 66](https://www.buzer.de/gesetz/17632/a340690.htm) |
+| No cap ("auch nach Erreichen der Prüfquote") | <20 % not reduced | <50 % not reduced | same |
+| Penalty per reduced invoice | €400 if <60 % | €500 if <80 % | same |
+| Fee insurer pays if no reduction | €300 | €500 | same |
+| Quota basis | results of the quarter before last | unchanged; Q1 2027 uses Q3 2026 | [BT-Drs. 21/6130, p. 141](https://dserver.bundestag.de/btd/21/061/2106130.pdf) |
+| Scope of MD review | audit question | + any billing anomaly found (since 30 Jul 2026) | [§ 17c Abs. 1 KHG](https://www.buzer.de/17c_KHG.htm) |
+| Excluded from single-case audits | care-day rates (Pflegeentgelte), structural features | + Vorhaltebudget (KHVVG) | [§ 275c Abs. 6](https://www.buzer.de/275c_SGB_V.htm) |
+| Joint GKV-SV/DKG report on whether quotas work | due 30 Jun 2026 | — | [§ 17c Abs. 7 KHG](https://www.buzer.de/17c_KHG.htm) (report not found) |
+| Review of pre-audit case dialogue | — | parties must report by 30 Jun 2027 how to use it more | [§ 17c Abs. 2 S. 9 KHG](https://www.buzer.de/17c_KHG.htm) |
+
+- **Pending (not law yet):** a new **1 % tier** for hospitals with ≥90 % unobjected invoices, via a coalition amendment to the emergency-care reform. Its reasoning expects "circa 100 Krankenhäuser" to qualify, with ~30 fewer audits each per year (≈ €1,000 relief per hospital) [B] ([Ärzteblatt, 5 Oct 2026](https://www.aerzteblatt.de/news/entburokratisierung-geplante-neue-prufquotenklasse-fur-kliniken-mit-uberschaubaren-effekt-29ad0a4e-b5f7-4434-b5b7-dd7ab4704f87)). The Bundestag passed the reform with "zwölf Änderungen am GKV-Beitragssatzstabilisierungsgesetz" on 15 Oct 2026; Bundesrat expected 20 Nov 2026 [B] ([Ärzteblatt, 15 Oct 2026](https://www.aerzteblatt.de/news/bundestag-beschliesst-notfallreform-im-dritten-anlauf-77a773bd-ab03-4bf3-bcf2-129acb7f0bbf)). Whether the 1 % tier is among these 12 changes is `[UNVERIFIED]`.
+- More rule churn ahead (draft stage when reported): extended case merging for readmissions within 30 days from 1 Jan 2028 [B] ([Ärzteblatt, 6 Jul 2026](https://www.aerzteblatt.de/news/aenderungsantraege-krankenhaeuser-9c1c6125-233a-453f-b26c-23613a4be424)); short-stay case rates from 2028 [A] ([BT-Drs. 21/6130](https://dserver.bundestag.de/btd/21/061/2106130.pdf)). *Inference:* constant rule change is a moat for rule engines and a recurring reason to buy.
+
+### 3. Stakeholder positions
+- **Insurers:** "Falsche Rechnungen … kostet die Versichertengemeinschaft jährlich eine Milliarde Euro" (GKV-SV deputy CEO) [B] ([GKV-SV, 3 Mar 2026](https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2217536.jsp)).
+- **MD Bund:** the objection rate has stayed at "rd. 50 Prozent der geprüften Fälle" since 2020; it supports the change but notes the quota system "nicht zu einer Entbürokratisierung" leads; the FinanzKommission recommended scrapping quotas entirely [B] ([MD Bund statement on BT-Drs. 21/6130](https://md-bund.de/fileadmin/dokumente/Publikationen/GKV/Stellungnahmen_Gesetzesvorhaben/Stellungnahme_MD_Bund_-_GE_GKV-Beitragssatzstabilisierungsgesetz.pdf)).
+- **Hospitals:** DKG calls it a "Misstrauenskultur der Krankenkassen" and floats turning the MD into a state authority [B] ([DKG, 6 Oct 2026](https://www.dkgev.de/dkg/presse/details/md-pruefungen-verursachen-millionenkosten-fuer-kliniken)). BWKG "lehnt Ausweitung der MD-Prüfungen … kategorisch ab" and argues disputes are about clinical judgment (e.g. discharge when no follow-up care is available) [B] ([BWKG, 2 Jul 2026](https://www.bwkg.de/media/10-Aktuelles/PM_2026_07_02_MD_Pruefungen.pdf)).
+- *Inference:* 68 % of audit reasons are about whether and how long inpatient care was needed. A pure coding tool addresses ~27 % of triggers; the larger lever is documenting medical necessity and length of stay during the stay, and drafting justifications ("MBEG") fast. That is where Tiplu and calliora are moving.
+
+### 4. Incumbents and competitors (DE)
+| Vendor | Offer | Public evidence of customers | Grade |
+|---|---|---|---|
+| Tiplu – a LOGEX Company (Hamburg) | MOMO coding/revision; LLM Kodieragent (2027); MBEG-Assistent; Fallpilot | ">130 Partner-Krankenhäuser" (ML network); MBEG-Assistent in "rund 30 Krankenhäusern"; named users: UK Leipzig, UK Würzburg, Städt. Klinikum Karlsruhe, CTK Cottbus, RHÖN Bad Neustadt, St. Marien Düren. LOGEX: "rund 400 Kunden" in DE ([Tiplu](https://tiplu.de/generative-ki-datenbasis/), [LOGEX deal](https://tiplu.de/tiplu-logex/), [Tiplu site](https://www.tiplu.de)) | [B] vendor |
+| Health Data Exchange GmbH (Tiplu + HERR DER LAGE JV, 2023) | "Kodierbörse.de": marketplace for external coding | Won Charité framework "Kodier-Unterstützungsleistungen" (48 months, award 2 Jun 2025, TED 352020-2025) ([press release 2023](https://www.medconweb.de/blog/wp-content/uploads/2023/10/2023-10-21-Pressemitteilung-zum-Launch-der-Kodierboerse.de_.pdf); [TED API](https://api.ted.europa.eu/v3/notices/search)) | [A] award / [B] |
+| calliora (Munich) | AI layer: admission (inpatient vs. hybrid-DRG), DRG and GOÄ coding, case review vs. MD patterns, MD-audit management, controlling | "double-digit number of hospitals", five states; customers not named; ISO 27001 ([Trending Topics, Oct 2026](https://www.trendingtopics.eu/calliora-funding-hospital-billing-ai/); [startupvalley PR, 6 Oct 2026](https://startupvalley.news/de/ki-plattform-calliora-krankenhaeuser/); [calliora](https://www.calliora.com)) | [B] vendor |
+| ID GmbH & Co. KGaA (Berlin) | ID DIACOS (coding), ID EFIX (controlling), ID EFIX MD | ">1.400 Einrichtungen" incl. practices, insurers (job ad, Aug 2025); "more than 1,200 hospitals … more than 60 per cent" (undated profile) ([job ad PDF](https://www.mydrg.de/dload/medizincontroller-id-berlin-04-08-2025.pdf); [healthmanagement.org](https://healthmanagement.org/site/p/id-information-und-dokumentation-im-gesundheitswesen-gmbh-co-kgaa); [id-berlin.de](https://www.id-berlin.de)) | [B] self-claim |
+| Dedalus (ORBIS) | RICO DRG/PEPP: AI coding (Fraunhofer NLU), write-back to ORBIS, "ORBIS MDK Monitor" | No count in the brochure ([Dedalus RICO, Aug 2024](https://dedalus.com/dach/wp-content/uploads/sites/24/2024/08/AUG24RiCo_2-Seiter_220824.pdf)) | [B] |
+| Solventum (ex-3M HIS) | KODIP Suite, 360 Encompass, "SMARTE KI" | ">1000 Krankenhäuser" (2020 brochure) seen only as a search snippet; PDFs returned 403/404 | `[UNVERIFIED]` |
+| MIA Medical Information Analytics GmbH (Rhenus group, Berlin, 2019) | AI for "MD-safe billing" | Possibly the winner "Medical AI Analytics & Information GmbH" of UK Frankfurt's coding-revision software (€181,800, 3 years, TED 402898-2024); name match not confirmed ([bionity profile](https://bionity.com/en/companies/1038311)) | `[UNVERIFIED]` link |
+| Services: Dr. Baller Medizincontrolling, Kaysers Consilium and others | external coding/audit support | Dr. Baller won UK Frankfurt's coding-support framework (€360,000, TED 557531-2024) | [A] award |
+| Adjacent, not (yet) DE billing: Parallel (Paris), Recare (Berlin), Sqior (Munich) | Parallel: AI coding agents, "several dozen" French hospitals, $20m Series A, expanding to NL/BE; Recare/Sqior: hospital admin AI | ([TNW](https://thenextweb.com/news/parallel-hospital-ai-agents-20m-index-ventures); [Recare](https://www.trendingtopics.eu/recare-deutsches-healthtech-startup-sammelt-37-mio-euro-ein/); [Sqior](https://munich-startup.de/news/sqior-medical-seed-runde)) | [B] |
+
+- **Public purchasing [A]** (TED, DE, titles with coding/Medizincontrolling/audit terms, since 2023: 22 notices). Hospital side: UK Frankfurt coding-revision software (cn: est. €300,000; award €181,800 / 3 years) and coding-support framework (€360,000, "10 bis 25 Durchläufe pro Jahr"); Charité coding framework (2025 award, re-tendered Mar 2026). The 2026 Charité tender requires 3 references with ≥500 primary codings each, ≥2 of them German university hospitals. Payer/MD side: MD Niedersachsen (above), Salus BKK "Krankenhaus Abrechnungsprüfung" (§ 301, 12 months, 2026). *Inference:* public hospitals buy in small software tickets (~€60k/yr at UK Frankfurt), consistent with the DKI median AI budget of €40k; large frameworks require references a startup lacks.
+
+### 5. Voices [C]
+3 medi-learn threads opened (3 independent threads, junior doctors and MD reviewers):
+- 2026 thread on working for the MD: "Nicht nur in deinem Bereich krankt es oft an der Dokumentation und leider auch am Wissen um das, was man abrechnen kann"; another poster uses the MD as leverage to get "effizienter und korrekter Doku bis zum letzten Tag" ([thread](https://forum.medi-learn.de/t/md/100015)).
+- 2022, on coding pressure: "Es gibt schon zahlreiche Tipps & Tricks, wie man möglichst viel 'Ertrag' bei den Kassen rausholt … Auf der 'gegnerischen' Seite sitzt dann der MD" ([thread](https://forum.medi-learn.de/t/falsche-icd-diag-fuer-mehr-geld/96269)).
+- 2025, case-accompanying coding: coders' questions are often ones "die ich … selber noch nicht beantworten kann" (already cited in A4) ([thread](https://forum.medi-learn.de/t/fallbegleitendes-kodieren/99622)).
+- Signal: physicians see coding/MD work as friction; nobody in these threads names a tool. Weak signal; [C] only.
+
+### 6. Who has the problem, who pays (inference)
+- **Problem owners:** medical controlling and coding teams (~4,000 FTE on audits, DKI), physicians who must document necessity, hospital CFOs (revenue at risk ≈ €1.2bn/yr in reductions + penalties).
+- **Payer:** hospital opex. No reimbursement route needed (see `research/reimbursement-routes.md` §7). Budget signal: 51 % plan AI for MD audits at a median ~€40k (DKI). My math, rough ceiling: 1,038 hospitals × 60 % × €40k ≈ €25m/yr (median) to × €68k ≈ €42m/yr (mean) for AI in MD-audit handling alone; whether the stated cost is annual is unclear in the survey.
+- **Second buyer:** MD and insurers (rationing ~4× more permitted audits). Overlaps A12.
+- **Fit for the CEO (inference):** strong pain, a hard 2027 deadline, a budget owner and an automation profile fit. But the window is being taken fast: Tiplu (with LOGEX's ~400 German customers) and calliora (Munich, $6m, already in double-digit hospitals) target the exact same "BStabG 2027" pain. A new entrant would need a sharp wedge (e.g. small/mid private hospitals, psychiatry/PEPP, rehab, or the payer/MD side) and a clinician/medical-controller co-founder.
+
+## Gaps / [UNVERIFIED]
+- Joint GKV-SV/DKG report under § 17c Abs. 7 KHG (due 30 Jun 2026) not found.
+- Whether the 1 % tier passed (Bundesrat 20 Nov 2026) is unverified.
+- Q3 2026 quarterly statistics (basis for Q1 2027 quotas) are due ~end of Nov 2026; my simulation uses Q2 2026.
+- Solventum/3M customer numbers: PDFs blocked (403/404); snippet only.
+- Identity of UK Frankfurt's winner ("Medical AI Analytics & Information GmbH") vs. MIA (Rhenus) not confirmed.
+- Private hospital chains (Helios, Asklepios, Sana, etc.) buy outside TED; their tools are unknown.
+- DKI figures are self-estimates by a lobby survey; no independent time-motion data on audit handling found.
+- Customer counts for calliora, Tiplu and ID are vendor claims.
+- Effect of the Vorhaltebudget carve-out on euros at stake per audited case not quantified.
+
+## Sources
+- https://www.gkv-spitzenverband.de/krankenversicherung/krankenhaeuser/krankenhaeuser_abrechnung/kh_pruefung_statistik/pruefquoten_und_statistik.jsp — statistics page, publication rules, KHVVG note; accessed 2026-11-07
+- https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/krankenhaeuser/abrechnung/mdk_pruefstatistiken/jahr_2025/Statistikdaten_nach__17c_Abs._6_Satz_1_-_2025.xlsx — 2025 national audit results, reasons, pre-audit dialogue; accessed 2026-11-07
+- https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/krankenhaeuser/abrechnung/mdk_pruefstatistiken/jahr_2024/Statistikdaten_nach__17c_Abs._6_Satz_1_-_2024.xlsx — 2024 results; accessed 2026-11-07
+- https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/krankenhaeuser/abrechnung/mdk_pruefstatistiken/jahr_2023/Statistikdaten_nach__17c_Abs._6_Satz_1_-_2023.xlsx — 2023 results; accessed 2026-11-07
+- https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/krankenhaeuser/abrechnung/mdk_pruefstatistiken/2_q_2026/Statistikdaten_nach_275c_Abs_4_SGB_V_-_2026Q2.xlsx — per-hospital quotas, invoices Q2 2026, basis of 2027 simulation; accessed 2026-11-07
+- https://www.buzer.de/275c_SGB_V.htm — § 275c SGB V current text and version history; accessed 2026-11-07
+- https://www.buzer.de/gesetz/17632/a340690.htm — BStabG art. 1 no. 66 (§ 275c from 2027); accessed 2026-11-07
+- https://www.buzer.de/gesetz/17632/a340708.htm — BStabG art. 8 entry into force (no. 64–66: 1 Jan 2027; promulgated 29 Jul 2026); accessed 2026-11-07
+- https://www.buzer.de/gesetz/17632/a340698.htm — BStabG art. 4 (§ 17c KHG changes); accessed 2026-11-07
+- https://www.buzer.de/17c_KHG.htm — § 17c KHG current text; accessed 2026-11-07
+- https://www.buzer.de/1_KHVVG.htm — KHVVG art. 1 no. 15 (§ 275c changes; no sample audits); accessed 2026-11-07
+- https://dserver.bundestag.de/btd/21/061/2106130.pdf — BStabG government draft, reasoning on § 275c, €1.6bn estimate; accessed 2026-11-07
+- https://dserver.bundestag.de/btd/21/070/2107016.pdf — committee report on BStabG (opened, header only); accessed 2026-11-07
+- https://md-bund.de/fileadmin/dokumente/Publikationen/GKV/Stellungnahmen_Gesetzesvorhaben/Stellungnahme_MD_Bund_-_GE_GKV-Beitragssatzstabilisierungsgesetz.pdf — MD Bund position; accessed 2026-11-07
+- https://www.medizinischerdienst.de/fileadmin/MD-zentraler-Ordner/Downloads/16_Zahlen_Daten_Fakten/2024_Zahlen-Daten-Fakten.pdf — MD staffing, 2024 audit counts; accessed 2026-11-07
+- https://www.dkgev.de/fileadmin/Mediapool/1_DKG/1.7_Presse/2026-10-06__Blitzumfrage_MD-Pr%C3%BCfungen.pdf — DKI flash survey Sep 2026; accessed 2026-11-07
+- https://www.dkgev.de/dkg/presse/details/md-pruefungen-verursachen-millionenkosten-fuer-kliniken — DKG press release; accessed 2026-11-07
+- https://www.bwkg.de/media/10-Aktuelles/PM_2026_07_02_MD_Pruefungen.pdf — BWKG position; accessed 2026-11-07
+- https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2217536.jsp — GKV-SV "eine Milliarde Euro" quote; accessed 2026-11-07
+- https://www.vdek.com/presse/pressemitteilungen/2024/krankenhausversorgungsverbesserungsgesetz-khvvg-beitragsgelder-verantwortungsvoll-einsetzen/_jcr_content/par/download/file.res/vdek_pm_Einzelfallpruefung_KHVVG.pdf — KHVVG draft sample-audit plan and insurer opposition; accessed 2026-11-07
+- https://www.aerzteblatt.de/news/entburokratisierung-geplante-neue-prufquotenklasse-fur-kliniken-mit-uberschaubaren-effekt-29ad0a4e-b5f7-4434-b5b7-dd7ab4704f87 — 1 % tier amendment; accessed 2026-11-07
+- https://www.aerzteblatt.de/news/aenderungsantraege-krankenhaeuser-9c1c6125-233a-453f-b26c-23613a4be424 — committee amendments (quotas, €500 fee, case merging); accessed 2026-11-07
+- https://www.aerzteblatt.de/news/bundestag-beschliesst-notfallreform-im-dritten-anlauf-77a773bd-ab03-4bf3-bcf2-129acb7f0bbf — emergency reform passed, 12 BStabG changes, Bundesrat 20 Nov; accessed 2026-11-07
+- https://www.drweb.de/md-pruefquote-kliniken-1000-euro-entlastung/ — secondary summary used only to locate primary sources; accessed 2026-11-07
+- https://api.ted.europa.eu/v3/notices/search — 22 DE notices (coding/Medizincontrolling/audit terms since 2023); details of TED 85636-2024, 402898-2024, 389057-2024, 557531-2024, 352020-2025, 213191-2026, 383478-2026, 471021-2026, 758402-2026; accessed 2026-11-07
+- https://tiplu.de/generative-ki-datenbasis/ — Tiplu BStabG products, "7 von 10" simulation, MBEG in ~30 hospitals; accessed 2026-11-07
+- https://tiplu.de/tiplu-logex/ — LOGEX acquisition, 130+ hospitals, ~400 LOGEX customers in DE; accessed 2026-11-07
+- https://tiplu.de/generative-ki-mbeg-assistent/ — MBEG workload ("mehrere Stunden Arbeit"), ML network 10m records; accessed 2026-11-07
+- https://www.tiplu.de — customer testimonials; accessed 2026-11-07
+- https://www.medconweb.de/blog/wp-content/uploads/2023/10/2023-10-21-Pressemitteilung-zum-Launch-der-Kodierboerse.de_.pdf — Health Data Exchange = Tiplu JV; accessed 2026-11-07
+- https://www.trendingtopics.eu/calliora-funding-hospital-billing-ai/ — calliora round, customers, product; accessed 2026-11-07
+- https://startupvalley.news/de/ki-plattform-calliora-krankenhaeuser/ — calliora press release (6 Oct 2026); accessed 2026-11-07
+- https://www.calliora.com — calliora modules; accessed 2026-11-07
+- https://www.munich-startup.de/news/calliora-erhaelt-ueber-5-millionen-euro — calliora round (DE); accessed 2026-11-07
+- https://www.id-berlin.de — ID products incl. ID EFIX MD; accessed 2026-11-07
+- https://www.mydrg.de/dload/medizincontroller-id-berlin-04-08-2025.pdf — ID ">1.400 Einrichtungen"; accessed 2026-11-07
+- https://healthmanagement.org/site/p/id-information-und-dokumentation-im-gesundheitswesen-gmbh-co-kgaa — ID ">1,200 hospitals"; accessed 2026-11-07
+- https://dedalus.com/dach/wp-content/uploads/sites/24/2024/08/AUG24RiCo_2-Seiter_220824.pdf — Dedalus RICO; accessed 2026-11-07
+- https://bionity.com/en/companies/1038311 — MIA Medical Information Analytics profile; accessed 2026-11-07
+- https://thenextweb.com/news/parallel-hospital-ai-agents-20m-index-ventures — Parallel; accessed 2026-11-07
+- https://www.trendingtopics.eu/recare-deutsches-healthtech-startup-sammelt-37-mio-euro-ein/ — Recare; accessed 2026-11-07
+- https://munich-startup.de/news/sqior-medical-seed-runde — Sqior Medical; accessed 2026-11-07
+- https://forum.medi-learn.de/t/md/100015 — [C] thread 2026; accessed 2026-11-07
+- https://forum.medi-learn.de/t/falsche-icd-diag-fuer-mehr-geld/96269 — [C] thread 2022; accessed 2026-11-07
+- https://forum.medi-learn.de/t/fallbegleitendes-kodieren/99622 — [C] thread 2025; accessed 2026-11-07

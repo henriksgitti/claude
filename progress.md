@@ -2,12 +2,12 @@
 
 ## Current state
 - Project: **Healthcare Venture** (scope opened from cancer to healthcare on 2026-11-06, see `decisions/2026-11-06-scope-pipeline.md`).
-- Stage: **A — Scan** (in progress). A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). A6 Munich ecosystem drafted (`research/munich-ecosystem.md`). A9 reimbursement/funding routes drafted (`research/reimbursement-routes.md`). A10 applied the critic fixes to `research/trends.md` and `research/sources-map.md`. Cancer-only work archived in `archive/`; its V1 draft feeds A7.
+- Stage: **A — Scan** (in progress). A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). A6 Munich ecosystem drafted (`research/munich-ecosystem.md`). A9 reimbursement/funding routes drafted (`research/reimbursement-routes.md`). A10 applied the critic fixes to `research/trends.md` and `research/sources-map.md`. A11 drafted `research/hospital-billing-audits.md` (MD audits, 2027 rules, incumbents). Cancer-only work archived in `archive/`; its V1 draft feeds A7.
 - Infrastructure: worker session on environment `healthcare-venture`. WebFetch fails DNS for many hosts (destatis.de, bundesgesundheitsministerium.de, vdek.com), but `curl` through the proxy reaches them: fetch with curl + local text extraction. Reddit is effectively unusable: direct fetch is bot-checked and `site:reddit.com` search returns almost no reddit.com hits (A2). Working alternatives and recipes are listed in `research/sources-map.md`.
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
 ## Next steps
-1. Researcher: A11, A12, A13, A14, A15, A7 (one per run), using the recipes in `research/sources-map.md`. Critic: A8 alongside (`research/munich-ecosystem.md`, `research/reimbursement-routes.md` and the revised `research/trends.md` / `research/sources-map.md` ready for review).
+1. Researcher: A12, A13, A14, A15, A16, A17, A7 (one per run), using the recipes in `research/sources-map.md`. Critic: A8 alongside (`research/munich-ecosystem.md`, `research/reimbursement-routes.md` and the revised `research/trends.md` / `research/sources-map.md` ready for review).
 2. Then B1 (score, top 5) → CEO picks 2–3.
 
 ## Open questions
@@ -25,6 +25,19 @@
 - Next:
 - Open questions:
 -->
+
+### 2026-11-07 — A11 Hospital billing audits & coding: size, rules 2027, incumbents (researcher)
+- Done: `research/hospital-billing-audits.md`.
+  - Size [A]: 1,138,534 MD audit reports in 2025; 48.9 % led to a reduction (avg €2,219.51). My math: ≈ €1.58bn/yr back to insurers (reductions + pre-audit dialogue + penalties). 27 % of audit reasons are coding; 68 % are medical necessity / length of stay.
+  - Rules [A]: the BStabG (law, 1 Jan 2027) raises audit quotas to 5/20/40 % (thresholds 80/65 %), with no cap below 50 %, and a €500 penalty and fee. The "switch to sample audits from 2027" in `pain-professionals.md` S3 was a 2024 KHVVG draft and was never enacted, so A14 should fix S3. A 1 % tier for hospitals ≥90 % is pending (Bundesrat 20 Nov).
+  - Static simulation on Q2 2026 data: 1,100 of 1,524 hospitals would land in the 40 % tier, and the legal cap rises ~4×. The MD's capacity (2,135 physician FTE) is the real limit. MD Niedersachsen already outsources 20,000 audits (€2m tender).
+  - Budget [B] (DKI, Sep 2026): ~4,000 FTE / €245m/yr on audit handling; 51 % of hospitals plan AI for MD audits (median €40k).
+  - Incumbents: Tiplu (LOGEX since Jul 2026; MBEG-Assistent in ~30 hospitals; >130 partner hospitals) and calliora (Munich, $6m pre-seed, double-digit hospitals) target exactly the 2027 pain. Also ID Berlin and Dedalus RICO.
+  - Inference: big, budgeted, deadline-driven pain, but a crowded window. A newcomer would need a wedge (the payer/MD side, psychiatry/rehab, small private hospitals).
+- Not done / blocked: status of the 1 % tier; Q3 2026 statistics (due ~end Nov); GKV-SV/DKG § 17c Abs. 7 report not found; Solventum/3M PDFs blocked (403/404); identity of UK Frankfurt's winner unconfirmed.
+- Next: A12. Critic: review `research/hospital-billing-audits.md`.
+- Tasks added: A17 (refresh with Q3 2026 data and the 1 % tier decision), inserted before A7.
+- Open questions: none new.
 
 ### 2026-11-07 — A8 Critic fact-check run 3 (critic)
 - Done: fact-checked every research file changed or new since its last review: `research/reimbursement-routes.md` (pass with fixes), `research/munich-ecosystem.md` (pass with fixes), A10 revisions of `research/trends.md` and `research/sources-map.md` (pass). Re-opened ~45 sources; all key numbers match (Bitkom, BStabG/§ 134, PNOG § 11, KHZG penalty annex, DAK, Destatis, Senate answer). TED recipe (637 / 366 cn / 384 procedures / 232 / 140) and ClinicalTrials.gov (300 / 669) reproduce. Reviews: `research/reviews/2026-11-07-*.md`.
