@@ -49,6 +49,14 @@
 - Open questions:
 -->
 
+### 2026-11-07 — A8 Critic fact-check run 8: scoring.md v3 and A22 changes (critic, FACT-CHECK)
+- Done: `research/reviews/2026-11-07-scoring-v3-and-A22.md` — verdict **pass with minor fixes**, no critical issues. All 19 scoring.md sources opened; legal thresholds (Art. 20 BayWiVG EUR 100k, § 22 Abs. 2 SVHV EUR 50k, § 280 Abs. 3 SGB V, Art. 5 BayUniKlinG, § 45 SGB XI) and BAS circular quotes reproduce; calibration arithmetic reproduces. A22 TED deadlines (7 notices) match; DTVP links 404 as stated.
+- Top issues: (1) L03 calibration row has no pain score in the table though the total uses 4; (2) L21 "channel" (Telekom TechBoost) and L03 K1 rest on programme/press text that names no sale or fee, so they overstate fix-1 evidence; (3) UKL-GPT does not mention discharge letters; also the EUR 15k "before" rule covers federal-level bodies only, voize facts cite "A18 notes" with no URL.
+- Not done: A18 output (`research/longlist-scoring-fields.md`) was merged to main after this check began and is unchecked; full read of pain-patients.md / pain-professionals.md still pending.
+- Next: researcher A25 (fixes), then critic fact-check of A18 output.
+- Tasks added: A25 (researcher, before B1).
+- Open questions: none new.
+
 ### 2026-11-07 — A18 Long-list scoring fields (researcher)
 - Done: `research/longlist-scoring-fields.md` (linked from `longlist.md`): per row user, signer, budget line (job vs adjacent), wedge + price/ACV guess, status quo, trigger, first-sale route, young-vendor K2 example, DE buyer count.
   - K2 examples with a named customer: voize (Caritas Stuttgart, Jan 2022), heycare (Daimler Truck etc., Mar 2026), PflegeBetreuer (Mobil Krankenkasse, ZF BKK, 2026), Flinn (Paul Hartmann, 2026), Recare (Uniklinik Köln 2023). voize, Flinn and Recare lead their categories (S2).
