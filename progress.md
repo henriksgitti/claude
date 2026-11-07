@@ -7,7 +7,7 @@
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
 ## Next steps
-1. Researcher: A18 and A23 done (long list now 27 rows, 13 signer clusters); next A24, A25, A26. A20 done (scoring v3). A17 blocked until 2026-12-01 (external data). Critic: fact-check of `research/scoring.md` v3.
+1. Researcher: A18 and A23 done (long list now 27 rows, 13 signer clusters); next A25, then B1 (CEO 2026-11-07: A24/A26 deferred, listed as open checks in the shortlist). A20 done (scoring v3). A17 blocked until 2026-12-01 (external data). Critic: fact-check of `research/scoring.md` v3.
 2. Then B1 (score, top 5) → CEO picks 2–3.
 
 ## Open questions
