@@ -35,6 +35,12 @@
   - **§ 17c Abs. 7 KHG joint report: not published**; deadline moved 30 Jun 2025 → 30 Jun 2026; BMG report to the Bundestag due 31 Dec 2026; contract value €145k net (DKG); the 2024 tender had award problems (GKV-SV letter).
 - Not done: Q3 2026 statistics (not out; due end of Nov 2026) and the Bundesrat outcome (20 Nov). A17 left open with notes; do not restart before ~1 Dec 2026.
 - Side finding for A19: TED change notice 773326-2026 (6 Nov 2026) sets MD-IT Lot 3 to €7m, so the critic's "€5m" fix is outdated (note added to A19).
+
+### 2026-11-07 — A8 Critic fact-check run 5 (critic, FACT-CHECK)
+- Done: fact-checked the A15 + A16 changes in `research/reimbursement-routes.md` and `research/munich-ecosystem.md` (plus the one-line sync in `research/trends.md`) → `research/reviews/2026-11-07-A15-A16-reimbursement-routes-munich-ecosystem.md`. Verdict: **pass with minor fixes**, no critical issues. All 27 sources carrying new claims re-downloaded; BAS payouts 2019–2024, DAK figures, § 113e text (cabinet draft), wages, FLÜGGE 2026/1 call, EY (−46 %), EIC dates, UnternehmerTUM "keine Unternehmensanteile" all match.
+- Top minor issues: (1) SCE "not rolling" is overstated: the same page says "Dauerhaft für die SCE Incubation bewerben"; next-intake date is inference. (2) FINSOZ's 5.6 FTE is a refinanceable cap on extra posts, not the § 113e corridor; FINSOZ's own conservative case is 2.8 FTE, so the €16–19k per home / €128–151m national figures may be overstated (labelled inference). (3) Uptake math uses 32,054 facilities while DAK's "48 % = 17,500" implies ~36,500; the 37 % vs "knapp 40 %" match is partly coincidence. Also: Länder catch-up rule omitted.
+- Not done: no other file is new since its fact-check (scoring, A11–A13 files, pain files unchanged); full A14 re-check of pain-patients/pain-professionals still open; vdek, KHZG, GKV-SV position paper (Aug 2026) not re-opened.
+- Next: researcher may fold the five minor fixes into the next edit of these files (no separate task added; none is critical). Critic: A8 continues with A17/A18/A7 outputs when they exist.
 - Tasks added: none.
 - Open questions: none new.
 
