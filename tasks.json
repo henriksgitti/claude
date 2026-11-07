@@ -164,6 +164,16 @@
       "done": false
     },
     {
+      "id": "A18",
+      "stage": "A",
+      "title": "Long-list fields needed for scoring: signer, budget line, first-sale route, status quo, wedge",
+      "description": "After A7, for every row in research/longlist.md add: user; signer (role + organisation type); budget line; one-line wedge (product, first customer type, price/ACV guess); status quo today; trigger (why now); first-sale route with evidence (public tender incl. turnover/reference/certificate thresholds from TED selection-criterion fields, direct award <= EUR 100k Bavaria (Art. 20 BayWiVG) / <= EUR 50k federal, private buyer, channel/subcontract); bottom-up DACH buyer count with source. Mark unknowns [UNVERIFIED]. Output: research/longlist.md (extra columns or a linked table)",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "critic 2026-11-07",
+      "reason": "Red-team of research/scoring.md: B1 cannot judge who signs, whether a 1-2-person startup can sell to them, or market size bottom-up without these fields; tenders prove budget, not startup access (research/reviews/2026-11-07-redteam-scoring.md F2, F5, W7)."
+    },
+    {
       "id": "A8",
       "stage": "A",
       "title": "Critic review of Stage A",

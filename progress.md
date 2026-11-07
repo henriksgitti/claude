@@ -14,6 +14,7 @@
 - **Reddit API key (now more important):** A2 found Reddit unreachable (bot challenge; search returns almost no reddit.com hits). A free Reddit app/API key created by the CEO is the only clean route. Without it, A3–A5 rely on German forums, reviews, job ads and tenders.
 - Optional allowlist / network change: WebFetch fails DNS for most hosts; curl is blocked by bot checks at trustpilot.com, indeed.com, glassdoor, crunchbase.com, dealroom.co, oecd.org (web), europepmc.org (web), gutefrage.net, aerztezeitung.de, springermedizin.de, background.tagesspiegel.de. Not bypassed.
 - CEO: own budget, target date to go full-time, no-go areas (see `founder-brief.md`).
+- **CEO decision before B1: replace the scoring method?** Red team (`research/reviews/2026-11-07-redteam-scoring.md`) verdict: the current `research/scoring.md` fails. An idea with no payer can outscore one with a clear payer (68 vs 61 in a worked example), and the method does not capture whether a 1–2-person startup can sell to the buyer or the CEO's own buyer access. Options: (a) adopt the proposed scheme: 6 knock-outs (no proven spend, no startup-accessible first sale, MDR IIa+/drug, DACH SAM < €50m, draft-law-only revenue, not a product problem) + 8 weighted criteria (max 100) + confidence caps; (b) only add knock-outs K1/K2 to the current scheme; (c) keep as is. Recommendation: (a), and also answer the 10-minute founder-access check in the review ("Cheapest tests" 1). Changing `scoring.md` and `templates/venture-brief.md` ("/90") needs your OK.
 
 ---
 
@@ -25,6 +26,14 @@
 - Next:
 - Open questions:
 -->
+
+### 2026-11-07 — Red team of research/scoring.md (critic)
+- Done: RED TEAM review of the Stage B method → `research/reviews/2026-11-07-redteam-scoring.md`. Verdict: **fail as is**. Reasoning only; 3 new facts checked for the proposed scheme (Art. 20 BayWiVG direct award ≤€100k; federal ≤€50k from 1 Jul 2026; EU threshold €216k 2026–27).
+- Fatal objections: (1) purely additive: a "payer unclear" idea beats a clear-payer idea 68 vs 61; (2) "budget owner" ≠ startup can sell (tenders need €0.25–6m turnover, references, KHZG certificate), and direct-award/private-buyer routes are not rewarded either; (3) founder fit = topic match, not buyer access, domain edge, part-time feasibility or co-founder dependency; (4) a score of 3 needs no evidence, so unknowns hide in the middle, and a free pilot meets "achievable"; (5) "≥€1bn EU" market size is top-down and ignores buyer counts (e.g. 15 MDs).
+- Proposed: 6 knock-outs + 8 criteria (weights 4/4/3/3/2/2/1/1, max 100) + H/M/L confidence (L capped at 3) + sensitivity check and tiers. `scoring.md` not edited.
+- Tasks added: A18 (researcher: long-list fields signer / budget line / first-sale route / status quo / wedge / buyer count), after A7.
+- Not done: no B1 scores computed; worked examples are illustrative only.
+- Open questions: CEO decision on the scoring scheme (see Open questions).
 
 ### 2026-11-07 — A11 Hospital billing audits & coding: size, rules 2027, incumbents (researcher)
 - Done: `research/hospital-billing-audits.md`.
