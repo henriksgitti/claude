@@ -90,9 +90,10 @@
       "title": "Hospital billing audits & coding: size, rules 2027, incumbents",
       "description": "Verify the size and dynamics of hospital MD billing audits and coding work (S3 in research/pain-professionals.md): GKV-SV § 275c / § 17c Abs. 6 KHG statistics (audit counts, objection rates, repayment sums), MD Bund reports, KHVVG switch to sample audits from 2027 and any BStabG audit-quota change (primary texts), and incumbent coding/CDI vendors in DE with public evidence of customers. Output: research/hospital-billing-audits.md",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "researcher 2026-11-06",
-      "reason": "A4 found hospital coding/MD-audit work has the clearest budget owner among staff-side problems (Charité coding-services framework, AI coding tender), but audit volumes, 2027 rule changes and incumbents are unverified; A7/B1 need this before scoring."
+      "reason": "A4 found hospital coding/MD-audit work has the clearest budget owner among staff-side problems (Charité coding-services framework, AI coding tender), but audit volumes, 2027 rule changes and incumbents are unverified; A7/B1 need this before scoring.",
+      "notes": "Done 2026-11-07: research/hospital-billing-audits.md. 2025: 1,138,534 MD reports, 48.9% reduced, avg EUR 2,219.51 (~EUR 1.58bn back to insurers incl. pre-audit dialogue and penalties). BStabG (law) from 1 Jan 2027: quotas 5/20/40% at 80/65% thresholds, uncapped <50%, EUR 500 penalty and fee. 'Sample audits from 2027' was a 2024 KHVVG draft, not enacted. Static simulation: 1,100 of 1,524 hospitals in the 40% tier. DKI: 51% of hospitals plan AI for MD audits (median EUR 40k). Incumbents: Tiplu/LOGEX (MBEG-Assistent ~30 hospitals), calliora (Munich, double-digit hospitals), ID, Dedalus. Open: 1% tier status, Q3 2026 data, Solventum numbers."
     },
     {
       "id": "A12",
@@ -143,6 +144,16 @@
       "done": false,
       "added_by": "critic 2026-11-07",
       "reason": "Fact-check found no fabrication but one unsupported claim (SCE rolling) and several grade/wording overreaches that B1 and the founder-path recommendation read."
+    },
+    {
+      "id": "A17",
+      "stage": "A",
+      "title": "Refresh hospital audit-quota data: Q3 2026 statistics and 1% tier",
+      "description": "After GKV-SV publishes the Q3 2026 § 275c Abs. 4 statistics (~end of Nov 2026; basis of Q1 2027 quotas) and the Bundesrat handles the emergency-care reform (20 Nov 2026): re-run the 2027 quota simulation in research/hospital-billing-audits.md with Q3 data, confirm whether the 1% tier (>=90% unobjected) became law, and look for the GKV-SV/DKG § 17c Abs. 7 KHG report. Output: update research/hospital-billing-audits.md (section 1-2).",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "researcher 2026-11-07",
+      "reason": "A11 used Q2 2026 data and a pending amendment; if hospital billing audits make the B1 shortlist, the C-stage brief needs the actual Q1 2027 quota distribution and final rules."
     },
     {
       "id": "A7",
