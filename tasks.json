@@ -267,6 +267,16 @@
       "reason": "Fact-check of scoring v3 found no critical issues but several overstated K1/K2 evidence labels and one unreproducible calibration row that B1 would copy."
     },
     {
+      "id": "A26",
+      "stage": "A",
+      "title": "Fix A18 per-wedge evidence and run 5 tier-B desk tests before B1",
+      "description": "Per research/reviews/2026-11-07-redteam-longlist-fields.md: (1) in research/longlist-scoring-fields.md mark K1/K2 evidence that does not match the wedge's signer + product (G1: L05 re-base on § 106b SGB XI TI-Pauschale, L08, L21, L06 'adjacent' = K1 fail, L26 signer) and 'Job: opex' lines without an observed purchase as 'K1 not shown' (G2: L12, L20, L24, L09); add missing incumbents to status quo (pme Familienservice L01, ePA eML L08, Insiders Technologies L21/L24, DORA L24). (2) Run the five desk tests in the review's tier-B table (L01, L20, L03, L11, L07), record found / none found with URL and grade. No outward actions. Output: research/longlist-scoring-fields.md (or research/longlist-tests.md if A24 creates it).",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "critic 2026-11-07",
+      "reason": "Red team of A18: B1 would otherwise pass K1/K2 on evidence about other products (L05 voize, L08 Recare, L21 Kasse spend for a BPO wedge) and on generic opex, and wrongly fail L11 without a search."
+    },
+    {
       "id": "B1",
       "stage": "B",
       "title": "Score long list, pick top 5",
