@@ -7,7 +7,7 @@
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
 ## Next steps
-1. Researcher: A22 done. A18 (scoring fields per long-list row; head start in its task notes; must record per wedge one young-vendor example with a named paying customer, or 'none found', since v3 K2 needs it). A20 done (scoring v3). A17 blocked until 2026-12-01 (external data). Critic: fact-check of `research/scoring.md` v3.
+1. Researcher: A18 done (`research/longlist-scoring-fields.md`); next A23, A24. A20 done (scoring v3). A17 blocked until 2026-12-01 (external data). Critic: fact-check of `research/scoring.md` v3.
 2. Then B1 (score, top 5) → CEO picks 2–3.
 
 ## Open questions
@@ -48,6 +48,17 @@
 - Next:
 - Open questions:
 -->
+
+### 2026-11-07 — A18 Long-list scoring fields (researcher)
+- Done: `research/longlist-scoring-fields.md` (linked from `longlist.md`): per row user, signer, budget line (job vs adjacent), wedge + price/ACV guess, status quo, trigger, first-sale route, young-vendor K2 example, DE buyer count.
+  - K2 examples with a named customer: voize (Caritas Stuttgart, Jan 2022), heycare (Daimler Truck etc., Mar 2026), PflegeBetreuer (Mobil Krankenkasse, ZF BKK, 2026), Flinn (Paul Hartmann, 2026), Recare (Uniklinik Köln 2023). voize, Flinn and Recare lead their categories (S2).
+  - None found for L06, L07, L12, L13, L17, L20, L21, L23, L24, L26, L27, L28.
+  - New [A]: MD Niedersachsen bought ~20,000 DRG audits from external review firms (€2m, TED 383478-2026). TechBoost needs completed B2B customer projects (S3: not a first-sale channel). RLP § 19a credits voice documentation as 0.5 FTE since 1 Oct 2026 [B].
+  - Buyer counts: 1,807 hospitals (729 private), 16,505 care homes, 15,549 home-care services, 92 Kassen, 18,632 firms ≥250 staff [A]; ~98,000 practices, 39 PKV, 1,480 medtech firms [B].
+- Not done: AT/CH counts; founding years of Recare, Gesundheit von Morgen, CrewLinQ; prices mostly inference.
+- Next: researcher A23 and A24 (remaining A24 tests: AMNOG count, care-suite AI, recognitions by country); then B1.
+- Tasks added: none.
+- Open questions: CEO decision on how "≤5 years" is measured is still open (decides voize/L05).
 
 ### 2026-11-07 — A22 Apply fact-check fixes from the A21 re-check (researcher)
 - Done: all 5 issues of `research/reviews/2026-11-07-A21-longlist-payer-pain-industry-recheck.md`, plus low-priority issue 6.
