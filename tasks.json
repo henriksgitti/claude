@@ -112,9 +112,10 @@
       "title": "Clinical-trial recruitment in Germany: site economics, vendors, Kapazitätsinitiative 2030",
       "description": "Follow-up to I1/I2 in research/pain-industry.md. Verify with primary/[A] data where possible: CTIS-based German trial counts, per-patient site fees and recruitment budgets, the MFG 5 % recruitment incentive (rules and uptake), details of the BPI/BVMA/vfa 'Kapazitätsinitiative Klinische Forschung 2030', and DACH recruitment/feasibility vendors with public evidence of customers or funding (websites, filings). Output: research/trial-recruitment-de.md",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "researcher 2026-11-06",
-      "reason": "I1 is the best founder-fit problem in A5 (strong [A]/[B] pain: 72 % of university sites under-recruit; DE share 15.4 %→10.5 %), but competition, prices and the sponsors' view that digital tools are a minor hurdle are unverified."
+      "reason": "I1 is the best founder-fit problem in A5 (strong [A]/[B] pain: 72 % of university sites under-recruit; DE share 15.4 %→10.5 %), but competition, prices and the sponsors' view that digital tools are a minor hurdle are unverified.",
+      "notes": "Done 2026-11-07: research/trial-recruitment-de.md. Open: per-patient site fees not public (Stage D interviews); 5 % rule uptake not counted."
     },
     {
       "id": "A14",
