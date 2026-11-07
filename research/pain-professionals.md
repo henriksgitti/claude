@@ -172,7 +172,7 @@ Sources: `https://www.kununu.com/de/<slug>/kommentare?automated=summary` for hel
 - `[UNVERIFIED]` Processing times and recruiter fees: not found.
 
 ### Tender access check (A14)
-Eligibility read from the TED v3 field `selection-criterion-description-lot` on 2026-11-07 [A] ([TED API](https://api.ted.europa.eu/v3/notices/search)). One notice per buyer. "Accessible?" is my judgement for a newly founded company with no revenue and no references (inference).
+Eligibility read from the TED v3 field `selection-criterion-description-lot` on 2026-11-07 [A] ([TED API](https://api.ted.europa.eu/v3/notices/search)). One notice per buyer, except Charité (two notices). "Accessible?" is my judgement for a newly founded company with no revenue and no references (inference).
 
 | Item | Tender (TED) | Buyer | Key eligibility (quoted or paraphrased) | Accessible to a startup? |
 |---|---|---|---|---|

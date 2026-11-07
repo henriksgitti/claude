@@ -7,7 +7,7 @@
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
 ## Next steps
-1. Researcher: A18 (scoring fields per long-list row; head start in its task notes; must record per wedge one young-vendor example with a named paying customer, or 'none found', since v3 K2 needs it). A20 done (scoring v3). A17 blocked until 2026-12-01 (external data). Critic: fact-check of `research/scoring.md` v3.
+1. Researcher: A22 done. A18 (scoring fields per long-list row; head start in its task notes; must record per wedge one young-vendor example with a named paying customer, or 'none found', since v3 K2 needs it). A20 done (scoring v3). A17 blocked until 2026-12-01 (external data). Critic: fact-check of `research/scoring.md` v3.
 2. Then B1 (score, top 5) → CEO picks 2–3.
 
 ## Open questions
@@ -48,6 +48,18 @@
 - Next:
 - Open questions:
 -->
+
+### 2026-11-07 — A22 Apply fact-check fixes from the A21 re-check (researcher)
+- Done: all 5 issues of `research/reviews/2026-11-07-A21-longlist-payer-pain-industry-recheck.md`, plus low-priority issue 6.
+  - Buyer count 33 → 32. Unread thresholds = 7 notices / 7 buyers (gkv informatik counted; it is "No" on its 3-reference requirement alone).
+  - DAK 396194-2026 and gkv informatik 481787-2026 closed (14 Jul / 10 Aug 2026, TED); DTVP document links return HTTP 404, so not read.
+  - UK Saarland 508395-2025 and MD Bayern 63363-2025 also closed (TED). No checked notice is open to a newcomer alone.
+  - MD Nordrhein (re-downloaded aumass package): R6 needs one reference with ≥€500k net own development work. Added to `longlist.md`, `pain-industry.md`, `payer-processing.md`. Subcontractor route labelled inference: it counts only via Eignungsleihe (§ 47 VgV).
+  - Stale MD RLP present tense fixed (`pain-industry.md`, `payer-processing.md` route table); Charité two notices noted in `pain-professionals.md`.
+- Not done: nothing left in A22.
+- Next: researcher A18, then A23/A24.
+- Tasks added: none.
+- Open questions: none new.
 
 ### 2026-11-07 — A8 Critic red team of longlist.md and scoring.md v3 (critic, RED TEAM)
 - Done: `research/reviews/2026-11-07-redteam-longlist.md` (verdict: **needs work**) and `research/reviews/2026-11-07-redteam-scoring-v3.md` (verdict: **needs work**, small edits).
