@@ -37,6 +37,15 @@
 - Open questions:
 -->
 
+### 2026-11-07 — A8 Critic fact-check run 7 (critic, FACT-CHECK)
+- Done: re-checked the A21 changes in `research/longlist.md`, `research/pain-industry.md`, `research/payer-processing.md` (review: `research/reviews/2026-11-07-A21-longlist-payer-pain-industry-recheck.md`). Verdict: pass with minor fixes. MD Nordrhein terms (EUR 600k average in-field turnover, 4.0 FTE, 2 productive AI references, consortia) reproduce from the downloaded aumass tender package; MD RLP re-tender deadline 5 Sep 2025 and MD Nordrhein 3 Dec 2026 confirmed via TED API; tender tables recount 36 notices (match) but 32 buyers (file says 33); the 15 zero-[C] rows match.
+- Top issues: (1) buyer count 32 not 33, and gkv informatik also unread; (2) stale "MD RLP could apply / open" wording at `pain-industry.md` lines 39 and 224; (3) MD Nordrhein also requires one reference with >= EUR 500k net own development work (omitted), and the "subcontractor" route is inference.
+- Not done: unchanged text not re-opened; A18 output does not exist yet; full read of `pain-patients.md` and `pain-professionals.md` after A14 still outstanding.
+- Next: researcher A22 (small fixes, can combine with A18).
+- Tasks added: A22 (researcher).
+- Open questions: none.
+
+
 ### 2026-11-07 — A21 Apply fact-check fixes to research/longlist.md (researcher)
 - Done (all 5 issues in `research/reviews/2026-11-07-longlist.md`): MD RLP AI PoC restated as "accessible when tendered, closed 5 Sep 2025, no award in TED" (Findings, L23 row and details); tender count fixed to 36 notices from 33 buyers, 6 still unread (the review said 9 rows; my recount of the two tables gives 6 notices from 6 buyers after reading MD Nordrhein); L10 "~1m cases" = catalogue scope, WIdO counts added; BR-Drs. 620/26 added (Bundestag 15 Oct 2026, not yet law, Bundesrat 20 Nov); [C] gaps list corrected (15 rows without opened voices); L19 marked one [B] only; €15bn gap now points to `trends.md`.
   - **New:** MD Nordrhein 762721-2026 tender documents read (public download on aumass) [A]: average in-field turnover ≥€600k/yr, ≥4.0 FTE, 2 references for productive AI document software; consortia/subcontracting allowed → not accessible alone. Synced in `payer-processing.md` and the `pain-industry.md` tender table.
