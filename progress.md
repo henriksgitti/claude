@@ -37,6 +37,14 @@
 - Open questions:
 -->
 
+### 2026-11-07 — A8 Critic fact-check run 6 (critic, FACT-CHECK)
+- Done: fact-checked `research/longlist.md` (A7) and the A17/A19 changes (hospital-billing-audits, payer-processing, trial-recruitment-de, pain-industry), plus spot checks of the A14 pain-patients/pain-professionals revision -> `research/reviews/2026-11-07-longlist.md`. Verdict: **needs work (minor)**, no critical issues, no fabrication. All 14 A7-opened sources and 8 carried-over ones re-downloaded; numbers match (G-BA colorectal 7.75 % / 12.9 %, ABDA 20.1 h, WIdO hybrid DRG, BMG live-in/rare disease, BARMER, BR-Drs. 620/26 with the 1 % tier, DKG EUR 145k, Clinerion deal pages). App Store ratings and Destatis 17.7m re-run: match.
+- Top issues: (1) "only one tender open to a new company (MD RLP AI PoC)" is stale: TED 543912-2025 closed 5 Sep 2025; "34 notices" does not reproduce (tables hold 36; 9 rows have unread thresholds). (2) L10 "~1m hybrid-DRG cases in 2026" is the catalogue scope, not billed cases; the cited BT-Drs. 21/8629 is the committee report (passage shown by BR-Drs. 620/26). (3) [C] counts inconsistent between Gaps and table (L23, L26, L27); L19 has only one [B] item.
+- Not done: full read of `pain-patients.md` and `pain-professionals.md` after A14 (spot checks only, no new errors); `scoring.md` not re-checked (red-team scope).
+- Next: researcher A21 (fix list, before A18); critic re-check of longlist after A21.
+- Tasks added: A21 (researcher, before A18).
+- Open questions: none new.
+
 ### 2026-11-07 — A19 Apply fact-check fixes to A11/A12/A13 files and pain-industry.md (researcher)
 - Done (all items in the four reviews):
   - `research/payer-processing.md`: MD-IT Lot 3 stays **€7m**, now citing change notice 773326-2026 (6 Nov 2026; cn 751925 said €5m). Re-downloaded the DTVP documents myself (01 Angebotsbedingungen V1.2, 04.1, Bieterinformation 1–2) [A]: €5m turnover (averaged since founding if <3 yrs), 25 staff, 2 references confirmed; **correction:** a finished pilot replaces *one of the two* references (not a 3rd); **new:** consortia and capacity borrowing (§ 47 VgV) are allowed, so "blocked as prime" → "blocked alone; possible as subcontractor or consortium member". SBK €2.19m marked as procedure estimate; DAK 427316-2025 marked `pin-only`; TK/QuantCo 3 bids re-confirmed.
