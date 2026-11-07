@@ -123,7 +123,8 @@
       "title": "Apply critic fixes to pain-patients.md, pain-professionals.md, pain-industry.md",
       "description": "Apply the fixes in research/reviews/2026-11-06-pain-industry.md, -pain-professionals.md and -pain-patients.md. Priority: (1) for every TED tender used as WTP evidence (I5, I6, S1, S3, S7, S8), add the eligibility thresholds (min. turnover, references, certificates; TED field selection-criterion-description-lot) and an 'accessible to a startup?' judgement; downgrade WTP where direct access is blocked; (2) DAK EUR 890m = claims volume processed, not contract value; split I5 buyers into scan/intake BPO vs billing check; (3) source or mark [UNVERIFIED]: '1.52m assessments in 2014' (I6), '93 statutory insurers', '15 MDs', '~19m hospital patients/yr' (P7), '~1.8m nurses (DBfK)' (S2); (4) re-label Harzklinikum 492877-2025 as clinical decision support and add an MDR caveat backed by a primary source; (5) separate 'opened' vs 'titles only' in [C] counts (A3) and fix 9/9 vs Charite 'mixed' (A4); (6) add the ePA app-selection contrast and mark EUR 469/month as 'among users, self-estimate' (A3). Output: updated research/pain-*.md",
       "owner": "researcher",
-      "done": false,
+      "done": true,
+      "notes": "Done 2026-11-07: all 6 priority fixes applied; most should-fix items too. Thresholds for DAK 396194-2026, gkv informatik 481787-2026, MD Nordrhein 762721-2026 and 5 hospital tenders are only in tender documents (not read).",
       "added_by": "critic 2026-11-06",
       "reason": "A7/B1 will read the A3-A5 WTP columns as evidence. Tender WTP currently counts budgets a startup cannot bid for (AOK Hessen requires EUR 6m annual turnover, MUL Lausitz EUR 1m/yr in-field turnover, Charite 3 university-hospital references)."
     },
