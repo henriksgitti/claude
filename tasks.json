@@ -159,6 +159,16 @@
       "reason": "A11 used Q2 2026 data and a pending amendment; if hospital billing audits make the B1 shortlist, the C-stage brief needs the actual Q1 2027 quota distribution and final rules."
     },
     {
+      "id": "A19",
+      "stage": "A",
+      "title": "Apply fact-check fixes to hospital-billing-audits.md, payer-processing.md, trial-recruitment-de.md (and propagated line in pain-industry.md)",
+      "description": "Fix the non-critical issues in research/reviews/2026-11-07-hospital-billing-audits.md, 2026-11-07-payer-processing.md, 2026-11-07-trial-recruitment-de.md and 2026-11-07-A14-pain-files-revision.md. Main ones: (1) MD-IT Lot 3 value is EUR 5m (TED BT-27-Lot), not EUR 7m; SBK EUR 2,186,760 is an estimate; mark MD-IT eligibility as read from DTVP, not re-verified. (2) TriNetX owns Clinerion: remove from Findings or mark [UNVERIFIED] (opened source says Citeline/Norstella bought Clinerion in 2023); drop 'verified in A13' in pain-industry.md. (3) CTIS single-country list: add Netherlands (55); Munich count 307 -> 314 or 'about 300'; J Clin Epidemiol 69.7 % is of 66 RCTs with a budget; the 8.5 % discount is not limited to 3 years (only the exemption is). (4) hospital-billing-audits: explain the two audit counts (GKV-SV reports vs MD Bund audits), update MD capacity to the 31 Dec 2025 figures (2,148.3 physician FTE), reword 'plan to buy AI' to 'plan to use', note the DKI quartile inconsistency and that calliora's customer figures are unverified per the source. (5) pain-industry.md: source the 33,000 -> 24,000 participants figure or drop it; cite vdek for the 5.6m care-recipients figure; note PKV's 0.001 % vs computed 0.01 %. Output: edits to those four files.",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "critic 2026-11-07",
+      "reason": "Fact-check run 4 found no critical issues but several wrong or overstated details in A11/A12/A13 outputs that A7 and B1 will cite."
+    },
+    {
       "id": "A7",
       "stage": "A",
       "title": "Long list of 20–30 problems",
@@ -183,7 +193,7 @@
       "description": "Review each Stage A research file as it appears (sources, grades, cherry-picking, [C]-only claims). Mark done when every A file has a current review. Output: research/reviews/",
       "owner": "critic",
       "done": false,
-      "notes": "2026-11-06 critic: reviewed trends.md (pass, minor fixes), sources-map.md (pass, minor fixes), scoring.md (needs work before B1). Still to review: A3, A4, A5, A6, A9, A10, A7 outputs. | 2026-11-06 critic run 2: reviewed pain-industry.md (needs work), pain-professionals.md (needs work), pain-patients.md (pass, minor fixes); added A14. Still to review: A6, A9, A10, A11, A12, A13, A7 outputs. | 2026-11-06 researcher A10: trends.md and sources-map.md revised; ready for re-check. | 2026-11-07 critic fact-check: reimbursement-routes.md (pass with fixes), munich-ecosystem.md (pass with fixes), trends.md + sources-map.md A10 revision (pass; TED and CT.gov counts reproduce); added A16. Still to review: A11, A12, A13, A14 and A15 outputs, A7 long list, pain-* files after A14."
+      "notes": "2026-11-06 critic: reviewed trends.md (pass, minor fixes), sources-map.md (pass, minor fixes), scoring.md (needs work before B1). Still to review: A3, A4, A5, A6, A9, A10, A7 outputs. | 2026-11-06 critic run 2: reviewed pain-industry.md (needs work), pain-professionals.md (needs work), pain-patients.md (pass, minor fixes); added A14. Still to review: A6, A9, A10, A11, A12, A13, A7 outputs. | 2026-11-06 researcher A10: trends.md and sources-map.md revised; ready for re-check. | 2026-11-07 critic fact-check: reimbursement-routes.md (pass with fixes), munich-ecosystem.md (pass with fixes), trends.md + sources-map.md A10 revision (pass; TED and CT.gov counts reproduce); added A16. Still to review: A11, A12, A13, A14 and A15 outputs, A7 long list, pain-* files after A14. | 2026-11-07 critic fact-check run 4: hospital-billing-audits.md (A11), payer-processing.md (A12), trial-recruitment-de.md (A13) all pass with minor fixes (CTIS, CT.gov, GKV-SV XLSX and Q2 2026 simulation counts reproduce); scoring.md K1/K2 revision passes; A14 revision of pain-industry.md only sampled. Added A19. Still to review: full A14 revision of pain-patients.md and pain-professionals.md, A15, A16, A17, A18 outputs, A7 long list."
     },
     {
       "id": "B1",

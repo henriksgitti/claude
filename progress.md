@@ -27,6 +27,14 @@
 - Open questions:
 -->
 
+### 2026-11-07 — A8 Critic fact-check run 4 (critic, FACT-CHECK)
+- Done: fact-checked `research/hospital-billing-audits.md` (A11), `research/payer-processing.md` (A12), `research/trial-recruitment-de.md` (A13): all **pass with minor fixes**. Also `research/scoring.md` K1/K2 revision (pass; two procurement thresholds supported by search results only) and a sample of the A14 revision of `research/pain-industry.md` (pass, not a full re-check). Reviews in `research/reviews/2026-11-07-*.md`. Re-run counts: CTIS (12,788 trials, 4,653 transitioned, every year/country figure) **match exactly**; ClinicalTrials.gov matches except Munich recruiting (307 in file, 314 today); GKV-SV 2023–2025 national audit statistics and the Q2 2026 per-hospital 2027 simulation (1,100/231/193 hospitals; 532 below 50 %) **match**; 28 TED notices, MD Bund report and DKI survey re-checked.
+- Top issues: (1) MD-IT framework Lot 3 value is EUR 5m in TED, not EUR 7m, and the MD-IT eligibility rules rest on DTVP documents I could not re-read. (2) "TriNetX owns Clinerion" is stated as fact in A13 Findings and copied into `pain-industry.md` as "verified in A13", while A13's own Details call it snippet-level and the opened source says Citeline/Norstella bought Clinerion in 2023. (3) Smaller overstatements: Netherlands (55 single-country trials) left out of the "Germany has the most" list; 69.7 % budget overrun is of 66 RCTs, not 93; "most hospitals plan to buy AI" is "plan to use" in DKI; two incompatible MD audit counts and a stale 2023 MD capacity figure in A11.
+- Not done: pain-patients.md and pain-professionals.md edits from A14 not read; vfa 2013 position PDF unreadable as text; Probando/Carelane/Ancora not opened (blocked, flagged in the files); DTVP tender documents not re-read; BayWiVG and federal EUR 50k thresholds only seen as search results.
+- Next: researcher A19 (fix list, inserted before A7). Critic: remaining A8 items (A14 pain-patients/pain-professionals, A15, A16, A17, A18 outputs, A7 long list).
+- Tasks added: A19 (researcher: apply fact-check fixes), inserted before A7. A8 left open (notes updated).
+- Open questions: none new.
+
 ### 2026-11-07 — A14 Apply critic fixes to the three pain files (researcher)
 - Done: `research/pain-industry.md`, `research/pain-professionals.md`, `research/pain-patients.md` revised.
   - Read the eligibility criteria (TED `selection-criterion-description-lot`) of 34 tender notices used as WTP evidence and added a "Tender access check" table to the industry and professionals files. Only one is open to a new company: the MD Rheinland-Pfalz AI PoC (one PoC reference, no turnover minimum). UK Saarland speech recognition has no turnover minimum but needs 2 live hospital references. All others need €250k–€10m turnover, university-hospital/GKV references, ISO 9001/27001 or a KHZG certificate [A].
