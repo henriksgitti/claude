@@ -1,7 +1,7 @@
 # Long list: 30 healthcare problems (DE/DACH first)
 Task: A7 (fact-check fixes: A21) | Date: 2026-11-07 | Status: draft
 
-Method: merged the 36 raw problems in `research/pain-patients.md` (P1–P11), `research/pain-professionals.md` (S1–S10), `research/pain-industry.md` (I1–I10) and `archive/cancer-problem-statement.md` (A–E), using the deep dives `research/hospital-billing-audits.md` (A11), `research/payer-processing.md` (A12), `research/trial-recruitment-de.md` (A13), `research/reimbursement-routes.md` (A9/A15) and `research/trends.md` (A1). Result: 30 problems (one new: L10) and 6 items excluded or merged (table below). Key facts from the earlier files are carried over with their sources and grades, and were not re-opened in A7. Sources marked **(A7)** were opened in this session. Scoring fields (signer, budget line, wedge, first-sale route, buyer count) come in A18; scores come in B1.
+Method: merged the 36 raw problems in `research/pain-patients.md` (P1–P11), `research/pain-professionals.md` (S1–S10), `research/pain-industry.md` (I1–I10) and `archive/cancer-problem-statement.md` (A–E), using the deep dives `research/hospital-billing-audits.md` (A11), `research/payer-processing.md` (A12), `research/trial-recruitment-de.md` (A13), `research/reimbursement-routes.md` (A9/A15) and `research/trends.md` (A1). Result: 30 problems (one new: L10) and 6 items excluded or merged (table below). Key facts from the earlier files are carried over with their sources and grades, and were not re-opened in A7. Sources marked **(A7)** were opened in this session. Scoring fields (signer, budget line, wedge, first-sale route, buyer count, young-vendor K2 example) are in `research/longlist-scoring-fields.md` (A18); scores come in B1.
 
 ## Findings
 - **All 30 problems meet the Stage A bar**: each has ≥2 independent evidence items and ≥1 graded [A]/[B] (L19: 1 [B] + 3 opened [C] app feeds; L18, L24, L25, L30 and L11 have exactly 2). The [C] layer (online voices) is thin for most rows, because Reddit and several caregiver forums are blocked (A2). Only L01, L05, L06, L09, L16, L19, L20 and L21 have ≥2 opened [C] signals. Pain intensity therefore rests mostly on [A]/[B] surveys and statistics.
@@ -262,7 +262,7 @@ Grades as in the source files. "→" = file with full sources.
 - **L20:** no pharmacy purchase of shortage-management software was found (not searched in A7).
 - **L25:** number of health offices not sourced.
 - **Stale (>3 years):** DEVAP 2023 (L02), RWI data 2011–19 (L08), BPtK 2018–21 (L15), bpb 2015 (L04), ACT/SCRS 2023 (L27), MDS 2013 (L23).
-- **Buyer counts, signer, budget line, wedge, first-sale route:** not in this file; task A18.
+- **Buyer counts, signer, budget line, wedge, first-sale route:** see `research/longlist-scoring-fields.md` (A18).
 - **Not listed, snippets only:** ME/CFS and Long COVID care gap; rural GP intake stops.
 
 ## Sources
