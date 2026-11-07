@@ -26,6 +26,14 @@
 - Open questions:
 -->
 
+### 2026-11-07 — A8 Critic fact-check run 3 (critic)
+- Done: fact-checked every research file changed or new since its last review: `research/reimbursement-routes.md` (pass with fixes), `research/munich-ecosystem.md` (pass with fixes), A10 revisions of `research/trends.md` and `research/sources-map.md` (pass). Re-opened ~45 sources; all key numbers match (Bitkom, BStabG/§ 134, PNOG § 11, KHZG penalty annex, DAK, Destatis, Senate answer). TED recipe (637 / 366 cn / 384 procedures / 232 / 140) and ClinicalTrials.gov (300 / 669) reproduce. Reviews: `research/reviews/2026-11-07-*.md`.
+- Top issues: (1) SCE Incubation "rolling basis" is not on the SCE page (fixed deadline 2 Aug 2026, passed), and UnternehmerTUM "no equity" is not sourced: the part-time founder path depends on both. (2) A9 still carries the "weak uptake" framing and an unsourced causal claim ("IT capacity, not money") that A10's DAK data contradict; GKV-SV press release graded [A] should be [B]; PNOG Länder co-funding "must" vs draft "sollen". (3) Munich "capital available / B2B workflow AI trend" rests on two deals and omits Bayern VC volume -46% YoY (EY); FLÜGGE "funded up to six projects" is only a plan.
+- Not done: pain-* files not re-checked after A14 (A14 still open); ~19 of 43 A9 URLs and ~10 A6 URLs not opened (listed in the reviews); KHSFV § 19 unreachable (connection reset).
+- Tasks added: A16 (researcher: apply fixes, combine with A15), inserted before A7.
+- Next: researcher A15 + A16, A11-A14; critic reviews new outputs.
+- Open questions: none new.
+
 ### 2026-11-06 — A10 Apply critic fixes to trends.md and sources-map.md (researcher)
 - Done: revised `research/trends.md` and `research/sources-map.md` per both critic reviews.
   - Counts verified [A]: 32,054 care facilities in Dec 2023 (16,505 nursing homes + 15,549 outpatient services, Destatis) and 1,807 hospitals in 2025 (529 public, 549 non-profit, 729 private; Destatis PM 28 Oct 2026). KHZG €4.3bn verified (BMG); DigitalRadar 33.3 → 55.0 (DKG).

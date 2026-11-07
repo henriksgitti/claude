@@ -135,6 +135,16 @@
       "reason": "A10 found that reimbursement-routes.md (A9) omits § 113e, a recurring care-rate-funded budget for staff-relief tech in nursing homes, and that its '20–30 % uptake' reads as facility uptake while the vdek figure means 'full amount used'; DAK data show ~65% facility uptake. B1 criterion 3 reads this file."
     },
     {
+      "id": "A16",
+      "stage": "A",
+      "title": "Apply fact-check fixes to reimbursement-routes.md and munich-ecosystem.md",
+      "description": "Per research/reviews/2026-11-07-reimbursement-routes.md and 2026-11-07-munich-ecosystem.md: (1) regrade the GKV-SV press release from [A] to [B]; (2) DiPA exclusion wording per § 40a Abs. 1a (work organisation of outpatient services only; 'ausschließlich' information/advice); (3) 1.9m prevention users = any insurer-funded measure, not ZPP-certified; (4) PNOG Länder co-funding 'sollen' + condition, align with trends.md; (5) remove or mark as unsourced inference the claim 'low IT capacity, not missing money, limits adoption'; (6) SCE Incubation: replace 'rolling' with the actual intake dates (page shows deadline 2 Aug 2026), drop 'no equity' for UnternehmerTUM unless sourced; (7) FLÜGGE: 'intends to fund up to six', cite the current call; (8) add EY Bayern -46% and note the two-deal basis of the 'B2B workflow AI' trend; (9) re-source EIC 2027 cut-off dates. Combine with A15 in one pass. Output: updated research/reimbursement-routes.md and research/munich-ecosystem.md",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "critic 2026-11-07",
+      "reason": "Fact-check found no fabrication but one unsupported claim (SCE rolling) and several grade/wording overreaches that B1 and the founder-path recommendation read."
+    },
+    {
       "id": "A7",
       "stage": "A",
       "title": "Long list of 20–30 problems",
@@ -149,7 +159,7 @@
       "description": "Review each Stage A research file as it appears (sources, grades, cherry-picking, [C]-only claims). Mark done when every A file has a current review. Output: research/reviews/",
       "owner": "critic",
       "done": false,
-      "notes": "2026-11-06 critic: reviewed trends.md (pass, minor fixes), sources-map.md (pass, minor fixes), scoring.md (needs work before B1). Still to review: A3, A4, A5, A6, A9, A10, A7 outputs. | 2026-11-06 critic run 2: reviewed pain-industry.md (needs work), pain-professionals.md (needs work), pain-patients.md (pass, minor fixes); added A14. Still to review: A6, A9, A10, A11, A12, A13, A7 outputs. | 2026-11-06 researcher A10: trends.md and sources-map.md revised; ready for re-check."
+      "notes": "2026-11-06 critic: reviewed trends.md (pass, minor fixes), sources-map.md (pass, minor fixes), scoring.md (needs work before B1). Still to review: A3, A4, A5, A6, A9, A10, A7 outputs. | 2026-11-06 critic run 2: reviewed pain-industry.md (needs work), pain-professionals.md (needs work), pain-patients.md (pass, minor fixes); added A14. Still to review: A6, A9, A10, A11, A12, A13, A7 outputs. | 2026-11-06 researcher A10: trends.md and sources-map.md revised; ready for re-check. | 2026-11-07 critic fact-check: reimbursement-routes.md (pass with fixes), munich-ecosystem.md (pass with fixes), trends.md + sources-map.md A10 revision (pass; TED and CT.gov counts reproduce); added A16. Still to review: A11, A12, A13, A14 and A15 outputs, A7 long list, pain-* files after A14."
     },
     {
       "id": "B1",
