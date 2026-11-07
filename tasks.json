@@ -178,7 +178,8 @@
       "title": "Long list of 20–30 problems",
       "description": "Merge A1–A5 and archive/cancer-problem-statement.md into 20–30 distinct problems. Per problem: one-line statement, who has it, who pays, evidence count and grades, links to supporting research. Output: research/longlist.md",
       "owner": "researcher",
-      "done": false
+      "done": true,
+      "notes": "Done 2026-11-07 (researcher): research/longlist.md with 30 problems (L01-L30) from 36 raw items (P1-P11, S1-S10, I1-I10, cancer A-E); 6 excluded/merged (S6, S9, I10, cancer D; cancer A/B replaced by DE data in L17; I6 split into L22/L23). One new problem (L10 hybrid-DRG -> short-stay flat rates 2028). All rows >=2 evidence items, >=1 [A]/[B]; [C] thin. Scoring fields left to A18."
     },
     {
       "id": "A20",
