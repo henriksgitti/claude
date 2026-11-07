@@ -48,7 +48,7 @@ Linked from `research/longlist.md`. One provisional wedge per row (signer + prod
   Most other triggers fall in 2026 or 1 Jan 2027: audit quotas, lung screening, the TI obligation.
 
 ## Table 1: who, signer, budget, wedge
-Clusters follow red-team F3 (`research/reviews/2026-11-07-redteam-longlist.md`). They are provisional, and A23 decides the final clusters and merges. **Budget line:** *job* = the signer pays today for the same job; *adjacent* = money exists nearby but buys something else (F2).
+Clusters follow red-team F3 (`research/reviews/2026-11-07-redteam-longlist.md`). They are provisional. A23 set the final clusters (C1–C13) and merges in `research/longlist.md`: L10 → L07, L30 → L26, L19 excluded. **Budget line:** *job* = the signer pays today for the same job; *adjacent* = money exists nearby but buys something else (F2).
 
 | # | Cluster | User | Signer (role + org type) | Budget line | Wedge: product → first customer type; price/ACV guess (inference) |
 |---|---|---|---|---|---|
