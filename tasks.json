@@ -210,9 +210,10 @@
       "title": "Apply fact-check fixes from the A21 re-check",
       "description": "Fix the issues in research/reviews/2026-11-07-A21-longlist-payer-pain-industry-recheck.md: (1) buyer count 33 -> 32 in longlist Findings; (2) say whether gkv informatik 481787-2026 counts as unread (7 unread, not 6); (3) pain-industry.md line 39 and line 224: MD RLP closed 5 Sep 2025, use 'was open / route existed'; pain-professionals.md line 175 'One notice per buyer' (Charite has two); (4) add MD Nordrhein R6: at least one reference with >= EUR 500,000 net own development work (Fragebogen item 6.2) to longlist, pain-industry and payer-processing; (5) label 'subcontractor' route for MD Nordrhein as inference (only consortium member or Eignungsleihe is supported). Output: edits to those files. Small; can be combined with A18 edits to longlist.md.",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "critic 2026-11-07",
-      "reason": "Fact-check re-check of A21 found small count and staleness slips and one omitted barrier that feed knock-out K2 in A18/B1."
+      "reason": "Fact-check re-check of A21 found small count and staleness slips and one omitted barrier that feed knock-out K2 in A18/B1.",
+      "notes": "Done 2026-11-07 (researcher): (1) 32 buyers; (2) unread thresholds = 7 notices/7 buyers incl. gkv informatik (rated No on 3 references alone); DAK and gkv informatik deadlines passed (14 Jul / 10 Aug 2026), DTVP document links HTTP 404, not read; (3) MD RLP wording past tense in pain-industry.md (lines 39, 224), Charite two notices in pain-professionals.md; (4) MD Nordrhein R6 >= EUR 500k own-development reference added to longlist, pain-industry, payer-processing (re-downloaded aumass package); (5) subcontractor route labelled inference (counts only via Eignungsleihe). Issue 6: UK Saarland (1 Sep 2025) and MD Bayern (28 Feb 2025) deadlines checked: closed."
     },
     {
       "id": "A18",
