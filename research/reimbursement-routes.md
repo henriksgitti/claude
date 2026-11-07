@@ -1,5 +1,5 @@
 # Reimbursement & funding routes for digital health products in DE (status late 2026)
-Task: A9 (updated by A15: § 113e route, § 8 Abs. 8 uptake) | Date: 2026-11-06, updated 2026-11-07 | Status: draft
+Task: A9 (updated by A15: § 113e route, § 8 Abs. 8 uptake; A16: fact-check fixes) | Date: 2026-11-06, updated 2026-11-07 | Status: draft
 
 ## Findings
 - **DiGA (app on prescription) is still open but is getting tighter on price.** The GKV-BStabG (in force 30 Jul 2026) adds volume discounts from 1 Jan 2027: "mindestens zwei Prozent bei mehr als dreitausend Abgaben … und mindestens dreißig Prozent bei mehr als hunderttausend Abgaben" per year. It also makes group price caps (Höchstbeträge) mandatory for the free-pricing first year, with a weighted-average cap for DiGA in no group. The ≥20 % performance-based price share has applied since 1 Jan 2026 [A] ([§ 134 SGB V, BStabG version](https://www.buzer.de/134_SGB_V.htm); [BStabG cabinet draft, reasoning p. 156–157](https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Gesetze_und_Verordnungen/GuV/G/GKV-Beitragssatzstabilisierungsgesetz_Kabinett.pdf)).
@@ -7,7 +7,7 @@ Task: A9 (updated by A15: § 113e route, § 8 Abs. 8 uptake) | Date: 2026-11-06,
   - Manufacturers' view: 94 % of 34 surveyed manufacturers rate the cost of producing evidence as high [B] (same source).
 - **DiPA (care app on the care insurance) is a route in law only.** "Bisher ist keine DiPA in diesem Verzeichnis gelistet" (BMG draft, 19 Jun 2026) [A] ([DiPAV amendment draft](https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Gesetze_und_Verordnungen/GuV/D/1_DiPAV-AendVO_RefE_final.pdf)).
   - The benefit is €53/month in total for the app plus support services [A] ([§ 30 SGB XI notice 2025](https://www.gesetze-im-internet.de/sgb11_30bek_2025/BJNR634700024.html)).
-  - The law explicitly excludes apps for care-service work organisation, information, applying for benefits, or advice on choosing social benefits [A] ([§ 40a Abs. 1a SGB XI](https://www.gesetze-im-internet.de/sgb_11/__40a.html)). So DiPA cannot pay for a "benefits navigation" product (pain-patients P1).
+  - The law excludes apps "zur Arbeitsorganisation von ambulanten Pflegeeinrichtungen, zur Wissensvermittlung, Information oder Kommunikation, zur Beantragung oder Verwaltung von Leistungen" and apps "die ausschließlich auf Auskunft oder Beratung zur Auswahl und Inanspruchnahme von Sozialleistungen … ausgerichtet sind" [A] ([§ 40a Abs. 1a SGB XI](https://www.gesetze-im-internet.de/sgb_11/__40a.html), re-read 2026-11-07). So DiPA cannot pay for a navigation-*only* product (pain-patients P1). *Inference:* a hybrid app whose main purpose is relieving carers or stabilising home care (which Abs. 1a explicitly allows) is not excluded just because it also contains benefits information.
 - **PNOG care-digitisation fund: bigger and broader than in the June draft, but no money before H2 2027.** The cabinet draft (30 Sep 2026) sets up €1.6bn from the federal special fund for 2027–2031, plus €400m co-funding from the Länder (80/20). It now covers "ambulanter und stationärer Pflegeeinrichtungen" (the June draft covered only outpatient and day care).
   - Payouts run via the Pflegekassen "ab dem 1. Juli 2027". Per-facility caps and conditions (incl. "Nachweis der Wirtschaftlichkeit", evaluation duty, no double funding) come in GKV-SV guidelines due 30 Jun 2027 [A] ([PNOG cabinet draft, § 11 Abs. 4–9 SGB XI-new, p. 26–28](https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Gesetze_und_Verordnungen/GuV/P/Kabinett-GE_Pflegeneuordnungsgesetz_PNOG.pdf)).
   - Status: the 1st reading took place on 5 Nov 2026 (bill Drucksache 21/8869); the bill went to the Health Committee, and coalition speakers announced changes, mainly for family carers [B] ([Bundestag text archive, 5 Nov 2026](https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-pflegeneuordnungsgesetz-1225076)). Planned: 2nd/3rd reading 11 Dec 2026, in force 1 Jan 2027 [B] ([AOK PNOG tracker, updated 27 Oct 2026](https://www.aok.de/pp/gesetz/pnog/)).
@@ -20,7 +20,7 @@ Task: A9 (updated by A15: § 113e route, § 8 Abs. 8 uptake) | Date: 2026-11-06,
   - *My math:* 143.3 / (32,054 facilities × €0.012m = €384.6m) = 37 % of the theoretical pool by end-2024; 11,300 / 17,500 = 65 % of DAK-processed facilities. The typical draw was ~€7,200 (81.2m / 11,300), i.e. ~€18,000 spend at 40 %. Grant money is not the same as purchases; the payouts have been flat at €24–32m a year since 2020.
 - **Hospitals have no new software budget, but they do have a stick.**
   - The €29bn transformation fund pays for structural projects that the Länder apply for (concentration, closures, telemedicine networks, emergency structures). Digital infrastructure is eligible only as part of such projects, and "Vorhaben, die überwiegend dem Erhalt bestehender Strukturen dienen, sind nicht förderfähig" [A] ([§ 12b KHG](https://www.gesetze-im-internet.de/khg/__12b.html)).
-  - The KHZG money (€3bn federal) is committed, and no successor programme was found.
+  - The KHZG money (€3bn federal; up to €4.3bn with Länder co-funding) is committed, and no successor programme was found in my searches.
   - The KHZG penalty (up to 2 % per case) starts weighting **actual use** of five digital services: 20 % of the penalty in 2027, rising to 80 % in 2031. Use above 60 % (2027) to 80 % (2029+) avoids the use part [A] ([GKV-SV/DKG Digitalisierungsabschlags-Vereinbarung](https://www.dkgev.de/fileadmin/Mediapool/2_Themen/2.1_Digitalisierung_Daten/2.1.5._Telematik-Infrastruktur/2.1.5.1_Finanzierungsvereinbarung/2026-01-26_ANLAGE_3_DIGITALISIERUNGSABSCHLAGSVEREINBARUNG.pdf)).
 - **Insurer budgets are being squeezed by law.**
   - Selective contracts (§ 140a) must now meet the contribution-stability principle (§ 71) [A] ([BStabG art. 1 no. 57](https://www.buzer.de/gesetz/17632/a340690.htm)).
@@ -49,7 +49,7 @@ Task: A9 (updated by A15: § 113e route, § 8 Abs. 8 uptake) | Date: 2026-11-06,
 | **Selective contracts** (§ 140a SGB V) | Single insurer | Negotiated | Months–years | Must be economic; now explicitly bound by § 71 contribution stability | Open but tighter | [A]/[B] |
 | **Insurer innovation funding** (§ 68a/§ 68b, § 263a SGB V) | Single insurer | Project-based; or fund stakes via § 263a | Ad hoc | Insurer's own judgement | Unchanged by BStabG/GeDIG | [A] |
 | **Statutory-benefit extras** (Satzungsleistung, e.g. Barmer "DiGL" budget) | Single insurer | Per insurer statutes | Ad hoc | Per insurer (CE, data protection, guideline fit) | Exists at Barmer | [B] |
-| **Prevention courses** (§ 20 SGB V, ZPP) | ZPP certifies; insurers subsidise per their statutes | Per statutes `[UNVERIFIED]` amount | Review "in der Regel innerhalb weniger Tage" | Digital: ≥ pre-post study registered in advance (1-year provisional certificate possible); ISO 27001 | Growing: 115,000 certified offers; 1.9m users in 2024 | [A]/[B] |
+| **Prevention courses** (§ 20 SGB V, ZPP) | ZPP certifies; insurers subsidise per their statutes | Per statutes `[UNVERIFIED]` amount | Review "in der Regel innerhalb weniger Tage" | Digital: ≥ pre-post study registered in advance (1-year provisional certificate possible); ISO 27001 | Growing: 115,000 certified offers; 1.9m users of any insurer-funded prevention measure in 2024 | [A]/[B] |
 | **Innovationsfonds** (§ 92a SGB V) | G-BA Innovation Committee; consortia | €100m/yr from 2027 (€80m new care models) | Calls; decision ~6 months after deadline | Scientific evaluation | Halved | [A] |
 
 ### 2. DiGA: what changed in 2026
@@ -73,7 +73,7 @@ Task: A9 (updated by A15: § 113e route, § 8 Abs. 8 uptake) | Date: 2026-11-06,
 - **Payer view:**
   - "Nur weniger als jede fünfte DiGA konnte mit ihrer Aufnahme einen Nutzen nachweisen"; 16 were delisted.
   - €63m was pre-financed; prices range "von 119 Euro bis zu 2.077 Euro".
-  - The payers welcome the FinanzKommission's proposals to change trial listing and pricing [A] ([GKV-SV PM 8 Apr 2026](https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2239872.jsp)).
+  - The payers welcome the FinanzKommission's proposals to change trial listing and pricing [B] (payer-association press release) ([GKV-SV PM 8 Apr 2026](https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2239872.jsp)).
 - **Manufacturer view** (Bitkom, n=34) [B]:
   - 74 % see pay as inadequate relative to effort;
   - 85 % cite high development and approval costs;
@@ -84,7 +84,7 @@ Task: A9 (updated by A15: § 113e route, § 8 Abs. 8 uptake) | Date: 2026-11-06,
 ### 3. DiPA
 - Legal frame [A] ([§ 40a](https://www.gesetze-im-internet.de/sgb_11/__40a.html), [§ 40b](https://www.gesetze-im-internet.de/sgb_11/__40b.html), [§ 78a SGB XI](https://www.gesetze-im-internet.de/sgb_11/__78a.html)):
   - Eligible: apps for the person in need of care, and since then also apps that support family carers ("pflegende Angehörige … entlasten").
-  - Excluded: work organisation of care services, information, benefit applications, advice on social benefits.
+  - Excluded (§ 40a Abs. 1a): work organisation of *outpatient* care services, knowledge transfer/information/communication, applying for or managing benefits, and apps "ausschließlich" for information or advice on choosing social benefits. Carer-relief apps are explicitly included.
   - Medical devices must be low risk class. The price is agreed within 3 months of listing.
 - €53/month for app plus support services together (from 1 Jan 2025) [A] ([§ 30 notice](https://www.gesetze-im-internet.de/sgb11_30bek_2025/BJNR634700024.html)).
 - Zero listed, and few applications [A] ([DiPAV draft, 19 Jun 2026](https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Gesetze_und_Verordnungen/GuV/D/1_DiPAV-AendVO_RefE_final.pdf)). The draft brings in:
@@ -176,7 +176,7 @@ Task: A9 (updated by A15: § 113e route, § 8 Abs. 8 uptake) | Date: 2026-11-06,
 - **Satzungsleistungen:** Barmer runs a "Budget für digitale Gesundheitsleistungen (DiGL, §28)" [B] (Barmer guide). BStabG only removes homeopathy from statutory-benefit extras [A] (BStabG reasoning on § 11).
 - **Prevention (§ 20, ZPP)** [A] ([GKV-SV criteria, 17 Dec 2025](https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/praevention__selbsthilfe__beratung/praevention/praevention_leitfaden/Kriterien_zur_Zertifizierung_digitalen_Praeventionsangebote_gemaess_Kapitel_7_Stand_17.12.2025.pdf)); [B] ([vdek 2026](https://www.vdek.com/presse/pressemitteilungen/2026/zentrale-pruefstelle-praevention-mehr-praeventionskurse.html)):
   - Certification requires at least a prospective pre-post study whose design is registered in advance (DRKS/OSF). A 1-year provisional certificate is possible on the basis of the study design.
-  - The market: 115,000 certified offers from almost 65,000 providers; 1.9m insured people used one in 2024.
+  - The market: 115,000 certified offers from almost 65,000 providers. "2024 haben rund 1,9 Millionen Versicherte eine von ihrer Krankenkasse geförderte Präventionsmaßnahme genutzt" (any insurer-funded prevention measure, not only ZPP-certified courses; re-read 2026-11-07).
   - *Inference:* crowded and low-price. It suits consumer prevention, not the founder's B2B sweet spot.
 - **Innovationsfonds:** €100m/yr from 2027 (down from €200m); startups take part only as consortium partners [A] ([G-BA overview](https://innovationsfonds.g-ba.de/downloads/media/397/2026-08-10_Ueberblick-fuer-Antragstellende-ueber-Foerderbekanntmachungen-2026-und-Verfahrensarten.pdf)); see also `research/munich-ecosystem.md`.
 
@@ -188,7 +188,7 @@ Task: A9 (updated by A15: § 113e route, § 8 Abs. 8 uptake) | Date: 2026-11-06,
 | Hospital documentation, discharge, portals (S-items) | Hospital opex; KHZG usage penalty 2027+ | 3–4; long sales cycles |
 | Hospital coding / MD audits (A11) | Hospital opex (revenue protection) | Unaffected by public funds; see A11 |
 | Insurer admin (A12) | Insurer admin budget, capped from 2027 | 3; outsourcing may gain from the cap, new spend may lose |
-| Patient/carer apps (P1, P3) | DiGA/DiPA/§ 140a/self-pay | 2: benefits navigation is excluded from DiPA; DiGA needs a medical purpose and evidence |
+| Patient/carer apps (P1, P3) | DiGA/DiPA/§ 140a/self-pay | 2: navigation-only apps are excluded from DiPA (carer-relief hybrids are not); DiGA needs a medical purpose and evidence |
 | Clinical trials (I1/I2) | Pharma/CRO budgets | Not affected by these routes |
 
 - Suggest that B1 uses "first revenue route ≤12 months without reimbursement listing" as the test for a WTP score of 4–5.
@@ -202,7 +202,7 @@ Task: A9 (updated by A15: § 113e route, § 8 Abs. 8 uptake) | Date: 2026-11-06,
 - **The current DiGA count (Nov 2026)** was not checked: the BfArM directory needs JS and its FHIR API returned 401 (A2). Figures are as of end-2025.
 - **FinanzKommission second report** (due end-2026) and any further DiGA proposals: not yet published or not found.
 - **Prevention-course subsidy amounts per insurer** `[UNVERIFIED]`; PKV/Beihilfe reimbursement of DiGA not researched.
-- **KHZG totals:** commonly cited as €4.3bn (with co-funding) `[UNVERIFIED]`; § 14a KHG states €3bn federal plus ≥30 % co-funding.
+- **KHZG totals:** resolved. The BMG states "Fördervolumen von bis zu 4,3 Milliarden Euro" (federal €3bn + Länder), verified in A10 ([BMG KHZG page](https://www.bundesgesundheitsministerium.de/krankenhauszukunftsgesetz)) [A]; § 14a KHG states €3bn federal plus ≥30 % co-funding.
 - **e-billing for care services:** vdek Brandenburg/Berlin say the digital measures "bis Ende 2026 verpflichtend" [B]; the primary legal source was not opened.
 - **Data age:** the vdek uptake figures are from 2024 (Hamburg 2021) and the Bavarian TI survey is from 2024. Not >3 years old except Hamburg (2021, flagged).
 - **Correction to the task text:** § 64e SGB V is the genome-sequencing model project ([§ 64e](https://www.gesetze-im-internet.de/sgb_5/__64e.html)), not a digital-health route. It was treated as a typo; § 140a/§ 68a–b/§ 63 were covered instead (§ 63 model projects not researched in depth).
@@ -215,12 +215,12 @@ Task: A9 (updated by A15: § 113e route, § 8 Abs. 8 uptake) | Date: 2026-11-06,
 - https://www.bundesgesundheitsministerium.de/service/gesetze-und-verordnungen/detail/gkv-beitragssatzstabilisierungsgesetz — BStabG procedure, in force 30 Jul 2026, accessed 2026-11-06
 - https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Gesetze_und_Verordnungen/GuV/G/GKV-Beitragssatzstabilisierungsgesetz_Kabinett.pdf — BStabG reasoning (§ 4, § 11, § 134 scale, § 140a), accessed 2026-11-06
 - https://www.bitkom.org/sites/main/files/2026-10/bitkom-studienbericht-digitale-gesundheitsanwendungen-diga-2026.pdf — DiGA market 2025, manufacturer survey (n=34), accessed 2026-11-06
-- https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2239872.jsp — DiGA report (payer view, prices, delistings), accessed 2026-11-06
+- https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2239872.jsp — DiGA report (payer view, prices, delistings) [B], accessed 2026-11-06
 - https://www.bundesgesundheitsministerium.de/service/gesetze-und-verordnungen/detail/gedig — GeDIG status, accessed 2026-11-06
 - https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Gesetze_und_Verordnungen/GuV/G/GeDIG_Kabinett.pdf — GeDIG § 33a changes (telemonitoring, reporting), § 25b/§ 68b, accessed 2026-11-06
 - https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Gesetze_und_Verordnungen/GuV/H/RefEntwurf_Hilfsmittelmodernisierungs-_und_Buerokratierueckbaugesetz_HiB.pdf — HiB draft 3 Nov 2026 (DiGA arbitration procedural), accessed 2026-11-06
 - https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Gesetze_und_Verordnungen/GuV/D/1_DiPAV-AendVO_RefE_final.pdf — DiPAV amendment draft: zero DiPA listed, trial listing, accessed 2026-11-06
-- https://www.gesetze-im-internet.de/sgb_11/__40a.html — DiPA scope and exclusions, accessed 2026-11-06
+- https://www.gesetze-im-internet.de/sgb_11/__40a.html — DiPA scope and exclusions, accessed 2026-11-06; Abs. 1a wording re-read 2026-11-07 (A16)
 - https://www.gesetze-im-internet.de/sgb_11/__40b.html — DiPA benefit (base amounts), accessed 2026-11-06
 - https://www.gesetze-im-internet.de/sgb_11/__78a.html — DiPA pricing and directory, accessed 2026-11-06
 - https://www.gesetze-im-internet.de/sgb11_30bek_2025/BJNR634700024.html — DiPA benefit €53/month from 2025, accessed 2026-11-06
@@ -265,5 +265,5 @@ Task: A9 (updated by A15: § 113e route, § 8 Abs. 8 uptake) | Date: 2026-11-06,
 - https://www.gesetze-im-internet.de/sgb_5/__64e.html — § 64e is genome sequencing (task correction), accessed 2026-11-06
 - https://www.barmer.de/leistungserbringer/innovationen-einreichen/innovation-guide-so-kommen-sie-zu-einer-foerderung-1280800 — insurer routes for innovators (§ 140a, § 68a, DiGL, ZPP), accessed 2026-11-06
 - https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/praevention__selbsthilfe__beratung/praevention/praevention_leitfaden/Kriterien_zur_Zertifizierung_digitalen_Praeventionsangebote_gemaess_Kapitel_7_Stand_17.12.2025.pdf — digital prevention certification evidence rules, accessed 2026-11-06
-- https://www.vdek.com/presse/pressemitteilungen/2026/zentrale-pruefstelle-praevention-mehr-praeventionskurse.html — ZPP volumes 2025, 1.9m users 2024, accessed 2026-11-06
+- https://www.vdek.com/presse/pressemitteilungen/2026/zentrale-pruefstelle-praevention-mehr-praeventionskurse.html — ZPP volumes 2025, 1.9m users of any insurer-funded prevention measure 2024, accessed 2026-11-06, re-read 2026-11-07 (A16)
 - https://innovationsfonds.g-ba.de/downloads/media/397/2026-08-10_Ueberblick-fuer-Antragstellende-ueber-Foerderbekanntmachungen-2026-und-Verfahrensarten.pdf — Innovationsfonds €100m/yr from 2027, accessed 2026-11-06
