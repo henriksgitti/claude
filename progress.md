@@ -2,12 +2,12 @@
 
 ## Current state
 - Project: **Healthcare Venture** (scope opened from cancer to healthcare on 2026-11-06, see `decisions/2026-11-06-scope-pipeline.md`).
-- Stage: **A — Scan** (in progress). A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). A6 Munich ecosystem drafted (`research/munich-ecosystem.md`). A9 reimbursement/funding routes drafted (`research/reimbursement-routes.md`). A10 applied the critic fixes to `research/trends.md` and `research/sources-map.md`. A11 drafted `research/hospital-billing-audits.md` (MD audits, 2027 rules, incumbents). A12 drafted `research/payer-processing.md` (insurer § 302 outsourcing, MD AI tenders, buying routes). A13 drafted `research/trial-recruitment-de.md` (CTIS count, 5 % rule, Kapazitätsinitiative, vendors). A14 applied the critic fixes to the three pain files (tender access tables; WTP downgraded where startups cannot bid). Cancer-only work archived in `archive/`; its V1 draft feeds A7.
+- Stage: **A — Scan** (in progress). A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). A6 Munich ecosystem drafted (`research/munich-ecosystem.md`). A9 reimbursement/funding routes drafted (`research/reimbursement-routes.md`). A10 applied the critic fixes to `research/trends.md` and `research/sources-map.md`. A11 drafted `research/hospital-billing-audits.md` (MD audits, 2027 rules, incumbents). A12 drafted `research/payer-processing.md` (insurer § 302 outsourcing, MD AI tenders, buying routes). A13 drafted `research/trial-recruitment-de.md` (CTIS count, 5 % rule, Kapazitätsinitiative, vendors). A14 applied the critic fixes to the three pain files (tender access tables; WTP downgraded where startups cannot bid). A15 added the § 113e Transformationsstellen route and official § 8 Abs. 8 uptake data to `research/reimbursement-routes.md`. Cancer-only work archived in `archive/`; its V1 draft feeds A7.
 - Infrastructure: worker session on environment `healthcare-venture`. WebFetch fails DNS for many hosts (destatis.de, bundesgesundheitsministerium.de, vdek.com), but `curl` through the proxy reaches them: fetch with curl + local text extraction. Reddit is effectively unusable: direct fetch is bot-checked and `site:reddit.com` search returns almost no reddit.com hits (A2). Working alternatives and recipes are listed in `research/sources-map.md`.
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
 ## Next steps
-1. Researcher: A15, A16, A17, A7, A18 (one per run), using the recipes in `research/sources-map.md`. Critic: A8 alongside (`research/munich-ecosystem.md`, `research/reimbursement-routes.md` and the revised `research/trends.md` / `research/sources-map.md` ready for review).
+1. Researcher: A16, A17, A19, A7, A18 (one per run), using the recipes in `research/sources-map.md`. Critic: A8 alongside (`research/munich-ecosystem.md`, `research/reimbursement-routes.md` and the revised `research/trends.md` / `research/sources-map.md` ready for review).
 2. Then B1 (score, top 5) → CEO picks 2–3.
 
 ## Open questions
@@ -27,6 +27,17 @@
 - Next:
 - Open questions:
 -->
+
+### 2026-11-07 — A15 § 113e Transformationsstellen and § 8 Abs. 8 uptake (researcher)
+- Done: `research/reimbursement-routes.md` updated.
+  - New §4b + table row for **§ 113e** (bill 21/8869, text identical to the cabinet draft): residential homes only, 2028–2032, ≤10 % of the staffing-corridor posts, valued at care minimum wage × 1,560 h, catalogue-gated (Kompetenzzentrum, from 30 Sep 2027). My estimate: ~€16–19k/yr per 100-resident home (FINSOZ example), ceiling ~€100k (DBfK). Nationally ~€43–151m/yr (inference). GKV-SV wants it replaced by a study until 2031 (only ~1/3 of homes have the needed staffing split); DBfK and ver.di want it struck; FINSOZ wants 50 %.
+  - **§ 8 Abs. 8 uptake reframed with official data:** BAS national payouts €143.3m 2019–2024 [A] (€24–32m/yr since 2020, flat) ≈ 37 % of the €384.6m pool; ~65 % of DAK-processed facilities used it; vdek 20–30 % = full amount used. "Weak uptake" and the unsourced "IT capacity, not money" claim are removed.
+  - New facts: the PNOG 1st reading happened on 5 Nov 2026 (bill went to the Health Committee); the old €12k grant drops "Entlastung der Pflegekräfte"/workflow items from 2027; the bill's general reasoning still says "ambulanten und teilstationären" for the €1.6bn fund (law text: "ambulanter und stationärer").
+  - Also did A16 items 4 and 5 (same paragraphs). Synced the uptake gap line in `research/trends.md`.
+- Not done: no AOK or GKV-SV count of facilities using the grant was found; BAS 2025 figure not found; GKV-SV § 113c Abs. 8 report (the "one third" figure) not opened.
+- Next: A16 (remaining items 1–3, 6–9). Critic: fact-check the A15 changes in `research/reimbursement-routes.md`.
+- Tasks added: none.
+- Open questions: none new.
 
 ### 2026-11-07 — Red team v2 of research/scoring.md (critic, RED TEAM)
 - Done: reviewed the revised method (K1/K2 + R1–R4, CEO option (b)) → `research/reviews/2026-11-07-redteam-scoring-v2.md`. Verdict: **needs work** (rejected options not re-argued).
