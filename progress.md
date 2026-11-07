@@ -15,6 +15,7 @@
 - Optional allowlist / network change: WebFetch fails DNS for most hosts; curl is blocked by bot checks at trustpilot.com, indeed.com, glassdoor, crunchbase.com, dealroom.co, oecd.org (web), europepmc.org (web), gutefrage.net, aerztezeitung.de, springermedizin.de, background.tagesspiegel.de. Not bypassed.
 - CEO: own budget, target date to go full-time, no-go areas (see `founder-brief.md`).
 - ~~CEO decision before B1: replace the scoring method?~~ **Decided 2026-11-07 (chat): option (b) + confidence ranking.** `research/scoring.md` now has knock-outs K1/K2 and confidence rules R1–R4 (H/M/L per score, L capped at 3, tiers + sensitivity check). Still useful for founder fit: the 10-minute founder-access check in the red-team review ("Cheapest tests" 1).
+- **CEO decision before B1: approve the scoring v2 fixes?** `research/reviews/2026-11-07-redteam-scoring-v2.md` lists 10 one-line edits to `research/scoring.md` (must-fix 1–6: K2 needs a sourced example of the route in use, else 'K2 unproven'; buyer-specific direct-award limits incl. § 22 Abs. 2 SVHV ≤€50k for insurers; score per A18 wedge; define K1 'category' and 'in force'; define tiers and the R4 order; separate M from L). Recommendation: approve 1–6 now; 7–10 optional. Task A20 (researcher) is blocked on this.
 
 ---
 
@@ -26,6 +27,14 @@
 - Next:
 - Open questions:
 -->
+
+### 2026-11-07 — Red team v2 of research/scoring.md (critic, RED TEAM)
+- Done: reviewed the revised method (K1/K2 + R1–R4, CEO option (b)) → `research/reviews/2026-11-07-redteam-scoring-v2.md`. Verdict: **needs work** (rejected options not re-argued).
+- Top issues: (1) K2 only fires if *no* direct-award, private-buyer or channel route exists. Such a route is almost always legally possible, and below-threshold and private purchases are invisible in TED. So K2 lets through S1/S3/S7/S8, where every checked tender is closed. (2) "Inference" is in both M and L, so WTP and achievability get tagged M and R2/R3 never fire. Worked example: an S1-type row scores 78/90 (76 after R4) and reaches the top 5. (3) Tiers A/B/C, the R4 order (−1 before or after the cap) and the score for unknowns are undefined. (4) K1 "category" and "budget line" are undefined (draft-law money, price lists). (5) Insurers' direct-award limit is § 22 Abs. 2 SVHV ≤€50k [A], not BayWiVG.
+- Proposed: 10 one-line fixes (1–6 must-fix before B1), for CEO approval. `scoring.md` not edited.
+- Tasks added: A20 (researcher, blocked on CEO approval), inserted before A18.
+- Not done: no B1 scores computed; whether MDs fall under the SVHV and whether BayWiVG covers university/municipal GmbH hospitals is `[UNVERIFIED]`; BAS circular of 8 Jan 2026 not opened.
+- Open questions: CEO approval of fixes 1–10 (see Open questions).
 
 ### 2026-11-07 — A8 Critic fact-check run 4 (critic, FACT-CHECK)
 - Done: fact-checked `research/hospital-billing-audits.md` (A11), `research/payer-processing.md` (A12), `research/trial-recruitment-de.md` (A13): all **pass with minor fixes**. Also `research/scoring.md` K1/K2 revision (pass; two procurement thresholds supported by search results only) and a sample of the A14 revision of `research/pain-industry.md` (pass, not a full re-check). Reviews in `research/reviews/2026-11-07-*.md`. Re-run counts: CTIS (12,788 trials, 4,653 transitioned, every year/country figure) **match exactly**; ClinicalTrials.gov matches except Munich recruiting (307 in file, 314 today); GKV-SV 2023–2025 national audit statistics and the Q2 2026 per-hospital 2027 simulation (1,100/231/193 hospitals; 532 below 50 %) **match**; 28 TED notices, MD Bund report and DKI survey re-checked.
