@@ -232,7 +232,8 @@
       "title": "Apply red-team fixes to research/longlist.md (who-pays labels, clusters, merges)",
       "description": "Per research/reviews/2026-11-07-redteam-longlist.md F2-F3 (can run with or right after A18): (1) per row, separate 'spend on this job' from 'adjacent spend' in Who pays (at least L02, L04, L05, L06, L08, L14, L26); (2) add a signer-cluster column (about 10 clusters, table F3); (3) decide and record with reasons: merge L10 into L07 and L30 into L26; exclude L19 (same reason as S6) or un-exclude S6; L25 budget ends 2026; note that L22 is the opposite side of L07. Output: research/longlist.md.",
       "owner": "researcher",
-      "done": false,
+      "done": true,
+      "notes": "2026-11-07 done: who-pays split into 'spend on this job' / 'adjacent spend' for all 27 rows; 13 signer clusters (C1-C13); L10 -> L07, L30 -> L26, L19 excluded (S6 stays excluded; §§ 325, 342, 291 Abs. 8 SGB V); L25 kept, flagged 'budget ended' (BT-Drs. 21/8237); L22/L07 conflict noted.",
       "added_by": "critic 2026-11-07",
       "reason": "Red team of longlist.md: 'proven' labels count care, labour, physician fees and grant pools as spend on a product job, which would pass K1 wrongly in B1; 30 rows are about 10 buyer clusters, so the top 5 may be variants of one bet."
     },

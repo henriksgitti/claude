@@ -7,7 +7,7 @@
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
 ## Next steps
-1. Researcher: A18 done (`research/longlist-scoring-fields.md`); next A23, A24. A20 done (scoring v3). A17 blocked until 2026-12-01 (external data). Critic: fact-check of `research/scoring.md` v3.
+1. Researcher: A18 and A23 done (long list now 27 rows, 13 signer clusters); next A24, A25, A26. A20 done (scoring v3). A17 blocked until 2026-12-01 (external data). Critic: fact-check of `research/scoring.md` v3.
 2. Then B1 (score, top 5) → CEO picks 2–3.
 
 ## Open questions
@@ -50,6 +50,19 @@
 - Next:
 - Open questions:
 -->
+
+### 2026-11-07 — A23 Apply red-team fixes to research/longlist.md (researcher)
+- Done: `research/longlist.md`:
+  - Who-pays split into "spend on this job" vs "adjacent spend" for all rows. **Proven job spend: 8 rows** (L01, L05, L07, L08, L09, L21, L22, L29), not 15.
+  - Added 13 signer clusters (C1–C13).
+  - Merged L10 → L07 (KVs give practices free groupers [B]) and L30 → L26.
+  - Excluded L19; S6 stays excluded. The ePA must be gematik-approved and gematik sets the ident rules with the BSI (§§ 342, 325, 291 Abs. 8 SGB V [A]).
+  - L25 kept but flagged "budget ended": the last ÖGD tranche of €750m is paid in 2026 "abschließend" (BT-Drs. 21/8237 [A]); the 2027 federal draft has €0 for the ÖGD [B].
+  - L22 noted as the opposite side of L07. New L02/L08 incumbent: Verbund Pflegehilfe [B]. 27 rows remain.
+- Not done: no new per-row purchase searches (A24/A26 cover the open tests).
+- Next: researcher A24, A25, A26, then B1.
+- Tasks added: none.
+- Open questions: none new.
 
 ### 2026-11-07 — A8 Critic red team: A18 long-list scoring fields (critic, RED TEAM)
 - Done: `research/reviews/2026-11-07-redteam-longlist-fields.md` — verdict **needs work before B1**. Reviewed `research/longlist-scoring-fields.md` with `research/longlist.md` under `scoring.md` v3.
