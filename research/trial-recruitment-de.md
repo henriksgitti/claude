@@ -1,5 +1,5 @@
 # Clinical-trial recruitment in Germany: site economics, vendors, Kapazitätsinitiative 2030
-Task: A13 | Date: 2026-11-07 | Status: draft
+Task: A13 (fact-check fixes A19) | Date: 2026-11-07 | Status: draft
 
 Follow-up to I1/I2 in `research/pain-industry.md` and to the critic review `research/reviews/2026-11-06-pain-industry.md` (vendors snippet-only; CTMS count is not recruitment competition; site-side view missing). Methods: own count of all 12,788 public CTIS trials (CTIS public search API, pulled 2026-11-07); ClinicalTrials.gov v2 API; law text via buzer.de; the vfa/BPI/BVMA barometer decks (Oct 2025, Jan 2026, Sep 2026) and the Kapazitätsinitiative paper read in full; TED API v3 award notices; vendor websites fetched with curl. Grades follow `CLAUDE.md` rule 2.
 
@@ -12,7 +12,7 @@ Follow-up to I1/I2 in `research/pain-industry.md` and to the critic review `rese
 - **Sponsors pay sites for patient identification, but no public per-patient fee exists.** The 2025 joint costing recommendations (MFT, VUD, KKS-Netzwerk, vfa, BPI, BVMA) list "Suche nach bzw. Identifizierung von potenziellen Studienteilnehmern (z. B. … Abfragen aus Klinikinformationssystem (KIS), Arztinformationssystem (AIS) …)" as a billable continuous activity, paid quarterly. Pre-contract screening for feasibility can be billed separately [B] ([Empfehlungen, Stand 5 May 2025](https://www.uni-marburg.de/de/fb20/bereiche/kks/aktuellesordner/nachrichten/klinische_pruefungen_empfehlungen_zur_gesamtleistungsrechnung_2-0.pdf)). Euro amounts per patient are not published `[gap]`.
 - **Competition is consolidated and well funded, and a Munich startup already sells to practices.**
   - Clariness (Berlin roots; owns Viomedo/ClinLife since 2018) merged with SubjectWell in Jan 2026 under PE owner WindRose. It claims ">42,000 randomizations" and ">10,000 research sites" [B] ([Pulse 2.0](https://pulse2.com/clariness-and-subjectwell-merge-to-form-full-service-patient-recruitment-platform)).
-  - TriNetX owns Clinerion (13,000+ sites, by its own site).
+  - TriNetX (13,000+ sites in its own network, by its own site) bought Clinerion from Norstella in Apr 2023, two months after Norstella's Citeline had bought it [B] ([Wenger Vieli, counsel to TriNetX, 12 Apr 2023](https://www.wengervieli.ch/en-us/news/deal-trinetx-acquires-clinerion-through-a-strategic-partnership-with-norstella); [Lewis Silkin, counsel to Norstella, 21 Apr 2023](https://lewissilkin.com/en/news/lewis-silkin-has-advised-norstella-on-disposal-of-clinerion-to-form-a-partnership-with-trinetx)). Deal data is >3 years old; current ownership is inferred from clinerion.com redirecting to trinetx.com.
   - **MPIRIQ (Munich, founded 2024)** sells a practice-software-connected "Trial Navigator" to GPs and specialists at **€99–329 per month**, with a pharma data offer on the side [B] ([mpiriq.de/pricing](https://www.mpiriq.de/pricing)).
 
 ## Details
@@ -30,14 +30,14 @@ Follow-up to I1/I2 in `research/pain-industry.md` and to the critic review `rese
 | 2025 | 1,356 | 668 | 49.3 % | 781 | 571 | 560 | 499 | 96 |
 | 2026 YTD | 1,280 | 626 | 48.9 % | 720 | 539 | 507 | 470 | 100 |
 
-- Germany has the most single-country commercial trials in the EU every year: 96 in 2025, against Spain 93, Belgium 45, France 29 [A, own count].
+- Germany has the most single-country commercial trials in the EU every year: 96 in 2025, against Spain 93, Netherlands 55, Belgium 45, France 29 [A, own count; Netherlands added from the critic's re-run of the same CTIS query].
 - Phase mix of commercial trials with DE in 2025: 288 Phase III, 175 Phase II, 100 Phase I (61 "other" + 39 first-in-human) [A, own count].
 - Non-commercial trials: Germany takes part in 109 of 876 (12.4 %) in 2025, against France 246 (28.1 %) and Spain 166 (19.0 %) [A, own count]. *Inference:* CTIS covers only drug trials, and much German academic research is non-drug, so this partly reflects scope, not weakness alone.
 - Applications to German authorities: PEI reports 809 applications for clinical trials in Germany in 2024 (805 in 2023) [B] ([Ärzteblatt, 29 Oct 2025](https://www.aerzteblatt.de/news/paul-ehrlich-institut-leichter-zuwachs-bei-antragen-auf-klinische-prufungen-3db64753-f916-4a99-ac0c-c419bae388b0)).
 
 **ClinicalTrials.gov v2 API, queried 2026-11-07 [A].** Industry lead sponsor, interventional studies.
 - Starts with a German site: 613 in 2024 and 622 of 5,912 in 2025 (10.5 %). 2026 so far: 387 of 5,885. The 2026 figure is not comparable: German sites are often added after first registration.
-- Active (recruiting, active-not-recruiting or by invitation) with a German site: 2,397. Recruiting with a site in "Munich OR München": 307, of 1,115 recruiting in Germany. Caveat: city and country filters do not bind to the same site (see `research/sources-map.md`).
+- Active (recruiting, active-not-recruiting or by invitation) with a German site: 2,397. Recruiting with a site in "Munich OR München": about 300 (307 in my run, 314 in the critic's re-run the same day; registry counts change daily), of 1,115 recruiting in Germany. Caveat: city and country filters do not bind to the same site (see `research/sources-map.md`).
 - *Inference, order of magnitude only:* ~24,000 German participants in 2024 (1st barometer, see `pain-industry.md` I1) spread over ~2,400 active industry trials is about 10 per trial. The two figures are from different time points.
 
 **Barometer share figures [B].**
@@ -94,7 +94,7 @@ By trial volume, patient identification is a big hurdle for 3 % (1–5 trials), 
 
 - Uptake: no count of G-BA "relevant share" findings (2025–Jul 2026) or BfArM exemptions was found `[gap]`.
 - Math: 5 % ÷ 2.9 % = 1.72, so a company at today's average German share would need ~72 % more German patients in its programme.
-- *Inference:* the rule gives sponsors a direct euro reason to buy German recruitment for drugs launching from 2027. The 8.5 % discount applies to every GKV sale for 3 years. But the vfa warns firms "könnten sich abwenden, wenn sich deren Konditionen als unerreichbar erweisen" [B] (PM 28 Sep 2026).
+- *Inference:* the rule gives sponsors a direct euro reason to buy German recruitment for drugs launching from 2027. The 8.5 % discount (§ 130a Abs. 1b) has no end date and applies to every GKV sale unless the BfArM grants the exemption; only the exemption is limited to 3 years (renewable). But the vfa warns firms "könnten sich abwenden, wenn sich deren Konditionen als unerreichbar erweisen" [B] (PM 28 Sep 2026).
 
 ### 4. Kapazitätsinitiative Klinische Forschung 2030 [B]
 Source: the 10-page paper by BPI, BVMA and vfa, "Berlin, München, September 2026" ([PDF](https://www.vfa.de/kapazitaetsinitiative-klinische-forschung.pdf)).
@@ -115,7 +115,7 @@ Source: the 10-page paper by BPI, BVMA and vfa, "Berlin, München, September 202
   - Billable recruitment items: KIS/AIS queries, tumour-board presentations, informing the sponsor about non-inclusion reasons, campaigns and ads, paid "quartalsweise". Pre-contract feasibility screening can be billed in a separate contract ([PDF](https://www.uni-marburg.de/de/fb20/bereiche/kks/aktuellesordner/nachrichten/klinische_pruefungen_empfehlungen_zur_gesamtleistungsrechnung_2-0.pdf)).
 - **Contracts [B].** The binding standard contract clauses (StandVKlV) apply from 18 Dec 2025, but they leave the amount of pay to the recommendations above (`pain-industry.md` I2).
 - **Older conflict [B, 2013, >3 years old].** The vfa complained that university hospitals demanded overhead surcharges "of up to 60%" ([vfa position paper, 2013](https://www.vfa.de/embed/position-paper-cost-development-for-clinical-trials-in-germany)). The 2025 recommendations settle this on hourly rates.
-- **Per-patient fees: not public.** No German source states a euro amount per enrolled patient (searched DE + EN, 4 queries). Investigator-sponsored RCTs (93 trials, 22 German): median total cost $645,824, and 69.7 % exceeded their budget by >50 %. These are academic costs, not site fees [A] ([J Clin Epidemiol 2024, PMID 39307405](https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:39307405%20AND%20SRC:MED&format=json&resultType=core)).
+- **Per-patient fees: not public.** No German source states a euro amount per enrolled patient (searched DE + EN, 4 queries). Investigator-sponsored RCTs (93 trials, 22 German): median total cost $645,824. "Of the 66 RCTs with an available original budget, 46 (69.7%) exceeded the budget by over 50%". These are academic costs, not site fees [A] ([J Clin Epidemiol 2024, PMID 39307405](https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:39307405%20AND%20SRC:MED&format=json&resultType=core)).
 - **What sites buy themselves (TED award notices) [A].** This is trial-management software, not recruitment tools. Barriers are high:
 
 | Buyer | What | Winner | Value | Bids | Barriers |
@@ -134,7 +134,7 @@ Company sites are [B]; performance figures are the vendors' own claims.
 | **Clariness** (Berlin roots; ClinLife portal; owns Viomedo; trials24.com redirects to Clariness) | Full-service patient recruitment for sponsors and CROs; feasibility; retention | Acquired Viomedo, "the largest search engine for clinical trials in Germany" (Dec 2018). Merged with SubjectWell (WindRose) in Jan 2026: ">42,000 randomizations", ">10,000 research sites", 60+ countries. ClinLife DE page: "1.342.192 Patienten haben eine passende Studie gefunden", "2.567 Studienorte online" | [healthcapital.de, 3 Dec 2018](https://www.healthcapital.de/en/news/article/clariness-today-announced-it-has-acquired-viomedo-a-leading-online-platform-for-clinical-trials-and-1); [Pulse 2.0, 28 Jan 2026](https://pulse2.com/clariness-and-subjectwell-merge-to-form-full-service-patient-recruitment-platform); [clinlife.de](https://www.viomedo.com) (redirect) |
 | **Trialbee** (Sweden) | Recruitment platform "Honey", pre-screening | "6,000+ Research Sites", "50 Countries", "1.6M+ Online Pre-Screeners completed Since 2021" | [trialbee.com](https://trialbee.com/) |
 | **Inato** (Paris/US) | Sponsor–site marketplace; AI pre-screening and chart review | "25+ Sponsors", "6,000+ Research sites", 50+ countries; Sanofi case material | [inato.com](https://www.inato.com/) |
-| **TriNetX** (US; owns Clinerion, Basel) | EHR-network feasibility and RWD | Network of "more than 13,000 clinical sites across 20+ countries". Clinerion had "10,340 healthcare organisations and trial sites in 24 countries" (2022) and was bought by Citeline (Feb 2023). clinerion.com now redirects to trinetx.com; the TriNetX takeover (Apr 2023) is snippet-level only | [trinetx.com](https://trinetx.com/); [startupticker, 1 Feb 2023](https://startupticker.ch/en/news/world-s-leading-clinical-intelligence-company-acquires-clinerion) |
+| **TriNetX** (US; bought Clinerion, Basel, Apr 2023) | EHR-network feasibility and RWD | Network of "more than 13,000 clinical sites across 20+ countries". Clinerion had "10,340 healthcare organisations and trial sites in 24 countries" (2022) and was bought by Citeline (Feb 2023). Norstella then sold Clinerion to TriNetX (Apr 2023, deal counsel pages); clinerion.com now redirects to trinetx.com | [trinetx.com](https://trinetx.com/); [startupticker, 1 Feb 2023](https://startupticker.ch/en/news/world-s-leading-clinical-intelligence-company-acquires-clinerion); [Wenger Vieli](https://www.wengervieli.ch/en-us/news/deal-trinetx-acquires-clinerion-through-a-strategic-partnership-with-norstella); [Lewis Silkin](https://lewissilkin.com/en/news/lewis-silkin-has-advised-norstella-on-disposal-of-clinerion-to-form-a-partnership-with-trinetx) |
 | **MPIRIQ** (Munich, founded spring 2024) | Connects to practice software; AI pre-screening ("Trial Navigator"); referral network to study centres; RWD for pharma | Prices from 1 Aug 2026: Efficiency €99/month, Care Plus €159/month, Research Premium €329/month; setup from €599; 12–24-month terms. "+1.2 M doctor visits analysed". Funding ~$3.2M seed (Jun 2024; Speedinvest/HV Capital) is snippet-only `[UNVERIFIED]` | [mpiriq.de/pricing](https://www.mpiriq.de/pricing); [/study-centers](https://www.mpiriq.de/study-centers); [Munich Startup, 20 Mar 2026](https://www.munich-startup.de/en/news/mpiriq-ai-connects-healthcare-and-research) |
 | **Climedo** (Munich) | eCOA/EDC with "Autonomous Data Capture" (takes over site data entry); eConsent, self-registration | "2 Mio.+ Patient:innen"; profitable before a late-2021 round; in 2024 it said pharma investment in AI "lässt oftmals auf sich warten" | [climedo.de](https://climedo.de/); [Munich Startup, 11 Apr 2024](https://www.munich-startup.de/news/update-interview-climedo) |
 | **iduneo** (Hamburg) | AI trial matching for cancer patients / pharma recruitment | Member listing only; website returned 503 | [Life Science Nord](https://www.lifesciencenord.de/en/membership/member-directory/detail/iduneo-gmbh.html) |
@@ -164,9 +164,9 @@ Snippet-only, not verified: Probando (probando.de unreachable), Carelane (€800
 ## Gaps / [UNVERIFIED]
 - Euro per-patient site fees and sponsor recruitment budgets for Germany: not public. Needs Stage D interviews (site budget managers, CRO feasibility leads).
 - Uptake of the MFG 5 % finding (2025–Jul 2026) and of the BfArM exemptions (from 2027): no counts found.
-- DGPharMed site survey (">two thirds declined a trial for capacity reasons"): cited second-hand only.
+- DGPharMed site survey (">two thirds declined a trial for capacity reasons"): cited second-hand only; do not use it for sizing.
 - MPIRIQ funding and customer count, Carelane, Ancora.ai, Probando, iduneo funding: snippet-only or blocked.
-- The TriNetX–Clinerion deal: the date and structure are from search snippets; the Norstella page returned 403.
+- The TriNetX–Clinerion deal: now sourced from both deal counsels' pages (Apr 2023) [B]; the Norstella press release still returns 403, and the deal price is not public.
 - The CTIS count uses the first decision date as start and excludes trials not yet authorised. Germany's per-trial patient numbers are not public in CTIS.
 - Barometer surveys are interest-group surveys; the site survey's sampling (N=169) is not described in detail.
 - Blocked hosts this run: forschen-fuer-gesundheit.de (WebFetch DNS; curl 403), htgf.de (403), probando.de (no response), ancora.ai (403), norstella.com (403), iduneo.com (503); Bundesagentur jobsuche API (no JSON).
@@ -204,6 +204,8 @@ Snippet-only, not verified: Probando (probando.de unreachable), Carelane (€800
 - https://www.inato.com/ — Inato scale claims, accessed 2026-11-07
 - https://trinetx.com/ — TriNetX network size; clinerion.com redirect target, accessed 2026-11-07
 - https://startupticker.ch/en/news/world-s-leading-clinical-intelligence-company-acquires-clinerion — Citeline acquires Clinerion (Feb 2023), network size 2022, accessed 2026-11-07
+- https://www.wengervieli.ch/en-us/news/deal-trinetx-acquires-clinerion-through-a-strategic-partnership-with-norstella — TriNetX acquires Clinerion from Norstella (12 Apr 2023), accessed 2026-11-07 (A19)
+- https://lewissilkin.com/en/news/lewis-silkin-has-advised-norstella-on-disposal-of-clinerion-to-form-a-partnership-with-trinetx — Norstella disposal of Clinerion to TriNetX (21 Apr 2023), accessed 2026-11-07 (A19)
 - https://www.mpiriq.de/pricing — MPIRIQ prices (from 1 Aug 2026), accessed 2026-11-07
 - https://www.mpiriq.de/study-centers — MPIRIQ referral network for study centres, accessed 2026-11-07
 - https://www.mpiriq.de/pharma — MPIRIQ pharma/RWD offer, accessed 2026-11-07
