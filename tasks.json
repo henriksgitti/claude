@@ -295,9 +295,10 @@
       "title": "Restate L01 K1/K2 labels and top-5 sensitivity in shortlist.md",
       "description": "Per research/reviews/2026-11-08-shortlist.md issue 1: in research/shortlist.md (a) apply the same K1 standard to L01 as to L12/L20 (named purchase for the same job): say that pme's 1,400 firms are EAP customers, heycare's customers are a vendor claim for a bundled EAP (children, elderly relatives, pets, mental health) and that no eldercare-specific purchase is shown, and relabel L01 K1 as 'weak / eldercare spend not isolated' (or 'not shown' if the researcher applies G2 strictly); (b) add one line to the caveats table and the Recommendation: if L01 K1 fails, top 5 = L07, L06, L03, L13, L29 and the 'deep-dive L01' recommendation falls back to L07 (+ L13 test); (c) note that 18,632 is legal units, so the ceiling is an upper bound. Edits only; no new searching. Optional, same pass: L26 K1 evidence is dated 2021/2022 vs the file's '2024+' reading; L07 market uses all 1,807 hospitals though the wedge is private hospitals <300 beds (729 private). Output: edits to research/shortlist.md.",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "critic 2026-11-08",
-      "reason": "L01 is the CEO's recommended pick and passes K1 on evidence the same file treats as insufficient for other rows; if K1 fails the top 5 and the B3 recommendation change."
+      "reason": "L01 is the CEO's recommended pick and passes K1 on evidence the same file treats as insufficient for other rows; if K1 fails the top 5 and the B3 recommendation change.",
+      "notes": "Done 2026-11-08 (researcher): L01 K1 relabelled 'weak / eldercare spend not isolated' (pme 1,400 = EAP customers; heycare bundled EAP, vendor claim; Aon offering only; AOK PLUS free Thüringen project); strict-reading fallback stated (top 5 = L07, L06, L03, L13, L29; recommendation falls back to L07 + L13 test); 18,632 = legal units, ceiling an upper bound. Optional fixes also applied: L26 K1 stale (2021/2022), L07 private-hospital base (729 → EUR 14.6-29.2m) and DKI cost basis (L07 61/56, swaps with L06, top 5 unchanged). No new searching."
     },
     {
       "id": "B2",

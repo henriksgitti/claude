@@ -1,5 +1,7 @@
 # Shortlist: scoring of the 27-row long list and top 5
-Task: B1 | Date: 2026-11-08 | Status: draft
+Task: B1 (revised in B4) | Date: 2026-11-08 | Status: draft
+
+**B4 revision (2026-11-08):** fact-check issue 1 applied (`research/reviews/2026-11-08-shortlist.md`). L01 K1 is now labelled **"weak / eldercare spend not isolated"**, the same standard as L12/L20. The top 5 stays the same on paper, but slot 1 now depends on that K1 label. **If L01 K1 is read as "not shown", L01 drops out: top 5 = L07, L06, L03, L13, L29, and the recommendation falls back to L07 (+ L13 as a test).** Optional fixes also applied: L26 evidence dates, the L07 buyer base and the DKI cost basis, and L01 legal units. These are edits only; no new searching.
 
 Method: `research/scoring.md` as it stands on `main` (v3 + A25), applied as written. CEO-approved fixes 1–6 are in. S1–S4, the "≤5 years" measurement, the Sep 2027 clock and K1 "in force by then" are **not decided**. They are not applied here; each one is a caveat below, with its effect on the ranks. Unit of scoring = the A18 wedge (`research/longlist-scoring-fields.md`). The caveats from `research/reviews/2026-11-08-longlist-scoring-fields-A23-A25.md` and `research/reviews/2026-11-07-redteam-longlist-fields.md` are applied where the scoring text already requires them (G1/G2 = "same signer, same job"), and listed otherwise. A24/A26 desk tests were **not** run (CEO 2026-11-07); they appear as open checks.
 
@@ -13,8 +15,13 @@ Method: `research/scoring.md` as it stands on `main` (v3 + A25), applied as writ
   5. **L13** AI phone assistant for practices: 59 / 54
 
   L29 (57 / 53) is 6th.
-- **Slots 1–3 are robust; slots 4–5 are fragile.** S1 (rank by R4), S4 (one wedge per signer cluster: L01 and L03 are both C5), or re-scoring L03's pain on the course rather than lost work hours: each of these swaps L03 for L29 (MDR/IVDR post-market AI for device SMEs). If L06's K1 is read strictly (one KHZG tender, no award notice), L06 drops out and L29 enters. No other open question changes the top 5.
-- **Only L01 combines an open buyer route, a young vendor with named customers and a €100m+ ceiling.** Employers ≥250 staff: 18,632 [A] × €5–20k (inference) ≈ €93–373m/yr. But the category has incumbents. pme Familienservice offers "Homecare-Eldercare" and says "Mehr als 1400 Unternehmen vertrauen auf unsere EAP-Lösungen" [B] ([pme](https://www.familienservice.de)). heycare (Munich, 2022) covers "elderly relatives" [B] ([Munich Startup](https://www.munich-startup.de/en/news/heycare-raises-4-million-euros-in-growth-capital)). Aon sells a "betriebliche Pflegelösung" with "Individuelles Pflege-Case Management" [B] ([Aon](https://www.aon.com/germany/gesundheit-vorsorge/betriebliche-pflegeloesung)). AOK PLUS trains in-company "Pflegelotsen" for free [B] ([AOK](https://www.aok.de/pp/pflege-vor-ort/aok-setzt-impulse/pflegelotsen/)).
+- **Slot 1 depends on L01's K1 (B4).** L01 passes K1 only as "weak": the named employers buy a **bundled** EAP (children, elderly relatives, pets, mental health). That claim comes from the vendor, and no purchase of eldercare alone is shown. If K1 is read strictly ("not shown", as for L12/L20), the top 5 is **L07, L06, L03, L13, L29**.
+- **Slots 2–3 are robust; slots 4–5 are fragile.** S1 (rank by R4), S4 (one wedge per signer cluster: L01 and L03 are both C5), or re-scoring L03's pain on the course rather than lost work hours: each of these swaps L03 for L29 (MDR/IVDR post-market AI for device SMEs). If L06's K1 is read strictly (one KHZG tender, no award notice), L06 drops out and L29 enters. No other open question changes the top 5.
+- **Only L01 combines an open buyer route, a young vendor with named customers (vendor claim, bundled EAP) and a €100m+ ceiling.** Employers ≥250 staff: 18,632 legal units [A] × €5–20k (inference) ≈ €93–373m/yr. This is an upper bound: legal units of one group count more than once, so there are fewer independent HR buyers. The category has incumbents, but none of the sources shows a purchase of eldercare on its own:
+  - pme Familienservice lists "Homecare-Eldercare" as a menu item and says "Mehr als 1400 Unternehmen vertrauen auf usere [sic] EAP-Lösungen" [B] ([pme](https://www.familienservice.de)). The 1,400 are **EAP** customers, not eldercare customers.
+  - heycare (Munich, 2022) "provides care solutions for children, elderly relatives and pets" plus mental-health training. It names Daimler Truck, Douglas, Vaillant and VW Retail as customers "according to the company" [B] ([Munich Startup](https://www.munich-startup.de/en/news/heycare-raises-4-million-euros-in-growth-capital)). This is a bundled EAP, so eldercare spend is not isolated.
+  - Aon has an offering page for a "betriebliche Pflegelösung" with "Individuelles Pflege-Case Management", but names no buyer [B] ([Aon](https://www.aon.com/germany/gesundheit-vorsorge/betriebliche-pflegeloesung)).
+  - AOK PLUS trains in-company "Pflegelotsen" for free in a **Thüringen** project [B] ([AOK](https://www.aok.de/pp/pflege-vor-ort/aok-setzt-impulse/pflegelotsen/)). This is a free substitute, not a purchase.
 - **17 of 27 rows fail K1** when K1 evidence must name the wedge's signer *and* job (fix 4; red team G1/G2). The scoring text already requires this, so it is applied, not a new rule. No row fails K2 outright, because every survivor has at least a legally possible route (private buyer or ≤€50k direct award).
 - **New evidence opened in B1** (changes three K1 verdicts or criterion-8 scores):
   - § 106b SGB XI pays care facilities a monthly "TI-Pauschale" for TI equipment and running costs [A] ([§ 106b](https://www.gesetze-im-internet.de/sgb_11/__106b.html)). L05 K1 passes on this budget line, not on voize.
@@ -63,14 +70,14 @@ Format: raw score, confidence. **Bold** = an L score counted at 3 under R2. Weig
 
 | # | Wedge → first buyer | K1 / K2 | Pain ×3 | Market ×2 (buyer count) | WTP ×3 | Fit ×2 | Achiev. ×2 | Reg ×1 | Fund ×2 | Comp ×2 | Future ×1 | Base | R4 | Status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| L01 | Eldercare navigator as employee benefit → employer ≥250 staff | Pass [e1–e4] / **Pass** (heycare 2022, named employers, vendor claim) [e2] | 4 M [e5][e6] | **4 L** (18,632 [A]; ACV inference) [e7] | 4 M [e2][e3][e4] | 4 M | **4 L** | 5 M | 4 M (heycare €4m round) [e2] | 2 H (pme, heycare, Aon, AOK) [e1–e4] | 5 H [e8] | **66** | **62** | unproven (crit. 5) |
-| L07 | MD-audit case defence → private hospital <300 beds | Pass [e9][e10] / unproven (calliora unnamed) [e11] | 5 H [e12] | 3 M (1,603 IKs × DKI €40k ≈ €64m, DE-specific) [e10] | **4 L** | 3 M (coding expert needed) | **3 L** | 4 M | 4 M (calliora €5.3m) [e11] | 2 H (Tiplu/LOGEX, ID Berlin, Dedalus, calliora) [e13] | 5 H [e12] | **63** | **58** | unproven |
+| L01 | Eldercare navigator as employee benefit → employer ≥250 staff | **Weak / eldercare spend not isolated** (named employers buy a bundled EAP, vendor claim; no purchase of eldercare alone) [e1–e4] / **Pass** (heycare 2022, named employers, vendor claim) [e2] | 4 M [e5][e6] | **4 L** (18,632 [A]; ACV inference) [e7] | 4 M [e2][e3][e4] | 4 M | **4 L** | 5 M | 4 M (heycare €4m round) [e2] | 2 H (pme, heycare, Aon, AOK) [e1–e4] | 5 H [e8] | **66** | **62** | unproven (crit. 5) |
+| L07 | MD-audit case defence → private hospital <300 beds | Pass [e9][e10] / unproven (calliora unnamed) [e11] | 5 H [e12] | 3 M (1,603 IKs × DKI €40k ≈ €64m, DE-specific; all hospitals, wider than the wedge: see B4 caveat) [e10] | **4 L** | 3 M (coding expert needed) | **3 L** | 4 M | 4 M (calliora €5.3m) [e11] | 2 H (Tiplu/LOGEX, ID Berlin, Dedalus, calliora) [e13] | 5 H [e12] | **63** | **58** | unproven |
 | L06 | LLM discharge letters → hospital | Pass, weak (one KHZG tender, no award) [e14] / unproven | 5 H [e15][e16] | **4 L** (1,807 hospitals [A]; ACV inference) [e17] | **4 L** | 3 M (clinical content + KIS integration) | **3 L** | 3 H (CDSS → MDR IIa+) [e15] | 4 M (Tandem, Telekom) [e18] | 2 M (Tandem, Microsoft/Nuance, in-house UKE/Leipzig) [e18][e19] | 5 H | **62** | **55** | unproven |
 | L03 | § 45 online carer course → Pflegekasse | Pass on budget line [e20] / unproven (vendor age unknown) [e21] | 4 M [e6] | **2 L** (92 Kassen × ≤€50k) [e22] | **3 L** | 4 M | **3 L** | 5 M | 3 M | 2 M (curendo, PflegeBetreuer, in-house) [e21][e23] | 5 H | **59** | **52** | unproven |
 | L13 | AI phone assistant → practices | Pass (2 practices pay, 2024) [e24] / unproven | 4 M [e24][e25] | 4 M (~103k practices × €9–229/month) [e25][e26] | **4 L** | 4 M | **4 L** | 4 M | 3 M (Doctolib bought aaron.ai) [e27] | 1 H (10 vendors incl. Doctolib) [e25] | 4 M | **59** | **54** | unproven |
 | L29 | AI PMS/literature → device SME | Pass (Flinn × Hartmann) [e28] / **Pass** (Flinn 2022) [e29] | 4 M [e30] | **3 L** (1,480 firms; ACV inference) [e31] | 4 M [e28] | 2 M (RA core) | **2 L** | 4 M | 4 M (Flinn $20m) [e28] | 2 M (Flinn "leading", self-description) | 3 M (MDR revision may shrink pain) | 57 | 53 | unproven |
 | L23 | AI care-assessment drafting → one MD | Pass (MD RLP PoC tender) [e32] / Pass on a past call (closed 5 Sep 2025, no winner) [e32] | 4 H [e33] | 1 M (15 MDs × ≤€50k ≈ €0.75m) | 3 M | 3 M | **3 L** (no open call) | 4 M | 3 M | **3 L** | 4 H | 55 | 51 | unproven |
-| L26 | DE recruitment service + software → sponsor | Pass (BI, Servier DE) [e34] / unproven | 3 M (counter-source: sites rank patient ID low) [e35] | **4 L** (668 new commercial EU trials with DE sites [A]; ACV inference) | **4 L** | 3 M | 2 L | 4 M | 3 M | 2 H (Clariness+SubjectWell, TriNetX, CROs) [e36] | 4 H (5 % rule 2027) [e35] | 52 | 45 | unproven |
+| L26 | DE recruitment service + software → sponsor | Pass, **stale** (BI 2021, Servier DE 2022; by the 2024+ reading: 'not shown') [e34] / unproven | 3 M (counter-source: sites rank patient ID low) [e35] | **4 L** (668 new commercial EU trials with DE sites [A]; ACV inference) | **4 L** | 3 M | 2 L | 4 M | 3 M | 2 H (Clariness+SubjectWell, TriNetX, CROs) [e36] | 4 H (5 % rule 2027) [e35] | 52 | 45 | unproven |
 | L05 | TI/KIM onboarding service → small care operator | Pass on § 106b [e37] / unproven | 3 M (50 % with activated TI card) [e38] | **2 L** (~32k facilities; ACV inference) [e39] | **3 L** | 3 M | **4 L** | 5 M | 2 M (service business) | 2 L (suite vendors, snippet only) | 2 M (one-off wave) | 49 | 40 | unproven |
 | L22 | Review services / consortium → MD | Pass [e40] / unproven (consortium only; MD-IT bids 2 Dec 2026) | 4 H [e40] | 3 M (15 MDs; €88m framework) [e40] | **4 L** | 2 M (physician review firm) | 1 L | 4 M | 2 M | 2 H (QuantCo, review firms) [e40] | 4 H | 49 | 46 | unproven; conflicts with L07 |
 
@@ -104,6 +111,9 @@ Tier A: none. Tier C: none (R4: "Tier B = … or unproven"). Under R4 as written
 | C7 | K1 "in force by then" (start of the clock) | In force today | Rows whose K1 failed only because of a bill: none among the A18 wedges. L24 fails on "no observed purchase", L25 on "budget ended". L05 already passes on § 106b | None |
 
 Other caveats from the reviews (no CEO decision needed):
+- **L01 K1 (B4, fact-check issue 1).** The K1 evidence [e1–e4] shows bundled-EAP customers (pme: 1,400 EAP firms; heycare: named employers, vendor claim, bundle of children, elderly relatives, pets and mental health), one offering without a buyer (Aon) and one free Kasse substitute (AOK PLUS, Thüringen). There is no dated, named employer purchase of eldercare alone. Label: **weak / eldercare spend not isolated**. L12/L20 fail K1 because no purchase is observed at all. L01 has a named purchase in which eldercare is one part, so "weak" is the reading here. A strict reading (G2) gives "not shown". **If K1 is not shown: L01 out; top 5 = L07 63, L06 62, L03 59, L13 59, L29 57; the "deep-dive L01" recommendation falls back to L07 (+ L13 test).** The CEO decides which reading to use (B3).
+- **L26 K1 evidence is stale (B4, fact-check issue 2).** The Clariness releases date from 29 Nov 2021 (BI) and 12 Apr 2022 (Servier). Under this file's own "2024+" reading, L26 K1 is "not shown", which makes L26 a K1 knock-out (18 fail, 9 survive). It ranks 8th, so the top 5 does not change.
+- **L07 buyer base and DKI cost (B4, fact-check issue 3).** The wedge is private hospitals <300 beds, but the score uses all 1,603 IKs and the ceiling all 1,807 hospitals. Destatis: 729 of 1,807 hospitals are privately owned [A] [e17]. 729 × €20–40k = €14.6–29.2m/yr (inference; my arithmetic: 729 × 20,000 = 14,580,000; 729 × 40,000 = 29,160,000). The DKI €40k is the median of "Sachkosten für Anschaffung und laufende Kosten" (acquisition **and** running cost), not an annual price [e10]. So the "€20–40k/yr" price in the sketch is not sourced. With market re-based 3 → 2: L07 = 61 base / 56 R4, below L06 (62): slots 2 and 3 swap, the top 5 is unchanged. If L01 is also out: L06 62, L07 61, L03 59, L13 59, L29 57.
 - **L06 K1 rests on one tender.** Harzklinikum (KHZG project "4.01"), request deadline 25 Aug 2025. TED shows only the contract notice, no award, as of 8 Nov 2026 [A] (TED 492877-2025, re-queried). A18 labelled the budget "adjacent" (red team G1 → K1 fail); A23 relabelled it "tendered". If K1 fails, **L06 out, L29 in**.
 - **L01 K2 rests on a vendor claim** ("According to the company", fact-check caveat 6). If it is not accepted, L01 = 63 / 56: still 1st–2nd.
 - **L03 pain:** the red team says not to score a course on "45 % cut hours". With pain 3, L03 = 56: **out, L29 in**.
@@ -111,10 +121,10 @@ Other caveats from the reviews (no CEO decision needed):
 - **Headline counts:** five wedges, not seven, have a named customer; only heycare and Flinn pass the age test today (fact-check caveat 1). The "leader" labels for Recare and Flinn are inference or self-description (caveat 2). Flinn's "$20m" is not labelled "Series A" (caveat 3).
 - **L23:** only the MD RLP procedure (closed, result notice without a winner) is care-assessment evidence. The open MD Nordrhein tender is malpractice review (caveats 4–5).
 - **Ceiling (G3):** buyer count × A18 ACV guess, 100 % share, my arithmetic, all L:
-  - L01: €93–373m/yr
+  - L01: €93–373m/yr (upper bound: 18,632 = legal units ≥250 staff, not independent buyers [e7])
   - L13: €124–247m/yr (commodity)
   - L06: €54–180m/yr
-  - L07: €36–72m/yr (DKI pool ~€64m)
+  - L07: €36–72m/yr (DKI pool ~€64m), all hospitals; private-hospital wedge only: €14.6–29.2m/yr (729 private, B4)
   - L29: €15–44m/yr
   - L03: €4.6m (pilot ceiling)
 - **Founder access** (criterion 4) is unanswered, so criterion 4 is M on every row and separates little (red team S8).
@@ -122,7 +132,7 @@ Other caveats from the reviews (no CEO decision needed):
 
 ## Top 5: reasoning, sketch, open checks
 **1. L01: Eldercare navigator as an employee benefit (66 / 62)**
-- **Why:** It is the only row where a private buyer is reachable without procurement, a young vendor shows named customers, and the ceiling is €100m+. Pain is documented: 3 % use statutory counselling [A]; 46.9 % of employed carers are "hoch belastet" [B]. The weak points are incumbents (pme: 1,400+ firms; heycare; Aon; free AOK Pflegelotsen) and no observed stand-alone eldercare price.
+- **Why:** It is the only row where a private buyer is reachable without procurement, a young vendor shows named customers, and the ceiling is €100m+. Pain is documented: 3 % use statutory counselling [A]; 46.9 % of employed carers are "hoch belastet" [B]. The weak points are incumbents (pme: 1,400+ EAP firms; heycare; Aon; free AOK Pflegelotsen) and no observed stand-alone eldercare price. **K1 is weak (B4):** employers are shown buying bundled EAPs, not eldercare alone. If the CEO reads K1 strictly, L01 drops out (see caveats).
 - **Sketch:** A German-language AI + human care navigator ("Pflegefall in 48 h organised") sold to HR at firms with ≥250 staff. It helps employees with a care grade application, relief budget, respite care and finding services, and reports anonymised usage to HR. The first pilot is a Munich employer with a works council. Later, it plugs into benefit platforms and adds the § 45 Pflegekasse course (L03) as a second payer. The edge to test is depth on statutory benefits plus AI case handling, against pme's broad EAP.
 - **Open checks:**
   - (A26) One dated, named employer contract with a price for eldercare (pme, heycare, Aon or other).
@@ -132,7 +142,7 @@ Other caveats from the reviews (no CEO decision needed):
 
 **2. L07: MD-audit case defence for private hospitals (63 / 58)**
 - **Why:** It has the strongest pain and job budget. €1.58bn of revenue is at risk [A], quotas reach up to 40 % from 1 Jan 2027 [A], and the DKI median is €40k of planned spend [B]. Private hospitals buy without tenders. Against it: crowded (Tiplu "MBEG-Assistent" in ~30 hospitals, calliora €5.3m in Munich), it needs a coding/medical-controlling co-founder, and the trigger precedes the founder's start (G4).
-- **Sketch:** An AI tool that checks each MD-audited case file and drafts the objection or justification (the MBEG reply). It is sold to independent private hospitals <300 beds at ~€20–40k/yr, with a medical-controlling co-founder. The angle is medical-necessity and length-of-stay arguments (68 % of audit reasons [A]), not coding.
+- **Sketch:** An AI tool that checks each MD-audited case file and drafts the objection or justification (the MBEG reply). It is sold to independent private hospitals <300 beds at ~€20–40k/yr (inference: DKI €40k is acquisition plus running cost, not annual), with a medical-controlling co-founder. The angle is medical-necessity and length-of-stay arguments (68 % of audit reasons [A]), not coding.
 - **Open checks:**
   - (A26) Count independent private hospitals with ≥1 MD audit per quarter (GKV-SV XLSX).
   - A named calliora hospital (none found so far).
@@ -169,7 +179,7 @@ Other caveats from the reviews (no CEO decision needed):
 **Open checks not tied to the top 5** (A24/A26, deferred): AMNOG procedures per year (L26), care-suite AI documentation (L05), nursing recognitions by country (L11), the L20 pharmacy test, the L11 per-hire fee test.
 
 ## Recommendation (inference)
-Deep-dive **L01 (with L03 as the second payer, one "carer support" brief)** and **L07**. L01 is the only row that fits "big but achievable" for a part-time founder with €10k. L07 has the strongest proven budget, but needs a domain co-founder and has a Munich competitor. Optional third: L13 as a fast, cheap founder-fit test, not as a venture case. Before picking, the founder-access check (10 min) would turn criterion 4 into a real separator.
+Deep-dive **L01 (with L03 as the second payer, one "carer support" brief)** and **L07**, **if** the CEO accepts L01's K1 as "weak" (a bundled-EAP purchase). If not, deep-dive **L07**, with **L13** as a cheap founder-fit test (and L06 as an optional second brief). Under the weak reading, L01 is the only row that fits "big but achievable" for a part-time founder with €10k. L07 has the strongest proven budget, but needs a domain co-founder and has a Munich competitor. Optional third: L13 as a fast, cheap founder-fit test, not as a venture case. Before picking, the founder-access check (10 min) would turn criterion 4 into a real separator.
 
 ## Gaps / [UNVERIFIED]
 - A24/A26 desk tests not run (CEO). Results could flip L11 and L20 K1, and L07 K2.
@@ -181,10 +191,10 @@ Deep-dive **L01 (with L03 as the second payer, one "carer support" brief)** and 
 ## Sources
 Opened in B1 (accessed 2026-11-08):
 - https://www.gesetze-im-internet.de/sgb_11/__106b.html — TI-Pauschale for care facilities (equipment and running costs) [A] [e37]
-- https://www.familienservice.de — pme: "Homecare-Eldercare", ">1400 Unternehmen" on EAP [B] [e1]
+- https://www.familienservice.de — pme: "Homecare-Eldercare" (menu item), ">1400 Unternehmen" = EAP customers (site text "usere") [B] [e1]
 - https://www.munich-startup.de/en/news/heycare-raises-4-million-euros-in-growth-capital — heycare: care for children, elderly relatives; named customers "according to the company"; €4m [B] [e2]
 - https://www.aon.com/germany/gesundheit-vorsorge/betriebliche-pflegeloesung — Aon employer care solution with case management [B] [e3]
-- https://www.aok.de/pp/pflege-vor-ort/aok-setzt-impulse/pflegelotsen/ — AOK PLUS free in-company Pflegelotsen [B] [e4]
+- https://www.aok.de/pp/pflege-vor-ort/aok-setzt-impulse/pflegelotsen/ — AOK PLUS free in-company Pflegelotsen (Thüringen project) [B] [e4]
 - https://hallesche.de/-/media/dokumente/hallesche/vbh/lvm/infoblatt-feelcare-ueberblick-vbh35-lvm.pdf — Hallesche FEELcare employer care plan (dated 08/21, >3 years) [B]
 - https://www.aerzteblatt.de/archiv/blickwinkel-wie-hilfreich-sind-telefonassistenten-067741f5-096d-4658-8eb0-34b7cc18b626 — two practices on paid AI phone assistants, issue 7/2024 [B] [e24]
 - https://www.clinicaltrialsarena.com/contractors/clinical-trial-patient-recruitment/clariness/pressreleases/clariness-boehringer-ingelheim/ — Clariness × Boehringer Ingelheim, multi-year, Germany [B] [e34]
