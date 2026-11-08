@@ -5,6 +5,7 @@
 - Stage: **B — Score**. B1 done 2026-11-08: `research/shortlist.md` (top 5: L01, L07, L06, L03, L13; all 'unproven', no tier A). Waiting for critic B2 and CEO decision B3. Stage A leftovers: A17 (blocked to 2026-12-01), A24/A26 (deferred), A8 (critic).
 - Stage A history: A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). A6 Munich ecosystem drafted (`research/munich-ecosystem.md`). A9 reimbursement/funding routes drafted (`research/reimbursement-routes.md`). A10 applied the critic fixes to `research/trends.md` and `research/sources-map.md`. A11 drafted `research/hospital-billing-audits.md` (MD audits, 2027 rules, incumbents). A12 drafted `research/payer-processing.md` (insurer § 302 outsourcing, MD AI tenders, buying routes). A13 drafted `research/trial-recruitment-de.md` (CTIS count, 5 % rule, Kapazitätsinitiative, vendors). A14 applied the critic fixes to the three pain files (tender access tables; WTP downgraded where startups cannot bid). A15 added the § 113e Transformationsstellen route and official § 8 Abs. 8 uptake data to `research/reimbursement-routes.md`. A16 applied the fact-check fixes to `research/reimbursement-routes.md` and `research/munich-ecosystem.md`. A17 (partly) confirmed the 1 % audit tier in the Bundestag-passed text and added an 8-quarter 2027 quota simulation to `research/hospital-billing-audits.md`; the Q3 2026 data and Bundesrat vote are still to come. A19 applied the fact-check fixes to the A11–A13 files and `pain-industry.md` (MD-IT: consortia/capacity borrowing allowed; TriNetX–Clinerion now sourced). **A7 long list drafted (`research/longlist.md`): 30 problems L01–L30** (fact-check fixes applied in A21), 6 raw items excluded/merged; new DE data on cancer screening, hybrid-DRG abolition 2028, pharmacy shortage workload, live-in care. Cancer-only work archived in `archive/`; its V1 draft feeds A7.
 - Infrastructure: worker session on environment `healthcare-venture`. WebFetch fails DNS for many hosts (destatis.de, bundesgesundheitsministerium.de, vdek.com), but `curl` through the proxy reaches them: fetch with curl + local text extraction. Reddit is effectively unusable: direct fetch is bot-checked and `site:reddit.com` search returns almost no reddit.com hits (A2). Working alternatives and recipes are listed in `research/sources-map.md`.
+- (critic 2026-11-08) B2 red team done: `research/reviews/2026-11-08-redteam-shortlist.md`. Recommendation for B3: deep-dive L01 re-wedged (no L03 co-payer); L07 only if a medical-controlling co-founder candidate is named; no brief for L06, L13, L29. Only B3 (CEO) is open in Stage B.
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
 ## Next steps
@@ -35,9 +36,27 @@
 
 - **CEO (before B1), from the red team of A18 (`research/reviews/2026-11-07-redteam-longlist-fields.md`):** under v3, triggers in force before Sep 2027 pass K1 but are captured by incumbents before you go full-time, while 2028 triggers (GOÄ, § 113e, short-stay flat rates) fail K1 as bills. Should K1 accept a budget line "in force by the start of the 12-month clock" (ties to S6)? Recommendation: yes, if the 12-month clock starts Sep 2027, tagged L until the law passes. Also: only L01 (employer eldercare benefit) combines an open route with a €100m+ ceiling; expect the shortlist to say so.
 
+- **CEO (B3), from the B2 red team (`research/reviews/2026-11-08-redteam-shortlist.md`):** (1) New TED evidence: employers buy eldercare counselling inside family-service frameworks (MPG Munich, pme, EUR 1.2m, 2025; federal agencies, awo lifebalance, 2025; TenneT, pme, 2026). So strict K1 keeps L01 in, but bundlers (pme, awo, famPlus in Munich) hold the buying unit. The L01 brief must choose between B2B to the bundlers and mid-size employers without a contract. (2) Drop L03 as co-payer (two signers; a free Kasse course undercuts L01). (3) L07 only if you can name a medical-controlling/coding co-founder candidate (10 min). (4) Optional: reopen L11 (founder-specific: German + Portuguese) by running the deferred A26 per-hire-fee test. (5) Outreach for approval: 3 conversations with HR/benefits leads at Munich firms of 250–2,000 staff (questions in the review).
+
 ---
 
 ## Log
+### 2026-11-08 — B2 Red team of shortlist.md (critic, RED TEAM)
+- Mode: RED TEAM. File: `research/shortlist.md` (as corrected by B4). Review: `research/reviews/2026-11-08-redteam-shortlist.md`. Verdict: **needs work (as caveats; rule 14, no new tasks)**.
+- Per idea:
+  - L01: deep-dive, re-wedged.
+  - L07: deep-dive only if a co-founder candidate is named.
+  - L03: footnote in L01, not a co-payer.
+  - L06, L13, L29: no brief.
+- Top issues:
+  - (R1) NEW: TED awards show employers pay for eldercare counselling only inside family-service/EAP frameworks (EUR 0.4–1.4m), won by pme (4x) and awo lifebalance. famPlus (Munich) sells the L01 product and is missing from the shortlist. The B4 strict-K1 fallback therefore does not remove L01, but the sketched wedge ("depth vs pme") attacks the wrong layer.
+  - (R2) No top-5 idea uses anything specific to this founder. The founder works in Lisbon until Sep 2027, which weakens in-person sales.
+  - (R3) § 393 SGB V C5 attestation applies to L03/L06/L07/L13 vendors; § 87 BetrVG works-council review for L01.
+  - (R4) Bundling L03 into L01 doubles sales and creates a free substitute.
+- B3 view: option (a) modified (L01 re-wedged + L07 conditional). The strict fallback L07 + L13 is not recommended.
+- Tasks added: none (rule 14). B2 marked done.
+- Next: CEO B3.
+
 <!-- Newest first. Format:
 ### 2026-11-07 — A7 Long list of 20–30 problems (researcher)
 - Done: `research/longlist.md`: 30 problems (L01–L30) merged from P1–P11, S1–S10, I1–I10 and cancer A–E; each with one-line statement, who has it, who pays (proven / budget / plausible / unclear), evidence count and grades, links. Excluded/merged: S6, S9, I10, cancer D; cancer A/B replaced by German data (L17); P7+S8 → L08; I6 split into L22 (hospital-audit work, MD-IT) and L23 (care assessments).
