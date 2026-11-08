@@ -51,6 +51,13 @@
 - Open questions:
 -->
 
+### 2026-11-08 — A8 Critic fact-check run 9: A18 scoring fields, A23 long list, A25 scoring.md (critic, FACT-CHECK)
+- Done: `research/reviews/2026-11-08-longlist-scoring-fields-A23-A25.md`. Verdict: pass with minor fixes (caveats only; the long list and scoring.md already had their fix round, rule 14, so no fix tasks). Opened ~49 sources (all A18 vendor and statistics URLs, all A25 and A23 URLs) and re-ran 4 TED queries: 53 MD notices since 1 Jan 2026 and 9 MD "KI" notices since 2025 match; MD Niedersachsen 383478-2026 (4 x EUR 500k, 3 Jul 2026) matches; long-list counts (27 rows, 13 clusters, 8/4/3/12 spend status) and scoring.md arithmetic (L21 64/59, L03 59/52) reproduce. All 8 earlier scoring.md issues closed. No fabrication.
+- Top caveats: (1) "Seven wedges with a young vendor with a named customer" is really five (CrewLinQ and calliora name no customer; only heycare and Flinn pass the age test today). (2) L23 uses the MD Nordrhein tender (TED 762721-2026), which is malpractice review ("Behandlungsfehler"), not care assessment; TED 343840-2025 is MD Rheinland-Pfalz, not Nordrhein as `pain-industry.md` says. (3) "Category leader" for Recare/Flinn and "$20m Series A" for Flinn are not in the cited sources; L01 "proven" rests on a vendor claim ("laut Unternehmen"). Also: TED has a result notice for MD RLP (483916-2025) without a winner, so "no award notice" should read "no winner".
+- Not done: snippet-only items stay unverified (labelled in the files); WIdO PDF and the EU central-government threshold (EUR 140,000) not re-confirmed. WebFetch could not resolve most hosts; curl was used.
+- Next: B1 (researcher). B1 should read the A18 table, not its headline count, and list the caveats above as open checks. Critic: B2 after the shortlist.
+- Tasks added: none (rule 14). Open questions: none new.
+
 ### 2026-11-08 — A25 Apply fact-check fixes to scoring.md v3 (researcher)
 - Done: all 8 issues from `research/reviews/2026-11-07-scoring-v3-and-A22.md` fixed in `research/scoring.md`.
   - L03 pain cell filled (4 M, WIdO 2026 [B]); 59/52 now reproduce.
