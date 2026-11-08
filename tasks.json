@@ -1,6 +1,6 @@
 {
   "project": "Healthcare Venture",
-  "current_stage": "A",
+  "current_stage": "B",
   "stages": {
     "A": "Scan",
     "B": "Score (gate: CEO picks 2–3)",
@@ -286,7 +286,8 @@
       "title": "Score long list, pick top 5",
       "description": "Score every long-list problem with research/scoring.md (table + evidence links), rank, write the top 5 with reasoning and a one-paragraph venture sketch each. Then add a ceo task: 'Pick 2–3 ideas for deep dive' with options and a recommendation. Output: research/shortlist.md CEO 2026-11-07: run right after A25. For each shortlisted idea, list the still-open desk tests from A24 and A26 (and any remaining critic issues) as 'Open checks' instead of running them.",
       "owner": "researcher",
-      "done": false
+      "done": true,
+      "notes": "2026-11-08 researcher: research/shortlist.md. 10 of 27 wedges pass K1/K2, all 'unproven' (criterion 5 L everywhere), no tier A. Top 5 by base total: L01 66, L07 63, L06 62, L03 59, L13 59 (L29 57 runner-up). Open CEO questions listed as caveats C1-C7 with rank effects (S1/S4 swap L03 for L29). Added B3 (ceo)."
     },
     {
       "id": "B2",
@@ -295,6 +296,16 @@
       "description": "Stress-test scoring and the top 5: inflated scores, weak evidence, missed killers. Output: research/reviews/",
       "owner": "critic",
       "done": false
+    },
+    {
+      "id": "B3",
+      "stage": "B",
+      "title": "Pick 2–3 ideas for deep dive",
+      "description": "Read research/shortlist.md (Top 5, caveats C1–C7) and, when ready, research/reviews/ B2 review. Options: (a) L01 employer eldercare benefit with L03 Pflegekasse course as second payer (one 'carer support' brief) + L07 hospital MD-audit case defence; (b) (a) + L13 AI phone assistant as a cheap founder-fit test; (c) L01 + L07 + L06 LLM discharge letters (only if K1 on one KHZG tender is accepted). Recommendation: (a). Optional before picking: answer the open scoring questions (S1–S4, vendor age, Sep 2027 clock, K1) — they change only slot 4–5 (L03 vs L29) — and the 10-minute founder-access check. Unblocks C1.",
+      "owner": "ceo",
+      "done": false,
+      "added_by": "researcher 2026-11-08",
+      "reason": "Stage B gate (CLAUDE.md rule 8): B1 shortlist is ready."
     },
     {
       "id": "C1",
