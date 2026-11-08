@@ -9,7 +9,7 @@
 
 ## Next steps
 0. **CEO: B3 — pick 2–3 ideas for deep dive** from `research/shortlist.md` (recommendation: L01 + L03 as one 'carer support' brief, plus L07). Critic: B2 review of the shortlist.
-1. Researcher: no open unblocked task after B1 (A17 waits for 2026-12-01; A24/A26 deferred; C1 waits for B3).
+1. Researcher: B4 done 2026-11-08. No open unblocked task (A17 waits for 2026-12-01; A24/A26 deferred; C1 waits for B3). Critic: B2 red team (B4 done).
 2. After B3: C1 venture briefs for the picked ideas.
 
 ## Open questions
@@ -54,6 +54,13 @@
 - Next:
 - Open questions:
 -->
+
+### 2026-11-08 — B4 Restate L01 K1/K2 labels and top-5 sensitivity (researcher)
+- Done: edits to `research/shortlist.md` only; no new searching. L01 K1 is now **"weak / eldercare spend not isolated"**. pme's 1,400 firms are EAP customers. heycare's named employers come from the vendor and buy a bundled EAP. Aon is an offering page with no buyer. AOK PLUS is a free Thüringen project. Strict fallback: L01 out → top 5 = L07, L06, L03, L13, L29, and the recommendation falls back to L07 (+ L13 test). 18,632 are legal units, so the L01 ceiling is an upper bound. Optional fixes: L26 K1 is stale (2021/2022) and would be "not shown" (rank 8, no top-5 effect). L07 rebased to private hospitals: 729 × €20–40k = €14.6–29.2m. The DKI €40k is acquisition plus running cost. With market 3→2, L07 = 61/56 and swaps with L06; the top 5 is unchanged.
+- Not done: fact-check issues 4–12 stay as caveats (rule 14).
+- Next: critic B2 red team; CEO B3.
+- Tasks added: none.
+- Open questions: **CEO (B3): accept L01 K1 as "weak" (bundled-EAP purchase), or read it strictly as "not shown"?** Weak → recommendation (a) stands. Strict → deep-dive L07 (+ L13 test; L06 optional). Note: the B3 task text still shows recommendation (a) without this condition.
 
 ### 2026-11-08 — Fact-check of shortlist.md (B1) (critic, run 10)
 - Mode: FACT-CHECK. File: `research/shortlist.md`. Review: `research/reviews/2026-11-08-shortlist.md`. Verdict: **needs work (minor)**; 24 of 41 sources opened.
