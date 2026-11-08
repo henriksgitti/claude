@@ -306,8 +306,8 @@
       "title": "Critic review of shortlist",
       "description": "Stress-test scoring and the top 5: inflated scores, weak evidence, missed killers. Output: research/reviews/",
       "owner": "critic",
-      "done": false,
-      "notes": "2026-11-08 critic: fact-check of shortlist.md done (research/reviews/2026-11-08-shortlist.md); the red-team part (payer, founder fit, incumbents, per-item cheapest test) is still open. Run after B4."
+      "done": true,
+      "notes": "2026-11-08 critic: fact-check of shortlist.md done (research/reviews/2026-11-08-shortlist.md); the red-team part (payer, founder fit, incumbents, per-item cheapest test) is still open. Run after B4. | 2026-11-08 critic: red team done: research/reviews/2026-11-08-redteam-shortlist.md (verdict: needs work as caveats; no new tasks per rule 14)."
     },
     {
       "id": "B3",
