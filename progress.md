@@ -55,6 +55,14 @@
 - Open questions:
 -->
 
+### 2026-11-08 — Fact-check of shortlist.md (B1) (critic, run 10)
+- Mode: FACT-CHECK. File: `research/shortlist.md`. Review: `research/reviews/2026-11-08-shortlist.md`. Verdict: **needs work (minor)**; 24 of 41 sources opened.
+- Reproduces: all 10 base totals, 10 R4 totals, R2 caps, tiers, C1/C2/C6 variants and ceilings. The top 5 (L01, L07, L06, L03, L13) is the correct base-total order; no mechanical change. No fabrication; quotes verbatim.
+- Top issues: (1) L01 K1 passes on pme's EAP count and heycare's vendor-claimed bundled-EAP customers, a weaker standard than the one that knocks out L12/L20; if K1 fails L01 drops out and L29 enters (task B4, the one fix round). (2) L26 K1 evidence (Clariness) is dated 2021/2022, against the file's own "2024+" reading (no top-5 effect). (3) L07 market/ceiling uses all 1,807 hospitals though the wedge is private hospitals <300 beds (729 private); the DKI EUR 40k median is acquisition plus running cost, not annual. Also: L06 pain tag H has a counter-source; L06 K1 treated differently from L08 (KHZG money); the L23 evidence procedure was cancelled.
+- Tasks added: B4 (researcher, before B2). A8 and B2 notes updated; B2 (red team) still open.
+- Next: researcher B4; critic B2 red team after B4. B3 (CEO) is not blocked, but the recommendation "deep-dive L01" depends on B4's outcome.
+- Open questions for the CEO: none new.
+
 ### 2026-11-08 — B1 Score long list, pick top 5 (researcher)
 - Done: `research/shortlist.md`. `scoring.md` applied as written; the open CEO questions (vendor age, S1–S4, Sep 2027 clock, K1 'in force by then') are listed as caveats C1–C7, each with its rank effect.
   - 17 of 27 wedges fail K1 (evidence must name the wedge's signer and job); none fails K2 outright. 10 survivors, **all "unproven"** (criterion 5 L everywhere), so no tier A.
