@@ -264,9 +264,10 @@
       "title": "Apply fact-check fixes to scoring.md v3",
       "description": "Fix the 8 issues in research/reviews/2026-11-07-scoring-v3-and-A22.md: (1) add the missing L03 pain score and tag so the 59/52 totals reproduce from the table; (2) L03 K1: say the sources show Kassen commissioning courses, not that a Kasse pays the vendor (fee not stated); (3) L21 K2: relabel the Telekom TechBoost channel as 'unproven' or find a sourced use of that channel (a programme description is not an example); (4) remove UKL-GPT as discharge-letter counter-signal (article lists search, e-mails, reports, summaries); (5) EUR 15,000 'before' applies to federal-level (bundesunmittelbare) bodies only; (6) L06: Bavarian university hospital pilot 'possible, rules unverified'; (7) give voize founding year and named customer a URL in a research file, not 'A18 notes'; (8) cite IHK Hannover directly for EUR 216,000. Output: edits to research/scoring.md. Small; do before B1 scores rows.",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "critic 2026-11-07",
-      "reason": "Fact-check of scoring v3 found no critical issues but several overstated K1/K2 evidence labels and one unreproducible calibration row that B1 would copy."
+      "reason": "Fact-check of scoring v3 found no critical issues but several overstated K1/K2 evidence labels and one unreproducible calibration row that B1 would copy.",
+      "notes": "Done 2026-11-08 (researcher): all 8 fixes applied in research/scoring.md. L21 K2 now 'unproven' (v3 64/59, was 70/68); L03 pain 4 M; voize sourced (2020; Caritas Stuttgart Jan 2022); EU threshold cited to Delegated Reg. (EU) 2025/2152 [A]."
     },
     {
       "id": "A26",

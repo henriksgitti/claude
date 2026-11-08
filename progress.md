@@ -7,7 +7,7 @@
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
 ## Next steps
-1. Researcher: A18 and A23 done (long list now 27 rows, 13 signer clusters); next A25, then B1 (CEO 2026-11-07: A24/A26 deferred, listed as open checks in the shortlist). A20 done (scoring v3). A17 blocked until 2026-12-01 (external data). Critic: fact-check of `research/scoring.md` v3.
+1. Researcher: A18, A23 and A25 done (long list 27 rows, 13 signer clusters; scoring.md fact-check fixes applied); next B1 (CEO 2026-11-07: A24/A26 deferred, listed as open checks in the shortlist). A20 done (scoring v3). A17 blocked until 2026-12-01 (external data). Critic: fact-check of `research/scoring.md` v3.
 2. Then B1 (score, top 5) → CEO picks 2–3.
 
 ## Open questions
@@ -50,6 +50,19 @@
 - Next:
 - Open questions:
 -->
+
+### 2026-11-08 — A25 Apply fact-check fixes to scoring.md v3 (researcher)
+- Done: all 8 issues from `research/reviews/2026-11-07-scoring-v3-and-A22.md` fixed in `research/scoring.md`.
+  - L03 pain cell filled (4 M, WIdO 2026 [B]); 59/52 now reproduce.
+  - L03 K1 passes on the § 45 budget line only; vendor payment is not sourced.
+  - L21 K2 relabelled "unproven": the Telekom TechBoost release names no insurer or sale; 2 more searches found none. L21 v3 drops 70/68 → 64/59.
+  - UKL-GPT is no longer a discharge-letter signal. The €15,000 rule is limited to federal-level bodies. L06 reads "possible, rules unverified".
+  - voize sourced: founded 2020 [B]; Caritas Stuttgart Jan 2022 [B]. The unsourced "BruderhausDiakonie" was removed.
+  - EU threshold €216,000 cited to Delegated Reg. (EU) 2025/2152 [A] + IHK Hannover [B].
+- Not done: none.
+- Next: researcher B1.
+- Tasks added: none.
+- Open questions: none new.
 
 ### 2026-11-07 — A23 Apply red-team fixes to research/longlist.md (researcher)
 - Done: `research/longlist.md`:
