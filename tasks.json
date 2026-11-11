@@ -321,15 +321,6 @@
       "notes": "CEO 2026-11-11 (chat): deep dive on idea 1 only (L01, eldercare navigator as an employee benefit)."
     },
     {
-      "id": "C1",
-      "stage": "C",
-      "title": "Venture brief: eldercare navigator as an employee benefit (L01)",
-      "description": "CEO pick 2026-11-11: ONE brief, L01 only. Write ventures/eldercare-navigator/brief.md with templates/venture-brief.md. Start from research/shortlist.md (L01 sketch + open checks) and research/reviews/2026-11-08-redteam-shortlist.md: re-wedge as the red team asks (R1), i.e. find the niche a 1-2-person company can win against pme, famPlus, heycare, awo lifebalance (e.g. mid-size employers without a family-service contract, or selling to/through the bundlers), and answer first: who pays a NEW small company, with a sourced example. Run the cheap desk tests listed there (named employer contract with a price; whether eldercare is bought only inside bundles; heycare/famPlus first-sale dates). Treat L03 (§ 45 carer course) as a footnote, not a second payer. Constraints from founder-brief.md: EUR 10k own money, part-time until Sep 2027, Munich, needs co-founder(s). No outward actions; propose interviews/HR conversations under Open questions. May be split over several runs: keep 'notes' on what is left. When complete, add a ceo task: go to Stage D / revise / drop.",
-      "owner": "researcher",
-      "done": true,
-      "notes": "Done 2026-11-11 (researcher): ventures/eldercare-navigator/brief.md, all 13 template sections. Wedge (ii) mid-size employers. Desk tests: eldercare priced on its own in 3 of 7 TED procedures (SWR lot 3 est. EUR 84,034 / 48 months; Strassen.NRW lot 2; Charite 2022), references required; list price EUR 299-499 per company per month (Eldercare24, no customer shown); no company <=3 years old selling eldercare alone with a named paying employer found; heycare/famPlus first-sale dates not found. New: PNOG bill (BT-Drs. 21/8869) brings a free Pflege-Cockpit by 1 Jul 2028 and Pflegebegleitung from 1 Jan 2029 (EUR 146 per home-care recipient, ~EUR 760m/yr; Kassen may delegate to third parties). Researcher view: do not go to Stage D as written; revise. Not done: interviews (need CEO approval), re-scoring, >=10 investor list (Stage D)."
-    },
-    {
       "id": "C2",
       "stage": "C",
       "title": "Idea check: prevention clinics (CEO idea)",
@@ -337,7 +328,16 @@
       "owner": "researcher",
       "done": false,
       "added_by": "ceo 2026-11-11",
-      "reason": "CEO wants his own idea checked with the same rigour as the shortlist."
+      "reason": "CEO wants his own idea checked with the same rigour as the shortlist. CEO 2026-11-11: do this BEFORE continuing C1."
+    },
+    {
+      "id": "C1",
+      "stage": "C",
+      "title": "Venture brief: eldercare navigator as an employee benefit (L01)",
+      "description": "CEO pick 2026-11-11: ONE brief, L01 only. Write ventures/eldercare-navigator/brief.md with templates/venture-brief.md. Start from research/shortlist.md (L01 sketch + open checks) and research/reviews/2026-11-08-redteam-shortlist.md: re-wedge as the red team asks (R1), i.e. find the niche a 1-2-person company can win against pme, famPlus, heycare, awo lifebalance (e.g. mid-size employers without a family-service contract, or selling to/through the bundlers), and answer first: who pays a NEW small company, with a sourced example. Run the cheap desk tests listed there (named employer contract with a price; whether eldercare is bought only inside bundles; heycare/famPlus first-sale dates). Treat L03 (§ 45 carer course) as a footnote, not a second payer. Constraints from founder-brief.md: EUR 10k own money, part-time until Sep 2027, Munich, needs co-founder(s). No outward actions; propose interviews/HR conversations under Open questions. May be split over several runs: keep 'notes' on what is left. When complete, add a ceo task: go to Stage D / revise / drop.",
+      "owner": "researcher",
+      "done": true,
+      "notes": "Done 2026-11-11 (researcher): ventures/eldercare-navigator/brief.md, all 13 template sections. Wedge (ii) mid-size employers. Desk tests: eldercare priced on its own in 3 of 7 TED procedures (SWR lot 3 est. EUR 84,034 / 48 months; Strassen.NRW lot 2; Charite 2022), references required; list price EUR 299-499 per company per month (Eldercare24, no customer shown); no company <=3 years old selling eldercare alone with a named paying employer found; heycare/famPlus first-sale dates not found. New: PNOG bill (BT-Drs. 21/8869) brings a free Pflege-Cockpit by 1 Jul 2028 and Pflegebegleitung from 1 Jan 2029 (EUR 146 per home-care recipient, ~EUR 760m/yr; Kassen may delegate to third parties). Researcher view: do not go to Stage D as written; revise. Not done: interviews (need CEO approval), re-scoring, >=10 investor list (Stage D)."
     },
     {
       "id": "C2",
