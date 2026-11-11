@@ -1,6 +1,6 @@
 {
   "project": "Healthcare Venture",
-  "current_stage": "B",
+  "current_stage": "C",
   "stages": {
     "A": "Scan",
     "B": "Score (gate: CEO picks 2–3)",
@@ -315,18 +315,18 @@
       "title": "Pick 2–3 ideas for deep dive",
       "description": "Read research/shortlist.md (Top 5, caveats C1–C7) and, when ready, research/reviews/ B2 review. Options: (a) L01 employer eldercare benefit with L03 Pflegekasse course as second payer (one 'carer support' brief) + L07 hospital MD-audit case defence; (b) (a) + L13 AI phone assistant as a cheap founder-fit test; (c) L01 + L07 + L06 LLM discharge letters (only if K1 on one KHZG tender is accepted). Recommendation: (a). Optional before picking: answer the open scoring questions (S1–S4, vendor age, Sep 2027 clock, K1) — they change only slot 4–5 (L03 vs L29) — and the 10-minute founder-access check. Unblocks C1.",
       "owner": "ceo",
-      "done": false,
+      "done": true,
       "added_by": "researcher 2026-11-08",
-      "reason": "Stage B gate (CLAUDE.md rule 8): B1 shortlist is ready."
+      "reason": "Stage B gate (CLAUDE.md rule 8): B1 shortlist is ready.",
+      "notes": "CEO 2026-11-11 (chat): deep dive on idea 1 only (L01, eldercare navigator as an employee benefit)."
     },
     {
       "id": "C1",
       "stage": "C",
-      "title": "Venture briefs for the CEO's picks",
-      "description": "One venture brief per idea the CEO picked, using templates/venture-brief.md, in ventures/<slug>/brief.md. Split into one task per idea when unblocked.",
+      "title": "Venture brief: eldercare navigator as an employee benefit (L01)",
+      "description": "CEO pick 2026-11-11: ONE brief, L01 only. Write ventures/eldercare-navigator/brief.md with templates/venture-brief.md. Start from research/shortlist.md (L01 sketch + open checks) and research/reviews/2026-11-08-redteam-shortlist.md: re-wedge as the red team asks (R1), i.e. find the niche a 1-2-person company can win against pme, famPlus, heycare, awo lifebalance (e.g. mid-size employers without a family-service contract, or selling to/through the bundlers), and answer first: who pays a NEW small company, with a sourced example. Run the cheap desk tests listed there (named employer contract with a price; whether eldercare is bought only inside bundles; heycare/famPlus first-sale dates). Treat L03 (§ 45 carer course) as a footnote, not a second payer. Constraints from founder-brief.md: EUR 10k own money, part-time until Sep 2027, Munich, needs co-founder(s). No outward actions; propose interviews/HR conversations under Open questions. May be split over several runs: keep 'notes' on what is left. When complete, add a ceo task: go to Stage D / revise / drop.",
       "owner": "researcher",
-      "done": false,
-      "blocked_by": "CEO decision: pick 2–3 ideas from research/shortlist.md"
+      "done": false
     }
   ]
 }
