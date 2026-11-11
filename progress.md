@@ -8,6 +8,9 @@
 - (critic 2026-11-08) B2 red team done: `research/reviews/2026-11-08-redteam-shortlist.md`. Recommendation for B3: deep-dive L01 re-wedged (no L03 co-payer); L07 only if a medical-controlling co-founder candidate is named; no brief for L06, L13, L29. Only B3 (CEO) is open in Stage B.
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
+## CEO decision 2026-11-11
+- **Deep dive on idea 1 only: eldercare navigator as an employee benefit (L01).** Stage C started; C1 unblocked. Other shortlist ideas are parked, not killed.
+
 ## Next steps
 0. **CEO: B3 — pick 2–3 ideas for deep dive** from `research/shortlist.md` (recommendation: L01 + L03 as one 'carer support' brief, plus L07). Critic: B2 review of the shortlist.
 1. Researcher: B4 done 2026-11-08. No open unblocked task (A17 waits for 2026-12-01; A24/A26 deferred; C1 waits for B3). Critic: B2 red team (B4 done).
