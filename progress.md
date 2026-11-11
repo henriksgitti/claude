@@ -2,7 +2,7 @@
 
 ## Current state
 - Project: **Healthcare Venture** (scope opened from cancer to healthcare on 2026-11-06, see `decisions/2026-11-06-scope-pipeline.md`).
-- Stage: **B — Score**. B1 done 2026-11-08: `research/shortlist.md` (top 5: L01, L07, L06, L03, L13; all 'unproven', no tier A). Waiting for critic B2 and CEO decision B3. Stage A leftovers: A17 (blocked to 2026-12-01), A24/A26 (deferred), A8 (critic).
+- Stage: **C — Deep dive** (since 2026-11-11). C1 done 2026-11-11: `ventures/eldercare-navigator/brief.md` (draft; researcher view: revise, do not go to Stage D as written). Open: C2 (critic review), C3 (CEO decision). Stage B history: B1 done 2026-11-08: `research/shortlist.md` (top 5: L01, L07, L06, L03, L13; all 'unproven', no tier A). Waiting for critic B2 and CEO decision B3. Stage A leftovers: A17 (blocked to 2026-12-01), A24/A26 (deferred), A8 (critic).
 - Stage A history: A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). A6 Munich ecosystem drafted (`research/munich-ecosystem.md`). A9 reimbursement/funding routes drafted (`research/reimbursement-routes.md`). A10 applied the critic fixes to `research/trends.md` and `research/sources-map.md`. A11 drafted `research/hospital-billing-audits.md` (MD audits, 2027 rules, incumbents). A12 drafted `research/payer-processing.md` (insurer § 302 outsourcing, MD AI tenders, buying routes). A13 drafted `research/trial-recruitment-de.md` (CTIS count, 5 % rule, Kapazitätsinitiative, vendors). A14 applied the critic fixes to the three pain files (tender access tables; WTP downgraded where startups cannot bid). A15 added the § 113e Transformationsstellen route and official § 8 Abs. 8 uptake data to `research/reimbursement-routes.md`. A16 applied the fact-check fixes to `research/reimbursement-routes.md` and `research/munich-ecosystem.md`. A17 (partly) confirmed the 1 % audit tier in the Bundestag-passed text and added an 8-quarter 2027 quota simulation to `research/hospital-billing-audits.md`; the Q3 2026 data and Bundesrat vote are still to come. A19 applied the fact-check fixes to the A11–A13 files and `pain-industry.md` (MD-IT: consortia/capacity borrowing allowed; TriNetX–Clinerion now sourced). **A7 long list drafted (`research/longlist.md`): 30 problems L01–L30** (fact-check fixes applied in A21), 6 raw items excluded/merged; new DE data on cancer screening, hybrid-DRG abolition 2028, pharmacy shortage workload, live-in care. Cancer-only work archived in `archive/`; its V1 draft feeds A7.
 - Infrastructure: worker session on environment `healthcare-venture`. WebFetch fails DNS for many hosts (destatis.de, bundesgesundheitsministerium.de, vdek.com), but `curl` through the proxy reaches them: fetch with curl + local text extraction. Reddit is effectively unusable: direct fetch is bot-checked and `site:reddit.com` search returns almost no reddit.com hits (A2). Working alternatives and recipes are listed in `research/sources-map.md`.
 - (critic 2026-11-08) B2 red team done: `research/reviews/2026-11-08-redteam-shortlist.md`. Recommendation for B3: deep-dive L01 re-wedged (no L03 co-payer); L07 only if a medical-controlling co-founder candidate is named; no brief for L06, L13, L29. Only B3 (CEO) is open in Stage B.
@@ -12,11 +12,16 @@
 - **Deep dive on idea 1 only: eldercare navigator as an employee benefit (L01).** Stage C started; C1 unblocked. Other shortlist ideas are parked, not killed.
 
 ## Next steps
+- (2026-11-11) Critic: C2 fact-check and pre-mortem of the L01 brief. CEO: C3 (go to Stage D / revise / drop). Researcher: no open unblocked task after C1 (A17 waits for 2026-12-01; A24/A26 deferred). The numbered list below is from Stage B.
 0. **CEO: B3 — pick 2–3 ideas for deep dive** from `research/shortlist.md` (recommendation: L01 + L03 as one 'carer support' brief, plus L07). Critic: B2 review of the shortlist.
 1. Researcher: B4 done 2026-11-08. No open unblocked task (A17 waits for 2026-12-01; A24/A26 deferred; C1 waits for B3). Critic: B2 red team (B4 done).
 2. After B3: C1 venture briefs for the picked ideas.
 
 ## Open questions
+- **CEO (C3), from the L01 brief (2026-11-11):**
+  - Approve 5–8 conversations with HR/benefits leads at Munich-area firms of 150–1,000 staff? (outward action; questions in the brief, section 13). It is the only way to test "who pays a new small company".
+  - The care reform bill (PNOG, BT-Drs. 21/8869) would give every care recipient a free digital "Pflege-Cockpit" by 1 Jul 2028 and free "Pflegebegleitung" from 1 Jan 2029 (~€760m a year; Kassen may hand it to third parties). Should the researcher check, after the Bundestag vote planned for 11 Dec 2026, whether serving that new task is a better wedge than employers? It is a different buyer (Pflegekasse / municipality).
+  - 10-minute founder-access check: do you know one HR/benefits lead at a firm with ≥150 staff?
 - **Reddit API key (now more important):** A2 found Reddit unreachable (bot challenge; search returns almost no reddit.com hits). A free Reddit app/API key created by the CEO is the only clean route. Without it, A3–A5 rely on German forums, reviews, job ads and tenders.
 - Optional allowlist / network change: WebFetch fails DNS for most hosts; curl is blocked by bot checks at trustpilot.com, indeed.com, glassdoor, crunchbase.com, dealroom.co, oecd.org (web), europepmc.org (web), gutefrage.net, aerztezeitung.de, springermedizin.de, background.tagesspiegel.de. Not bypassed.
 - ~~CEO: own budget, no-go areas, target date~~ Answered 2026-11-07: €10k own money, no no-go areas, full-time from September 2027 (`founder-brief.md`).
@@ -44,6 +49,20 @@
 ---
 
 ## Log
+### 2026-11-11 — C1 Venture brief: eldercare navigator as an employee benefit (researcher)
+- Done: `ventures/eldercare-navigator/brief.md`, all 13 template sections, wedge (ii) mid-size employers without a family-service contract.
+- Key findings:
+  - No sourced example of a company ≤3 years old paid by a named employer for eldercare alone.
+  - Eldercare is tendered on its own in 3 of 7 TED procedures (SWR lot 3: est. €84,034 / 48 months; Straßen.NRW lot 2; Charité 2022), but references are required. Family-service tenders draw 1–2 bids.
+  - Price points are low: Eldercare24 list price €299–499 per company per month. SOM estimate €108,000–359,000 ARR at 30–60 customers (inference).
+  - Only 15.7 % of firms offer care-placement help, while 79.5 % call support for caring staff important (IW 2026).
+  - Munich is occupied: famPlus, pme, heycare (employers), Nui Care (insurers; AOK Bayern, DAK, Allianz PKV).
+  - PNOG bill: free Pflege-Cockpit (1 Jul 2028) and Pflegebegleitung (1 Jan 2029, €146 per home-care recipient a year) = substitute and possible new buyer.
+- Not done: interviews (by design); re-scoring; ≥10-investor list (Stage D); first-sale dates of heycare/famPlus (not found); SWR award and headcount.
+- Tasks added: C2 (critic: fact-check and pre-mortem of the brief), C3 (CEO: go / revise / drop; recommendation: revise).
+- Blocked hosts this run: wds.care (proxy 502), amiravita.de and work-life-management.de (HTTP 403), startbase.de (403), evergabe.nrw documents (404 after deadline). Reddit search: 0 reddit.com hits.
+- Next: C2, then C3.
+
 ### 2026-11-08 — B2 Red team of shortlist.md (critic, RED TEAM)
 - Mode: RED TEAM. File: `research/shortlist.md` (as corrected by B4). Review: `research/reviews/2026-11-08-redteam-shortlist.md`. Verdict: **needs work (as caveats; rule 14, no new tasks)**.
 - Per idea:

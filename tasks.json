@@ -326,7 +326,28 @@
       "title": "Venture brief: eldercare navigator as an employee benefit (L01)",
       "description": "CEO pick 2026-11-11: ONE brief, L01 only. Write ventures/eldercare-navigator/brief.md with templates/venture-brief.md. Start from research/shortlist.md (L01 sketch + open checks) and research/reviews/2026-11-08-redteam-shortlist.md: re-wedge as the red team asks (R1), i.e. find the niche a 1-2-person company can win against pme, famPlus, heycare, awo lifebalance (e.g. mid-size employers without a family-service contract, or selling to/through the bundlers), and answer first: who pays a NEW small company, with a sourced example. Run the cheap desk tests listed there (named employer contract with a price; whether eldercare is bought only inside bundles; heycare/famPlus first-sale dates). Treat L03 (§ 45 carer course) as a footnote, not a second payer. Constraints from founder-brief.md: EUR 10k own money, part-time until Sep 2027, Munich, needs co-founder(s). No outward actions; propose interviews/HR conversations under Open questions. May be split over several runs: keep 'notes' on what is left. When complete, add a ceo task: go to Stage D / revise / drop.",
       "owner": "researcher",
-      "done": false
+      "done": true,
+      "notes": "Done 2026-11-11 (researcher): ventures/eldercare-navigator/brief.md, all 13 template sections. Wedge (ii) mid-size employers. Desk tests: eldercare priced on its own in 3 of 7 TED procedures (SWR lot 3 est. EUR 84,034 / 48 months; Strassen.NRW lot 2; Charite 2022), references required; list price EUR 299-499 per company per month (Eldercare24, no customer shown); no company <=3 years old selling eldercare alone with a named paying employer found; heycare/famPlus first-sale dates not found. New: PNOG bill (BT-Drs. 21/8869) brings a free Pflege-Cockpit by 1 Jul 2028 and Pflegebegleitung from 1 Jan 2029 (EUR 146 per home-care recipient, ~EUR 760m/yr; Kassen may delegate to third parties). Researcher view: do not go to Stage D as written; revise. Not done: interviews (need CEO approval), re-scoring, >=10 investor list (Stage D)."
+    },
+    {
+      "id": "C2",
+      "stage": "C",
+      "title": "Critic: fact-check and pre-mortem of the L01 venture brief",
+      "description": "Fact-check ventures/eldercare-navigator/brief.md (TED notice values and lot titles, PNOG cabinet-draft quotes for §§ 7a/7c/7d SGB XI-new, IW monitor table A-3, Destatis size classes, Eldercare24 prices, arithmetic in section 5) and red-team it: is the 'no paying-customer proof' finding fair, is the PNOG substitute over- or under-weighted, are the kill criteria in section 12 testable. Output: research/reviews/<date>-eldercare-navigator-brief.md",
+      "owner": "critic",
+      "done": false,
+      "added_by": "researcher 2026-11-11",
+      "reason": "Stage C definition of done requires a critic pre-mortem with kill criteria before the CEO decision."
+    },
+    {
+      "id": "C3",
+      "stage": "C",
+      "title": "Decide on L01 after the brief: go to Stage D / revise / drop",
+      "description": "Read ventures/eldercare-navigator/brief.md (bottom line, sections 6, 8, 12) and the C2 review when it exists. Options: (a) go to Stage D as written (not recommended: no sourced example of a new small company paid for eldercare alone; prices EUR 299-499 per company per month; free statutory substitute from 2028-29 if the PNOG passes); (b) revise, cheap test first (recommended): approve 5-8 conversations with HR/benefits leads at Munich firms of 150-1,000 staff (outward action, questions in section 13) and a desk run on the PNOG as passed (2nd/3rd reading planned 11 Dec 2026), incl. whether the new Pflegebegleitung task (~EUR 760m/yr from 2029, Kassen may delegate to third parties) is a better wedge; (c) drop L01 and reopen a parked idea (L07 with a named co-founder candidate, or the L11 test). Also answer the 10-minute founder-access check: do you know one HR/benefits lead at a firm with >=150 staff?",
+      "owner": "ceo",
+      "done": false,
+      "added_by": "researcher 2026-11-11",
+      "reason": "Stage C gate (CLAUDE.md rule 8): the venture brief for the one picked idea is ready."
     }
   ]
 }
