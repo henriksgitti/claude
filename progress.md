@@ -6,9 +6,10 @@
 - Stage A history: A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). A6 Munich ecosystem drafted (`research/munich-ecosystem.md`). A9 reimbursement/funding routes drafted (`research/reimbursement-routes.md`). A10 applied the critic fixes to `research/trends.md` and `research/sources-map.md`. A11 drafted `research/hospital-billing-audits.md` (MD audits, 2027 rules, incumbents). A12 drafted `research/payer-processing.md` (insurer § 302 outsourcing, MD AI tenders, buying routes). A13 drafted `research/trial-recruitment-de.md` (CTIS count, 5 % rule, Kapazitätsinitiative, vendors). A14 applied the critic fixes to the three pain files (tender access tables; WTP downgraded where startups cannot bid). A15 added the § 113e Transformationsstellen route and official § 8 Abs. 8 uptake data to `research/reimbursement-routes.md`. A16 applied the fact-check fixes to `research/reimbursement-routes.md` and `research/munich-ecosystem.md`. A17 (partly) confirmed the 1 % audit tier in the Bundestag-passed text and added an 8-quarter 2027 quota simulation to `research/hospital-billing-audits.md`; the Q3 2026 data and Bundesrat vote are still to come. A19 applied the fact-check fixes to the A11–A13 files and `pain-industry.md` (MD-IT: consortia/capacity borrowing allowed; TriNetX–Clinerion now sourced). **A7 long list drafted (`research/longlist.md`): 30 problems L01–L30** (fact-check fixes applied in A21), 6 raw items excluded/merged; new DE data on cancer screening, hybrid-DRG abolition 2028, pharmacy shortage workload, live-in care. Cancer-only work archived in `archive/`; its V1 draft feeds A7.
 - Infrastructure: worker session on environment `healthcare-venture`. WebFetch fails DNS for many hosts (destatis.de, bundesgesundheitsministerium.de, vdek.com), but `curl` through the proxy reaches them: fetch with curl + local text extraction. Reddit is effectively unusable: direct fetch is bot-checked and `site:reddit.com` search returns almost no reddit.com hits (A2). Working alternatives and recipes are listed in `research/sources-map.md`.
 - (critic 2026-11-08) B2 red team done: `research/reviews/2026-11-08-redteam-shortlist.md`. Recommendation for B3: deep-dive L01 re-wedged (no L03 co-payer); L07 only if a medical-controlling co-founder candidate is named; no brief for L06, L13, L29. Only B3 (CEO) is open in Stage B.
+- (critic 2026-11-13) C2 fact-check half done: `research/reviews/2026-11-12-eldercare-navigator-brief.md` (**needs work, minor**; numbers and quotes reproduce, no fabrication). Fix task C4 added (researcher). Still open: C2 red-team half (pre-mortem), C2 idea check (researcher), C3 (CEO).
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
-- (researcher 2026-11-13) C2 idea check done: `research/idea-prevention-clinics.md`. Verdict: drop the clinic, no deep dive; employer prevention programme only as a cheap test inside the L01 HR conversations. New CEO task C4.
+- (researcher 2026-11-13) C2 idea check done: `research/idea-prevention-clinics.md`. Verdict: drop the clinic, no deep dive; employer prevention programme only as a cheap test inside the L01 HR conversations. New CEO task C5.
 
 ## CEO decision 2026-11-11
 - **Deep dive on idea 1 only: eldercare navigator as an employee benefit (L01).** Stage C started; C1 unblocked. Other shortlist ideas are parked, not killed.
@@ -20,7 +21,7 @@
 2. After B3: C1 venture briefs for the picked ideas.
 
 ## Open questions
-- **CEO (C4), prevention clinics (2026-11-13):** drop / keep the employer variant as two extra questions in the L01 HR conversations (recommended) / deep-dive anyway? Free check: do you know a physician in Munich who would own the practice? Outward action proposed only if the idea stays alive: one paid hour with a medical-law attorney on the broker model in Bavaria.
+- **CEO (C5), prevention clinics (2026-11-13):** drop / keep the employer variant as two extra questions in the L01 HR conversations (recommended) / deep-dive anyway? Free check: do you know a physician in Munich who would own the practice? Outward action proposed only if the idea stays alive: one paid hour with a medical-law attorney on the broker model in Bavaria.
 - **CEO (C3), from the L01 brief (2026-11-11):**
   - Approve 5–8 conversations with HR/benefits leads at Munich-area firms of 150–1,000 staff? (outward action; questions in the brief, section 13). It is the only way to test "who pays a new small company".
   - The care reform bill (PNOG, BT-Drs. 21/8869) would give every care recipient a free digital "Pflege-Cockpit" by 1 Jul 2028 and free "Pflegebegleitung" from 1 Jan 2029 (~€760m a year; Kassen may hand it to third parties). Should the researcher check, after the Bundestag vote planned for 11 Dec 2026, whether serving that new task is a better wedge than employers? It is a different buyer (Pflegekasse / municipality).
@@ -62,9 +63,24 @@
   - Employers buy prevention (TED: WBM check-ups 2026; IKK classic €604,750), but tenders need references, and extended check-ups are taxable wage.
   - Scores: clinic 50, consumer platform 52, employer programme 54/49 "unproven"; L01 66/62.
 - Not done: YEARS and wellabe accounts; Aeon German prices; legal opinion on the broker model; Neko $700m round only as snippet.
-- Tasks added: C4 (CEO decision). Note: `tasks.json` holds two tasks with id C2 (researcher, critic); not renumbered.
+- Tasks added: C5 (CEO decision; renumbered from C4 at merge because the critic added a C4 in parallel). Note: `tasks.json` holds two tasks with id C2 (researcher, critic); not renumbered.
 - Blocked hosts: nekohealth.com (429), radiologybusiness.com, fiercehealthcare.com, sifted.eu, ziprecruiter.de, jobs-radar.com, emarketer.com (403), affarsvarlden.se (login redirect), beyond-imaging.de (empty page). Reddit search: 0 reddit.com hits.
-- Next: critic C2 (L01 brief); CEO C3 and C4.
+- Next: critic C2 (L01 brief); CEO C3 and C5.
+
+### 2026-11-13 — Critic fact-check run 11: L01 venture brief, shortlist B4 (critic, FACT-CHECK)
+- Mode: FACT-CHECK. Files new or changed since their last fact-check: `ventures/eldercare-navigator/brief.md` (C1) and `research/shortlist.md` (B4 edits). Checks were run on 2026-11-12; the run was interrupted and finished on 2026-11-13 (no change on `main` in between).
+- Reviews: `research/reviews/2026-11-12-eldercare-navigator-brief.md` (**needs work, minor**; 37 of 37 URLs, 16 of 16 TED notices) and `research/reviews/2026-11-12-shortlist-B4.md` (**pass**).
+- Re-run counts: TED 7 queries (19 / 4 / 4 / 23 / 2 / 8 / 9) and App Store (Nui 185, heycare 31, DAK 8, mitpflegeleben 15; 24 reviews) all match.
+- What holds: TED values and lot titles, PNOG quotes for §§ 7a / 7c / 7d (cabinet draft), IW table A-3, Destatis size classes, Eldercare24 prices, all section 5 arithmetic. No fabrication.
+- Top issues:
+  1. SWR headcount is `[UNVERIFIED]` (snippets) but feeds the "€6 per employee" price, the €154m cross-check and the section 7 price hypothesis. The cited TED notice itself gives ca. 3,500 staff + ca. 1,800 freelancers, so €4–6 per head; it is one buyer's estimate with no award.
+  2. Three statements say more than the source: Nui Pflege-Kompass "already analyses" (heise: "is intended to"); TenneT "€1.1m" (winning tender €880,000); Charité "own procedure" (only value and a full-text match are retrievable). Firm examples of eldercare as its own lot are two, both inside family-service procedures.
+  3. Stale items not flagged (iwd = 2022 data; Nui price complaints from 2020/2021), and heycare's homepage shows named customers that the brief cites only "according to the company".
+- None of this changes the brief's recommendation (revise); the corrections make the price evidence slightly weaker.
+- Tasks added: C4 (researcher: apply the fact-check fixes; the one fix round for the brief, rule 14). C2 (critic) stays open with notes: the red-team half (pre-mortem, kill criteria) is not done.
+- Note: `tasks.json` holds two tasks with id "C2" (researcher idea check, critic review). Not renumbered.
+- Not done: red team of the brief; Charité notice text (TED XML/PDF returned HTTP 202).
+- Next: critic red team of the brief (C2), researcher C4 and C2 (idea check), then CEO C3.
 
 ### 2026-11-11 — C1 Venture brief: eldercare navigator as an employee benefit (researcher)
 - Done: `ventures/eldercare-navigator/brief.md`, all 13 template sections, wedge (ii) mid-size employers without a family-service contract.

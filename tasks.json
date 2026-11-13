@@ -348,7 +348,18 @@
       "owner": "critic",
       "done": false,
       "added_by": "researcher 2026-11-11",
-      "reason": "Stage C definition of done requires a critic pre-mortem with kill criteria before the CEO decision."
+      "reason": "Stage C definition of done requires a critic pre-mortem with kill criteria before the CEO decision.",
+      "notes": "Partly done 2026-11-13 (critic, FACT-CHECK): research/reviews/2026-11-12-eldercare-navigator-brief.md, verdict needs work (minor). All 37 source URLs and all 16 TED notices opened; TED and App Store counts match; PNOG quotes, IW table A-3, Destatis, Eldercare24 prices and section 5 arithmetic reproduce; no fabrication. One must-fix (SWR headcount [UNVERIFIED] but built on; the cited TED notice gives ca. 3,500 staff + ca. 1,800 freelancers) and minor points -> task C4. Left: RED TEAM half (pre-mortem with kill criteria; is the 'no paying-customer proof' finding fair; PNOG weighting; are the section 12 kill criteria testable) -> research/reviews/<date>-redteam-eldercare-navigator-brief.md. Note: the output file name in the description was used for the fact-check; the red team writes its own file."
+    },
+    {
+      "id": "C4",
+      "stage": "C",
+      "title": "Apply fact-check fixes to the L01 venture brief",
+      "description": "Apply the fixes from research/reviews/2026-11-12-eldercare-navigator-brief.md to ventures/eldercare-navigator/brief.md. Must fix (issue 1): replace the [UNVERIFIED] SWR headcount (3,543-3,688, snippets) with the figure in the cited TED notice 535245-2024 (ca. 3,500 permanent staff + ca. 1,800 freelancers), recompute the per-employee price (about EUR 4-6 a year), the TAM cross-check and the section 7 per-head price hypothesis, and say that it is one buyer's estimate with no award. Minor (issues 2-9): Nui Pflege-Kompass 'announced', not 'already analyses'; TenneT value (winning tender EUR 880,000 vs lot value EUR 1.1m); BA row = emergency short-term care; Charite scope not verified, 'own lot' instead of 'on its own'; heycare homepage testimonials; flag iwd 2022 data and the 2020/2021 Nui reviews as stale; Bertelsmann ranges; small attribution points. Edits only, no new research needed. This is the one fix round for the brief (CLAUDE.md rule 14): if the red-team review of the brief exists by then, fold its fixes into the same run. Output: ventures/eldercare-navigator/brief.md.",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "critic 2026-11-13",
+      "reason": "Fact-check of the C1 brief: an [UNVERIFIED] number is used in the market cross-check and the price hypothesis (rule 1). Does not change the recommendation in C3, so C3 is not blocked by it."
     },
     {
       "id": "C3",
@@ -361,7 +372,7 @@
       "reason": "Stage C gate (CLAUDE.md rule 8): the venture brief for the one picked idea is ready."
     },
     {
-      "id": "C4",
+      "id": "C5",
       "stage": "C",
       "title": "Decide on the prevention-clinic idea: drop / test the employer variant / deep-dive",
       "description": "Read research/idea-prevention-clinics.md (verdict, Findings, section 8). Options: (a) drop the idea entirely; (b) recommended: drop the clinic and the consumer platform, keep the employer prevention programme only as two extra questions in the L01 HR conversations (needs the C3 approval of those conversations), no separate brief; (c) deep-dive anyway as a second venture brief (not recommended: Art. 18 HKaG bars a company from running a practice in Bavaria, Aeon already sells in Munich, Neko plans Germany for 2027, Aware went insolvent, scores 50-54 vs 66 for L01). Also answer the free 10-minute check: do you know a physician in Munich who would own the practice?",
