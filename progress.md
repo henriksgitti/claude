@@ -24,6 +24,10 @@
 2. After B3: C1 venture briefs for the picked ideas.
 
 ## Open questions
+- **CEO (C3), from the second red team of the L01 brief (2026-11-13, `research/reviews/2026-11-13-redteam-eldercare-navigator-brief-C4.md`):**
+  - Decide C3 now; do not wait for the vote planned for 11 Dec 2026. No outcome of the vote reopens the employer wedge. The care-reform desk run can stay, as a new long-list check (Kassen as buyer), not as a condition on L01.
+  - If you choose (c): before a brief on L07 or L11, approve one desk run that puts the parked ideas (L07, L06, L13, L29) through the test that stopped L01 (customers x sourced price for three salaries and for EUR 1m ARR, strict K1/K2, cash to month 24)? Critic's recommendation: yes. Not added as a task (stage gate; your call).
+  - 10-minute access check, widened to all parked ideas: which of these could you call this week: an HR/benefits lead, a qualified care adviser, a hospital medical controller or coder, a Kasse department head?
 - **CEO (C3 + C5), consistency note from the critic (2026-11-13):** C5 option (b) puts two prevention questions into the L01 HR conversations. After C4 the researcher no longer recommends those conversations (kill criterion K-a met). If you choose C3 (c) or skip the conversations, C5 (b) has no carrier: it then means "drop" unless you approve separate calls.
 - **CEO (C3), after the C4 revision of the L01 brief (2026-11-13):** researcher and critic now agree on substance. The employer wedge is at best a small service business (best case 60 customers = €359,000 ARR, enough for three modest salaries; €1m ARR needs 167–279 customers; no price above ~€6,000 a year at a private employer is shown). Decide: (c) drop the employer wedge and keep one desk run on the care reform after the vote planned for 11 Dec 2026 (recommended by both), or (b) HR conversations anyway, with screening K-e and signed paid pilots K-f as the bar. The text of task C3 still shows the older recommendation (b). This also decides C5 option (b), which rides on those conversations.
 - **CEO (C5), prevention clinics (2026-11-13):** drop / keep the employer variant as two extra questions in the L01 HR conversations (recommended) / deep-dive anyway? Free check: do you know a physician in Munich who would own the practice? Outward action proposed only if the idea stays alive: one paid hour with a medical-law attorney on the broker model in Bavaria.
@@ -62,6 +66,19 @@
 ---
 
 ## Log
+### 2026-11-13 — Critic red team, second pass: L01 venture brief after C4 (critic, RED TEAM)
+- Mode: RED TEAM. File: `ventures/eldercare-navigator/brief.md` as revised in C4. Review: `research/reviews/2026-11-13-redteam-eldercare-navigator-brief-C4.md`. No new sources opened; calculations marked as the critic's own.
+- Verdict: **pass (caveats)** for the brief as a decision document; wedge (ii) still **fails as a venture case**. F1–F3 and F5–F7 of the first red team are answered; F4 (founder, co-founder incentive, timing) only partly.
+- Top caveats (rule 14: no tasks):
+  - "K-a: Met" is absence of evidence on a judgment threshold (EUR 15,000 follows from an unfounded 60 customers), and the Eldercare24 list price has no paying customer behind it. Incumbent prices (K-b) are still unchecked.
+  - Stronger reason, from the brief's own SWR row: the three lots together are about EUR 36 per employee per year, the eldercare lot EUR 4–6 (critic's math). Employers pay for the bundle; eldercare is about 17 % of it. The bundle is heycare's and pme's ground.
+  - "Best case pays three modest salaries" holds only at month 24. With a linear ramp the low case leaves a gap of about EUR 252,000 over two years against EUR 10,000 own money and one grant of max EUR 36,000.
+  - K-d (the vote) is redundant: it cannot reopen L01 either way. K-g's usage half is close to a coin flip at about 4 expected cases; K-f needs the co-founder, the legal opinion and most of the budget before it can run.
+  - Option (c) points to L07 / L11, which have not had the test that stopped L01; the shortlist and task C5 still show L01 at 64–66.
+- Not done: no source re-opened (red team); no incumbent price check; no screen of the parked ideas (proposed to the CEO, not started).
+- Tasks added: none. Open question added for the CEO (above). `tasks.json` unchanged.
+- Next: CEO C3 and C5.
+
 ### 2026-11-13 — Critic fact-check run 12: prevention-clinic idea check, L01 brief after C4 (critic, FACT-CHECK)
 - Mode: FACT-CHECK. Files new or changed since their last fact-check: `research/idea-prevention-clinics.md` (researcher C2) and `ventures/eldercare-navigator/brief.md` (C4; merged to `main` while this run was under way, so it was checked too).
 - Reviews:
