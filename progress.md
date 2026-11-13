@@ -12,6 +12,7 @@
 - (researcher 2026-11-13) C2 idea check done: `research/idea-prevention-clinics.md`. Verdict: drop the clinic, no deep dive; employer prevention programme only as a cheap test inside the L01 HR conversations. New CEO task C5.
 - (critic 2026-11-13) C2 red-team half done: `research/reviews/2026-11-13-redteam-eldercare-navigator-brief.md` (brief **needs work**; employer wedge **fails as a venture case**). Critic task C2 closed; fixes folded into C4 (notes). Open in Stage C: C4 (researcher), C3 and C5 (CEO).
 - (researcher 2026-11-13) C4 done: `ventures/eldercare-navigator/brief.md` revised (the one fix round, rule 14). The researcher's recommendation changed: kill criterion K-a is met on desk evidence, so no HR conversations as the next step; keep only the PNOG desk run after 11 Dec 2026. Open in Stage C: C3 and C5 (CEO). No open unblocked researcher task (A17 from 2026-12-01; A24/A26 deferred).
+- (critic 2026-11-13) Fact-check run 12: `research/idea-prevention-clinics.md` **passes (minor fixes)** and the C4 revision of the L01 brief **passes (caveats)**: `research/reviews/2026-11-13-idea-prevention-clinics.md`, `research/reviews/2026-11-13-eldercare-navigator-brief-C4.md`. No new task. Every file in `research/` and `ventures/` now has a current fact-check. Open in Stage C: C3 and C5 (CEO).
 
 ## CEO decision 2026-11-11
 - **Deep dive on idea 1 only: eldercare navigator as an employee benefit (L01).** Stage C started; C1 unblocked. Other shortlist ideas are parked, not killed.
@@ -23,6 +24,7 @@
 2. After B3: C1 venture briefs for the picked ideas.
 
 ## Open questions
+- **CEO (C3 + C5), consistency note from the critic (2026-11-13):** C5 option (b) puts two prevention questions into the L01 HR conversations. After C4 the researcher no longer recommends those conversations (kill criterion K-a met). If you choose C3 (c) or skip the conversations, C5 (b) has no carrier: it then means "drop" unless you approve separate calls.
 - **CEO (C3), after the C4 revision of the L01 brief (2026-11-13):** researcher and critic now agree on substance. The employer wedge is at best a small service business (best case 60 customers = €359,000 ARR, enough for three modest salaries; €1m ARR needs 167–279 customers; no price above ~€6,000 a year at a private employer is shown). Decide: (c) drop the employer wedge and keep one desk run on the care reform after the vote planned for 11 Dec 2026 (recommended by both), or (b) HR conversations anyway, with screening K-e and signed paid pilots K-f as the bar. The text of task C3 still shows the older recommendation (b). This also decides C5 option (b), which rides on those conversations.
 - **CEO (C5), prevention clinics (2026-11-13):** drop / keep the employer variant as two extra questions in the L01 HR conversations (recommended) / deep-dive anyway? Free check: do you know a physician in Munich who would own the practice? Outward action proposed only if the idea stays alive: one paid hour with a medical-law attorney on the broker model in Bavaria.
 - **CEO (C3), from the red team of the L01 brief (2026-11-13, `research/reviews/2026-11-13-redteam-eldercare-navigator-brief.md`):**
@@ -60,6 +62,22 @@
 ---
 
 ## Log
+### 2026-11-13 — Critic fact-check run 12: prevention-clinic idea check, L01 brief after C4 (critic, FACT-CHECK)
+- Mode: FACT-CHECK. Files new or changed since their last fact-check: `research/idea-prevention-clinics.md` (researcher C2) and `ventures/eldercare-navigator/brief.md` (C4; merged to `main` while this run was under way, so it was checked too).
+- Reviews:
+  - `research/reviews/2026-11-13-idea-prevention-clinics.md`: **pass (minor fixes)**. 50 of 50 listed URLs opened, plus 3 TED notices.
+  - `research/reviews/2026-11-13-eldercare-navigator-brief-C4.md`: **pass (caveats)**. 11 URLs and 5 TED notices, i.e. every source behind a changed line.
+- Re-run counts, all match: Aware app (60 ratings; 21 reviews: 11 five-star, 7 one-star), wellabe (41 ratings), Hacker News (53 comments, 10 top-level), TED 594202-2026 / 370897-2026 / 664823-2026 and the five notices re-used in C4, score arithmetic (50 / 52 / 54, R4 49), all new arithmetic in the brief.
+- What holds: idea check: YEARS prices, Neko 2025 accounts, Aware insolvency and €100,000 sale, Art. 18 HKaG, Aeon in Munich, Neko Germany 2027, Cochrane and Eur Radiol figures, tax rule, Präventionsbericht amounts. Brief: all 9 fact-check fixes applied correctly; new PNOG quotes (§ 7a functions and dates, § 7a Abs. 2, delegation to third parties) are verbatim. No fabrication in either file.
+- Top issues (all minor; no verdict, recommendation or CEO option changes):
+  1. Idea check: stale sources not flagged. The TUM Manager-Check brochure is from 2017 and the AXA wellabe flyer from 2021, both used in the present tense for employer spend. Also, IKK classic's €604,750 is a framework value with no purchase obligation, not money spent. K1 for the employer wedge still passes on the two 2026 TED notices.
+  2. Idea check: Finding 3 ("cannot own the clinic") is firmer than the file's own gap list (§ 30 GewO `[UNVERIFIED]`; MVZ via a hospital). Correct reading: a company cannot run a practice directly; the other routes are out of reach at €10k or unverified. Two snippet-only prices (AYUN, Function Health) lack the `[UNVERIFIED]` tag.
+  3. Brief: heycare's homepage names eight customers (three with the EAP tag), not three (one); and "a bill with a €7.6bn financing gap" misreads the source (€7.6bn is the expected 2027 deficit; the bill leaves at least €1.35bn open).
+- Tasks: none added (no critical issue; the brief has had its fix round, rule 14). A8 notes updated. Nothing else in `tasks.json` changed.
+- Not done: no red team of the idea check (not a stage deliverable); unchanged sources of the brief were not re-opened.
+- Next: CEO C3 and C5.
+- Open questions: one consistency note on C3 + C5 added above.
+
 ### 2026-11-13 — C4 Fixes to the L01 venture brief (researcher)
 - Done: all 9 fact-check issues and all 7 red-team edits applied to `ventures/eldercare-navigator/brief.md`. Every changed figure was re-opened at its source (TED API, PNOG cabinet draft, Bertelsmann, iwd, heise, heycare.com, nui.care). No new searches (task: edits only).
 - Main changes:
