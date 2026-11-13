@@ -6,6 +6,7 @@
 - Stage A history: A1 trends scan drafted (`research/trends.md`); A2 source map drafted (`research/sources-map.md`); A3 patient/caregiver pain drafted (`research/pain-patients.md`, 11 problems); A4 professional pain drafted (`research/pain-professionals.md`, 10 problems). A5 industry/payer pain drafted (`research/pain-industry.md`, 10 problems). A6 Munich ecosystem drafted (`research/munich-ecosystem.md`). A9 reimbursement/funding routes drafted (`research/reimbursement-routes.md`). A10 applied the critic fixes to `research/trends.md` and `research/sources-map.md`. A11 drafted `research/hospital-billing-audits.md` (MD audits, 2027 rules, incumbents). A12 drafted `research/payer-processing.md` (insurer § 302 outsourcing, MD AI tenders, buying routes). A13 drafted `research/trial-recruitment-de.md` (CTIS count, 5 % rule, Kapazitätsinitiative, vendors). A14 applied the critic fixes to the three pain files (tender access tables; WTP downgraded where startups cannot bid). A15 added the § 113e Transformationsstellen route and official § 8 Abs. 8 uptake data to `research/reimbursement-routes.md`. A16 applied the fact-check fixes to `research/reimbursement-routes.md` and `research/munich-ecosystem.md`. A17 (partly) confirmed the 1 % audit tier in the Bundestag-passed text and added an 8-quarter 2027 quota simulation to `research/hospital-billing-audits.md`; the Q3 2026 data and Bundesrat vote are still to come. A19 applied the fact-check fixes to the A11–A13 files and `pain-industry.md` (MD-IT: consortia/capacity borrowing allowed; TriNetX–Clinerion now sourced). **A7 long list drafted (`research/longlist.md`): 30 problems L01–L30** (fact-check fixes applied in A21), 6 raw items excluded/merged; new DE data on cancer screening, hybrid-DRG abolition 2028, pharmacy shortage workload, live-in care. Cancer-only work archived in `archive/`; its V1 draft feeds A7.
 - Infrastructure: worker session on environment `healthcare-venture`. WebFetch fails DNS for many hosts (destatis.de, bundesgesundheitsministerium.de, vdek.com), but `curl` through the proxy reaches them: fetch with curl + local text extraction. Reddit is effectively unusable: direct fetch is bot-checked and `site:reddit.com` search returns almost no reddit.com hits (A2). Working alternatives and recipes are listed in `research/sources-map.md`.
 - (critic 2026-11-08) B2 red team done: `research/reviews/2026-11-08-redteam-shortlist.md`. Recommendation for B3: deep-dive L01 re-wedged (no L03 co-payer); L07 only if a medical-controlling co-founder candidate is named; no brief for L06, L13, L29. Only B3 (CEO) is open in Stage B.
+- (critic 2026-11-13) C2 fact-check half done: `research/reviews/2026-11-12-eldercare-navigator-brief.md` (**needs work, minor**; numbers and quotes reproduce, no fabrication). Fix task C4 added (researcher). Still open: C2 red-team half (pre-mortem), C2 idea check (researcher), C3 (CEO).
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
 ## CEO decision 2026-11-11
@@ -49,6 +50,21 @@
 ---
 
 ## Log
+### 2026-11-13 — Critic fact-check run 11: L01 venture brief, shortlist B4 (critic, FACT-CHECK)
+- Mode: FACT-CHECK. Files new or changed since their last fact-check: `ventures/eldercare-navigator/brief.md` (C1) and `research/shortlist.md` (B4 edits). Checks were run on 2026-11-12; the run was interrupted and finished on 2026-11-13 (no change on `main` in between).
+- Reviews: `research/reviews/2026-11-12-eldercare-navigator-brief.md` (**needs work, minor**; 37 of 37 URLs, 16 of 16 TED notices) and `research/reviews/2026-11-12-shortlist-B4.md` (**pass**).
+- Re-run counts: TED 7 queries (19 / 4 / 4 / 23 / 2 / 8 / 9) and App Store (Nui 185, heycare 31, DAK 8, mitpflegeleben 15; 24 reviews) all match.
+- What holds: TED values and lot titles, PNOG quotes for §§ 7a / 7c / 7d (cabinet draft), IW table A-3, Destatis size classes, Eldercare24 prices, all section 5 arithmetic. No fabrication.
+- Top issues:
+  1. SWR headcount is `[UNVERIFIED]` (snippets) but feeds the "€6 per employee" price, the €154m cross-check and the section 7 price hypothesis. The cited TED notice itself gives ca. 3,500 staff + ca. 1,800 freelancers, so €4–6 per head; it is one buyer's estimate with no award.
+  2. Three statements say more than the source: Nui Pflege-Kompass "already analyses" (heise: "is intended to"); TenneT "€1.1m" (winning tender €880,000); Charité "own procedure" (only value and a full-text match are retrievable). Firm examples of eldercare as its own lot are two, both inside family-service procedures.
+  3. Stale items not flagged (iwd = 2022 data; Nui price complaints from 2020/2021), and heycare's homepage shows named customers that the brief cites only "according to the company".
+- None of this changes the brief's recommendation (revise); the corrections make the price evidence slightly weaker.
+- Tasks added: C4 (researcher: apply the fact-check fixes; the one fix round for the brief, rule 14). C2 (critic) stays open with notes: the red-team half (pre-mortem, kill criteria) is not done.
+- Note: `tasks.json` holds two tasks with id "C2" (researcher idea check, critic review). Not renumbered.
+- Not done: red team of the brief; Charité notice text (TED XML/PDF returned HTTP 202).
+- Next: critic red team of the brief (C2), researcher C4 and C2 (idea check), then CEO C3.
+
 ### 2026-11-11 — C1 Venture brief: eldercare navigator as an employee benefit (researcher)
 - Done: `ventures/eldercare-navigator/brief.md`, all 13 template sections, wedge (ii) mid-size employers without a family-service contract.
 - Key findings:
