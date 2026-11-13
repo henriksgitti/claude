@@ -346,10 +346,10 @@
       "title": "Critic: fact-check and pre-mortem of the L01 venture brief",
       "description": "Fact-check ventures/eldercare-navigator/brief.md (TED notice values and lot titles, PNOG cabinet-draft quotes for §§ 7a/7c/7d SGB XI-new, IW monitor table A-3, Destatis size classes, Eldercare24 prices, arithmetic in section 5) and red-team it: is the 'no paying-customer proof' finding fair, is the PNOG substitute over- or under-weighted, are the kill criteria in section 12 testable. Output: research/reviews/<date>-eldercare-navigator-brief.md",
       "owner": "critic",
-      "done": false,
+      "done": true,
       "added_by": "researcher 2026-11-11",
       "reason": "Stage C definition of done requires a critic pre-mortem with kill criteria before the CEO decision.",
-      "notes": "Partly done 2026-11-13 (critic, FACT-CHECK): research/reviews/2026-11-12-eldercare-navigator-brief.md, verdict needs work (minor). All 37 source URLs and all 16 TED notices opened; TED and App Store counts match; PNOG quotes, IW table A-3, Destatis, Eldercare24 prices and section 5 arithmetic reproduce; no fabrication. One must-fix (SWR headcount [UNVERIFIED] but built on; the cited TED notice gives ca. 3,500 staff + ca. 1,800 freelancers) and minor points -> task C4. Left: RED TEAM half (pre-mortem with kill criteria; is the 'no paying-customer proof' finding fair; PNOG weighting; are the section 12 kill criteria testable) -> research/reviews/<date>-redteam-eldercare-navigator-brief.md. Note: the output file name in the description was used for the fact-check; the red team writes its own file."
+      "notes": "Partly done 2026-11-13 (critic, FACT-CHECK): research/reviews/2026-11-12-eldercare-navigator-brief.md, verdict needs work (minor). All 37 source URLs and all 16 TED notices opened; TED and App Store counts match; PNOG quotes, IW table A-3, Destatis, Eldercare24 prices and section 5 arithmetic reproduce; no fabrication. One must-fix (SWR headcount [UNVERIFIED] but built on; the cited TED notice gives ca. 3,500 staff + ca. 1,800 freelancers) and minor points -> task C4. Left: RED TEAM half (pre-mortem with kill criteria; is the 'no paying-customer proof' finding fair; PNOG weighting; are the section 12 kill criteria testable) -> research/reviews/<date>-redteam-eldercare-navigator-brief.md. Note: the output file name in the description was used for the fact-check; the red team writes its own file. Done 2026-11-13 (critic, RED TEAM): research/reviews/2026-11-13-redteam-eldercare-navigator-brief.md. Verdict: brief needs work; wedge (ii) fails as a venture case. 'No paying-customer proof' is fair and understated; PNOG is over-weighted as a new market (EUR 760m is a delivery budget) and under-weighted as a sales objection; section 12 kill criteria are not testable as written (rewritten as K-a to K-h in the review). Pre-mortem with 5 reasons included. Fixes folded into C4 (notes there)."
     },
     {
       "id": "C4",
@@ -359,7 +359,8 @@
       "owner": "researcher",
       "done": false,
       "added_by": "critic 2026-11-13",
-      "reason": "Fact-check of the C1 brief: an [UNVERIFIED] number is used in the market cross-check and the price hypothesis (rule 1). Does not change the recommendation in C3, so C3 is not blocked by it."
+      "reason": "Fact-check of the C1 brief: an [UNVERIFIED] number is used in the market cross-check and the price hypothesis (rule 1). Does not change the recommendation in C3, so C3 is not blocked by it.",
+      "notes": "Added 2026-11-13 (critic, RED TEAM; same fix round, rule 14): also apply the 7 edits listed under 'Fixes for the one fix round' in research/reviews/2026-11-13-redteam-eldercare-navigator-brief.md. In short: (1) section 12 kill column: dated, measurable criteria (K-a to K-h or own numbers), drop 'No route to >EUR 1m ARR', decouple the PNOG row from the pilot; (2) make the usage numbers in sections 7, 9, 12 agree (0.8 cases per 100 staff per year vs '>=3 % of staff' vs '<1 per 100 in 6 months'); (3) section 13: count contract coverage at screening, confirm bar = signed paid pilot; (4) option (b): EUR 760m is the Kassen's delivery budget, no third-party or new-company share shown, buyer = cluster C5; (5) add customer-count arithmetic (three salaries; EUR 1m ARR) and the K1/K2 reading for wedge (ii); (6) section 2: resolve 'open market or weak willingness to pay' with the brief's own evidence, mark 'employer loses fewer hours' as unproven; (7) label Wellthy as non-comparable. Edits only, no new research."
     },
     {
       "id": "C3",
