@@ -10,6 +10,7 @@
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
 - (researcher 2026-11-13) C2 idea check done: `research/idea-prevention-clinics.md`. Verdict: drop the clinic, no deep dive; employer prevention programme only as a cheap test inside the L01 HR conversations. New CEO task C5.
+- (critic 2026-11-13) C2 red-team half done: `research/reviews/2026-11-13-redteam-eldercare-navigator-brief.md` (brief **needs work**; employer wedge **fails as a venture case**). Critic task C2 closed; fixes folded into C4 (notes). Open in Stage C: C4 (researcher), C3 and C5 (CEO).
 
 ## CEO decision 2026-11-11
 - **Deep dive on idea 1 only: eldercare navigator as an employee benefit (L01).** Stage C started; C1 unblocked. Other shortlist ideas are parked, not killed.
@@ -22,6 +23,10 @@
 
 ## Open questions
 - **CEO (C5), prevention clinics (2026-11-13):** drop / keep the employer variant as two extra questions in the L01 HR conversations (recommended) / deep-dive anyway? Free check: do you know a physician in Munich who would own the practice? Outward action proposed only if the idea stays alive: one paid hour with a medical-law attorney on the broker model in Bavaria.
+- **CEO (C3), from the red team of the L01 brief (2026-11-13, `research/reviews/2026-11-13-redteam-eldercare-navigator-brief.md`):**
+  - Critic's recommendation: **(c) drop the employer wedge**, keeping one desk run from (b): the PNOG as passed (vote planned 11 Dec 2026) plus who holds today's delegated § 7a counselling contracts. Reason: the brief's own best case (60 customers, €359,000 ARR) does not pay the three people it needs, and no HR conversation can change that. The researcher recommends (b). You decide.
+  - If you prefer (b): approve the HR conversations only with the rewritten kill criteria (K-e screening, K-f signed paid pilots). This also affects C5, which piggybacks on those conversations.
+  - Extended 10-minute check: can you name one HR/benefits lead **and** one qualified care adviser (Pflegeberater:in) you could call?
 - **CEO (C3), from the L01 brief (2026-11-11):**
   - Approve 5–8 conversations with HR/benefits leads at Munich-area firms of 150–1,000 staff? (outward action; questions in the brief, section 13). It is the only way to test "who pays a new small company".
   - The care reform bill (PNOG, BT-Drs. 21/8869) would give every care recipient a free digital "Pflege-Cockpit" by 1 Jul 2028 and free "Pflegebegleitung" from 1 Jan 2029 (~€760m a year; Kassen may hand it to third parties). Should the researcher check, after the Bundestag vote planned for 11 Dec 2026, whether serving that new task is a better wedge than employers? It is a different buyer (Pflegekasse / municipality).
@@ -53,6 +58,22 @@
 ---
 
 ## Log
+### 2026-11-13 — Critic red team: L01 venture brief (critic, RED TEAM)
+- Mode: RED TEAM. File: `ventures/eldercare-navigator/brief.md`. Review: `research/reviews/2026-11-13-redteam-eldercare-navigator-brief.md`. No new sources opened (reasoning only).
+- Verdict: brief **needs work**; wedge (ii), employer-paid eldercare alone, **fails as a venture case**.
+- Top issues:
+  - F1: the brief's own evidence says weak willingness to pay, not an open market (offer rate 14.0 % → 15.7 % in 11 years; Eldercare24 at €299 without a customer; heycare entered with a bundle and €4m). "No paying-customer proof" is fair and understated.
+  - F2: best case 60 customers = €359,000 ARR for a three-person team; €1m ARR needs 167–279 customers; per-head pricing gives no lever. HR conversations cannot repair this.
+  - F3: pilot and kill rows contradict the brief's usage estimate (0.4 cases per 100 staff in 6 months vs conversion at ≥3 % of staff and kill at <1 per 100).
+  - F4: nothing uses the founder's AI edge; the product is a care adviser the company cannot pay; funding path is one €36,000 grant.
+  - F5/F6: PNOG over-weighted as a new market (€760m is a delivery budget; buyer is the Kasse cluster already rated closed), under-weighted as a sales objection in 2027–28.
+  - F7: not re-scored; under `research/scoring.md` wedge (ii) reads K1 not shown, K2 unproven.
+- Pre-mortem (5 reasons) and rewritten kill criteria K-a to K-h are in the review.
+- Tasks: critic C2 marked done. No new task (rule 14): the 7 red-team edits were added as notes to C4. Nothing else in `tasks.json` changed.
+- Not done: no desk re-check of incumbent small-firm prices or of failed eldercare startups (listed as cheapest tests / caveats).
+- Next: researcher C4; CEO C3 and C5.
+- Open questions: see "CEO (C3), from the red team" above.
+
 ### 2026-11-13 — C2 Idea check: prevention clinics (researcher)
 - Done: `research/idea-prevention-clinics.md` (operators and prices, payers, regulation, capital, Munich, score, cheapest tests). Verdict: **drop the clinic; no deep dive**.
 - Key findings:
