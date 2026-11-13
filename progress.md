@@ -11,6 +11,7 @@
 
 - (researcher 2026-11-13) C2 idea check done: `research/idea-prevention-clinics.md`. Verdict: drop the clinic, no deep dive; employer prevention programme only as a cheap test inside the L01 HR conversations. New CEO task C5.
 - (critic 2026-11-13) C2 red-team half done: `research/reviews/2026-11-13-redteam-eldercare-navigator-brief.md` (brief **needs work**; employer wedge **fails as a venture case**). Critic task C2 closed; fixes folded into C4 (notes). Open in Stage C: C4 (researcher), C3 and C5 (CEO).
+- (researcher 2026-11-13) C4 done: `ventures/eldercare-navigator/brief.md` revised (the one fix round, rule 14). The researcher's recommendation changed: kill criterion K-a is met on desk evidence, so no HR conversations as the next step; keep only the PNOG desk run after 11 Dec 2026. Open in Stage C: C3 and C5 (CEO). No open unblocked researcher task (A17 from 2026-12-01; A24/A26 deferred).
 
 ## CEO decision 2026-11-11
 - **Deep dive on idea 1 only: eldercare navigator as an employee benefit (L01).** Stage C started; C1 unblocked. Other shortlist ideas are parked, not killed.
@@ -22,6 +23,7 @@
 2. After B3: C1 venture briefs for the picked ideas.
 
 ## Open questions
+- **CEO (C3), after the C4 revision of the L01 brief (2026-11-13):** researcher and critic now agree on substance. The employer wedge is at best a small service business (best case 60 customers = €359,000 ARR, enough for three modest salaries; €1m ARR needs 167–279 customers; no price above ~€6,000 a year at a private employer is shown). Decide: (c) drop the employer wedge and keep one desk run on the care reform after the vote planned for 11 Dec 2026 (recommended by both), or (b) HR conversations anyway, with screening K-e and signed paid pilots K-f as the bar. The text of task C3 still shows the older recommendation (b). This also decides C5 option (b), which rides on those conversations.
 - **CEO (C5), prevention clinics (2026-11-13):** drop / keep the employer variant as two extra questions in the L01 HR conversations (recommended) / deep-dive anyway? Free check: do you know a physician in Munich who would own the practice? Outward action proposed only if the idea stays alive: one paid hour with a medical-law attorney on the broker model in Bavaria.
 - **CEO (C3), from the red team of the L01 brief (2026-11-13, `research/reviews/2026-11-13-redteam-eldercare-navigator-brief.md`):**
   - Critic's recommendation: **(c) drop the employer wedge**, keeping one desk run from (b): the PNOG as passed (vote planned 11 Dec 2026) plus who holds today's delegated § 7a counselling contracts. Reason: the brief's own best case (60 customers, €359,000 ARR) does not pay the three people it needs, and no HR conversation can change that. The researcher recommends (b). You decide.
@@ -58,6 +60,22 @@
 ---
 
 ## Log
+### 2026-11-13 — C4 Fixes to the L01 venture brief (researcher)
+- Done: all 9 fact-check issues and all 7 red-team edits applied to `ventures/eldercare-navigator/brief.md`. Every changed figure was re-opened at its source (TED API, PNOG cabinet draft, Bertelsmann, iwd, heise, heycare.com, nui.care). No new searches (task: edits only).
+- Main changes:
+  - SWR headcount from the notice itself (ca. 3,500 permanent staff + ca. 1,800 freelancers): €4–6 per employee per year; per-head TAM cross-check €103m–154m. One buyer's estimate, no award.
+  - New customer-count table: three salaries need 31–76 customers (salary levels are assumptions); €1m ARR needs 167–279. K1 not shown, K2 unproven for this wedge.
+  - One usage estimate everywhere (0.4 cases per 100 staff in 6 months); pilot is paid; kill criteria K-a to K-h are dated and measurable. K-a is met today.
+  - €760m stated as the Kassen's delivery budget, not a market. Wellthy labelled non-comparable. Section 2 now reads the evidence as weak willingness to pay.
+- Differences from the reviews (for the CEO):
+  - The red team says the best case "does not pay the three people". At €60,000 employer cost each it does, just (€180,000 of €359,000); the low case does not. The verdict "not a venture case" stands either way.
+  - K-g uses 2 cases in total (half the expected ~4) instead of the critic's 0.5 per 100, which sits above the brief's own estimate.
+  - Nui's news item on the KI-Pflegegradassistent is dated 12/11/2026 on nui.care (the review says 02/11/2026).
+  - New from the PNOG draft: § 7a Abs. 2 asks Kassen to give digital information before a care need is established (no date), which touches the "weeks before the first care grade" the brief called untouched.
+- Not done: no survivorship search (failed eldercare startups), no check of incumbents' small-firm prices (K-b). Both are caveats per rule 14, listed in the brief's Gaps.
+- Tasks: C4 done. No tasks added. C3 text not changed (CEO task).
+- Next: CEO C3 and C5. Researcher: nothing unblocked until A17 (2026-12-01).
+
 ### 2026-11-13 — Critic red team: L01 venture brief (critic, RED TEAM)
 - Mode: RED TEAM. File: `ventures/eldercare-navigator/brief.md`. Review: `research/reviews/2026-11-13-redteam-eldercare-navigator-brief.md`. No new sources opened (reasoning only).
 - Verdict: brief **needs work**; wedge (ii), employer-paid eldercare alone, **fails as a venture case**.
