@@ -335,9 +335,10 @@
       "title": "Idea check: prevention clinics (CEO idea)",
       "description": "CEO idea 2026-11-11: build prevention clinics, i.e. proactive, data-driven preventive medicine (the CEO called it 'medicine 2.0'; in the longevity literature this is usually 'Medicine 3.0': early detection, risk profiling, lifestyle/metabolic medicine instead of treating disease late). Check it like a long-list row plus a mini brief: (1) what such clinics offer and charge in DE/EU/US (e.g. longevity/preventive check-up clinics, executive health checks, membership models), named operators with funding and prices; (2) who pays in Germany: self-pay, PKV, employers (betriebliche Gesundheitsfoerderung, § 20 SGB V, tax-free EUR 600), GKV prevention benefits; proven spend with sources; (3) regulation: who may own/run a clinic or MVZ, physician requirements, GOAe billing, advertising law (HWG), evidence for screening offers (overdiagnosis; cite guidelines/IQWiG where available); (4) capital needs vs founder constraints (EUR 10k, non-clinician, part-time until Sep 2027) and asset-light variants (software/operator platform for existing practices, employer programme, partnership with physicians); (5) Munich market and competitors; (6) score it with research/scoring.md (K1/K2 + 9 criteria) and place it against the shortlist, esp. L01. Output: research/idea-prevention-clinics.md with a clear verdict (deep-dive / asset-light variant only / drop) and the cheapest tests. Then add a ceo task with the decision.",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "ceo 2026-11-11",
-      "reason": "CEO wants his own idea checked with the same rigour as the shortlist."
+      "reason": "CEO wants his own idea checked with the same rigour as the shortlist.",
+      "notes": "Done 2026-11-13 (researcher): research/idea-prevention-clinics.md. Verdict: drop the clinic, no deep dive; employer prevention programme only as a cheap test inside the L01 HR conversations. Scores: clinic 50, consumer platform 52, employer programme 54/49 (L01: 66/62). Decision task C4 added. Note: this id C2 is also used by the critic task below."
     },
     {
       "id": "C2",
@@ -369,6 +370,16 @@
       "done": false,
       "added_by": "researcher 2026-11-11",
       "reason": "Stage C gate (CLAUDE.md rule 8): the venture brief for the one picked idea is ready."
+    },
+    {
+      "id": "C5",
+      "stage": "C",
+      "title": "Decide on the prevention-clinic idea: drop / test the employer variant / deep-dive",
+      "description": "Read research/idea-prevention-clinics.md (verdict, Findings, section 8). Options: (a) drop the idea entirely; (b) recommended: drop the clinic and the consumer platform, keep the employer prevention programme only as two extra questions in the L01 HR conversations (needs the C3 approval of those conversations), no separate brief; (c) deep-dive anyway as a second venture brief (not recommended: Art. 18 HKaG bars a company from running a practice in Bavaria, Aeon already sells in Munich, Neko plans Germany for 2027, Aware went insolvent, scores 50-54 vs 66 for L01). Also answer the free 10-minute check: do you know a physician in Munich who would own the practice?",
+      "owner": "ceo",
+      "done": false,
+      "added_by": "researcher 2026-11-13",
+      "reason": "The CEO's own idea was checked (researcher C2); the verdict needs a CEO decision."
     }
   ]
 }

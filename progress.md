@@ -9,6 +9,8 @@
 - (critic 2026-11-13) C2 fact-check half done: `research/reviews/2026-11-12-eldercare-navigator-brief.md` (**needs work, minor**; numbers and quotes reproduce, no fabrication). Fix task C4 added (researcher). Still open: C2 red-team half (pre-mortem), C2 idea check (researcher), C3 (CEO).
 - No interviews (by design until Stage D). Decisions: see `decisions/`.
 
+- (researcher 2026-11-13) C2 idea check done: `research/idea-prevention-clinics.md`. Verdict: drop the clinic, no deep dive; employer prevention programme only as a cheap test inside the L01 HR conversations. New CEO task C5.
+
 ## CEO decision 2026-11-11
 - **Deep dive on idea 1 only: eldercare navigator as an employee benefit (L01).** Stage C started; C1 unblocked. Other shortlist ideas are parked, not killed.
 
@@ -19,6 +21,7 @@
 2. After B3: C1 venture briefs for the picked ideas.
 
 ## Open questions
+- **CEO (C5), prevention clinics (2026-11-13):** drop / keep the employer variant as two extra questions in the L01 HR conversations (recommended) / deep-dive anyway? Free check: do you know a physician in Munich who would own the practice? Outward action proposed only if the idea stays alive: one paid hour with a medical-law attorney on the broker model in Bavaria.
 - **CEO (C3), from the L01 brief (2026-11-11):**
   - Approve 5–8 conversations with HR/benefits leads at Munich-area firms of 150–1,000 staff? (outward action; questions in the brief, section 13). It is the only way to test "who pays a new small company".
   - The care reform bill (PNOG, BT-Drs. 21/8869) would give every care recipient a free digital "Pflege-Cockpit" by 1 Jul 2028 and free "Pflegebegleitung" from 1 Jan 2029 (~€760m a year; Kassen may hand it to third parties). Should the researcher check, after the Bundestag vote planned for 11 Dec 2026, whether serving that new task is a better wedge than employers? It is a different buyer (Pflegekasse / municipality).
@@ -50,6 +53,20 @@
 ---
 
 ## Log
+### 2026-11-13 — C2 Idea check: prevention clinics (researcher)
+- Done: `research/idea-prevention-clinics.md` (operators and prices, payers, regulation, capital, Munich, score, cheapest tests). Verdict: **drop the clinic; no deep dive**.
+- Key findings:
+  - Demand is real (YEARS €1,990–16,900; Neko revenue SEK 157m in 2025), but benefit for healthy adults is not shown (Cochrane; whole-body MRI meta-analysis 2026).
+  - Clinics burn capital: Neko net loss SEK 677m in 2025; Aware Health insolvent in May 2026 and sold to Aeon for €100,000.
+  - Art. 18 HKaG: no company may run a medical practice in Bavaria.
+  - Munich: Aeon sells via a partner practice; Neko plans Germany for 2027; Diagnostik München, TUM Manager-Check, wellabe/Mavie.
+  - Employers buy prevention (TED: WBM check-ups 2026; IKK classic €604,750), but tenders need references, and extended check-ups are taxable wage.
+  - Scores: clinic 50, consumer platform 52, employer programme 54/49 "unproven"; L01 66/62.
+- Not done: YEARS and wellabe accounts; Aeon German prices; legal opinion on the broker model; Neko $700m round only as snippet.
+- Tasks added: C5 (CEO decision; renumbered from C4 at merge because the critic added a C4 in parallel). Note: `tasks.json` holds two tasks with id C2 (researcher, critic); not renumbered.
+- Blocked hosts: nekohealth.com (429), radiologybusiness.com, fiercehealthcare.com, sifted.eu, ziprecruiter.de, jobs-radar.com, emarketer.com (403), affarsvarlden.se (login redirect), beyond-imaging.de (empty page). Reddit search: 0 reddit.com hits.
+- Next: critic C2 (L01 brief); CEO C3 and C5.
+
 ### 2026-11-13 — Critic fact-check run 11: L01 venture brief, shortlist B4 (critic, FACT-CHECK)
 - Mode: FACT-CHECK. Files new or changed since their last fact-check: `ventures/eldercare-navigator/brief.md` (C1) and `research/shortlist.md` (B4 edits). Checks were run on 2026-11-12; the run was interrupted and finished on 2026-11-13 (no change on `main` in between).
 - Reviews: `research/reviews/2026-11-12-eldercare-navigator-brief.md` (**needs work, minor**; 37 of 37 URLs, 16 of 16 TED notices) and `research/reviews/2026-11-12-shortlist-B4.md` (**pass**).
