@@ -91,7 +91,7 @@ Why it works without a payer: German consumers pay out of pocket for health (pri
 | Pharmacy channel | 40-person field force, pharmacist conferences | **Later** | Start online (own shop, marketplaces, online pharmacies) |
 | Kill discipline | 3–6 months to break-even | **Yes** | Cheapest test: small batches, ad tests before production |
 | Exit path | Strategics (Dermapharm, Perrigo), PE (CVC for Sunday Natural) | **Yes, in principle** | Exits shown in [B] sources |
-| Grants | None named | *Unclear* | Supplement brands rarely count as "innovative" for EXIST `[UNVERIFIED]`; to check in Part 3 |
+| Grants | None named | *Weak* | Start?Zuschuss! is for digital tech startups and EXIST needs an innovative project with a university host; only a digital part could qualify (*inference*; see `research/consumer-health-scan.md` §5) |
 
 **Co-founder need (inference):** a pharmacist or physician who owns claims and product safety (HWG, Health Claims Regulation), and a performance marketer. The CEO's AI/automation skills fit customer service, advice bots and marketing operations (Kijimea runs free phone advice and a "digital product adviser" on its shop [B]).
 
