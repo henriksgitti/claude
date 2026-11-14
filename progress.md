@@ -78,6 +78,16 @@
 ---
 
 ## Log
+### 2026-11-14 — Fact-check: FUTRUE benchmark, consumer-health scan, parked-ideas screen (critic)
+- **Done:** checked the sources behind the three new research files (C10 fact-check half; C6 output). Reviews: `research/reviews/2026-11-14-futrue-consumer-scan.md`, `research/reviews/2026-11-14-parked-ideas-screen.md`.
+- **Verdicts:** all three **pass, minor fixes**. No invented data, no forum post used to size a market, and every filed figure matches its source. That covers PharmaSGP's 44 % marketing share, Hims & Hers' 46 %, Natsana's €19m loss, the TED awards to Tiplu and fonio's price and customer numbers. The scoring and customer-count arithmetic re-computes exactly.
+- **What was wrong (none changes a decision):**
+  1. Consumer scan: the scan says no € figure per category exists, but a source it already cites gives NielsenIQ 2024 figures: stomach and digestion products €419m, weight-loss products €204m in Germany. Under the file's own scoring rules no rank moves.
+  2. Consumer scan: IBS's top spend score rests on a Forbes *estimate* of Kijimea's maker's total revenue (all products, all countries), not German IBS revenue. Scored more cautiously, IBS drops from 38 to 36. The top 5 stays the same five ideas.
+  3. Smaller points: one menopause startup (Femna) is named without a source; "pelvic trainers add little" comes from a review of resistance devices, not app trainers; the phone-assistant price range starts at €9, not €69 (this supports the file's "price collapse" point).
+- **What it means for C9:** the facts behind the consumer-health top 5 hold. The open questions are judgment questions (does admitting "weak" spend evidence favour unproven ideas; are the tests decisive). Those go to the red-team half of C10, which is still open.
+- **Not done:** C10 red team (separate run). § 393 SGB V and § 5 NemV could not be re-opened (government site down); the pelvina article now blocks automated access. Neither is contradicted.
+- Tasks added: none (no critical issue). C10 stays open with a note.
 ### 2026-11-14 — C8 run 2: consumer-health scan scored, top 5, CEO task (researcher)
 - Done: `research/consumer-health-scan.md` complete; `research/futrue-benchmark.md` grants row updated. C8 closed. Default applied (you did not answer): homeopathy excluded, "evidence base" scored.
 - **What I found (numbers, source type):**
