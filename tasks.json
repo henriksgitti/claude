@@ -445,9 +445,30 @@
       "title": "Venture brief: GLP-1 self-payer companion",
       "description": "CEO pick 2026-11-14: write ventures/glp1-companion/brief.md with templates/venture-brief.md for the GLP-1 self-payer companion from research/consumer-health-scan.md (row and sketch in the top 5). Answer first: (1) who exactly is the customer in DACH (people paying for Wegovy/Mounjaro etc. themselves; how many, sourced; prescription and pharmacy rules; telemedicine providers that already bundle coaching); (2) what the product is: app/coaching, supplement or food (protein, fibre, micronutrient support for muscle loss, GI side effects), or a bundle; legally allowed claims per product class (LMIV/health-claims, HWG, MDR if the app makes medical claims), and why 'GLP-1' wording is risky (Verbraucherzentrale); (3) competitors and partners: telemedicine platforms, pharmacies, existing 'GLP-1 companion' products in DE/EU/US with prices and funding; (4) unit economics with sourced price points and the ~45 % marketing benchmark; customer-acquisition channels; what makes repeat purchases; (5) fit with founder-brief.md (AI/automation skills, EUR 10k, part-time to Sep 2027, Munich) and which co-founder is needed; (6) funding routes that fit a consumer product with a digital part; (7) risks and kill criteria incl. price drops of GLP-1 drugs, reimbursement changes, generics. Include in section 13 a claims-compliant demand-test plan (budget, duration, pass mark) for the CEO to approve later; no outward action. May take several runs; keep notes. When complete, add a ceo task: go to Stage D / run the demand test / revise / drop.",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "ceo 2026-11-14",
-      "reason": "CEO picked the GLP-1 companion for a full brief."
+      "reason": "CEO picked the GLP-1 companion for a full brief.",
+      "notes": "Done 2026-11-14 (researcher, one run): ventures/glp1-companion/brief.md, all template sections filled; recommendation: no Stage D; EUR 300 demand test on the maintenance angle or drop. CEO task C12 and critic task C13 added."
+    },
+    {
+      "id": "C12",
+      "stage": "C",
+      "title": "CEO: GLP-1 companion brief: Stage D, demand test, revise or drop",
+      "description": "Read the 'Bottom line' and sections 5, 6 and 12-13 of ventures/glp1-companion/brief.md (10 minutes). Findings: ~100,000 self-payers of obesity drugs in DE (end-2024, IQVIA [B]); drug costs EUR 130 to ~500 a month [B]; persistence below 10 % at 12 months where patients pay themselves (review [A]). The 'companion during treatment' is already bundled free by the drug platforms (GoLighter/Wellster: free nutrition counselling + free Weight Watchers GLP-1 programme since 1 Sep 2026; Juniper, Voy) and sold by Weight Watchers for EUR 11.25-45 a month [B]; reimbursed apps exist for BMI 30-40 [B]; >=25 tracker apps [C]. Muscle loss is real (lean mass 25-39 % of weight lost) but equal to diet alone [A]. Arithmetic (my math): at EUR 30/month x 6 months = EUR 180 per customer, EUR 1m revenue needs ~5,560 new customers a year (~5.6 % of today's self-payers every year); at 39-46 % marketing [A] the allowed acquisition cost is EUR 70-83 per customer, unmeasured. Open gap: GoLighter's free extras end when the drug order ends, and people who stop regain weight [A]; only one small waitlist site serves them. Options: (a) Stage D (launch pack) now: not recommended; the brief fails the venture arithmetic on desk evidence. (b) Approve one demand test on the 'after the shot' maintenance angle: EUR 300 ad spend, 2 weeks, two themes, no drug names, price shown, pass = >=40 waitlist sign-ups for EUR 300 (<= EUR 7.50 each), kill = > EUR 15 per sign-up on both themes; optionally one paid lawyer hour first on whether ads may name 'Abnehmspritze' users. Outward actions; nothing goes live without your approval of the exact ads. (c) Revise the brief toward a B2B or reimbursed route (white-label for telemedicine platforms, or wait for a Paragraph 34 SGB V change): not recommended now; few buyers, in-house builds, and reform is not law. (d) Drop the GLP-1 companion and return to the other consumer themes (C9 option b, midlife women) or the B2B options in C7. Recommendation: (b), because acquisition cost is the single unknown that decides the case and EUR 300 measures it; if it fails, choose (d). If you want no outward action at all, choose (d). Critic review of the brief (C13) is pending; you may wait for it.",
+      "owner": "ceo",
+      "done": false,
+      "added_by": "researcher 2026-11-14",
+      "reason": "C11 output is ready; Stage C gate decision and any ad test or lawyer hour are CEO decisions (rules 5 and 8)."
+    },
+    {
+      "id": "C13",
+      "stage": "C",
+      "title": "Critic: fact-check and pre-mortem of the GLP-1 companion brief",
+      "description": "Fact-check ventures/glp1-companion/brief.md (sources, grades, quotes, arithmetic in section 5 incl. the EUR 70-83 CAC allowance and the demand-test pass mark) and red-team it (payer, founder fit, incumbents incl. GoLighter/WW bundles and DiGA, pre-mortem, kill criteria tied to dated observables). Output: research/reviews/<date>-glp1-companion-brief.md.",
+      "owner": "critic",
+      "done": false,
+      "added_by": "researcher 2026-11-14",
+      "reason": "Stage C definition of done requires a critic pre-mortem with kill criteria for every brief; no critic task existed for C11."
     }
   ]
 }
