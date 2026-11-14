@@ -423,9 +423,10 @@
       "title": "CEO: consumer-health route (FUTRUE pattern): pick the next step",
       "description": "Read the Findings and the top-5 section (§7) of research/consumer-health-scan.md (5-10 minutes); background in research/futrue-benchmark.md. Result: the FUTRUE model is proven at scale (PharmaSGP EUR 118.8m revenue 2024, filings [A]), but marketing takes 44-46 % of revenue in both filed examples and a young supplement group (Natsana) lost EUR 19m on EUR 87m revenue [B]. Top 5 of 11 ranked rows (21 screened; max 55): IBS 38, menopause 38, female bladder leaks 38, GLP-1 self-payer companion 37, fertility 36; ranks 1-4 are a tie. Where spend is proven (IBS, fertility, sleep) an incumbent owns the shelf; where it is open (menopause, bladder leaks, GLP-1) spend is shown only indirectly. The unknown that decides every row is customer-acquisition cost and repeat rate; desk research cannot measure it. Options: (a) Desk tests now, then a demand test: the researcher runs the no-approval desk tests in §7 for menopause, bladder leaks and GLP-1 (competitor price/positioning tables, device class, telemedicine bundles) and drafts a claims-compliant ad test plan (about EUR 300 per theme, 2 weeks, pass threshold set in advance); you approve or reject spending before anything goes live. (b) Venture brief now on a 'midlife women' brand (menopause + bladder leaks as one brand family), test later. (c) Venture brief now on the GLP-1 companion (best fit with your AI/automation skills; fastest-changing market). (d) Drop the consumer route and return to the B2B options in C7 (L07 tests or long-list screen). Recommendation: (a), because a brief cannot answer the acquisition-cost question and EUR 300-600 of tests can, and because ranks 1-4 are too close to pick from desk scores. If you prefer no outward action before Stage D, choose (b): the midlife theme has the largest need (9m women 40-55 [B]; ~10m people with incontinence [B]) and two of the top-3 rows.",
       "owner": "ceo",
-      "done": false,
+      "done": true,
       "added_by": "researcher 2026-11-14",
-      "reason": "C8 output is ready; picking a theme, a brief or a test is a CEO decision (rule 8). Any ad test is an outward action (rule 5)."
+      "reason": "C8 output is ready; picking a theme, a brief or a test is a CEO decision (rule 8). Any ad test is an outward action (rule 5).",
+      "notes": "CEO 2026-11-14 (answer card): option (c), venture brief now on the GLP-1 self-payer companion. No ad test yet."
     },
     {
       "id": "C10",
@@ -437,6 +438,16 @@
       "added_by": "researcher 2026-11-14",
       "reason": "Two new research files feed CEO decision C9; per CLAUDE.md the critic fact-checks new research files and red-teams stage deliverables.",
       "notes": "2026-11-14 critic: fact-check half done, research/reviews/2026-11-14-futrue-consumer-scan.md (both files pass, minor fixes; no critical issue, no fix task; scoring re-computed, all match). Red-team half still open (separate run)."
+    },
+    {
+      "id": "C11",
+      "stage": "C",
+      "title": "Venture brief: GLP-1 self-payer companion",
+      "description": "CEO pick 2026-11-14: write ventures/glp1-companion/brief.md with templates/venture-brief.md for the GLP-1 self-payer companion from research/consumer-health-scan.md (row and sketch in the top 5). Answer first: (1) who exactly is the customer in DACH (people paying for Wegovy/Mounjaro etc. themselves; how many, sourced; prescription and pharmacy rules; telemedicine providers that already bundle coaching); (2) what the product is: app/coaching, supplement or food (protein, fibre, micronutrient support for muscle loss, GI side effects), or a bundle; legally allowed claims per product class (LMIV/health-claims, HWG, MDR if the app makes medical claims), and why 'GLP-1' wording is risky (Verbraucherzentrale); (3) competitors and partners: telemedicine platforms, pharmacies, existing 'GLP-1 companion' products in DE/EU/US with prices and funding; (4) unit economics with sourced price points and the ~45 % marketing benchmark; customer-acquisition channels; what makes repeat purchases; (5) fit with founder-brief.md (AI/automation skills, EUR 10k, part-time to Sep 2027, Munich) and which co-founder is needed; (6) funding routes that fit a consumer product with a digital part; (7) risks and kill criteria incl. price drops of GLP-1 drugs, reimbursement changes, generics. Include in section 13 a claims-compliant demand-test plan (budget, duration, pass mark) for the CEO to approve later; no outward action. May take several runs; keep notes. When complete, add a ceo task: go to Stage D / run the demand test / revise / drop.",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "ceo 2026-11-14",
+      "reason": "CEO picked the GLP-1 companion for a full brief."
     }
   ]
 }
