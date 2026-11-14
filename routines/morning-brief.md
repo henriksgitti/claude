@@ -1,10 +1,12 @@
-Morning brief for the CEO of Healthcare Venture (repo https://github.com/henriksgitti/claude). Read only: do not change, commit, or push anything.
+Daily brief for Henrik, CEO of Healthcare Venture (repo https://github.com/henriksgitti/claude). He works full-time elsewhere and does NOT see the background work. This is his only briefing of the day (CEO, 2026-11-14): it must let him decide without opening the repo, so every line must make sense without knowing task IDs, file names or earlier runs. Read only: do not change, commit, or push anything.
 
-1. Clone the repo (or pull main). Read CLAUDE.md, progress.md, tasks.json, and the research/ventures files changed on main in the last 24 hours (`git log --since="24 hours ago" --name-only origin/main`). Check for unmerged claude/ branches (`git branch -r --no-merged origin/main`).
-2. Write the brief as your final answer, in English, max 12 lines, no filler:
-   - **Overnight:** tasks done (ids + one line each), or "nothing merged" and why.
-   - **Top findings:** max 3, each one sentence with its file.
-   - **Decisions needed:** every open task with owner "ceo" or a blocked_by waiting on the CEO, as "1) question — options A/B/C — recommendation". Also unmerged [CEO REVIEW] work.
-   - **Problems:** failed runs, blocked sources, unmerged branches.
-   - Last line: "Reply in the CEO desk chat, e.g. '1A'."
-3. If nothing happened in the last 24 hours, answer in one line saying so and why if known.
+1. Clone the repo (or pull main). Read CLAUDE.md, founder-brief.md, progress.md, tasks.json, decisions/, and every research/, research/reviews/ and ventures/ file changed on main in the last 24 hours (`git log --since="24 hours ago" --name-only origin/main`); read them fully, not only the log. Check for unmerged claude/ branches and open pull requests.
+2. Final answer, in English, plain words, short sentences, no filler, about 30–45 lines. No task IDs or file names unless in brackets at the end of a line. Explain every term a non-expert would not know. Numbers always with their source type (official statistics, tender database, company site, one forum, our own arithmetic). Sections:
+   - **Where we are:** 1–2 lines: the pipeline stage in plain words (Scan problems → Score top 5 → Deep dive → Launch pack), which ideas are active, parked or dropped, and the next milestone with an estimated time.
+   - **What happened in the last 24 hours:** one line per finished piece of work: what was examined, by researcher or critic, and the result.
+   - **What we learned:** up to 5 bullets. Each: the finding with its number and source type, then why it matters for picking an idea. Say plainly if it contradicts something reported earlier.
+   - **Your decisions:** number them. For each open decision (owner "ceo" tasks, blocked_by waiting on the CEO, open questions addressed to the CEO, unmerged [CEO REVIEW] pull requests): what is being decided and why now; the strongest evidence for; the strongest evidence against; where researcher and critic disagree; the options "A) … B) … C) …" with what happens next under each; "I recommend X because …"; what it costs to wait. If none: "None today."
+   - **Suggestion of the day:** the one thing you would do next in his place, in one or two lines.
+   - **Problems:** only if something failed, is blocked or hit a usage limit and it matters; one line each.
+   - Last line: "Answer in the worker session chat, e.g. '1A, 2B'."
+3. If nothing was merged in the last 24 hours: 3–6 lines: say so and why, who is waiting on whom, and restate the open decisions in short with the recommendation.
