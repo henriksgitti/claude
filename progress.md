@@ -15,6 +15,8 @@
 - (critic 2026-11-13) Fact-check run 12: `research/idea-prevention-clinics.md` **passes (minor fixes)** and the C4 revision of the L01 brief **passes (caveats)**: `research/reviews/2026-11-13-idea-prevention-clinics.md`, `research/reviews/2026-11-13-eldercare-navigator-brief-C4.md`. No new task. Every file in `research/` and `ventures/` now has a current fact-check. Open in Stage C: C3 and C5 (CEO).
 - (CEO 2026-11-14) **L01 (eldercare navigator as an employee benefit) and the prevention-clinic idea are parked**, not killed. No Stage D, no HR conversations. Research continues with C6 (researcher): screen the parked shortlist ideas L07, L06, L03, L13, L29 on payer, revenue and cash → `research/parked-ideas-screen.md`. C3 and C5 closed. Reporting: one detailed daily brief for the CEO; scheduled runs reply in one line, so everything the CEO needs must be in this file.
 
+- (researcher 2026-11-14) C6 done: `research/parked-ideas-screen.md`. No parked idea is a venture case today; L07 passes the customers × price test (3–5 hospitals for three salaries) but fails on access (Tiplu holds the public tenders; a medical-controlling co-founder is needed). Open: C7 (CEO: L07 cheap tests / back to the long list / L13 skill project / L07 brief).
+
 ## CEO decision 2026-11-14
 - **Park both ideas and continue the research.** L01 (eldercare navigator as an employee benefit) and the prevention-clinic idea are parked, not killed. Record: `decisions/2026-11-14-park-l01-and-prevention-clinics.md` (PR open for the CEO).
 - **Reporting:** one detailed brief per day instead of a summary after every run.
@@ -72,6 +74,30 @@
 ---
 
 ## Log
+### 2026-11-14 — C6 parked-ideas screen (researcher)
+- Done: `research/parked-ideas-screen.md`. It puts L07, L13, L03, L29 and L06 through the test that stopped L01: who signs, a sourced price, customers needed for three salaries (€180,000 a year, my assumption) and for €1m ARR, and cash to month 24.
+- **Result in one line: no parked idea is a venture case today. Only L07 passes the arithmetic, and it fails on access.**
+
+| Idea | Customers for 3 salaries / €1m ARR (my math on sourced prices) | Main blocker (source type) | Verdict |
+|---|---|---|---|
+| L07 MD-audit defence for hospitals | **3–5 / 17–25** hospitals at €40,000–60,600 (DKI survey [B]; UK Frankfurt award [A]) | Tiplu won every public AI-coding award 2025–26 (LMU, Würzburg €545,250, Lausitz); Lausitz required ≥€1m turnover in the field (EU tenders [A]); Tiplu now part of LOGEX; calliora (Munich, $6m) [B]. Needs a medical-controlling co-founder | Cheap test first |
+| L13 AI phone for practices | 75–152 / **419–842** practices at €99–199 a month (price lists [B]) | IONOS €99 flat rate; fonio >7,000 customers, €14.6m seed; CGM and Doctolib bundle it [B] | Skill test only |
+| L03 § 45 carer course for Kassen | 4 / 20 Kassen at the €50,000 cap; no price shown | All carer courses ≈€14.6m a year nationally (one Kasse's statutory statistic [A], my scaling); free courses already exist [B] | Drop |
+| L29 AI post-market surveillance | No price found | Flinn "200+" customers [B]; the EU proposal would halve PSUR frequency [B] | Drop |
+| L06 LLM discharge letters | No price found | One tender, still no award after 15 months [A]; Microsoft Dragon Copilot drafts letters in Germany since Oct 2025 [B] | Drop |
+
+- What it means: cash to month 24 for three people is ~€360,000, and the money in sight is ≤€166,000 (€10,000 own, EXIST best case €120,000, Start?Zuschuss! €36,000). L07 is the only idea where three contracts close that gap. Whether the CEO can reach a co-founder for it is the open question.
+- New cross-cutting fact: cloud processing of health data by providers, Kassen and their processors needs a C5 attestation (§ 393 SGB V [A]).
+- Not done: count of independent (non-chain) private hospitals (needs a Destatis match); hospital sales-cycle length; C5 audit cost; no sourced price for L03, L06 or L29.
+- Task added: **C7 (CEO)**. Options:
+  - (a) L07 cheap tests first: you name a medical controller or coder you could reach (10 min), plus one desk run on a small-private-hospital, service-first wedge;
+  - (b) back to the long list with this screen;
+  - (c) L13 as a skill project;
+  - (d) an L07 brief now.
+
+  **Recommendation: (a), and (b) if no co-founder candidate.**
+- Next: critic fact-check of `research/parked-ideas-screen.md`; CEO C7.
+
 ### 2026-11-14 — CEO decision: park L01 and prevention clinics; C6 added (worker session)
 - CEO in chat: "For now let's park both of these ideas and continue the research." Also: one daily brief, more detailed, instead of per-run summaries.
 - Done: C3 and C5 closed with notes. C6 added (researcher): screen L07, L06, L03, L13, L29 with the test that stopped L01. Decision record and routine-prompt changes are in a separate PR left open for the CEO.

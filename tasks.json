@@ -390,9 +390,20 @@
       "title": "Screen the parked shortlist ideas on revenue, payer and cash before any second brief",
       "description": "Desk run on the parked shortlist ideas L07, L06, L03, L13 and L29 (research/shortlist.md), using the test that stopped L01 (research/reviews/2026-11-13-redteam-eldercare-navigator-brief.md and -C4.md). Per idea: (1) who signs and a sourced price paid by that signer for this job (K1 strict: wedge's signer and product; K2: named young vendor paid, or an open route for a new company); (2) customers x sourced price needed to pay three salaries and to reach EUR 1m ARR, and whether that customer count is reachable; (3) cash needed to month 24 against EUR 10k plus named grants; (4) incumbents and free substitutes, incl. laws in force or pending; (5) founder access: which buyer role the CEO would have to reach; (6) cheapest test. Run the open desk tests for these rows from A24/A26 where they decide K1/K2. Mark every figure with source and grade; arithmetic as own inference. End with a ranked table, a clear verdict per idea (brief / cheap test first / drop) and a recommendation for the next brief or for returning to the long list. No outward actions. Output: research/parked-ideas-screen.md. When done, add a ceo task with options and a recommendation.",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "worker session 2026-11-14 (transcribing CEO)",
-      "reason": "CEO 2026-11-14 in chat: park L01 and the prevention-clinic idea and continue the research. The second red team of the L01 brief showed the parked ideas have not had the revenue and cash test that stopped L01."
+      "reason": "CEO 2026-11-14 in chat: park L01 and the prevention-clinic idea and continue the research. The second red team of the L01 brief showed the parked ideas have not had the revenue and cash test that stopped L01.",
+      "notes": "Done 2026-11-14 (researcher): research/parked-ideas-screen.md. Verdicts: L07 cheap test first (passes customers x price: 3-5 hospitals for 3 salaries, 17-25 for EUR 1m ARR; fails on access: Tiplu won all public AI-coding awards 2025-26, Lausitz required >=EUR 1m turnover); L13 founder-skill test only (EUR 99 flat-rate competitors, 419-842 practices for EUR 1m ARR); L03, L06, L29 drop. One A26 test not run (independent private hospitals with MD audits: needs a Destatis ownership match). Critic fact-check pending. CEO decision task C7 added."
+    },
+    {
+      "id": "C7",
+      "stage": "C",
+      "title": "CEO: after the parked-ideas screen, pick the next step",
+      "description": "Read the Findings and ranked table of research/parked-ideas-screen.md (5 minutes). Result: no parked idea is a venture case today. L07 (hospital MD-audit defence) is the only one where a few customers pay three salaries (3-5 hospitals at EUR 40-60k, sourced), but the incumbent Tiplu won every public award in 2025-26 and a medical-controlling co-founder is needed. Options: (a) L07 cheap tests first: you answer in 10 minutes whether you can reach a medical controller or coder as a co-founder candidate, and the researcher runs one desk check on a small-private-hospital, service-first L07 wedge (buyer count, sourced service price, Bundesrat 20 Nov and Q3 data); brief only if both pass. (b) Return to the long list: run the same customers x price screen on the other 22 rows (L05, L11, L23, L26 and others) before picking again. (c) L13 as a hands-on skill project (build one specialty phone agent), knowing it is not the venture. (d) Write an L07 brief now, without the tests. Recommendation: (a), and if you cannot name a co-founder candidate, (b). (c) can run next to either; (d) is not recommended, because the access question decides L07 and a brief cannot answer it.",
+      "owner": "ceo",
+      "done": false,
+      "added_by": "researcher 2026-11-14",
+      "reason": "C6 output is ready; the next step (test, brief, or long list) is a CEO decision (rule 8)."
     }
   ]
 }
