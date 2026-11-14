@@ -368,9 +368,10 @@
       "title": "Decide on L01 after the brief: go to Stage D / revise / drop",
       "description": "Read ventures/eldercare-navigator/brief.md (bottom line, sections 6, 8, 12) and the C2 review when it exists. Options: (a) go to Stage D as written (not recommended: no sourced example of a new small company paid for eldercare alone; prices EUR 299-499 per company per month; free statutory substitute from 2028-29 if the PNOG passes); (b) revise, cheap test first (recommended): approve 5-8 conversations with HR/benefits leads at Munich firms of 150-1,000 staff (outward action, questions in section 13) and a desk run on the PNOG as passed (2nd/3rd reading planned 11 Dec 2026), incl. whether the new Pflegebegleitung task (~EUR 760m/yr from 2029, Kassen may delegate to third parties) is a better wedge; (c) drop L01 and reopen a parked idea (L07 with a named co-founder candidate, or the L11 test). Also answer the 10-minute founder-access check: do you know one HR/benefits lead at a firm with >=150 staff?",
       "owner": "ceo",
-      "done": false,
+      "done": true,
       "added_by": "researcher 2026-11-11",
-      "reason": "Stage C gate (CLAUDE.md rule 8): the venture brief for the one picked idea is ready."
+      "reason": "Stage C gate (CLAUDE.md rule 8): the venture brief for the one picked idea is ready.",
+      "notes": "CEO decision 2026-11-14 (chat): L01 parked, not killed. No Stage D, no HR conversations. See decisions/2026-11-14-park-l01-and-prevention-clinics.md."
     },
     {
       "id": "C5",
@@ -378,9 +379,20 @@
       "title": "Decide on the prevention-clinic idea: drop / test the employer variant / deep-dive",
       "description": "Read research/idea-prevention-clinics.md (verdict, Findings, section 8). Options: (a) drop the idea entirely; (b) recommended: drop the clinic and the consumer platform, keep the employer prevention programme only as two extra questions in the L01 HR conversations (needs the C3 approval of those conversations), no separate brief; (c) deep-dive anyway as a second venture brief (not recommended: Art. 18 HKaG bars a company from running a practice in Bavaria, Aeon already sells in Munich, Neko plans Germany for 2027, Aware went insolvent, scores 50-54 vs 66 for L01). Also answer the free 10-minute check: do you know a physician in Munich who would own the practice?",
       "owner": "ceo",
-      "done": false,
+      "done": true,
       "added_by": "researcher 2026-11-13",
-      "reason": "The CEO's own idea was checked (researcher C2); the verdict needs a CEO decision."
+      "reason": "The CEO's own idea was checked (researcher C2); the verdict needs a CEO decision.",
+      "notes": "CEO decision 2026-11-14 (chat): prevention-clinic idea parked. No deep dive, no separate test. See decisions/2026-11-14-park-l01-and-prevention-clinics.md."
+    },
+    {
+      "id": "C6",
+      "stage": "C",
+      "title": "Screen the parked shortlist ideas on revenue, payer and cash before any second brief",
+      "description": "Desk run on the parked shortlist ideas L07, L06, L03, L13 and L29 (research/shortlist.md), using the test that stopped L01 (research/reviews/2026-11-13-redteam-eldercare-navigator-brief.md and -C4.md). Per idea: (1) who signs and a sourced price paid by that signer for this job (K1 strict: wedge's signer and product; K2: named young vendor paid, or an open route for a new company); (2) customers x sourced price needed to pay three salaries and to reach EUR 1m ARR, and whether that customer count is reachable; (3) cash needed to month 24 against EUR 10k plus named grants; (4) incumbents and free substitutes, incl. laws in force or pending; (5) founder access: which buyer role the CEO would have to reach; (6) cheapest test. Run the open desk tests for these rows from A24/A26 where they decide K1/K2. Mark every figure with source and grade; arithmetic as own inference. End with a ranked table, a clear verdict per idea (brief / cheap test first / drop) and a recommendation for the next brief or for returning to the long list. No outward actions. Output: research/parked-ideas-screen.md. When done, add a ceo task with options and a recommendation.",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "worker session 2026-11-14 (transcribing CEO)",
+      "reason": "CEO 2026-11-14 in chat: park L01 and the prevention-clinic idea and continue the research. The second red team of the L01 brief showed the parked ideas have not had the revenue and cash test that stopped L01."
     }
   ]
 }

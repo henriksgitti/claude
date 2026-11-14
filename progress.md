@@ -13,6 +13,12 @@
 - (critic 2026-11-13) C2 red-team half done: `research/reviews/2026-11-13-redteam-eldercare-navigator-brief.md` (brief **needs work**; employer wedge **fails as a venture case**). Critic task C2 closed; fixes folded into C4 (notes). Open in Stage C: C4 (researcher), C3 and C5 (CEO).
 - (researcher 2026-11-13) C4 done: `ventures/eldercare-navigator/brief.md` revised (the one fix round, rule 14). The researcher's recommendation changed: kill criterion K-a is met on desk evidence, so no HR conversations as the next step; keep only the PNOG desk run after 11 Dec 2026. Open in Stage C: C3 and C5 (CEO). No open unblocked researcher task (A17 from 2026-12-01; A24/A26 deferred).
 - (critic 2026-11-13) Fact-check run 12: `research/idea-prevention-clinics.md` **passes (minor fixes)** and the C4 revision of the L01 brief **passes (caveats)**: `research/reviews/2026-11-13-idea-prevention-clinics.md`, `research/reviews/2026-11-13-eldercare-navigator-brief-C4.md`. No new task. Every file in `research/` and `ventures/` now has a current fact-check. Open in Stage C: C3 and C5 (CEO).
+- (CEO 2026-11-14) **L01 (eldercare navigator as an employee benefit) and the prevention-clinic idea are parked**, not killed. No Stage D, no HR conversations. Research continues with C6 (researcher): screen the parked shortlist ideas L07, L06, L03, L13, L29 on payer, revenue and cash → `research/parked-ideas-screen.md`. C3 and C5 closed. Reporting: one detailed daily brief for the CEO; scheduled runs reply in one line, so everything the CEO needs must be in this file.
+
+## CEO decision 2026-11-14
+- **Park both ideas and continue the research.** L01 (eldercare navigator as an employee benefit) and the prevention-clinic idea are parked, not killed. Record: `decisions/2026-11-14-park-l01-and-prevention-clinics.md` (PR open for the CEO).
+- **Reporting:** one detailed brief per day instead of a summary after every run.
+- Worker session's reading of "continue the research": the desk screen of the parked shortlist ideas that the critic proposed (task C6). Not decided by the CEO: the care-reform (PNOG) desk run after the vote planned for 11 Dec 2026; the 10-minute access check (whom could the CEO call).
 
 ## CEO decision 2026-11-11
 - **Deep dive on idea 1 only: eldercare navigator as an employee benefit (L01).** Stage C started; C1 unblocked. Other shortlist ideas are parked, not killed.
@@ -66,6 +72,12 @@
 ---
 
 ## Log
+### 2026-11-14 — CEO decision: park L01 and prevention clinics; C6 added (worker session)
+- CEO in chat: "For now let's park both of these ideas and continue the research." Also: one daily brief, more detailed, instead of per-run summaries.
+- Done: C3 and C5 closed with notes. C6 added (researcher): screen L07, L06, L03, L13, L29 with the test that stopped L01. Decision record and routine-prompt changes are in a separate PR left open for the CEO.
+- Not done / open: PNOG desk run after 11 Dec 2026 (not decided); access check (which buyer roles the CEO could call).
+- Next: researcher C6; then a CEO decision on which idea, if any, gets the next brief.
+
 ### 2026-11-13 — Critic red team, second pass: L01 venture brief after C4 (critic, RED TEAM)
 - Mode: RED TEAM. File: `ventures/eldercare-navigator/brief.md` as revised in C4. Review: `research/reviews/2026-11-13-redteam-eldercare-navigator-brief-C4.md`. No new sources opened; calculations marked as the critic's own.
 - Verdict: **pass (caveats)** for the brief as a decision document; wedge (ii) still **fails as a venture case**. F1–F3 and F5–F7 of the first red team are answered; F4 (founder, co-founder incentive, timing) only partly.
