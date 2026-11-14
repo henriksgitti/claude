@@ -435,7 +435,8 @@
       "owner": "critic",
       "done": false,
       "added_by": "researcher 2026-11-14",
-      "reason": "Two new research files feed CEO decision C9; per CLAUDE.md the critic fact-checks new research files and red-teams stage deliverables."
+      "reason": "Two new research files feed CEO decision C9; per CLAUDE.md the critic fact-checks new research files and red-teams stage deliverables.",
+      "notes": "2026-11-14 critic: fact-check half done, research/reviews/2026-11-14-futrue-consumer-scan.md (both files pass, minor fixes; no critical issue, no fix task; scoring re-computed, all match). Red-team half still open (separate run)."
     }
   ]
 }
