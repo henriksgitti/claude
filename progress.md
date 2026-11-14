@@ -17,6 +17,7 @@
 
 - (researcher 2026-11-14) C6 done: `research/parked-ideas-screen.md`. No parked idea is a venture case today; L07 passes the customers × price test (3–5 hospitals for three salaries) but fails on access (Tiplu holds the public tenders; a medical-controlling co-founder is needed). Open: C7 (CEO: L07 cheap tests / back to the long list / L13 skill project / L07 brief).
 - (researcher 2026-11-14) C8 run 1 of ~2: FUTRUE benchmark done (`research/futrue-benchmark.md`); consumer-health scan started (`research/consumer-health-scan.md`, 20 candidates, not yet ranked). C8 stays open; next run ranks and adds the CEO decision task.
+- (researcher 2026-11-14) C8 done (run 2): `research/consumer-health-scan.md` complete (scored, top 5, cheapest tests). Open: **C9 (CEO: next step on the consumer route)**, C10 (critic review of the two C8 files).
 
 ## CEO decision 2026-11-14
 - **Park both ideas and continue the research.** L01 (eldercare navigator as an employee benefit) and the prevention-clinic idea are parked, not killed. Record: `decisions/2026-11-14-park-l01-and-prevention-clinics.md` (PR open for the CEO).
@@ -33,7 +34,7 @@
 2. After B3: C1 venture briefs for the picked ideas.
 
 ## Open questions
-- **CEO (C8), before run 2 ranks the consumer scan (2026-11-14):** which product types are acceptable? FUTRUE's biggest OTC line is homeopathic remedies. Options: (a) only products with published evidence (supplements/devices with trials; mission fit "tackle healthcare problems"); (b) any legal self-pay product. Researcher's recommendation: (a), because weak-evidence products carry claim-law and reputation risk and do not fit your stated goal. If you do not answer, run 2 scores 'evidence base' as a criterion and flags homeopathy as excluded.
+- **CEO (C8), product types (2026-11-14; run 2 applied the default: homeopathy excluded, evidence scored; you can still overrule):** which product types are acceptable? FUTRUE's biggest OTC line is homeopathic remedies. Options: (a) only products with published evidence (supplements/devices with trials; mission fit "tackle healthcare problems"); (b) any legal self-pay product. Researcher's recommendation: (a), because weak-evidence products carry claim-law and reputation risk and do not fit your stated goal. If you do not answer, run 2 scores 'evidence base' as a criterion and flags homeopathy as excluded.
 - **CEO (C8), 10 minutes:** do you know a pharmacist or physician who could own product claims, or a performance marketer? The FUTRUE pattern needs both.
 - **CEO (C3), from the second red team of the L01 brief (2026-11-13, `research/reviews/2026-11-13-redteam-eldercare-navigator-brief-C4.md`):**
   - Decide C3 now; do not wait for the vote planned for 11 Dec 2026. No outcome of the vote reopens the employer wedge. The care-reform desk run can stay, as a new long-list check (Kassen as buyer), not as a condition on L01.
@@ -77,6 +78,19 @@
 ---
 
 ## Log
+### 2026-11-14 — C8 run 2: consumer-health scan scored, top 5, CEO task (researcher)
+- Done: `research/consumer-health-scan.md` complete; `research/futrue-benchmark.md` grants row updated. C8 closed. Default applied (you did not answer): homeopathy excluded, "evidence base" scored.
+- **What I found (numbers, source type):**
+  - The model works at scale but buying customers is expensive: marketing was 44 % of revenue at PharmaSGP and 46 % at Hims & Hers (stock-exchange filings [A]). A young German supplement group (Natsana, founded 2020) reached €87m revenue with a €19m loss before Bayer bought it (trade press [B]). Period-underwear brand Snuggs (founded 2019) made €20m with a profit before interest, tax and depreciation (press [B]).
+  - 11 of 21 needs ranked (10 excluded: drug or device routes too costly, no proven spend, homeopathy, services, or traps). Top 5 of 55 points: **IBS 38, menopause 38, female bladder leaks 38, GLP-1 self-payer companion 37, fertility 36.** Ranks 1–4 are a tie.
+  - Where consumers clearly pay (IBS, fertility, sleep), one brand owns the shelf (Kijimea with a clinical trial; Femibion 60 % share in 2016 [B]). Where the shelf is open, spend is shown only indirectly: 57.6 % of women with strong hot flushes buy OTC products (study [A]); incontinence care is "on the way to a pure self-pay market" (urologist, Apotheken Umschau [B]); GLP-1 self-payers pay up to €490 a month for the drug, but no figure shows what they spend on companion products [B].
+  - Rules: a supplement needs only a notification, but may not claim to treat a disease (Verbraucherzentrale on EU law [B]). Grants fit poorly; only a digital part could qualify.
+  - €10k pays for one product test, not a launch: a 2,000-unit minimum batch plus a small ad budget (my estimate, unit price not published).
+- **What it means:** the open themes are **midlife women (menopause + bladder leaks, one brand family)** and **GLP-1 self-payers** (best fit with your AI/automation skills). The question that decides all of them is how much it costs to win a paying, returning customer. Desk research cannot answer that; a small ad test can.
+- Not done: no customer-acquisition cost per category, no contract-maker price, Reddit and Amazon not reachable (3 UK forum threads used instead, [C]).
+- Tasks added: **C9 (CEO)**, C10 (critic: fact-check + red team of the two C8 files).
+- **Decision for you (C9):** (a) desk tests first, then a ~€300-per-theme ad test that you approve before it goes live; (b) a venture brief on the midlife-women brand now; (c) a brief on the GLP-1 companion now; (d) back to the B2B options (C7). **Recommendation: (a)**, because ranks 1–4 are too close to pick from desk scores and only a real test measures acquisition cost. If you want no outward action yet, (b).
+
 ### 2026-11-14 — C8 run 1: FUTRUE benchmark + consumer-health scan started (researcher)
 - Done: `research/futrue-benchmark.md` (part 1, complete). Started `research/consumer-health-scan.md` (parts 2–3, partial).
 - **What FUTRUE is:** a founder-owned holding (Gräfelfing, 2008) of ~20 companies, not a studio for outside founders. Founders: a physician with a Harvard MBA who sat on Novartis Germany's executive board, and a lawyer ex-BCG (CVs in stock-exchange filings [A]).
