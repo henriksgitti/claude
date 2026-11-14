@@ -16,6 +16,7 @@
 - (CEO 2026-11-14) **L01 (eldercare navigator as an employee benefit) and the prevention-clinic idea are parked**, not killed. No Stage D, no HR conversations. Research continues with C6 (researcher): screen the parked shortlist ideas L07, L06, L03, L13, L29 on payer, revenue and cash → `research/parked-ideas-screen.md`. C3 and C5 closed. Reporting: one detailed daily brief for the CEO; scheduled runs reply in one line, so everything the CEO needs must be in this file.
 
 - (researcher 2026-11-14) C6 done: `research/parked-ideas-screen.md`. No parked idea is a venture case today; L07 passes the customers × price test (3–5 hospitals for three salaries) but fails on access (Tiplu holds the public tenders; a medical-controlling co-founder is needed). Open: C7 (CEO: L07 cheap tests / back to the long list / L13 skill project / L07 brief).
+- (researcher 2026-11-14) C8 run 1 of ~2: FUTRUE benchmark done (`research/futrue-benchmark.md`); consumer-health scan started (`research/consumer-health-scan.md`, 20 candidates, not yet ranked). C8 stays open; next run ranks and adds the CEO decision task.
 
 ## CEO decision 2026-11-14
 - **Park both ideas and continue the research.** L01 (eldercare navigator as an employee benefit) and the prevention-clinic idea are parked, not killed. Record: `decisions/2026-11-14-park-l01-and-prevention-clinics.md` (PR open for the CEO).
@@ -32,6 +33,8 @@
 2. After B3: C1 venture briefs for the picked ideas.
 
 ## Open questions
+- **CEO (C8), before run 2 ranks the consumer scan (2026-11-14):** which product types are acceptable? FUTRUE's biggest OTC line is homeopathic remedies. Options: (a) only products with published evidence (supplements/devices with trials; mission fit "tackle healthcare problems"); (b) any legal self-pay product. Researcher's recommendation: (a), because weak-evidence products carry claim-law and reputation risk and do not fit your stated goal. If you do not answer, run 2 scores 'evidence base' as a criterion and flags homeopathy as excluded.
+- **CEO (C8), 10 minutes:** do you know a pharmacist or physician who could own product claims, or a performance marketer? The FUTRUE pattern needs both.
 - **CEO (C3), from the second red team of the L01 brief (2026-11-13, `research/reviews/2026-11-13-redteam-eldercare-navigator-brief-C4.md`):**
   - Decide C3 now; do not wait for the vote planned for 11 Dec 2026. No outcome of the vote reopens the employer wedge. The care-reform desk run can stay, as a new long-list check (Kassen as buyer), not as a condition on L01.
   - If you choose (c): before a brief on L07 or L11, approve one desk run that puts the parked ideas (L07, L06, L13, L29) through the test that stopped L01 (customers x sourced price for three salaries and for EUR 1m ARR, strict K1/K2, cash to month 24)? Critic's recommendation: yes. Not added as a task (stage gate; your call).
@@ -74,6 +77,18 @@
 ---
 
 ## Log
+### 2026-11-14 — C8 run 1: FUTRUE benchmark + consumer-health scan started (researcher)
+- Done: `research/futrue-benchmark.md` (part 1, complete). Started `research/consumer-health-scan.md` (parts 2–3, partial).
+- **What FUTRUE is:** a founder-owned holding (Gräfelfing, 2008) of ~20 companies, not a studio for outside founders. Founders: a physician with a Harvard MBA who sat on Novartis Germany's executive board, and a lawyer ex-BCG (CVs in stock-exchange filings [A]).
+- **How it makes money (PharmaSGP IPO prospectus [A], 2019):** revenue €62.6m, marketing €27.8m (44 %), profit before interest and tax €22.4m (36 %), 30 staff. All production by contract makers; sold only in pharmacies; customers pay themselves; products that do not break even in 3–6 months are dropped. 2024: €118.8m revenue (filing [A]). Forbes estimates the Kijimea company at ~$100m revenue [B].
+- **How it started (trade press [B], 2015–18):** first product Kijimea (2009) flopped; the restart came through a deal where a TV group took a share of sales instead of cash for ad time. Two brands were sold in 2014–15.
+- **What it means for you:** the model is proven at large scale, which none of the B2B ideas showed. The copyable part with €10k: pick a common self-treated complaint, use the cheapest legal product class (food supplement: notification only, § 5 NemV [A]), contract maker from 2,000 units [B], sell online first, kill fast. Not copyable: their starting position, the multi-million ad budgets, and two of their routes (gut devices now need a notified body under MDR; the pain brands are homeopathic remedies).
+- **First scan signals (not ranked yet):** menopause (9m women aged 40–55 [B]; 57.6 % of women with strong hot flushes buy OTC products [A]); GLP-1 self-payers (~100,000 in DE end-2024, €276–490 a month [B]); tinnitus (9.8 % bothersome [A]); female incontinence (48 % in one German survey [A, 2017]). Trap: the €42 care-supplies box (fraud warnings, 2024 rules [B]).
+- Not done: rows marked "not checked" in the scan, CAC and margins, contract-maker prices, grants, scoring, top 5. Amazon pages are bot-blocked (not bypassed); EUR-Lex returned empty pages (Rule 21 quoted from a trade-association paper).
+- Tasks: none added. C8 notes updated; C8 stays open (run 2 finishes parts 2–3 and adds the CEO task).
+- Next: researcher C8 run 2. Critic: fact-check of the two new files.
+- Open question for the CEO: see "Open questions" (product types).
+
 ### 2026-11-14 — C6 parked-ideas screen (researcher)
 - Done: `research/parked-ideas-screen.md`. It puts L07, L13, L03, L29 and L06 through the test that stopped L01: who signs, a sourced price, customers needed for three salaries (€180,000 a year, my assumption) and for €1m ARR, and cash to month 24.
 - **Result in one line: no parked idea is a venture case today. Only L07 passes the arithmetic, and it fails on access.**

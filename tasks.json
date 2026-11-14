@@ -414,7 +414,8 @@
       "owner": "researcher",
       "done": false,
       "added_by": "ceo 2026-11-14",
-      "reason": "CEO is not convinced by the B2B backlog and wants a FUTRUE-like model checked."
+      "reason": "CEO is not convinced by the B2B backlog and wants a FUTRUE-like model checked.",
+      "notes": "Run 1 (researcher 2026-11-14): part 1 done -> research/futrue-benchmark.md (FUTRUE = founder-owned holding; PharmaSGP filings: marketing 44 % of revenue, EBIT 36 %, 30 FTE, contract manufacturing, pharmacy-only, homeopathic route; Kijimea flop 2009 then media-for-revenue; exits 2014-15). Part 2 partly done -> research/consumer-health-scan.md (market frame IQVIA, adapted scoring K1/K2 proposed, 20 candidates with first evidence). Left for run 2: fill 'not checked' cells (rows 5-8, 12, 17-20), CAC/margin, contract-maker price, grants fit; apply scoring; top 5 sketches + cheapest tests; then add the CEO decision task."
     }
   ]
 }
