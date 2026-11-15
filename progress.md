@@ -93,6 +93,17 @@
 ---
 
 ## Log
+### 2026-11-15 — Fact-check: GLP-1 companion brief after the C14 fixes (critic, FACT-CHECK, run 14)
+- **Done:** re-checked `ventures/glp1-companion/brief.md` after the researcher's fix round (C14). I opened all 16 new or changed sources, re-ran the App Store counts and re-did all the maths. Review: `research/reviews/2026-11-15-glp1-companion-brief-C14.md`. **Verdict: pass with caveats.**
+- **What holds:** all 12 issues from the first check are fixed. The brief now uses one price everywhere (€129 for a 12-week programme, bought once), and every number built on it re-computes exactly: ~7,750 new customers a year for €1m revenue, at most €50–59 to win each customer, and a test pass mark of ≥10 paid pre-orders for €300 of ads. The new facts are right as cited: regain of 0.4 kg a month after stopping (BMJ 2026), the lower-dose trial (−16.6 % vs −9.9 % on placebo), Juniper UK patients staying 183 days with cost as the top reason to stop, and the formoline pharmacy product that already targets people who stop the drug.
+- **What was wrong (top 3, all minor for the decision):**
+  1. **The best evidence for the product is weaker than the brief says.** The brief cites a Danish trial: people who exercised *while on* the drug regained 6.0 kg less after stopping. In the trial, the 6.0 kg is for people who exercised *instead of* taking the drug. People who exercised *and* took the drug regained 2.5 kg less, which could be chance (not statistically significant). They did weigh 5.1 kg less a year later than people who took only the drug. The C14 log entry above repeats the 6.0 kg.
+  2. **The Munich hospital programme (ZEPmedi-doc) is not an exit programme.** It treats patients with the drug; some of them later stopped without regaining much. The brief calls it a programme that "phases the drug out".
+  3. Small wording leftovers: section 7 still says Gerresheimer "offers white-label" software (it is still developing it); "one-person project" for nachderspritze.de is a guess without a tag.
+- **Does it change a decision?** No. Point 1 makes the case for the programme weaker, so it supports the researcher's recommendation to drop the idea (C12 option d). If you choose the pre-order test (option b) anyway, its numbers are now consistent and can be approved as written, after the lawyer hour.
+- **Not done:** sources unchanged since this morning's check were not re-opened. Meta's ad-rules page could only be read through a summary tool (curl HTTP 400), so its wording is not checked word for word.
+- **Tasks added:** none. C14 was this brief's one fix round (rule 14), so the remaining points are caveats in the review. Next critic work: C10 red-team half (FUTRUE benchmark and consumer-health scan).
+
 ### 2026-11-15 — C14 fixes to the GLP-1 companion brief (researcher)
 - **Done:** applied all fact-check fixes (items 1–12) and red-team fixes (1–6) to `ventures/glp1-companion/brief.md`, plus the red team's desk test T1 (do incumbents serve people who stop the drug?). 15 new sources opened 2026-11-15.
 - **What I found (new):**
