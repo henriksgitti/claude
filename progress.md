@@ -26,6 +26,7 @@
 - (critic 2026-11-15) **C13 done (red-team half):** `research/reviews/2026-11-15-redteam-glp1-companion-brief.md`. Verdict: brief **needs work**; as a venture **fail**. The recommended €300 test cannot test the idea (ads may not name the drug, so they reach all dieters; one theme targets people still on the drug). Critic recommends **C12 (d) drop**; fixes go into C14 (no new task).
 
 - (researcher 2026-11-15) **C14 done:** `ventures/glp1-companion/brief.md` revised (the one fix round). One price everywhere (€129 per 12-week programme, bought once); the waitlist test is withdrawn and replaced by a paid pre-order test; recommendation changed to **C12 option (d), drop**. Open in Stage C: **C12 (CEO)**; C10 red-team half (critic).
+- (critic 2026-11-15) Second red team of the GLP-1 brief after C14: `research/reviews/2026-11-15-redteam-glp1-companion-brief-C14.md`. Brief passes as a decision document; venture fails; the pre-order test (option b) is closed by the brief's own R3 rule. Both agents recommend C12 (d) drop. Open in Stage C: C12 (CEO), C10 red-team half (critic).
 
 ## CEO decision 2026-11-14
 - **Park both ideas and continue the research.** L01 (eldercare navigator as an employee benefit) and the prevention-clinic idea are parked, not killed. Record: `decisions/2026-11-14-park-l01-and-prevention-clinics.md` (PR open for the CEO).
@@ -42,6 +43,11 @@
 2. After B3: C1 venture briefs for the picked ideas.
 
 ## Open questions
+- **CEO (C12), from the critic's second red team of the GLP-1 brief (2026-11-15, `research/reviews/2026-11-15-redteam-glp1-companion-brief-C14.md`):**
+  - Both agents now recommend **(d) drop**. Nothing in the revised brief argues against it.
+  - If you consider **(b), the paid pre-order test**, three warnings: (1) the brief's own rule says "run it only if no competitor offers people who stop the drug a path at €15 a month or less"; Weight Watchers does (€11.25 a month, open to anyone), so by that rule the test is off today. (2) The only concrete channel is a post in a small GLP-1 forum; that shows whether a friendly crowd buys, not what a customer costs to win, and it says nothing about other consumer themes. (3) If 10 people pay, you must run a 12-week programme with a qualified nutrition professional you have not found yet, or refund everyone.
+  - If what you really want is the cost of winning a paying consumer, test it on the idea you would actually pursue next, with normal paid ads.
+  - 10-minute check: can you name one nutrition professional who would run a 12-week group for a fee, and one person who runs paid ads in health or diet?
 - **CEO (C12), from the critic red team of the GLP-1 brief (2026-11-15, `research/reviews/2026-11-15-redteam-glp1-companion-brief.md`):**
   - Critic's recommendation: **(d) drop the GLP-1 companion as a venture.** Reasons in plain words: the free bundles already cover people on the drug; for people who stop, a one-person site already offers the same programme; the product lasts 12 weeks, so each customer brings only €83–129 and may cost at most about €32–59 to win; Germany-wide the market is about €18m a year even if everyone bought. A seed investor would not fund this.
   - **Do not approve the €300 test as written in section 13, even after C14.** Without naming the drug the ads reach everyone who wants to keep weight off (Weight Watchers' market at €11.25 a month), and the second theme ("low appetite") targets people still on the drug. Whatever comes out would not answer the question.
@@ -93,6 +99,18 @@
 ---
 
 ## Log
+### 2026-11-15 — Red team: GLP-1 companion brief after the C14 fixes (critic, RED TEAM)
+- **Done:** second red team of `ventures/glp1-companion/brief.md`: only the C14 changes, and whether the first review's six objections were answered. Review: `research/reviews/2026-11-15-redteam-glp1-companion-brief-C14.md`. **Verdict: the brief passes as a decision document (it recommends drop and says why); the idea still fails as a venture; the optional pre-order test needs work.**
+- **What was answered:** one price everywhere, no-moat and marketing gap stated, wider lawyer question, score caveat, waitlist test withdrawn. Four of six objections fully answered, two partly.
+- **Top issues (caveats, rule 14, no new tasks):**
+  1. **The test is closed by the brief's own rule.** It may run only if no competitor offers leavers a path at ≤ €15 a month; Weight Watchers does (€11.25). The brief calls this "met in the loose reading" instead of "met".
+  2. **The test would not measure what a customer costs to win.** Its only concrete channel is a sponsored post in a 1,200-member forum: a negotiated price and a friendly audience, not an ad price that repeats or transfers to other themes.
+  3. **A pass creates an obligation:** a 12-week programme with a nutrition professional nobody has named yet, or refunds. This should be a precondition.
+  4. The brief still reads the Danish exercise trial in its favour (flagged by the fact-check); the consumer scan still ranks the GLP-1 row 4th at 37 points (for the C10 red team).
+- **Does it change a decision?** No. It strengthens (d) drop. No `ceo` task added (C12 exists).
+- **Not done:** no sources opened (reasoning review only).
+- **Tasks added:** none. **Next critic work:** C10 red-team half (FUTRUE benchmark and consumer-health scan), including the GLP-1 re-score.
+
 ### 2026-11-15 — Fact-check: GLP-1 companion brief after the C14 fixes (critic, FACT-CHECK, run 14)
 - **Done:** re-checked `ventures/glp1-companion/brief.md` after the researcher's fix round (C14). I opened all 16 new or changed sources, re-ran the App Store counts and re-did all the maths. Review: `research/reviews/2026-11-15-glp1-companion-brief-C14.md`. **Verdict: pass with caveats.**
 - **What holds:** all 12 issues from the first check are fixed. The brief now uses one price everywhere (€129 for a 12-week programme, bought once), and every number built on it re-computes exactly: ~7,750 new customers a year for €1m revenue, at most €50–59 to win each customer, and a test pass mark of ≥10 paid pre-orders for €300 of ads. The new facts are right as cited: regain of 0.4 kg a month after stopping (BMJ 2026), the lower-dose trial (−16.6 % vs −9.9 % on placebo), Juniper UK patients staying 183 days with cost as the top reason to stop, and the formoline pharmacy product that already targets people who stop the drug.
