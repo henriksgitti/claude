@@ -25,6 +25,8 @@
 - (critic 2026-11-15) C13 fact-check half done: `research/reviews/2026-11-15-glp1-companion-brief.md`. The GLP-1 brief's facts **hold**; the €300 demand-test numbers in sections 5 and 13 do **not** add up (shown price vs revenue price, pass mark per theme, kill line). Fix task C14 (researcher) added. Still open: C13 red-team half, C12 (CEO).
 - (critic 2026-11-15) **C13 done (red-team half):** `research/reviews/2026-11-15-redteam-glp1-companion-brief.md`. Verdict: brief **needs work**; as a venture **fail**. The recommended €300 test cannot test the idea (ads may not name the drug, so they reach all dieters; one theme targets people still on the drug). Critic recommends **C12 (d) drop**; fixes go into C14 (no new task).
 
+- (researcher 2026-11-15) **C14 done:** `ventures/glp1-companion/brief.md` revised (the one fix round). One price everywhere (€129 per 12-week programme, bought once); the waitlist test is withdrawn and replaced by a paid pre-order test; recommendation changed to **C12 option (d), drop**. Open in Stage C: **C12 (CEO)**; C10 red-team half (critic).
+
 ## CEO decision 2026-11-14
 - **Park both ideas and continue the research.** L01 (eldercare navigator as an employee benefit) and the prevention-clinic idea are parked, not killed. Record: `decisions/2026-11-14-park-l01-and-prevention-clinics.md` (PR open for the CEO).
 - **Reporting:** one detailed brief per day instead of a summary after every run.
@@ -91,6 +93,18 @@
 ---
 
 ## Log
+### 2026-11-15 — C14 fixes to the GLP-1 companion brief (researcher)
+- **Done:** applied all fact-check fixes (items 1–12) and red-team fixes (1–6) to `ventures/glp1-companion/brief.md`, plus the red team's desk test T1 (do incumbents serve people who stop the drug?). 15 new sources opened 2026-11-15.
+- **What I found (new):**
+  - No drug platform has a programme for people who stop (GoLighter, Voy checked; Juniper DE site blocked) [B]. But Weight Watchers is open to anyone at €11.25/month and in the US tells leavers that members who stayed "continued to see results" [B]; a pharmacy brand (formoline) already advertises "Gewicht halten nach der Abnehmspritze" with a free app, ~€30–60/month [B]; a Munich hospital phases patients off the drug (ZEPmedi-doc) [B]; the GLP-1 forum has free articles on stopping [C]; nachderspritze.de describes the same programme, still a waitlist [B].
+  - Staying on a lower dose is a real alternative to stopping: tirzepatide 5 mg kept −16.6 % body weight vs −9.9 % on placebo (Lancet 2026 trial [A]). Regain after stopping is ~0.4 kg a month (BMJ 2026 meta-analysis [A]). Exercise *during* treatment cut regain after stopping by 6.0 kg (Danish trial [A]); no trial tests a programme started at the time of stopping.
+  - UK self-payers at Juniper stayed 183 days on average; cost was the top reason to stop (38.7 %) (company-reported study [B]).
+- **What it means:** with one consistent price (€129 for a 12-week programme, bought once), €1m revenue needs ~7,750 new customers a year (7.8 % of all 2024 self-payers, every year), and each may cost only €50–59 to win (my math from filings [A]). Germany-only market: €12.9m a year if every self-payer bought once. No moat; the decisive missing skill is paid acquisition, not product.
+- **Recommendation changed:** from (b) "€300 waitlist test" to **(d) drop**. The waitlist test was flawed: without drug names the ads reach all dieters, and e-mails are not payments. If the CEO still wants a consumer-cost data point, the brief now has a redesigned **paid pre-order test** (one theme, €129 with full refund, €300 ads; pass ≥10 paid, kill <6), which needs a seller set-up and a lawyer hour first.
+- **Not done:** formal re-score of the GLP-1 row (critic's math: 31/55, out of the top 5); GoLighter terms on WW access after the last order (page loads by script); Juniper DE and ZAVA pages (403).
+- **Next:** CEO decides C12. Critic: C10 red-team half. Researcher: A17 after 1 Dec 2026.
+- **Open questions:** none new; all outward actions (lawyer hour, pre-order set-up, ads) wait for C12.
+
 ### 2026-11-15 — Red team: GLP-1 companion brief (critic, RED TEAM, task C13 second half)
 - **Done:** attacked the reasoning of `ventures/glp1-companion/brief.md` (facts taken from the fact-check). Review: `research/reviews/2026-11-15-redteam-glp1-companion-brief.md`. **Verdict: brief needs work; as a venture, fail.** First red team of this brief.
 - **Top issues:**
