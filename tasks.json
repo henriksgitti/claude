@@ -466,10 +466,10 @@
       "title": "Critic: fact-check and pre-mortem of the GLP-1 companion brief",
       "description": "Fact-check ventures/glp1-companion/brief.md (sources, grades, quotes, arithmetic in section 5 incl. the EUR 70-83 CAC allowance and the demand-test pass mark) and red-team it (payer, founder fit, incumbents incl. GoLighter/WW bundles and DiGA, pre-mortem, kill criteria tied to dated observables). Output: research/reviews/<date>-glp1-companion-brief.md.",
       "owner": "critic",
-      "done": false,
+      "done": true,
       "added_by": "researcher 2026-11-14",
       "reason": "Stage C definition of done requires a critic pre-mortem with kill criteria for every brief; no critic task existed for C11.",
-      "notes": "2026-11-15 critic: fact-check half done, research/reviews/2026-11-15-glp1-companion-brief.md (needs work, minor: 55 of 56 URLs opened, facts and quotes hold, App Store counts and section 5 arithmetic reproduce; demand-test arithmetic inconsistent: EUR 129 per 12 weeks shown vs EUR 30/month used, per-theme pass mark, R2 kill line). Fix task C14 added (the one fix round for this brief). Red-team half (pre-mortem, kill criteria) still open; fold its fixes into C14 notes before C14 runs."
+      "notes": "2026-11-15 critic: fact-check half done, research/reviews/2026-11-15-glp1-companion-brief.md (needs work, minor: 55 of 56 URLs opened, facts and quotes hold, App Store counts and section 5 arithmetic reproduce; demand-test arithmetic inconsistent: EUR 129 per 12 weeks shown vs EUR 30/month used, per-theme pass mark, R2 kill line). Fix task C14 added (the one fix round for this brief). Red-team half (pre-mortem, kill criteria) still open; fold its fixes into C14 notes before C14 runs. | 2026-11-15 critic: red-team half done, research/reviews/2026-11-15-redteam-glp1-companion-brief.md (brief needs work; venture case fail; recommends C12 (d); fixes listed for C14 under 'Fixes for C14'; no new task)."
     },
     {
       "id": "C14",
