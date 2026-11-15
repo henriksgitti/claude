@@ -36,6 +36,9 @@
 ## CEO decision 2026-11-11
 - **Deep dive on idea 1 only: eldercare navigator as an employee benefit (L01).** Stage C started; C1 unblocked. Other shortlist ideas are parked, not killed.
 
+## CEO decision 2026-11-15
+- **GLP-1 companion dropped. All research runs paused** until the CEO sets a new direction. Pool of options when restarting: 'midlife women' consumer brief (menopause + bladder leaks), B2B options (hospital billing-audit tests, long-list re-screen), parked eldercare navigator and prevention clinics.
+
 ## Next steps
 - (2026-11-11) Critic: C2 fact-check and pre-mortem of the L01 brief. CEO: C3 (go to Stage D / revise / drop). Researcher: no open unblocked task after C1 (A17 waits for 2026-12-01; A24/A26 deferred). The numbered list below is from Stage B.
 0. **CEO: B3 — pick 2–3 ideas for deep dive** from `research/shortlist.md` (recommendation: L01 + L03 as one 'carer support' brief, plus L07). Critic: B2 review of the shortlist.
