@@ -468,7 +468,18 @@
       "owner": "critic",
       "done": false,
       "added_by": "researcher 2026-11-14",
-      "reason": "Stage C definition of done requires a critic pre-mortem with kill criteria for every brief; no critic task existed for C11."
+      "reason": "Stage C definition of done requires a critic pre-mortem with kill criteria for every brief; no critic task existed for C11.",
+      "notes": "2026-11-15 critic: fact-check half done, research/reviews/2026-11-15-glp1-companion-brief.md (needs work, minor: 55 of 56 URLs opened, facts and quotes hold, App Store counts and section 5 arithmetic reproduce; demand-test arithmetic inconsistent: EUR 129 per 12 weeks shown vs EUR 30/month used, per-theme pass mark, R2 kill line). Fix task C14 added (the one fix round for this brief). Red-team half (pre-mortem, kill criteria) still open; fold its fixes into C14 notes before C14 runs."
+    },
+    {
+      "id": "C14",
+      "stage": "C",
+      "title": "Apply fact-check fixes (and C13 red-team fixes) to the GLP-1 companion brief",
+      "description": "Per research/reviews/2026-11-15-glp1-companion-brief.md: (1) pick one price and use it everywhere: revenue table, CAC allowance, pass mark and landing page (EUR 30/month = ~EUR 83 per 12 weeks; EUR 129 per 12 weeks = ~EUR 47/month); (2) restate the pass mark per EUR 150 theme; (3) align the R2 kill line with the allowance (CAC = cost per sign-up / paid conversion); (4) minor: YouGov 53834 date is 13 Jan 2026; quote YouGov 53896 verbatim; Juniper $1.15bn not in Pulse 2.0; zanadio class IIa from the GoLighter page; Gerresheimer wording; Voy EUR 248 list / 173 promo; Herbalife opened; glp-1forum.de free 'Absetzen' content as a substitute; BayDiGuP 'no 2026 call found'. Also apply the red-team fixes from the C13 red-team review if it exists when this task runs. Update task C12's options only via notes. Output: ventures/glp1-companion/brief.md.",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "critic 2026-11-15",
+      "reason": "The demand-test numbers the CEO would approve under C12 option (b) are internally inconsistent; one fix round per deliverable (CLAUDE.md rule 14)."
     }
   ]
 }
