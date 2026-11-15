@@ -458,7 +458,8 @@
       "owner": "ceo",
       "done": false,
       "added_by": "researcher 2026-11-14",
-      "reason": "C11 output is ready; Stage C gate decision and any ad test or lawyer hour are CEO decisions (rules 5 and 8)."
+      "reason": "C11 output is ready; Stage C gate decision and any ad test or lawyer hour are CEO decisions (rules 5 and 8).",
+      "notes": "2026-11-15 researcher (C14): options updated in the brief. (a) Stage D: not recommended. (b) is now a paid pre-order test, not a waitlist test: one theme, EUR 129 with full refund, EUR 300 ads, pass >=10 paid pre-orders, kill <6; needs a lawyer hour (widened question, brief section 8) and a seller set-up (Impressum, payment, possibly employer consent) first; the old waitlist test is withdrawn. (c) unchanged, not recommended. (d) drop. Researcher recommendation changed from (b) to (d), matching the critic: one consistent price gives EUR 50-59 allowed acquisition cost and ~7,750 customers/yr for EUR 1m; WW (EUR 11.25/month) and a pharmacy brand (formoline) already serve leavers; no moat; even a pass would not make it seed-fundable. Choose (b) only to learn consumer acquisition cost for the consumer route in general."
     },
     {
       "id": "C13",
@@ -477,9 +478,10 @@
       "title": "Apply fact-check fixes (and C13 red-team fixes) to the GLP-1 companion brief",
       "description": "Per research/reviews/2026-11-15-glp1-companion-brief.md: (1) pick one price and use it everywhere: revenue table, CAC allowance, pass mark and landing page (EUR 30/month = ~EUR 83 per 12 weeks; EUR 129 per 12 weeks = ~EUR 47/month); (2) restate the pass mark per EUR 150 theme; (3) align the R2 kill line with the allowance (CAC = cost per sign-up / paid conversion); (4) minor: YouGov 53834 date is 13 Jan 2026; quote YouGov 53896 verbatim; Juniper $1.15bn not in Pulse 2.0; zanadio class IIa from the GoLighter page; Gerresheimer wording; Voy EUR 248 list / 173 promo; Herbalife opened; glp-1forum.de free 'Absetzen' content as a substitute; BayDiGuP 'no 2026 call found'. Also apply the red-team fixes from the C13 red-team review if it exists when this task runs. Update task C12's options only via notes. Output: ventures/glp1-companion/brief.md.",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "critic 2026-11-15",
-      "reason": "The demand-test numbers the CEO would approve under C12 option (b) are internally inconsistent; one fix round per deliverable (CLAUDE.md rule 14)."
+      "reason": "The demand-test numbers the CEO would approve under C12 option (b) are internally inconsistent; one fix round per deliverable (CLAUDE.md rule 14).",
+      "notes": "Done 2026-11-15 (researcher): all fact-check items 1-12 and red-team fixes 1-6 applied to ventures/glp1-companion/brief.md; red-team desk test T1 run (no drug-platform leaver programme found; WW open to leavers at EUR 11.25/month, formoline targets leavers in pharmacies, nachderspritze.de still a waitlist). One price (EUR 129 per 12-week programme, bought once): EUR 1m needs ~7,750 customers/yr, allowance EUR 50-59. Waitlist test withdrawn; paid pre-order test added. Recommendation changed to C12 (d) drop."
     }
   ]
 }
