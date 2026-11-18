@@ -54,6 +54,7 @@
 2. After B3: C1 venture briefs for the picked ideas.
 
 ## Open questions
+- **CEO (C16) note from the critic fact-check (2026-11-18):** the facts behind the new-directions scan hold; fixes are labels and wording (task C18). Before choosing: the language edge for idea 1 is unproven, and the EXIST spin-out grant funds about 1 in 4 applications (27.8 %).
 - **CEO (C16), new directions (2026-11-18, `research/new-directions.md`):** pick (a) trial-documents desk run, (b) spin-out co-founder desk run, (c) both (recommended), (d) another direction, (e) stop. 10-minute check: do you know a medical/regulatory writer, a clinical-operations person at a small biotech or a university trial centre (KKS), or a TUM/LMU/Helmholtz researcher planning a spin-out? Outward actions to approve later (not now): 5 calls with sponsors' clinical-operations leads; signing up to one co-founder matching programme.
 - **CEO (C12), from the critic's second red team of the GLP-1 brief (2026-11-15, `research/reviews/2026-11-15-redteam-glp1-companion-brief-C14.md`):**
   - Both agents now recommend **(d) drop**. Nothing in the revised brief argues against it.
@@ -111,6 +112,19 @@
 ---
 
 ## Log
+### 2026-11-18 — Fact-check: new-directions scan (critic, FACT-CHECK, task C17 first half)
+- **File checked:** `research/new-directions.md` (the only research file changed since its last check). Review: `research/reviews/2026-11-18-new-directions.md`. **Verdict: needs work (minor). Nothing is made up.** 27 of 29 links read in full; 2 sites blocked or down (GTAI, Pharmazeutische Zeitung).
+- **What holds (plain words):** the EU law behind idea 1 is real and quoted correctly: every sponsor of a drug trial must upload a results summary and a summary for lay readers after the trial ends, and the authorities are tightening checks. The study saying only about half of trials reported on time matches its source (a study not yet peer-reviewed, as the file says). The EXIST grant rules for spin-outs (up to 4 paid people for 18 months, one seat for a business person) and the 2025 grant figures are correct. The wage, price and market numbers for the other 8 directions check out. All the sums are right.
+- **What was wrong:**
+  1. The recommendation says "keep **direction 4** as the delivery model", but the Lisbon team is **direction 3** in the table; direction 4 is drug-safety services. Only a label, but it sits in the sentence you act on.
+  2. The language edge for idea 1 (German, English, Portuguese) assumes lay summaries must be translated into each country's language. The file itself marks that rule as unchecked, yet builds the recommendation on it.
+  3. "TUM spun out 115 start-ups" links to a page that says 103 (for 2024). The 115 is real but counts mostly student and alumni start-ups, not research spin-outs.
+  4. A quoted phrase about Peer AI ("plain language summaries") is not in the article cited.
+  5. A sum about the EXIST grant is invalid, and the same report shows that only about **1 in 4 applications (27.8 %)** gets funded. That matters if the plan is to have the grant pay your salary.
+- **Does it change a decision?** Not the choice between options (a) to (e) in C16. Two points to keep in mind when you decide: the language edge for idea 1 is not proven yet, and the spin-out grant is won by about one application in four.
+- **Tasks added:** C18 (researcher): apply these fixes to `research/new-directions.md` (first and only fix round, rule 14). C17 stays open for the red-team half.
+- **Not done:** red-team half of C17 (separate run).
+
 ### 2026-11-15 — Red team: GLP-1 companion brief after the C14 fixes (critic, RED TEAM)
 - **Done:** second red team of `ventures/glp1-companion/brief.md`: only the C14 changes, and whether the first review's six objections were answered. Review: `research/reviews/2026-11-15-redteam-glp1-companion-brief-C14.md`. **Verdict: the brief passes as a decision document (it recommends drop and says why); the idea still fails as a venture; the optional pre-order test needs work.**
 - **What was answered:** one price everywhere, no-moat and marketing gap stated, wider lawyer question, score caveat, waitlist test withdrawn. Four of six objections fully answered, two partly.
