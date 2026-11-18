@@ -1,6 +1,6 @@
 {
   "project": "Healthcare Venture",
-  "current_stage": "C (new-directions scan)",
+  "current_stage": "C (new-directions scan done; CEO decision C16)",
   "stages": {
     "A": "Scan",
     "B": "Score (gate: CEO picks 2–3)",
@@ -491,9 +491,30 @@
       "title": "New-directions scan: find 8-12 fresh directions beyond everything checked so far",
       "description": "CEO 2026-11-18: 'I want research into new directions.' Do NOT re-rank the long list, the shortlist, the consumer-health scan or the dropped/parked ideas (eldercare navigator, prevention clinics, GLP-1 companion, hospital billing audits, discharge letters, phone assistant, carer courses, MDR/PMS). Start from what killed them (read decisions/ and the latest red-team reviews): no payer that pays a NEW small company, no sourced price, too many customers needed for three salaries / EUR 1m ARR, free or cheap substitutes, no founder edge, marketing-led consumer economics. Step 1: list 8-12 DIRECTIONS (business models + customer types, not single products), e.g. tech-enabled services that sell outcomes rather than software; AI agents that replace outsourced admin work where buyers already pay external providers per case; pharma/clinical-research services (CEO's stated interest: drug development, trials); cross-border models (EU/US company entering DACH, or DACH model into Portugal/Lisbon where the CEO lives); regulation-driven windows with funded deadlines (EHDS, ePA, KHVVG, care reform); B2B2C via insurers' or employers' existing budgets; health-data or real-world-evidence services; licensing/partnering instead of building. Add directions you find that are not on this list. Step 2: for each direction, a quick sourced test: who already pays whom for this today (named buyer + named young vendor if any), sourced price per customer, customers needed for EUR 360k/yr (three salaries) and EUR 1m ARR, free substitutes, founder edge (founder-brief.md: AI agents/automation, health innovation, German + Lisbon, EUR 10k, part-time to Sep 2027, needs co-founders), and the cheapest desk or real-world test. Step 3: rank, recommend the top 2-3 directions with why, and name 2-3 concrete first ideas inside each. Output: research/new-directions.md. Then add a ceo task with options and a recommendation. One run may not be enough; keep notes.",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "ceo 2026-11-18",
-      "reason": "CEO wants new directions after the consumer and B2B routes did not produce a venture case."
+      "reason": "CEO wants new directions after the consumer and B2B routes did not produce a venture case.",
+      "notes": "Done 2026-11-18 (researcher, one run): research/new-directions.md. 10 directions tested on K1-K6; top 3: (1) AI-assisted trial-results documents for sponsors (CTR results + lay summaries), (2) business co-founder of an EXIST-Forschungstransfer spin-out, (3) German-language admin team in Lisbon + AI as delivery model. 7 parked/dropped. Critical gap: no sourced per-document price. CEO decision task C16; critic review C17."
+    },
+    {
+      "id": "C16",
+      "stage": "C",
+      "title": "CEO: pick the next direction after the new-directions scan",
+      "description": "Read the 'Findings' and the ranked table of research/new-directions.md (5 minutes). Findings: (1) EU law (Art. 37 CTR) makes every trial sponsor file a results summary + lay summary in CTIS; only 116 of 234 due trials reported on time (preprint [B]); ~2,232 new EU trials a year (repo CTIS count [A]); paid AI vendors exist (Peer AI $12.1m, Yseop with Novartis/Lilly investors [B]); no per-summary price found, only the freelance writer median EUR 82.2/h [B]. At an assumed EUR 5-10k per trial package, three salaries need 36-72 packages a year and EUR 1m needs 100-200 (4.5-9 % of one year's EU trials). (2) EXIST-Forschungstransfer pays spin-out teams of up to 4 FTE for 18 months and requires at least one business seat; average grant >EUR 1m; 175 applications in 2025 [A]. (3) A German-language team in Lisbon + AI has a rare founder edge but faces incumbents and EUR 2m turnover bars in public tenders [A]. Seven other directions fail at least one old knock-out. Options: (a) Direction 1 next: one researcher desk run first (CTIS overdue-results count by sponsor type in DE/PT with sponsor names; 3 published prices; competitor list), then a venture brief if the count and a price hold. (b) Direction 2 next: one desk run listing Munich health spin-out projects seeking a business co-founder (TUM Venture Labs, LMU IEC, Helmholtz, MPI, Fraunhofer, BioM), with EXIST timing; joining any is your outward action. (c) Both (a) and (b) as desk runs, then decide on one brief. (d) Another direction from the table (e.g. 3 Lisbon admin team, 5 acquire a business). (e) Stop. Recommendation: (c), because both runs are free desk work, direction 1 is the only one where law, pain and your interests meet but its price is unproven, and direction 2 solves salary and founder-gap problems that sank earlier ideas. 10-minute check: do you know a medical writer or regulatory writer, a clinical-operations person at a small biotech or a university trial centre (KKS), or a researcher at TUM/LMU/Helmholtz planning a spin-out?",
+      "owner": "ceo",
+      "done": false,
+      "added_by": "researcher 2026-11-18",
+      "reason": "C15 output is ready; the CEO decides which direction gets the next research runs (rule 8)."
+    },
+    {
+      "id": "C17",
+      "stage": "C",
+      "title": "Critic: fact-check and red team of the new-directions scan",
+      "description": "Fact-check research/new-directions.md (sources opened, grades, quotes, arithmetic, snippet-only items) and red team the ranking: is direction 1 favoured despite no sourced price; is the spin-out route a business model or a career move; are the 7 parked/dropped directions dropped fairly; does any direction pass the old kill reasons better than the top 3. Output: research/reviews/<date>-new-directions.md.",
+      "owner": "critic",
+      "done": false,
+      "added_by": "researcher 2026-11-18",
+      "reason": "New research file feeding CEO decision C16; the critic fact-checks every new research file (CLAUDE.md)."
     }
   ]
 }
