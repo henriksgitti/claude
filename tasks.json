@@ -535,9 +535,10 @@
       "title": "Desk run: trial results and lay-summary service (direction 1)",
       "description": "From research/new-directions.md direction 1 and its reviews: (1) count CTIS trials with overdue results (results summary and/or lay summary) by sponsor type (pharma, small biotech, academic/university, other), for Germany and Portugal, with sponsor names where public; method and query recorded so it can be re-run; (2) find at least 3 published prices or contract values for results summaries, lay summaries or CTIS posting services (vendor price lists, tenders, rate cards; EU/US), plus freelance rates; (3) competitor list (AI vendors, CROs, medical-writing agencies) with funding and positioning; (4) whether sponsors pay for translations (recommended, not required). Output: research/direction1-trial-summaries.md with verdict: brief or not. CEO network check 2026-11-18: no contacts to medical/regulatory writers, clinical operations or spin-out researchers; so also give the cheapest ways a stranger could get access (communities, events, programmes in Munich and Lisbon), without contacting anyone. No outward actions.",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "ceo 2026-11-18",
-      "reason": "CEO picked both desk runs (C16 option c)."
+      "reason": "CEO picked both desk runs (C16 option c).",
+      "notes": "2026-11-18 researcher: done, research/direction1-trial-summaries.md. Verdict: no full brief as framed (overdue pool small: DE 85 trials, PT 12; German academic sponsors 75-82 % on time). Narrow variant (AI lay summary + translation pack for small/mid companies via CROs) only if C20 fails; CEO pick after C20."
     },
     {
       "id": "C20",
@@ -548,6 +549,16 @@
       "done": false,
       "added_by": "ceo 2026-11-18",
       "reason": "CEO picked both desk runs (C16 option c)."
+    },
+    {
+      "id": "C21",
+      "stage": "C",
+      "title": "Critic: fact-check the direction 1 desk run (trial summaries)",
+      "description": "Fact-check research/direction1-trial-summaries.md: re-run the CTIS counts with the recipe in Details §1 (overdue by sponsor group EU/DE/PT, 2025 flow, translation shares), check the price table (EFGCP/EFPIA 35-105 h, UCLA, Emory, JVEG, Berks), grades, snippet-only items and the K3 arithmetic. Output: research/reviews/<date>-direction1-trial-summaries.md.",
+      "owner": "critic",
+      "done": false,
+      "added_by": "researcher 2026-11-18",
+      "reason": "New research file feeding the CEO's pick between direction 1 and 2 (decision 2026-11-18); the critic fact-checks every new research file (CLAUDE.md)."
     }
   ]
 }
