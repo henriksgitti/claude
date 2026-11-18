@@ -1,6 +1,6 @@
 {
   "project": "Healthcare Venture",
-  "current_stage": "Paused (CEO 2026-11-15)",
+  "current_stage": "C (new-directions scan)",
   "stages": {
     "A": "Scan",
     "B": "Score (gate: CEO picks 2–3)",
@@ -484,6 +484,16 @@
       "added_by": "critic 2026-11-15",
       "reason": "The demand-test numbers the CEO would approve under C12 option (b) are internally inconsistent; one fix round per deliverable (CLAUDE.md rule 14).",
       "notes": "Done 2026-11-15 (researcher): all fact-check items 1-12 and red-team fixes 1-6 applied to ventures/glp1-companion/brief.md; red-team desk test T1 run (no drug-platform leaver programme found; WW open to leavers at EUR 11.25/month, formoline targets leavers in pharmacies, nachderspritze.de still a waitlist). One price (EUR 129 per 12-week programme, bought once): EUR 1m needs ~7,750 customers/yr, allowance EUR 50-59. Waitlist test withdrawn; paid pre-order test added. Recommendation changed to C12 (d) drop."
+    },
+    {
+      "id": "C15",
+      "stage": "C",
+      "title": "New-directions scan: find 8-12 fresh directions beyond everything checked so far",
+      "description": "CEO 2026-11-18: 'I want research into new directions.' Do NOT re-rank the long list, the shortlist, the consumer-health scan or the dropped/parked ideas (eldercare navigator, prevention clinics, GLP-1 companion, hospital billing audits, discharge letters, phone assistant, carer courses, MDR/PMS). Start from what killed them (read decisions/ and the latest red-team reviews): no payer that pays a NEW small company, no sourced price, too many customers needed for three salaries / EUR 1m ARR, free or cheap substitutes, no founder edge, marketing-led consumer economics. Step 1: list 8-12 DIRECTIONS (business models + customer types, not single products), e.g. tech-enabled services that sell outcomes rather than software; AI agents that replace outsourced admin work where buyers already pay external providers per case; pharma/clinical-research services (CEO's stated interest: drug development, trials); cross-border models (EU/US company entering DACH, or DACH model into Portugal/Lisbon where the CEO lives); regulation-driven windows with funded deadlines (EHDS, ePA, KHVVG, care reform); B2B2C via insurers' or employers' existing budgets; health-data or real-world-evidence services; licensing/partnering instead of building. Add directions you find that are not on this list. Step 2: for each direction, a quick sourced test: who already pays whom for this today (named buyer + named young vendor if any), sourced price per customer, customers needed for EUR 360k/yr (three salaries) and EUR 1m ARR, free substitutes, founder edge (founder-brief.md: AI agents/automation, health innovation, German + Lisbon, EUR 10k, part-time to Sep 2027, needs co-founders), and the cheapest desk or real-world test. Step 3: rank, recommend the top 2-3 directions with why, and name 2-3 concrete first ideas inside each. Output: research/new-directions.md. Then add a ceo task with options and a recommendation. One run may not be enough; keep notes.",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "ceo 2026-11-18",
+      "reason": "CEO wants new directions after the consumer and B2B routes did not produce a venture case."
     }
   ]
 }
