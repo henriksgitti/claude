@@ -514,7 +514,18 @@
       "owner": "critic",
       "done": false,
       "added_by": "researcher 2026-11-18",
-      "reason": "New research file feeding CEO decision C16; the critic fact-checks every new research file (CLAUDE.md)."
+      "reason": "New research file feeding CEO decision C16; the critic fact-checks every new research file (CLAUDE.md).",
+      "notes": "2026-11-18 critic: fact-check half done, research/reviews/2026-11-18-new-directions.md (needs work, minor; no fabrication; 27 of 29 URLs read, all legal and grant facts hold). Fix task C18 added (direction numbering, [UNVERIFIED] lay-summary language rule built on, TUM 115 wrong URL, Peer AI quote, EXIST maths + 27.8 % approval rate). Red-team half still open (separate run)."
+    },
+    {
+      "id": "C18",
+      "stage": "C",
+      "title": "Apply fact-check fixes to research/new-directions.md",
+      "description": "Per research/reviews/2026-11-18-new-directions.md 'Critical issues' 1-5: (1) Findings: Lisbon admin team is direction 3, not 4 (two places); (2) source the lay-summary language rule from a primary text (CTR Annex V / Art. 37, Commission CTR Q&A or EudraLex Vol. 10 lay-summary guidance) or make K5 language edge, idea 1(b) and the 'delivery model' recommendation conditional on it; (3) TUM 115: cite the 26 Jun 2026 TUM release and say 'start-ups by researchers, students and alumni', not 'spun out'; (4) drop or re-source the Peer AI 'plain language summaries' quote; (5) delete the '>EUR 55m / >EUR 1m = fewer than 55 projects' maths and add the EFT approval rate (634 of 2,280, 27.8 %). Cheap minor fixes from the same review (AbD 2/2/10, 'mostly incumbents', Lisbon bonus, Leipzig bars, DiGA wording, record the TED query) in the same pass. Output: research/new-directions.md (revised).",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "critic 2026-11-18",
+      "reason": "Fact-check of the file feeding CEO decision C16 found a numbering error in the recommendation and an [UNVERIFIED] rule that the recommendation builds on (CLAUDE.md rules 1, 10; first fix round per rule 14)."
     }
   ]
 }
