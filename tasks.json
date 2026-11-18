@@ -546,9 +546,10 @@
       "title": "Desk run: Munich research spin-outs that need a business co-founder (direction 2)",
       "description": "From research/new-directions.md direction 2: list current health/biotech/medtech/digital-health spin-out projects in Munich that seek or will need a business co-founder (TUM Venture Labs, UnternehmerTUM, LMU Innovation & Entrepreneurship Center, Helmholtz Munich, Max Planck, Fraunhofer, BioM, Gründerzeit/hochschule programmes, co-founder matching platforms). Per project: field, stage, institution, funding (EXIST-Forschungstransfer, GO-Bio, SPRIND, etc.), what business role is open, public contact route. Also: EXIST-Forschungstransfer timing (call dates 2027), eligibility of a part-time employed person, and what a business co-founder must bring. Output: research/direction2-spinout-cofounder.md with verdict and the 5 best-matching projects. CEO network check 2026-11-18: no contacts to medical/regulatory writers, clinical operations or spin-out researchers; so also give the cheapest ways a stranger could get access (communities, events, programmes in Munich and Lisbon), without contacting anyone. No outward actions.",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "ceo 2026-11-18",
-      "reason": "CEO picked both desk runs (C16 option c)."
+      "reason": "CEO picked both desk runs (C16 option c).",
+      "notes": "2026-11-18 researcher: done, research/direction2-spinout-cofounder.md. Timing fits: EFT cut-off 31 Mar 2027 -> jury June -> start 1 Sep 2027 [A]; salary TV-L E13 EUR 4,759-5,106/month gross [B]; every EFT team needs a business seat; 87 % of funded projects found a company [A]. 0 confirmed Munich health research projects publicly advertising a business seat (6 ads found, 1 opened health ad is Berlin/KIARA). Top 5 (none confirmed seeking): ki-alz-2 (LMU Klinikum), SYNTRA (Helmholtz Munich), RadioGene-2 (TUM Klinikum), FormulAIte (LMU, seat probably filled), KIARA (Berlin, open). Part-time EFT post next to a foreign full-time job: [UNVERIFIED]. Verdict: no venture brief; needs CEO-approved outward steps before 28 Feb 2027. Follow-ups: C22 (critic), C23 (CEO)."
     },
     {
       "id": "C21",
@@ -559,6 +560,26 @@
       "done": false,
       "added_by": "researcher 2026-11-18",
       "reason": "New research file feeding the CEO's pick between direction 1 and 2 (decision 2026-11-18); the critic fact-checks every new research file (CLAUDE.md)."
+    },
+    {
+      "id": "C22",
+      "stage": "C",
+      "title": "Critic: fact-check the direction 2 desk run (spin-out co-founder)",
+      "description": "Fact-check research/direction2-spinout-cofounder.md: EFT guideline and handbook quotes (business seat, degrees, part-time, cut-off -> jury -> start table, 31 Dec 2027), monitoring-report numbers (TUM 127/42, LMU 40/17, 87 %, >96 %), TV-L E13 values, Helmholtz Enterprise 2026-2 and m4 2027 dates, the ad count in Details §3 (snippet-only items), the five project rows (amounts, dates, seat status), and the kill lines. Output: research/reviews/<date>-direction2-spinout-cofounder.md.",
+      "owner": "critic",
+      "done": false,
+      "added_by": "researcher 2026-11-18",
+      "reason": "New research file feeding the CEO's pick after both desk runs (decision 2026-11-18); the critic fact-checks every new research file (CLAUDE.md)."
+    },
+    {
+      "id": "C23",
+      "stage": "C",
+      "title": "CEO: next step after both desk runs (trial summaries, spin-out co-founder)",
+      "description": "Read the Findings of research/direction2-spinout-cofounder.md and research/direction1-trial-summaries.md (10 minutes). Direction 1 (C19): no full brief as framed; the overdue-report gap is small (Germany 85 trials, Portugal 12) [A, own count]. Direction 2 (C20): the federal spin-out grant EXIST-Forschungstransfer has a cut-off on 31 Mar 2027, then a jury in June and an 'optimal start' on 1 Sep 2027, your planned full-time date [A]. It pays the team as university staff (TV-L E13: EUR 4,759-5,106 a month gross) [B], and every team must have a business person [A]. 87 % of funded projects found a company [A]. But 0 Munich health research projects publicly advertise a business seat (6 ads found; the one open health seat, KIARA, is in Berlin and asks for medtech sales and VC experience) [B]. Teams fill the seat through transfer offices and programmes. Whether you could hold a half-time grant post next to your Lisbon job is unclear [UNVERIFIED]. Options: (a) Go for direction 2. Approve 3 free outward steps: apply to UnternehmerTUM 'Future Entrepreneur' when it opens in December (15-20 h/week, online); attend 1-2 Munich events (Impact Co-Founder Matching 1 Dec 2026; TUM Healthcare Happy Hour 12 Jan 2027); one question to the EXIST hotline on part-time eligibility. In parallel the researcher writes a 2-page entry pack (your profile as business co-founder, target list with dates, application calendar). Kill line: if by 28 Feb 2027 you are not named in any draft EFT, Helmholtz Enterprise or m4 application, the Sep 2027 start is off (next EFT start 1 Mar 2028). (b) Brief the narrow direction 1 variant (AI lay-summary + translation pack sold through CROs). Weak on desk evidence (C19), and no medical writer on the team. (c) Both (a) and (b). (d) Neither: back to the new-directions table or the parked ideas. Recommendation: (a), because it is the only route found where the start date, a paid salary and your founder gap (no science co-founder) line up. Desk research cannot go further: the next facts (which team lacks a business seat) only come from being visible in these channels. Cost is your time, not money. Not recommended: a full venture brief for direction 2, because the partner team chooses the problem.",
+      "owner": "ceo",
+      "done": false,
+      "added_by": "researcher 2026-11-18",
+      "reason": "Both desk runs from decision 2026-11-18 are done; the CEO picks the next step (CLAUDE.md rule 8)."
     }
   ]
 }
