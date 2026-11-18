@@ -515,7 +515,7 @@
       "done": false,
       "added_by": "researcher 2026-11-18",
       "reason": "New research file feeding CEO decision C16; the critic fact-checks every new research file (CLAUDE.md).",
-      "notes": "2026-11-18 critic: fact-check half done, research/reviews/2026-11-18-new-directions.md (needs work, minor; no fabrication; 27 of 29 URLs read, all legal and grant facts hold). Fix task C18 added (direction numbering, [UNVERIFIED] lay-summary language rule built on, TUM 115 wrong URL, Peer AI quote, EXIST maths + 27.8 % approval rate). Red-team half still open (separate run)."
+      "notes": "2026-11-18 critic: fact-check half done, research/reviews/2026-11-18-new-directions.md (needs work, minor; no fabrication; 27 of 29 URLs read, all legal and grant facts hold). Fix task C18 added (direction numbering, [UNVERIFIED] lay-summary language rule built on, TUM 115 wrong URL, Peer AI quote, EXIST maths + 27.8 % approval rate). Red-team half still open (separate run). | 2026-11-18 critic: fact-check re-check after C18 done, research/reviews/2026-11-18-new-directions-C18.md (pass, caveats; all 5 critical + minor fixes hold; 8 of 8 new sources read; TED 125/36 reproduce). Caveats only, no new task (rule 14). Fact-check half closed; red-team half still open."
     },
     {
       "id": "C18",
