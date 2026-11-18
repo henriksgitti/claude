@@ -502,9 +502,10 @@
       "title": "CEO: pick the next direction after the new-directions scan",
       "description": "Read the 'Findings' and the ranked table of research/new-directions.md (5 minutes). Findings: (1) EU law (Art. 37 CTR) makes every trial sponsor file a results summary + lay summary in CTIS; only 116 of 234 due trials reported on time (preprint [B]); ~2,232 new EU trials a year (repo CTIS count [A]); paid AI vendors exist (Peer AI $12.1m, Yseop with Novartis/Lilly investors [B]); no per-summary price found, only the freelance writer median EUR 82.2/h [B]. At an assumed EUR 5-10k per trial package, three salaries need 36-72 packages a year and EUR 1m needs 100-200 (4.5-9 % of one year's EU trials). (2) EXIST-Forschungstransfer pays spin-out teams of up to 4 FTE for 18 months and requires at least one business seat; average grant >EUR 1m; 175 applications in 2025 [A]. (3) A German-language team in Lisbon + AI has a rare founder edge but faces incumbents and EUR 2m turnover bars in public tenders [A]. Seven other directions fail at least one old knock-out. Options: (a) Direction 1 next: one researcher desk run first (CTIS overdue-results count by sponsor type in DE/PT with sponsor names; 3 published prices; competitor list), then a venture brief if the count and a price hold. (b) Direction 2 next: one desk run listing Munich health spin-out projects seeking a business co-founder (TUM Venture Labs, LMU IEC, Helmholtz, MPI, Fraunhofer, BioM), with EXIST timing; joining any is your outward action. (c) Both (a) and (b) as desk runs, then decide on one brief. (d) Another direction from the table (e.g. 3 Lisbon admin team, 5 acquire a business). (e) Stop. Recommendation: (c), because both runs are free desk work, direction 1 is the only one where law, pain and your interests meet but its price is unproven, and direction 2 solves salary and founder-gap problems that sank earlier ideas. 10-minute check: do you know a medical writer or regulatory writer, a clinical-operations person at a small biotech or a university trial centre (KKS), or a researcher at TUM/LMU/Helmholtz planning a spin-out?",
       "owner": "ceo",
-      "done": false,
+      "done": true,
       "added_by": "researcher 2026-11-18",
-      "reason": "C15 output is ready; the CEO decides which direction gets the next research runs (rule 8)."
+      "reason": "C15 output is ready; the CEO decides which direction gets the next research runs (rule 8).",
+      "notes": "CEO 2026-11-18 (answer cards): option (c), both desk runs. 10-minute network check: the CEO knows none of the listed people (no medical/regulatory writer, no clinical-ops contact, no researcher planning a spin-out)."
     },
     {
       "id": "C17",
@@ -527,6 +528,26 @@
       "added_by": "critic 2026-11-18",
       "reason": "Fact-check of the file feeding CEO decision C16 found a numbering error in the recommendation and an [UNVERIFIED] rule that the recommendation builds on (CLAUDE.md rules 1, 10; first fix round per rule 14).",
       "notes": "2026-11-18 researcher: all 5 critical + minor fixes applied. Lay-summary language rule sourced to Good Lay Summary Practice (EudraLex Vol. 10): translations recommended, not required by the CTR; K5, idea (b) and the recommendation made conditional. EXIST 27.8 % added; TUM URL/wording fixed; Peer AI quote replaced; TED queries recorded (125/36)."
+    },
+    {
+      "id": "C19",
+      "stage": "C",
+      "title": "Desk run: trial results and lay-summary service (direction 1)",
+      "description": "From research/new-directions.md direction 1 and its reviews: (1) count CTIS trials with overdue results (results summary and/or lay summary) by sponsor type (pharma, small biotech, academic/university, other), for Germany and Portugal, with sponsor names where public; method and query recorded so it can be re-run; (2) find at least 3 published prices or contract values for results summaries, lay summaries or CTIS posting services (vendor price lists, tenders, rate cards; EU/US), plus freelance rates; (3) competitor list (AI vendors, CROs, medical-writing agencies) with funding and positioning; (4) whether sponsors pay for translations (recommended, not required). Output: research/direction1-trial-summaries.md with verdict: brief or not. CEO network check 2026-11-18: no contacts to medical/regulatory writers, clinical operations or spin-out researchers; so also give the cheapest ways a stranger could get access (communities, events, programmes in Munich and Lisbon), without contacting anyone. No outward actions.",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "ceo 2026-11-18",
+      "reason": "CEO picked both desk runs (C16 option c)."
+    },
+    {
+      "id": "C20",
+      "stage": "C",
+      "title": "Desk run: Munich research spin-outs that need a business co-founder (direction 2)",
+      "description": "From research/new-directions.md direction 2: list current health/biotech/medtech/digital-health spin-out projects in Munich that seek or will need a business co-founder (TUM Venture Labs, UnternehmerTUM, LMU Innovation & Entrepreneurship Center, Helmholtz Munich, Max Planck, Fraunhofer, BioM, Gründerzeit/hochschule programmes, co-founder matching platforms). Per project: field, stage, institution, funding (EXIST-Forschungstransfer, GO-Bio, SPRIND, etc.), what business role is open, public contact route. Also: EXIST-Forschungstransfer timing (call dates 2027), eligibility of a part-time employed person, and what a business co-founder must bring. Output: research/direction2-spinout-cofounder.md with verdict and the 5 best-matching projects. CEO network check 2026-11-18: no contacts to medical/regulatory writers, clinical operations or spin-out researchers; so also give the cheapest ways a stranger could get access (communities, events, programmes in Munich and Lisbon), without contacting anyone. No outward actions.",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "ceo 2026-11-18",
+      "reason": "CEO picked both desk runs (C16 option c)."
     }
   ]
 }
