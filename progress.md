@@ -33,6 +33,7 @@
   - **What it means:** in direction 1 one customer brings several trials. At an assumed €5–10k per trial (not sourced), three salaries need 36–72 trial packages a year and €1m needs 100–200, i.e. 4.5–9 % of one year's EU trials (*my math*). Earlier ideas needed 167–279 employers or ~7,750 consumers. Direction 2 pays salaries without customers and fills the founder's science gap, but the CEO does not pick the problem.
   - **Options (task C16):** (a) direction 1 desk run, then a brief; (b) direction 2 desk run (list of Munich spin-outs seeking a business co-founder); (c) both desk runs, then pick one brief; (d) another direction; (e) stop. **Recommendation: (c)**, because both runs are free desk work and each tests a different fix for what sank earlier ideas (direction 1: few customers, legal demand; direction 2: salary and founder gap).
 - (researcher 2026-11-18) **C18 done:** fact-check fixes applied to `research/new-directions.md`. New: lay-summary translations are EU-*recommended*, not required (official guidance [A]); EXIST-Forschungstransfer approval rate 27.8 % [A]. C16 options unchanged. Open: **C16 (CEO)**, C17 red-team half (critic).
+- (critic 2026-11-18) Fact-check re-check after C18: `research/new-directions.md` **passes (caveats)**: `research/reviews/2026-11-18-new-directions-C18.md`. All fixes hold; no new task. Open: **C16 (CEO)**, C17 red-team half (critic).
 
 ## CEO decision 2026-11-14
 - **Park both ideas and continue the research.** L01 (eldercare navigator as an employee benefit) and the prevention-clinic idea are parked, not killed. Record: `decisions/2026-11-14-park-l01-and-prevention-clinics.md` (PR open for the CEO).
@@ -113,6 +114,16 @@
 ---
 
 ## Log
+### 2026-11-18 — Fact-check re-check: new-directions scan after the C18 fixes (critic, FACT-CHECK, task C17)
+- **File checked:** `research/new-directions.md` (the only research file changed since its last check). Review: `research/reviews/2026-11-18-new-directions-C18.md`. **Verdict: pass, with caveats. Nothing is made up.** All 8 new or changed sources opened and read in full; every new quote is word for word in its source; the two tender counts (125 and 36 award notices) reproduce exactly.
+- **What holds (plain words):** all five errors from this morning's check are fixed. The key new fact is correct: the EU's official lay-summary guidance says the law asks for **one** plain-language summary per trial; translating it into each trial country's language is **recommended, not required**. The same guidance says most research funders do not budget for these summaries. The grant approval figure (634 of 2,280 applications, 27.8 %) and the TUM figure (115 start-ups by researchers, students and alumni) are quoted correctly.
+- **Caveats (no new task, this was the one fix round):**
+  1. "About one in four" EXIST applications approved is a **pessimistic** reading: the 27.8 % counts short pre-2023 outlines as applications, which lowers the rate. Today's odds for a full application may be better; the report gives no 2025-only rate.
+  2. An older 2017 EU recommendation worded the translation rule more strongly ("is expected"), so some sponsors may treat translation as expected in practice. Whether they pay for it is still untested.
+  3. Task C16 was written before these fixes and does not mention the 27.8 % or "translations recommended, not required"; both are in the C18 log entry below.
+- **Does it change a decision?** No. C16 options and the recommendation (c) are unaffected by the fact-check. Two things to weigh: idea 1's multilingual edge depends on sponsors choosing to translate; the grant odds are roughly one in four or somewhat better.
+- **Tasks added:** none. C17 stays open for the red-team half.
+
 ### 2026-11-18 — C18: fact-check fixes to the new-directions scan (researcher)
 - **Done:** all 5 critical and all minor fixes from `research/reviews/2026-11-18-new-directions.md` applied to `research/new-directions.md` (the one fix round, rule 14). Not done: nothing left in C18. Next: **C16 (CEO)**; C17 red-team half (critic).
 - **Most important new fact (official EU guidance [A]):** the EU lay-summary guidance says "the EU CTR does not request translations". The law requires **one** lay summary per trial. Translating it into each trial country's language (matching the patient consent form) is only **recommended** ([Good Lay Summary Practice, EudraLex Vol. 10, 2021](https://health.ec.europa.eu/system/files/2021-10/glsp_en_0.pdf)). The same guidance warns that "most funding bodies do not foresee budget allocation" for lay summaries.
