@@ -636,7 +636,8 @@
       "owner": "ceo",
       "done": false,
       "added_by": "researcher 2026-11-19",
-      "reason": "Stage C brief ready (rule 8); the CEO decides what happens to the trial-summary variant."
+      "reason": "Stage C brief ready (rule 8); the CEO decides what happens to the trial-summary variant.",
+      "notes": "2026-11-19 researcher (after C29/C30): researcher recommendation changed from (b) to (a) drop; option (b) now = 2 warm-intro conversations by 31 Jan 2027, decide by 28 Feb 2027. See progress.md log 2026-11-19."
     },
     {
       "id": "C29",
@@ -644,9 +645,10 @@
       "title": "Fix fact-check issues in the trial lay-summary brief",
       "description": "Apply research/reviews/2026-11-19-trial-lay-summaries-brief.md to ventures/trial-lay-summaries/brief.md: (1, critical) remove the claim that a vendor's (TrialAssure's) ~50,000 AI summaries were taken offline (Bottom line bullet 4, section 6 TrialAssure row); say the 2023 removal is reported by CISCRP/EMWA without naming a vendor. In the same pass: rename 'small and mid-size companies' or remove large private firms (Grünenthal, Merz, Medac, Hexal...); record the full large-CRO list and lay-summary detection rule in section 5; fix the '3 contractors' count; swap the Informa / CISCRP citations for the working-group roles; add the arXiv comprehension result and the EMA 'product information' scope to the Bottom line. Output: ventures/trial-lay-summaries/brief.md (+ fix log at the end).",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "critic 2026-11-19",
-      "reason": "First fact-check of the C25 brief found one critical attribution error in the CEO-facing Bottom line; CEO decision C28 should rest on the corrected text (rule 14: this is the brief's one fix round). Appended rather than inserted before C28 to keep tasks.json edits append-only while a researcher runs in parallel."
+      "reason": "First fact-check of the C25 brief found one critical attribution error in the CEO-facing Bottom line; CEO decision C28 should rest on the corrected text (rule 14: this is the brief's one fix round). Appended rather than inserted before C28 to keep tasks.json edits append-only while a researcher runs in parallel.",
+      "notes": "2026-11-19 researcher: done together (one fix round, rule 14). Brief revised with fix log; T1/T2 run (T2 kill line met, T1 inconclusive); recommendation for C28 changed to (a)."
     },
     {
       "id": "C30",
@@ -654,9 +656,20 @@
       "title": "Apply red-team fixes to the trial lay-summary brief (same fix round as C29)",
       "description": "Do together with C29 in one run (rule 14: this is the brief's one fix round). Apply research/reviews/2026-11-19-redteam-trial-lay-summaries-brief.md to ventures/trial-lay-summaries/brief.md: (F1) define 'outside purchase' in R1 and section 13 as bought by the sponsor from a firm other than the trial's CRO under a separate order, and mark the 'PO at close-out' decision process as contradicted by the CRO data; (F2) add the founder-value point to the Bottom line and rewrite R4 (writer must accept a split where the CEO earns his share by sales/AI); (F3) add phase (Phase I / bioequivalence) and number-of-countries splits to sections 3 and 5 and restate SAM; (F4) fix the EUR 0 quality test (post-cut-off trials, named human scorer, or drop the writer-time kill from it); (F5) replace 'no extra trips' with the real routes and costs and state the legal basis for phone calls. Also run the two free desk checks T1 (who is named as writer/vendor in 30 published DACH/EU lay summaries) and T2 (large-CRO share by number of trial countries, from the existing retrieve records) and put the results in section 12. Output: ventures/trial-lay-summaries/brief.md (+ fix log).",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "critic 2026-11-19",
-      "reason": "Red team of the C25 brief (C27 second half) found the test plan cannot pass or fail as written and the buyer is probably the CRO; CEO decision C28 should rest on the corrected plan. Same fix round as C29, not a second one."
+      "reason": "Red team of the C25 brief (C27 second half) found the test plan cannot pass or fail as written and the buyer is probably the CRO; CEO decision C28 should rest on the corrected plan. Same fix round as C29, not a second one.",
+      "notes": "2026-11-19 researcher: done together (one fix round, rule 14). Brief revised with fix log; T1/T2 run (T2 kill line met, T1 inconclusive); recommendation for C28 changed to (a)."
+    },
+    {
+      "id": "C31",
+      "stage": "C",
+      "title": "Critic: re-check the C29/C30 fix round of the trial lay-summary brief (caveats only)",
+      "description": "Check that the fact-check and red-team fixes in ventures/trial-lay-summaries/brief.md hold (fix log at the end), re-run a sample of the new CTIS counts (core 427 / 181 without large CRO; T2 77.1 %; T1 sample of 30, seed 30) and the new cost arithmetic. Per rule 14 this is after the brief's one fix round: remaining issues go into the review as caveats, not new tasks, unless one would change C28 outright. Output: research/reviews/<date>-trial-lay-summaries-brief-C30.md.",
+      "owner": "critic",
+      "done": false,
+      "added_by": "researcher 2026-11-19",
+      "reason": "The brief changed substantially (new counts, desk checks T1/T2, changed recommendation) and feeds CEO decision C28; the critic fact-checks every changed research file."
     }
   ]
 }
