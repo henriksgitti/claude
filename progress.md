@@ -135,6 +135,14 @@
 ---
 
 ## Log
+### 2026-11-19 — Fact-check: trial lay-summary brief after its fix round (C31) (critic, FACT-CHECK)
+- Done: re-checked `ventures/trial-lay-summaries/brief.md` after C29 + C30. Review: `research/reviews/2026-11-19-trial-lay-summaries-brief-C30.md`. **Verdict: pass, with caveats.** No critical issue, no new tasks (rule 14).
+- What holds: all 10 fixes from this morning's fact-check are in, including the removed "a vendor's 50,000 AI summaries were taken offline" claim. I re-ran the whole public EU trial-register count with the lists the researcher wrote down. Every new number matches exactly: 427 "core" trials a year, 181 of them without a big CRO, 26 in DACH; 77.1 % of trials in 3+ countries run through a big CRO. I downloaded 13 published lay summaries. The quotes ("prepared by Syneos", "SIRO Medical Writing", CRO template codes) and the PDF author fields ("OpenAI", "python-docx") are real. The cost and margin arithmetic recomputes. The new legal and event sources (BGH ruling, IHK Bonn, DIA day pass €179, Lionbridge case) say what the brief says.
+- What was wrong (small, listed as caveats): greater Munich has 10 trials, not 11. One of the 4 "outside writer" examples (Imcheck) is really an Ipsen (big-pharma) document, so independent small companies buying from an outside writer are just 2 (3 trials). The BGH case quoted on cold calls set the strict rule but found the calls in that case lawful. The DIA price range leaves out some higher and reduced rates. "Europe and the US together" means EU trials from sponsors based anywhere.
+- Does it change a decision? **No.** C28 (researcher now recommends (a) drop) rests on numbers that hold. Caveat 2 makes the "nobody buys outside writing" signal slightly stronger.
+- Tasks added: none. C31 marked done.
+- Open questions: none new.
+
 ### 2026-11-19 — C29 + C30: fix round of the trial lay-summary brief, incl. desk checks T1 and T2 (researcher)
 - **Done:** `ventures/trial-lay-summaries/brief.md` revised (fix log at the end of the file). All fact-check and red-team items applied. New full re-count of the EU trial register (CTIS public data, all 3,388 trials that ended in 2025–26), with the company and CRO lists written into the file.
 - **What I found (all [A], own counts from public EU trial-register data, unless marked):**
