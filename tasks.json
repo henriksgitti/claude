@@ -623,10 +623,10 @@
       "title": "Critic: fact-check and red team of the trial lay-summary brief",
       "description": "Fact-check ventures/trial-lay-summaries/brief.md (C25): re-run the CTIS seat-country and CRO-contractor counts with the recipe in section 5 (3,388 trials ended 2025-26), check the EMA KPI figures, AI-study abstracts, AI Act Art. 50(4) reading, UWG § 7, StepStone salary, and the section 5/7 arithmetic. Red team: is the CRO-channel inference fair; are the kill lines in section 12 fixed and testable; is the 'niche service, not venture' verdict right or too harsh. Output: research/reviews/<date>-trial-lay-summaries-brief.md.",
       "owner": "critic",
-      "done": false,
+      "done": true,
       "added_by": "researcher 2026-11-19",
       "reason": "New Stage C deliverable; CLAUDE.md requires a critic fact-check and pre-mortem before the CEO decides (C28).",
-      "notes": "2026-11-19 critic: fact-check half done, research/reviews/2026-11-19-trial-lay-summaries-brief.md (needs work; 1 critical: the brief says a vendor's ~50,000 AI summaries were taken offline, but no source links TrialAssure to the 2023 removal; 9 minor). CTIS headline counts reproduce exactly (4,202 / 1,826 / 1,562; DE 43 / 30; EU 315 / 210); CRO and top-50 splits within ~1-10 %. Fix task C29 added. Red-team half still open (separate run)."
+      "notes": "2026-11-19 critic: fact-check half done, research/reviews/2026-11-19-trial-lay-summaries-brief.md (needs work; 1 critical: the brief says a vendor's ~50,000 AI summaries were taken offline, but no source links TrialAssure to the 2023 removal; 9 minor). CTIS headline counts reproduce exactly (4,202 / 1,826 / 1,562; DE 43 / 30; EU 315 / 210); CRO and top-50 splits within ~1-10 %. Fix task C29 added. Red-team half still open (separate run). 2026-11-19 critic: red-team half done, research/reviews/2026-11-19-redteam-trial-lay-summaries-brief.md (brief needs work; venture fails; 'niche service' verdict right, not too harsh). Red-team fixes added as C30 in the same fix round as C29."
     },
     {
       "id": "C28",
@@ -647,6 +647,16 @@
       "done": false,
       "added_by": "critic 2026-11-19",
       "reason": "First fact-check of the C25 brief found one critical attribution error in the CEO-facing Bottom line; CEO decision C28 should rest on the corrected text (rule 14: this is the brief's one fix round). Appended rather than inserted before C28 to keep tasks.json edits append-only while a researcher runs in parallel."
+    },
+    {
+      "id": "C30",
+      "stage": "C",
+      "title": "Apply red-team fixes to the trial lay-summary brief (same fix round as C29)",
+      "description": "Do together with C29 in one run (rule 14: this is the brief's one fix round). Apply research/reviews/2026-11-19-redteam-trial-lay-summaries-brief.md to ventures/trial-lay-summaries/brief.md: (F1) define 'outside purchase' in R1 and section 13 as bought by the sponsor from a firm other than the trial's CRO under a separate order, and mark the 'PO at close-out' decision process as contradicted by the CRO data; (F2) add the founder-value point to the Bottom line and rewrite R4 (writer must accept a split where the CEO earns his share by sales/AI); (F3) add phase (Phase I / bioequivalence) and number-of-countries splits to sections 3 and 5 and restate SAM; (F4) fix the EUR 0 quality test (post-cut-off trials, named human scorer, or drop the writer-time kill from it); (F5) replace 'no extra trips' with the real routes and costs and state the legal basis for phone calls. Also run the two free desk checks T1 (who is named as writer/vendor in 30 published DACH/EU lay summaries) and T2 (large-CRO share by number of trial countries, from the existing retrieve records) and put the results in section 12. Output: ventures/trial-lay-summaries/brief.md (+ fix log).",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "critic 2026-11-19",
+      "reason": "Red team of the C25 brief (C27 second half) found the test plan cannot pass or fail as written and the buyer is probably the CRO; CEO decision C28 should rest on the corrected plan. Same fix round as C29, not a second one."
     }
   ]
 }
