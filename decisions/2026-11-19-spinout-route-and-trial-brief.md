@@ -1,0 +1,4 @@
+# Spin-out co-founder route + trial-summary venture brief
+- Date: 2026-11-19
+- Decision: (1) Pursue the route of joining a Munich research spin-out as business co-founder: the researcher writes a 2-page entry pack; the CEO himself takes the free outward steps (UnternehmerTUM "Future Entrepreneur" application in December, 1–2 Munich events, one question to the EXIST hotline on part-time eligibility). Kill line: if the CEO is not named in any draft EXIST-Forschungstransfer, Helmholtz Enterprise or m4 application by 28 Feb 2027, the Sep 2027 start via this route is off. (2) In parallel, a full venture brief on the narrow trial-summary variant (AI lay summary + translation pack for small and mid-size sponsors, possibly via CROs).
+- Reason: CEO answer card (option c). The spin-out route is the only one found where the Sep 2027 start, a paid salary and the missing science co-founder line up; the trial-summary brief is chosen despite weak desk evidence.
