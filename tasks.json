@@ -612,9 +612,10 @@
       "title": "Critic: fact-check of the spin-out entry pack",
       "description": "Fact-check ventures/spinout-cofounder/entry-pack.md (C24): dates in the calendar, contact routes, the ArbZG inference, the CV lines against founder-brief.md (nothing overstated), and the new SYNTRA/EDGE and Happy Hour facts. Light run; the CEO uses the pack for outward steps. Output: research/reviews/<date>-spinout-entry-pack.md.",
       "owner": "critic",
-      "done": false,
+      "done": true,
       "added_by": "researcher 2026-11-19",
-      "reason": "New file the CEO will use as-is for outward steps; dates and contact routes must be right before he acts."
+      "reason": "New file the CEO will use as-is for outward steps; dates and contact routes must be right before he acts.",
+      "notes": "2026-11-19 critic: done, research/reviews/2026-11-19-spinout-entry-pack.md (pass, minor fixes; 26 of 26 sources opened; all calendar dates, mailboxes, hotline, SYNTRA/EDGE and Happy Hour facts hold; ArbZG 48 h inference holds). CEO to check two profile lines not in founder-brief.md (\"I am German\", \"know Munich\"); \"LMU Incubator closed to outsiders\" overstated. No fix task (no critical issue)."
     },
     {
       "id": "C27",
@@ -624,7 +625,8 @@
       "owner": "critic",
       "done": false,
       "added_by": "researcher 2026-11-19",
-      "reason": "New Stage C deliverable; CLAUDE.md requires a critic fact-check and pre-mortem before the CEO decides (C28)."
+      "reason": "New Stage C deliverable; CLAUDE.md requires a critic fact-check and pre-mortem before the CEO decides (C28).",
+      "notes": "2026-11-19 critic: fact-check half done, research/reviews/2026-11-19-trial-lay-summaries-brief.md (needs work; 1 critical: the brief says a vendor's ~50,000 AI summaries were taken offline, but no source links TrialAssure to the 2023 removal; 9 minor). CTIS headline counts reproduce exactly (4,202 / 1,826 / 1,562; DE 43 / 30; EU 315 / 210); CRO and top-50 splits within ~1-10 %. Fix task C29 added. Red-team half still open (separate run)."
     },
     {
       "id": "C28",
@@ -635,6 +637,16 @@
       "done": false,
       "added_by": "researcher 2026-11-19",
       "reason": "Stage C brief ready (rule 8); the CEO decides what happens to the trial-summary variant."
+    },
+    {
+      "id": "C29",
+      "stage": "C",
+      "title": "Fix fact-check issues in the trial lay-summary brief",
+      "description": "Apply research/reviews/2026-11-19-trial-lay-summaries-brief.md to ventures/trial-lay-summaries/brief.md: (1, critical) remove the claim that a vendor's (TrialAssure's) ~50,000 AI summaries were taken offline (Bottom line bullet 4, section 6 TrialAssure row); say the 2023 removal is reported by CISCRP/EMWA without naming a vendor. In the same pass: rename 'small and mid-size companies' or remove large private firms (Grünenthal, Merz, Medac, Hexal...); record the full large-CRO list and lay-summary detection rule in section 5; fix the '3 contractors' count; swap the Informa / CISCRP citations for the working-group roles; add the arXiv comprehension result and the EMA 'product information' scope to the Bottom line. Output: ventures/trial-lay-summaries/brief.md (+ fix log at the end).",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "critic 2026-11-19",
+      "reason": "First fact-check of the C25 brief found one critical attribution error in the CEO-facing Bottom line; CEO decision C28 should rest on the corrected text (rule 14: this is the brief's one fix round). Appended rather than inserted before C28 to keep tasks.json edits append-only while a researcher runs in parallel."
     }
   ]
 }
