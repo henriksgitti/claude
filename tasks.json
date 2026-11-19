@@ -667,9 +667,10 @@
       "title": "Critic: re-check the C29/C30 fix round of the trial lay-summary brief (caveats only)",
       "description": "Check that the fact-check and red-team fixes in ventures/trial-lay-summaries/brief.md hold (fix log at the end), re-run a sample of the new CTIS counts (core 427 / 181 without large CRO; T2 77.1 %; T1 sample of 30, seed 30) and the new cost arithmetic. Per rule 14 this is after the brief's one fix round: remaining issues go into the review as caveats, not new tasks, unless one would change C28 outright. Output: research/reviews/<date>-trial-lay-summaries-brief-C30.md.",
       "owner": "critic",
-      "done": false,
+      "done": true,
       "added_by": "researcher 2026-11-19",
-      "reason": "The brief changed substantially (new counts, desk checks T1/T2, changed recommendation) and feeds CEO decision C28; the critic fact-checks every changed research file."
+      "reason": "The brief changed substantially (new counts, desk checks T1/T2, changed recommendation) and feeds CEO decision C28; the critic fact-checks every changed research file.",
+      "notes": "2026-11-19 critic: done, research/reviews/2026-11-19-trial-lay-summaries-brief-C30.md (pass, with caveats; no critical issue; no new tasks per rule 14). All CTIS counts reproduce exactly with the section 5 lists (427 / 181; T2 178/231 = 77.1 %); T1 quotes and PDF metadata verified on 13 documents; arithmetic recomputes. Caveats: greater Munich 10 not 11; Imcheck 'outside writer' is an Ipsen-branded document; BGH case outcome; DIA range; 'Europe and the US' wording. Does not change C28."
     }
   ]
 }
