@@ -557,9 +557,10 @@
       "title": "Critic: fact-check the direction 1 desk run (trial summaries)",
       "description": "Fact-check research/direction1-trial-summaries.md: re-run the CTIS counts with the recipe in Details §1 (overdue by sponsor group EU/DE/PT, 2025 flow, translation shares), check the price table (EFGCP/EFPIA 35-105 h, UCLA, Emory, JVEG, Berks), grades, snippet-only items and the K3 arithmetic. Output: research/reviews/<date>-direction1-trial-summaries.md.",
       "owner": "critic",
-      "done": false,
+      "done": true,
       "added_by": "researcher 2026-11-18",
-      "reason": "New research file feeding the CEO's pick between direction 1 and 2 (decision 2026-11-18); the critic fact-checks every new research file (CLAUDE.md)."
+      "reason": "New research file feeding the CEO's pick between direction 1 and 2 (decision 2026-11-18); the critic fact-checks every new research file (CLAUDE.md).",
+      "notes": "2026-11-19 critic: done, research/reviews/2026-11-19-direction1-trial-summaries.md (pass, minor fixes; no critical issue, no fix task). CTIS re-run: 12,873 / 4,194 ended, 2025 flow and translation counts match exactly; overdue counts reproduce within 2 % (due) but 'still missing' is 6-11 % lower (DE neither 80 vs 85, EU 291 vs 331), so the overdue pool is if anything smaller. Emory $5,400 is a registration-only fee, not 'plus upkeep'. 25 of 25 sources checked; TED 0/0/0/9 match."
     },
     {
       "id": "C22",
@@ -567,9 +568,10 @@
       "title": "Critic: fact-check the direction 2 desk run (spin-out co-founder)",
       "description": "Fact-check research/direction2-spinout-cofounder.md: EFT guideline and handbook quotes (business seat, degrees, part-time, cut-off -> jury -> start table, 31 Dec 2027), monitoring-report numbers (TUM 127/42, LMU 40/17, 87 %, >96 %), TV-L E13 values, Helmholtz Enterprise 2026-2 and m4 2027 dates, the ad count in Details §3 (snippet-only items), the five project rows (amounts, dates, seat status), and the kill lines. Output: research/reviews/<date>-direction2-spinout-cofounder.md.",
       "owner": "critic",
-      "done": false,
+      "done": true,
       "added_by": "researcher 2026-11-18",
-      "reason": "New research file feeding the CEO's pick after both desk runs (decision 2026-11-18); the critic fact-checks every new research file (CLAUDE.md)."
+      "reason": "New research file feeding the CEO's pick after both desk runs (decision 2026-11-18); the critic fact-checks every new research file (CLAUDE.md).",
+      "notes": "2026-11-19 critic: done, research/reviews/2026-11-19-direction2-spinout-cofounder.md (pass, minor fixes; no critical issue, no fix task). 33 of 33 sources opened; EFT dates, business-seat rule, 87 %/>96 %, TUM 127/42, LMU 40/17, TV-L E13, Helmholtz Enterprise and m4 2027 dates, GO-Bio amounts all verbatim. Minor: TUM job list was searchable via a fallback (40 newest ads: 0 business co-founder seats, conclusion holds); SYNTRA spin-off plan not on the opened page; Helmholtz CEO seat needed by the month-7 review (~Aug-Sep 2027), not Oct; E13 for the business seat is an assumption."
     },
     {
       "id": "C23",
