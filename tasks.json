@@ -579,9 +579,30 @@
       "title": "CEO: next step after both desk runs (trial summaries, spin-out co-founder)",
       "description": "Read the Findings of research/direction2-spinout-cofounder.md and research/direction1-trial-summaries.md (10 minutes). Direction 1 (C19): no full brief as framed; the overdue-report gap is small (Germany 85 trials, Portugal 12) [A, own count]. Direction 2 (C20): the federal spin-out grant EXIST-Forschungstransfer has a cut-off on 31 Mar 2027, then a jury in June and an 'optimal start' on 1 Sep 2027, your planned full-time date [A]. It pays the team as university staff (TV-L E13: EUR 4,759-5,106 a month gross) [B], and every team must have a business person [A]. 87 % of funded projects found a company [A]. But 0 Munich health research projects publicly advertise a business seat (6 ads found; the one open health seat, KIARA, is in Berlin and asks for medtech sales and VC experience) [B]. Teams fill the seat through transfer offices and programmes. Whether you could hold a half-time grant post next to your Lisbon job is unclear [UNVERIFIED]. Options: (a) Go for direction 2. Approve 3 free outward steps: apply to UnternehmerTUM 'Future Entrepreneur' when it opens in December (15-20 h/week, online); attend 1-2 Munich events (Impact Co-Founder Matching 1 Dec 2026; TUM Healthcare Happy Hour 12 Jan 2027); one question to the EXIST hotline on part-time eligibility. In parallel the researcher writes a 2-page entry pack (your profile as business co-founder, target list with dates, application calendar). Kill line: if by 28 Feb 2027 you are not named in any draft EFT, Helmholtz Enterprise or m4 application, the Sep 2027 start is off (next EFT start 1 Mar 2028). (b) Brief the narrow direction 1 variant (AI lay-summary + translation pack sold through CROs). Weak on desk evidence (C19), and no medical writer on the team. (c) Both (a) and (b). (d) Neither: back to the new-directions table or the parked ideas. Recommendation: (a), because it is the only route found where the start date, a paid salary and your founder gap (no science co-founder) line up. Desk research cannot go further: the next facts (which team lacks a business seat) only come from being visible in these channels. Cost is your time, not money. Not recommended: a full venture brief for direction 2, because the partner team chooses the problem.",
       "owner": "ceo",
-      "done": false,
+      "done": true,
       "added_by": "researcher 2026-11-18",
-      "reason": "Both desk runs from decision 2026-11-18 are done; the CEO picks the next step (CLAUDE.md rule 8)."
+      "reason": "Both desk runs from decision 2026-11-18 are done; the CEO picks the next step (CLAUDE.md rule 8).",
+      "notes": "CEO 2026-11-19 (answer card): option (c), spin-out route (entry pack + 3 outward steps by the CEO) AND a full venture brief on the narrow trial-summary variant."
+    },
+    {
+      "id": "C24",
+      "stage": "C",
+      "title": "Entry pack: CEO as business co-founder for a Munich research spin-out",
+      "description": "From research/direction2-spinout-cofounder.md: write ventures/spinout-cofounder/entry-pack.md, max 2 pages, usable by the CEO as-is: (1) one-paragraph profile and a short CV-style list framing founder-brief.md for the business seat (health innovation Master's, AI-agent implementation, German/English/Portuguese, Munich + Lisbon), honest about gaps (no prior founding, no VC track record) and how to offset them; (2) target list: the 5 best-matching projects/teams and the transfer offices and programmes to approach (TUM Venture Labs, UnternehmerTUM, LMU IEC, Helmholtz, BioM, m4), with contact routes; (3) calendar to 31 Mar 2027 with dates (UnternehmerTUM Future Entrepreneur opening, Impact Co-Founder Matching 1 Dec 2026, TUM Healthcare Happy Hour 12 Jan 2027, m4 short descriptions 30 Nov 2026, EFT cut-off 31 Mar 2027, kill line 28 Feb 2027); (4) the exact wording of the EXIST hotline question on part-time eligibility; (5) a 5-line pitch for events. No outward action by agents; the CEO takes the steps.",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "ceo 2026-11-19",
+      "reason": "CEO picked the spin-out route (C23 option c)."
+    },
+    {
+      "id": "C25",
+      "stage": "C",
+      "title": "Venture brief: AI lay-summary + translation pack for trial sponsors (narrow direction 1)",
+      "description": "CEO 2026-11-19: write ventures/trial-lay-summaries/brief.md with templates/venture-brief.md for the narrow variant in research/direction1-trial-summaries.md: AI-drafted, human-checked lay summary + translation pack (DE/PT/other EU languages) for small and mid-size commercial sponsors, sold directly or through CROs/medical-writing firms (white-label). Answer first: who signs and pays (sponsor clinical ops vs CRO), sourced or best-available price, packages needed for three salaries and EUR 1m (60-167 per C19), how to get the medical-writer competence (co-founder, freelancer network, Lisbon team), quality/regulatory risk of AI drafts (GLSP, CTIS rules), competitors (Weave Bio, Peer AI, TrialAssure, CRO writing teams), and the cheapest test. Use findings already checked by the critic; do not repeat C19's count. Include kill criteria. No outward actions.",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "ceo 2026-11-19",
+      "reason": "CEO picked a brief on the narrow trial-summary variant alongside the spin-out route (C23 option c)."
     }
   ]
 }
