@@ -60,6 +60,7 @@
 ## CEO decision 2026-11-18
 - **Research restarted: new-directions scan** (C15). Research runs back on.
 
+- (critic 2026-11-19) **Second red team of the trial lay-summary brief after its fix round:** `research/reviews/2026-11-19-redteam-trial-lay-summaries-brief-C30.md`. Brief **passes as a decision document**; venture **fails**. All five first-pass objections answered. Six caveats, no new tasks (rule 14); none changes C28. Both agents recommend **C28 (a) drop**. Open: **C28 (CEO)**, C17 red-team half (critic).
 ## Next steps
 - (2026-11-11) Critic: C2 fact-check and pre-mortem of the L01 brief. CEO: C3 (go to Stage D / revise / drop). Researcher: no open unblocked task after C1 (A17 waits for 2026-12-01; A24/A26 deferred). The numbered list below is from Stage B.
 0. **CEO: B3 — pick 2–3 ideas for deep dive** from `research/shortlist.md` (recommendation: L01 + L03 as one 'carer support' brief, plus L07). Critic: B2 review of the shortlist.
@@ -67,6 +68,12 @@
 2. After B3: C1 venture briefs for the picked ideas.
 
 ## Open questions
+- **CEO (C28), from the critic's second red team of the trial lay-summary brief (2026-11-19, `research/reviews/2026-11-19-redteam-trial-lay-summaries-brief-C30.md`):**
+  - **Recommendation of both agents: (a) drop.** The revised brief is honest and complete enough to decide on; nothing in it argues for keeping the idea. Read the notes of task C28, not its description: the description still shows the old recommendation (b).
+  - Why, in one line each: the firm that runs a trial for the drug company (the CRO) usually writes this summary under a contract signed years earlier; the trials left over are mostly in one or two countries, so they need little translation and are worth about €1,500–2,500 each, which puts the reachable market at roughly €0.4–0.6m a year worldwide (critic's math); a medical writer can do this alone and does not need you.
+  - **10-minute check before choosing (b):** can you name one medical writer or one writing lead at a small CRO you could message today? If not, (b) cannot run, because the brief rules out cold calls and cold emails.
+  - If you still choose (b): skip the first desk step (it cannot change the decision), and in the writer conversation also ask "would you build this with a non-writer partner who does sales and AI?" A writer who says sponsors pay freelancers well is also telling you they do not need a partner.
+  - **Decide something else now:** after (a), the spin-out route is your only live route. If you are not named in a spin-out application by 28 Feb 2027, there is no idea queued for a Sep 2027 start. Do you want a new research scan to start now, or only after 28 Feb 2027?
 - **CEO (C28), from the critic red team of the trial lay-summary brief (2026-11-19, `research/reviews/2026-11-19-redteam-trial-lay-summaries-brief.md`):**
   - Critic's recommendation: **(a) drop it as a venture.** Since C29/C30 (2026-11-19) the researcher recommends **(a)** too: the free desk checks did not pass (log entry of that date). You decide.
   - Why, in plain words: (1) the buyer is most likely the contract research firm (CRO) that runs the trial, and it agrees the lay summary in its contract when the trial starts, years before the summary is due; a newcomer would have to sell to a firm that also does the work itself. (2) The work is a medical writer's job plus a standard AI tool; a writer can do it alone, you cannot, so your role in this business is thin. (3) Customers buy once (most small companies end one trial a year), and the whole EU market is about €11m a year at an assumed price.
@@ -135,6 +142,14 @@
 ---
 
 ## Log
+### 2026-11-19 — Red team: trial lay-summary brief after its fix round (critic, RED TEAM, second pass)
+- **Done:** second red team of `ventures/trial-lay-summaries/brief.md`, only what changed in C29/C30: `research/reviews/2026-11-19-redteam-trial-lay-summaries-brief-C30.md`. **Verdict: pass as a decision document (with caveats); venture fails.** All five first-pass objections (buyer is the CRO, CEO least needed, smaller market, broken €0 test, wrong interview route) are answered in the brief's own words; T1/T2 were run and reported honestly.
+- **Caveats (rule 14, no new tasks):** (K1) 128 of the 181 "reachable" trials run in 1–2 countries but are priced as 4-language packs; re-priced, the reachable market is ≈€0.38–0.64m a year (*my math*). (K2) Option (b)'s first desk step cannot change any decision. (K3) The writer conversation's "confirm" answer is also proof the writer does not need the CEO; add the partner question. (K4) Option (b) needs a warm contact nobody has named. (K5) Dates 28 Feb vs 31 Mar 2027 differ; the €10k pilot math uses employed-writer cost, freelancers make 3 pilots cost €7.0–10.5k; C28 task description shows the old recommendation. (K6) After (a), the spin-out route is the only live route.
+- **Does it change a decision?** No. Every caveat points further toward C28 (a) drop.
+- **Cheapest test:** the CEO's 10-minute check (can you name one medical writer or small-CRO writing lead?). No name → (a).
+- **Not done:** no outward action. No new count beyond arithmetic on the brief's own tables.
+- **Tasks:** none added (rule 14). Open: **C28 (CEO)**, C17 red-team half (critic).
+
 ### 2026-11-19 — Fact-check: trial lay-summary brief after its fix round (C31) (critic, FACT-CHECK)
 - Done: re-checked `ventures/trial-lay-summaries/brief.md` after C29 + C30. Review: `research/reviews/2026-11-19-trial-lay-summaries-brief-C30.md`. **Verdict: pass, with caveats.** No critical issue, no new tasks (rule 14).
 - What holds: all 10 fixes from this morning's fact-check are in, including the removed "a vendor's 50,000 AI summaries were taken offline" claim. I re-ran the whole public EU trial-register count with the lists the researcher wrote down. Every new number matches exactly: 427 "core" trials a year, 181 of them without a big CRO, 26 in DACH; 77.1 % of trials in 3+ countries run through a big CRO. I downloaded 13 published lay summaries. The quotes ("prepared by Syneos", "SIRO Medical Writing", CRO template codes) and the PDF author fields ("OpenAI", "python-docx") are real. The cost and margin arithmetic recomputes. The new legal and event sources (BGH ruling, IHK Bonn, DIA day pass €179, Lionbridge case) say what the brief says.
