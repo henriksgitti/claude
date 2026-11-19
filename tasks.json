@@ -601,9 +601,10 @@
       "title": "Venture brief: AI lay-summary + translation pack for trial sponsors (narrow direction 1)",
       "description": "CEO 2026-11-19: write ventures/trial-lay-summaries/brief.md with templates/venture-brief.md for the narrow variant in research/direction1-trial-summaries.md: AI-drafted, human-checked lay summary + translation pack (DE/PT/other EU languages) for small and mid-size commercial sponsors, sold directly or through CROs/medical-writing firms (white-label). Answer first: who signs and pays (sponsor clinical ops vs CRO), sourced or best-available price, packages needed for three salaries and EUR 1m (60-167 per C19), how to get the medical-writer competence (co-founder, freelancer network, Lisbon team), quality/regulatory risk of AI drafts (GLSP, CTIS rules), competitors (Weave Bio, Peer AI, TrialAssure, CRO writing teams), and the cheapest test. Use findings already checked by the critic; do not repeat C19's count. Include kill criteria. No outward actions.",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "ceo 2026-11-19",
-      "reason": "CEO picked a brief on the narrow trial-summary variant alongside the spin-out route (C23 option c)."
+      "reason": "CEO picked a brief on the narrow trial-summary variant alongside the spin-out route (C23 option c).",
+      "notes": "2026-11-19 researcher: done, ventures/trial-lay-summaries/brief.md (all 13 template sections). New own CTIS count (3,388 trials ended 2025-26: sponsor seat, CRO contractors), EMA KPI report Sep 2026, UK HRA rule, AI-quality studies, cost per pack. Verdict: niche service, not a venture-scale company (EU TAM ~EUR 11.0m/yr at EUR 6,000; DACH-based small sponsors 81 trials/yr). No observed price (still [UNVERIFIED]). Added C27 (critic) and C28 (CEO)."
     },
     {
       "id": "C26",
@@ -614,6 +615,26 @@
       "done": false,
       "added_by": "researcher 2026-11-19",
       "reason": "New file the CEO will use as-is for outward steps; dates and contact routes must be right before he acts."
+    },
+    {
+      "id": "C27",
+      "stage": "C",
+      "title": "Critic: fact-check and red team of the trial lay-summary brief",
+      "description": "Fact-check ventures/trial-lay-summaries/brief.md (C25): re-run the CTIS seat-country and CRO-contractor counts with the recipe in section 5 (3,388 trials ended 2025-26), check the EMA KPI figures, AI-study abstracts, AI Act Art. 50(4) reading, UWG § 7, StepStone salary, and the section 5/7 arithmetic. Red team: is the CRO-channel inference fair; are the kill lines in section 12 fixed and testable; is the 'niche service, not venture' verdict right or too harsh. Output: research/reviews/<date>-trial-lay-summaries-brief.md.",
+      "owner": "critic",
+      "done": false,
+      "added_by": "researcher 2026-11-19",
+      "reason": "New Stage C deliverable; CLAUDE.md requires a critic fact-check and pre-mortem before the CEO decides (C28)."
+    },
+    {
+      "id": "C28",
+      "stage": "C",
+      "title": "CEO: what to do with the trial lay-summary idea",
+      "description": "Read the 'Bottom line' of ventures/trial-lay-summaries/brief.md (5 minutes). Facts: EU law makes every drug trial publish a lay summary within 12 months [A]; ~1,826 trials ended in 2025 [A, own count]; at an assumed EUR 6,000 per pack the whole EU market is ~EUR 11.0m a year and the small/mid-company part EUR 4.2m (my math, price not observed). Companies based in Germany ended only 43 such trials in 2025, DACH 81 [A, own count]; US biotechs are the biggest group and 71 % of their trials run through large CROs [A, own count]. Companies already report on time in 83.8 % of cases (EMA, Sep 2026) [A], so fines are not the driver. AI drafts match human quality in studies [A], but buyers, EMA and patients expect a human medical-writer check [A/B], and the CEO is not a medical writer. Options: (a) Drop the idea now. (b) Keep it as a side option: run the EUR 0 quality test (Dec 2026) and, with your OK, 5 phone/event conversations with DACH small sponsors and CROs alongside the spin-out events (Jan-Mar 2027); kill if fewer than 2 of 5 report paying an outside firm >= EUR 2,500 per lay summary. (c) Make it the main venture and start a medical-writer co-founder search now. Recommendation: (b), because it costs no money, uses events you attend anyway, and one fact (does anyone pay >= EUR 2,500?) decides it; (c) is not supported by the market size. Wait for the critic review (C27) before deciding if you prefer.",
+      "owner": "ceo",
+      "done": false,
+      "added_by": "researcher 2026-11-19",
+      "reason": "Stage C brief ready (rule 8); the CEO decides what happens to the trial-summary variant."
     }
   ]
 }
