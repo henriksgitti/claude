@@ -1,0 +1,54 @@
+# Fact-check: ventures/spinout-cofounder/entry-pack.md (task C26)
+Date 2026-11-19 | Verdict: **pass (minor fixes)** | Sources checked: 26 of 26 cited URLs opened (curl + text extraction; Luma page data; KIARA ad PDF), plus the EFT handbook hotline chapter and FAQ
+
+Scope: first fact-check of this file (created in C24, commit 7836660). Light run as asked in C26: calendar dates, contact routes, the ArbZG inference, CV lines against `founder-brief.md`, new SYNTRA/EDGE and Happy Hour facts. Whether the route is a good idea is the red team's question.
+
+**What holds.** Every date in the calendar matches its source: UnternehmerTUM online info session **24 Nov** ("Join our free online info session on November 24"); m4 stage I deadline **30 Nov 2026**, stage II info event **13 Jan 2027**, stage II deadline **22 Feb 2027** (m4 slides); Meetup matching **1 Dec 2026, doors 16:45**, Precelerator, Lothstraße 21; Helmholtz Enterprise jury **13.11.2026**, decisions "approximately two weeks after"; TUM Healthcare Happy Hour **12 Jan 2027, 18:00 CET**, Luma data `sold_out: true`, `is_free: true`, `waitlist_status: active`; LMU Demo Day **3 Feb 2027** "(open to the public)", "(Subject to change)"; EFT cut-off **31.03 → June jury → 01.09**. Every contact route is on the cited page: entrepreneurship@lmu.de and the consultation questionnaire; healthcare@tum-venture-labs.de; ventures@unimedizin-bayern.de; info@helmholtz-munich.de; EXIST hotline 030 20199-411 and ptj-exist-forschungstransfer@ptj.de, with "Bitte senden Sie uns keine Dokumente zum einzureichenden Antrag zu" (handbook ch. 8), so "do not send documents" is right. SYNTRA/EDGE is now sourced: "The team also plans to transfer the technology into a spin-off company" (Helmholtz Munich, 2 Sep 2026) and GO-Bio next **€3,054,897, 01/11/2025–31/10/2028**. ki-alz-2 (599.632,80 €, to 30.09.2026, "basis for a spinoff") and RadioGene-2 (600.000 €, to 30.09.2026, "a spin-off … planned") match. EFT €10,000 coaching ("wofür 10 000 Euro eingeplant und genutzt werden sollen"), the business-competence seat and the "Vereinbarkeit von Beruf und Familie" part-time wording are verbatim in the guideline. The EFT FAQ says the company may be founded during the project if "eine Regelung zur Nebentätigkeit … getroffen wird oder … die wöchentliche Arbeitszeit im geförderten Projekt reduziert wird". No fabrication.
+
+**ArbZG inference: holds.** § 2(1): "Arbeitszeiten bei mehreren Arbeitgebern sind zusammenzurechnen". § 3: "Die werktägliche Arbeitszeit … darf acht Stunden nicht überschreiten", up to ten if the six-month average stays at eight. Werktage are Monday to Saturday, so 6 × 8 = 48 hours a week is the right cap, and 40 + ~20 = ~60 hours is above it. The pack correctly tags as `[UNVERIFIED]` whether this applies when the full-time employer is in Portugal, and frames it as a question for the hotline, not a fact.
+
+## Critical issues (must fix)
+None. No fix task added.
+
+## Minor issues (CEO can correct these himself before using the pack)
+1. **Two profile lines are not in `founder-brief.md` (§1 paragraph).** "I am German" (the brief says "German-speaking", not nationality) and "know Munich and Lisbon" (the brief gives Munich as the preferred founding place and a Lisbon network, not time spent in Munich). Also "your Master's health-innovation project" (§1 gaps table) assumes a project the brief does not mention. The CEO knows whether these are true; if not, delete them. Everything else in the CV lines matches the brief (degrees, May 2026 start after an internship, ~1.5 years, languages, interests) and nothing claims clinical, scientific or founding experience.
+2. **"The LMU Innovation Incubator is closed to outsiders" (§2 offices table) is stronger than the source.** The [LMU IEC page](https://www.iec.lmu.de/en/our-services/incubation-transfer/the-lmu-innovation-incubator/) requires teams "with at least one member having a connection to LMU" (students, researchers, staff, alumni). An outsider can join a team that has one LMU member. Suggested wording: "Each team needs at least one LMU-affiliated member, so you can only join through an LMU team."
+3. **"So you have a named start-up role by March 2027" (§1 gaps table) is an unlabelled timing inference.** The [Future Entrepreneur page](https://incubator.unternehmertum.de/future-entrepreneurs/) says only that the next application phase "starts in December"; the next batch's dates are not published (current batch 31.08.–9.12.2026). Label it *inference* or "if the next batch starts by early 2027".
+4. **Trivia:** Meetup shows 903 members today (pack 904; live count). Fraunhofer HHI's Berlin location is not stated in the KIARA ad itself (general knowledge, fine). The KIARA "VC track record" reads in the ad as "Experience raising venture capital and securing grant funding"; supported.
+
+## Source check
+| Claim | Source | Verdict | Note |
+|---|---|---|---|
+| EFT checklist items ("Vorherige Gründungen …", "Vermarktungserfahrung", "Branchenkenntnisse …"); hotline 030 20199-411, e-mail; "keine Dokumente"; 31.03 → Juni → 01.09 | [EFT handbook 2026](https://exist.de/wp-content/uploads/2026/06/260716_Handbuch_EFT_2026_barrierefrei.pdf) | supported | Verbatim (checklist checked in C22) |
+| Business seat; Master's or equivalent; €10,000 coaching; part-time "zur besseren Vereinbarkeit von Beruf und Familie" | [EFT guideline](https://exist.de/wp-content/uploads/2025/02/Richtlinie-EFT-03-07-2024.pdf) | supported | 4.1, 5.3.1 verbatim |
+| Company may be founded during Phase I with a side-job agreement or reduced hours | [EFT FAQ](https://exist.de/programm/forschungstransfer/faq) | supported | Verbatim |
+| § 2 aggregation; § 3 eight hours per Werktag, average | [§ 2 ArbZG](https://www.gesetze-im-internet.de/arbzg/__2.html), [§ 3](https://www.gesetze-im-internet.de/arbzg/__3.html) | supported | Verbatim; 48 h cap correct |
+| ki-alz-2 €599,632.80, to 30 Sep 2026, "basis for a spinoff" | [GO-Bio](https://go-bio.de/gobio/en/projects/go-bio-initial_eng/_documents/ki-alz_eng.html) | supported | Verbatim |
+| RadioGene-2 €600,000 to 30 Sep 2026, spin-off planned | [GO-Bio](https://go-bio.de/gobio/en/projects/go-bio-initial_eng/_documents/radiogene_eng.html) | supported | Verbatim |
+| SYNTRA: Nature, 2 Sep 2026; "plans to transfer the technology into a spin-off company" | [Helmholtz Munich](https://www.helmholtz-munich.de/en/newsroom/news-all/artikel/ai-designed-proteins-enable-a-new-generation-of-rna-transporters) | supported | Verbatim; closes C22 minor 2 |
+| EDGE GO-Bio next €3,054,897, 01/11/2025–31/10/2028 | [GO-Bio](https://www.go-bio.de/gobio/en/projects/go-bio-eng/_documents/EDGE_Gbn1_en.html); [Helmholtz Munich IDG](https://www.helmholtz-munich.de/en/idg/news-detail/funding-project-brings-new-technology-for-precise-therapeutic-delivery-closer-to-clinical-application) | supported | Verbatim; IDG page says "€3.1 million" |
+| Helmholtz Munich transfer page, info@ mailbox; undated, mentions corona diagnostics | [Helmholtz Munich](https://www.helmholtz-munich.de/en/newsroom/research-highlights/innovations-transfer) | supported | Mailbox in page data; the pack flags the page as probably stale |
+| Helmholtz Enterprise: jury 13.11.2026, decisions ~2 weeks later, "also finances externally found team members", CEO competence for months 9–14, review after month seven | [Call 2026-2](https://www.helmholtz.de/assets/helmholtz_gemeinschaft/user_upload/Ausschreibungen/2026/01_Helmholtz_Enterprise_2026_2nd_Call.pdf) | supported | Verbatim |
+| FormulAIte "approximately one million euros"; "one business specialist" (20 Jul 2026) | [LMU](https://www.lmu.de/en/newsroom/news-overview/news/million-euro-exist-funding-for-two-lmu-pharmacy-teams-5214c051.html) | supported | Verbatim |
+| KIARA "Commercial Cofounder", Fraunhofer HHI, AI surgical workflow; listed 19 Nov 2026; LUXONNIC also listed | [LMU IEC jobs](https://www.iec.lmu.de/en/our-services/incubation-transfer/startup-jobs/) + KIARA PDF | supported | VC experience asked in the PDF |
+| Bugsense EFT €1.23m; "expanding the team" | [Munich Startup](https://www.munich-startup.de/en/news/bugsense-receives-1-23-million-euros-in-exist-funding-for-faster-diagnosis-of-urinary-tract-infections) | supported | Verbatim |
+| Future Entrepreneur: 15–20 h/week, sessions "mostly online in the late afternoon", batch 31.08.–9.12.2026, hybrid, equity-free, next phase "starts in December", "Get notified" | [UnternehmerTUM](https://incubator.unternehmertum.de/future-entrepreneurs/) | supported | Verbatim; "role by March 2027" is inference (minor 3) |
+| Free online info session 24 Nov | [UnternehmerTUM Incubator](https://incubator.unternehmertum.de/) | supported | Verbatim |
+| TUM VL Healthcare mailbox | [TUM VL](https://www.tum-venture-labs.de/labs/healthcare/) | supported | mailto in page |
+| UMB Ventures: six university hospitals; "open to partners who wish to support these teams"; mailbox | [UMB Ventures](https://www.tum-venture-labs.de/labs/healthcare/umb-ventures/) | supported | Verbatim |
+| Happy Hour 12 Jan 2027, 18:00, free, sold out, waitlist | [TUM VL event](https://www.tum-venture-labs.de/events/healthcare-happy-hour-3/), [Luma](https://luma.com/5s9lctzy) | supported | `start_at` 17:00 UTC = 18:00 CET |
+| LMU Spin-off Service: consultation by appointment, short questionnaire | [LMU](https://www.lmu.de/en/research/entrepreneurship-and-transfer/spin-off-service/) | supported | Verbatim |
+| LMU Incubator: Demo Day 3 Feb 2027, public, subject to change; LMU member needed | [LMU IEC](https://www.iec.lmu.de/en/our-services/incubation-transfer/the-lmu-innovation-incubator/) | partially | "closed to outsiders" overstated (minor 2) |
+| m4: 30 Nov 2026 / 13 Jan 2027 / 22 Feb 2027; stage II outline includes "Founder team" | [m4 slides](https://www.m4-award.org/fileadmin/Webdata/Uploads/Gruendung/m4_Award/m4_Award_2027/Praesentation_-_m4_Award_2027_-_Informationsveranstaltung_-_Stufe_1_-_20261013.pdf), [m4-award.org](https://www.m4-award.org/) | supported | Slides also give project start "November 2027" (not in the pack; relevant to the Sep 2027 plan) |
+| Meetup 1 Dec 2026, 16:45, Lothstraße 21; 904 members; 33 attendees | [Meetup](https://www.meetup.com/munich-impact-co-founder-matching/) | supported | 903 members today (minor 4) |
+
+## [UNVERIFIED] items
+| Item | Treated as fact later? |
+|---|---|
+| No ki-alz company found | No; the route goes through the transfer office. |
+| ArbZG applies with a Portuguese employer | No; it is put to the hotline as question (1). |
+| E13 pay grade | Labelled an assumption (critic notes only). |
+
+Unsourced claims: minor 1 and 3 only.
+
+**Note for the CEO (not a fix):** the m4 slides show funded m4 projects start in **November 2027**, two months after the planned 1 Sep 2027 full-time start. The pack lists m4 as one of three routes to the 28 Feb kill line; this timing may matter for the red team.
