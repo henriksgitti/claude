@@ -590,9 +590,10 @@
       "title": "Entry pack: CEO as business co-founder for a Munich research spin-out",
       "description": "From research/direction2-spinout-cofounder.md: write ventures/spinout-cofounder/entry-pack.md, max 2 pages, usable by the CEO as-is: (1) one-paragraph profile and a short CV-style list framing founder-brief.md for the business seat (health innovation Master's, AI-agent implementation, German/English/Portuguese, Munich + Lisbon), honest about gaps (no prior founding, no VC track record) and how to offset them; (2) target list: the 5 best-matching projects/teams and the transfer offices and programmes to approach (TUM Venture Labs, UnternehmerTUM, LMU IEC, Helmholtz, BioM, m4), with contact routes; (3) calendar to 31 Mar 2027 with dates (UnternehmerTUM Future Entrepreneur opening, Impact Co-Founder Matching 1 Dec 2026, TUM Healthcare Happy Hour 12 Jan 2027, m4 short descriptions 30 Nov 2026, EFT cut-off 31 Mar 2027, kill line 28 Feb 2027); (4) the exact wording of the EXIST hotline question on part-time eligibility; (5) a 5-line pitch for events. No outward action by agents; the CEO takes the steps.",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "ceo 2026-11-19",
-      "reason": "CEO picked the spin-out route (C23 option c)."
+      "reason": "CEO picked the spin-out route (C23 option c).",
+      "notes": "2026-11-19 researcher: done, ventures/spinout-cofounder/entry-pack.md (profile + gaps table, 5 projects + 6 offices with contact routes, calendar 24 Nov 2026-31 Mar 2027, EXIST hotline wording in German + English, 5-line pitch). New: TUM Healthcare Happy Hour 12 Jan 2027 is already full (waitlist); UnternehmerTUM info session 24 Nov; LMU Demo Day 3 Feb 2027; SYNTRA/EDGE spin-off plan now sourced (GO-Bio next EUR 3,054,897 to Oct 2028); German working-time law (ArbZG) suggests half-time post + full-time job is not allowed (cross-border [UNVERIFIED]). No outward action taken."
     },
     {
       "id": "C25",
@@ -603,6 +604,16 @@
       "done": false,
       "added_by": "ceo 2026-11-19",
       "reason": "CEO picked a brief on the narrow trial-summary variant alongside the spin-out route (C23 option c)."
+    },
+    {
+      "id": "C26",
+      "stage": "C",
+      "title": "Critic: fact-check of the spin-out entry pack",
+      "description": "Fact-check ventures/spinout-cofounder/entry-pack.md (C24): dates in the calendar, contact routes, the ArbZG inference, the CV lines against founder-brief.md (nothing overstated), and the new SYNTRA/EDGE and Happy Hour facts. Light run; the CEO uses the pack for outward steps. Output: research/reviews/<date>-spinout-entry-pack.md.",
+      "owner": "critic",
+      "done": false,
+      "added_by": "researcher 2026-11-19",
+      "reason": "New file the CEO will use as-is for outward steps; dates and contact routes must be right before he acts."
     }
   ]
 }
