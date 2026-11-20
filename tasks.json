@@ -516,7 +516,8 @@
       "done": false,
       "added_by": "researcher 2026-11-18",
       "reason": "New research file feeding CEO decision C16; the critic fact-checks every new research file (CLAUDE.md).",
-      "notes": "2026-11-18 critic: fact-check half done, research/reviews/2026-11-18-new-directions.md (needs work, minor; no fabrication; 27 of 29 URLs read, all legal and grant facts hold). Fix task C18 added (direction numbering, [UNVERIFIED] lay-summary language rule built on, TUM 115 wrong URL, Peer AI quote, EXIST maths + 27.8 % approval rate). Red-team half still open (separate run). | 2026-11-18 critic: fact-check re-check after C18 done, research/reviews/2026-11-18-new-directions-C18.md (pass, caveats; all 5 critical + minor fixes hold; 8 of 8 new sources read; TED 125/36 reproduce). Caveats only, no new task (rule 14). Fact-check half closed; red-team half still open."
+      "notes": "2026-11-18 critic: fact-check half done, research/reviews/2026-11-18-new-directions.md (needs work, minor; no fabrication; 27 of 29 URLs read, all legal and grant facts hold). Fix task C18 added (direction numbering, [UNVERIFIED] lay-summary language rule built on, TUM 115 wrong URL, Peer AI quote, EXIST maths + 27.8 % approval rate). Red-team half still open (separate run). | 2026-11-18 critic: fact-check re-check after C18 done, research/reviews/2026-11-18-new-directions-C18.md (pass, caveats; all 5 critical + minor fixes hold; 8 of 8 new sources read; TED 125/36 reproduce). Caveats only, no new task (rule 14). Fact-check half closed; red-team half still open.",
+      "blocked_by": "Not needed: CEO chose directions after the scan (2026-11-18/19/20); red-team half of the new-directions scan dropped."
     },
     {
       "id": "C18",
@@ -634,10 +635,10 @@
       "title": "CEO: what to do with the trial lay-summary idea",
       "description": "Read the 'Bottom line' of ventures/trial-lay-summaries/brief.md (5 minutes). Facts: EU law makes every drug trial publish a lay summary within 12 months [A]; ~1,826 trials ended in 2025 [A, own count]; at an assumed EUR 6,000 per pack the whole EU market is ~EUR 11.0m a year and the small/mid-company part EUR 4.2m (my math, price not observed). Companies based in Germany ended only 43 such trials in 2025, DACH 81 [A, own count]; US biotechs are the biggest group and 71 % of their trials run through large CROs [A, own count]. Companies already report on time in 83.8 % of cases (EMA, Sep 2026) [A], so fines are not the driver. AI drafts match human quality in studies [A], but buyers, EMA and patients expect a human medical-writer check [A/B], and the CEO is not a medical writer. Options: (a) Drop the idea now. (b) Keep it as a side option: run the EUR 0 quality test (Dec 2026) and, with your OK, 5 phone/event conversations with DACH small sponsors and CROs alongside the spin-out events (Jan-Mar 2027); kill if fewer than 2 of 5 report paying an outside firm >= EUR 2,500 per lay summary. (c) Make it the main venture and start a medical-writer co-founder search now. Recommendation: (b), because it costs no money, uses events you attend anyway, and one fact (does anyone pay >= EUR 2,500?) decides it; (c) is not supported by the market size. Wait for the critic review (C27) before deciding if you prefer.",
       "owner": "ceo",
-      "done": false,
+      "done": true,
       "added_by": "researcher 2026-11-19",
       "reason": "Stage C brief ready (rule 8); the CEO decides what happens to the trial-summary variant.",
-      "notes": "2026-11-19 researcher (after C29/C30): researcher recommendation changed from (b) to (a) drop; option (b) now = 2 warm-intro conversations by 31 Jan 2027, decide by 28 Feb 2027. See progress.md log 2026-11-19."
+      "notes": "2026-11-19 researcher (after C29/C30): researcher recommendation changed from (b) to (a) drop; option (b) now = 2 warm-intro conversations by 31 Jan 2027, decide by 28 Feb 2027. See progress.md log 2026-11-19. | CEO 2026-11-20 (answer card): (a) DROP the trial lay-summary idea; file kept as reference."
     },
     {
       "id": "C29",
@@ -671,6 +672,16 @@
       "added_by": "researcher 2026-11-19",
       "reason": "The brief changed substantially (new counts, desk checks T1/T2, changed recommendation) and feeds CEO decision C28; the critic fact-checks every changed research file.",
       "notes": "2026-11-19 critic: done, research/reviews/2026-11-19-trial-lay-summaries-brief-C30.md (pass, with caveats; no critical issue; no new tasks per rule 14). All CTIS counts reproduce exactly with the section 5 lists (427 / 181; T2 178/231 = 77.1 %); T1 quotes and PDF metadata verified on 13 documents; arithmetic recomputes. Caveats: greater Munich 10 not 11; Imcheck 'outside writer' is an Ipsen-branded document; BGH case outcome; DIA range; 'Europe and the US' wording. Does not change C28."
+    },
+    {
+      "id": "C32",
+      "stage": "C",
+      "title": "Background briefs on the 5 spin-out target projects (support for the CEO at events)",
+      "description": "For each of the 5 projects in ventures/spinout-cofounder/entry-pack.md section 2 (ki-alz-2 LMU, SYNTRA/EDGE Helmholtz, RadioGene-2 TUM, and the other two), write max 1 page: what the technology does in plain words; who would buy it and what they pay today (market, reimbursement or pharma R&D budget, sourced); main competitors and their funding; regulatory path and time to first revenue; what a business co-founder would do in the first 12 months; 3 smart questions the CEO can ask the team or transfer office; current status (any new company, news since the entry pack). Grade evidence as usual. Output: ventures/spinout-cofounder/project-briefs.md. No outward actions. After this task, the researcher has no further open task (CEO 2026-11-20: research pauses until the CEO has a lead).",
+      "owner": "researcher",
+      "done": false,
+      "added_by": "ceo 2026-11-20",
+      "reason": "CEO wants support for the spin-out route at events."
     }
   ]
 }
