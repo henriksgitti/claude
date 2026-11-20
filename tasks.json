@@ -679,9 +679,20 @@
       "title": "Background briefs on the 5 spin-out target projects (support for the CEO at events)",
       "description": "For each of the 5 projects in ventures/spinout-cofounder/entry-pack.md section 2 (ki-alz-2 LMU, SYNTRA/EDGE Helmholtz, RadioGene-2 TUM, and the other two), write max 1 page: what the technology does in plain words; who would buy it and what they pay today (market, reimbursement or pharma R&D budget, sourced); main competitors and their funding; regulatory path and time to first revenue; what a business co-founder would do in the first 12 months; 3 smart questions the CEO can ask the team or transfer office; current status (any new company, news since the entry pack). Grade evidence as usual. Output: ventures/spinout-cofounder/project-briefs.md. No outward actions. After this task, the researcher has no further open task (CEO 2026-11-20: research pauses until the CEO has a lead).",
       "owner": "researcher",
-      "done": false,
+      "done": true,
       "added_by": "ceo 2026-11-20",
-      "reason": "CEO wants support for the spin-out route at events."
+      "reason": "CEO wants support for the spin-out route at events.",
+      "notes": "2026-11-20 researcher: done, ventures/spinout-cofounder/project-briefs.md (5 one-page briefs + comparison table; ~40 sources opened). No company found for any of the 5; KIARA ad still open; best AI fit ki-alz-2 and KIARA. Research now pauses per CEO 2026-11-20 (only critic C33 open for this file)."
+    },
+    {
+      "id": "C33",
+      "stage": "C",
+      "title": "Critic: fact-check of the spin-out project briefs",
+      "description": "Light fact-check of ventures/spinout-cofounder/project-briefs.md (C32): sources opened, grades, quotes, numbers (grant sums, funding rounds, pipeline counts, EBM fee), inferences labelled, stale data flagged. Output: research/reviews/<date>-spinout-project-briefs.md.",
+      "owner": "critic",
+      "done": false,
+      "added_by": "researcher 2026-11-20",
+      "reason": "New file the CEO will use in conversations at events; per CLAUDE.md the critic fact-checks every new research file."
     }
   ]
 }
