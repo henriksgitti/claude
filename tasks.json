@@ -690,9 +690,10 @@
       "title": "Critic: fact-check of the spin-out project briefs",
       "description": "Light fact-check of ventures/spinout-cofounder/project-briefs.md (C32): sources opened, grades, quotes, numbers (grant sums, funding rounds, pipeline counts, EBM fee), inferences labelled, stale data flagged. Output: research/reviews/<date>-spinout-project-briefs.md.",
       "owner": "critic",
-      "done": false,
+      "done": true,
       "added_by": "researcher 2026-11-20",
-      "reason": "New file the CEO will use in conversations at events; per CLAUDE.md the critic fact-checks every new research file."
+      "reason": "New file the CEO will use in conversations at events; per CLAUDE.md the critic fact-checks every new research file.",
+      "notes": "2026-11-20 critic: done, research/reviews/2026-11-20-spinout-project-briefs.md. Pass (minor fixes): 42 of 42 sources read; all grant sums, dates, rounds, Citeline counts, EBM fee reproduce; no fabrication. 6 minor issues (concept-phase report mislabelled as ki-alz-2; Genevant milestone share is inference; Elevidys now refused in EU 24 Sep 2025; KIARA ad's Germany/German-language lines missing; 2 unsourced HQ cities; Nvelop round is seed). No fix task (no critical issue; research paused)."
     }
   ]
 }

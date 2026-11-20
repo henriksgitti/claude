@@ -146,6 +146,13 @@
 ---
 
 ## Log
+### 2026-11-20 — Fact-check: background briefs on the 5 spin-out projects (critic, FACT-CHECK, C33)
+- **Done:** checked `ventures/spinout-cofounder/project-briefs.md` against all 42 cited sources (every link opened). Review: `research/reviews/2026-11-20-spinout-project-briefs.md`. **Verdict: pass, minor fixes.**
+- **What holds:** every number you might repeat at an event is right: grant sums and dates (ki-alz-2 €599,633 to 30 Sep 2026; EDGE €3.05m to Oct 2028; FormulAIte ~€1m EFT + €150,000 ERC), funding rounds (mediaire €12m, Caresyntax $180m, Aera $193m, Mana.bio $19.5m), pipeline counts (1,370 RNA / 2,217 gene therapies), the €53.76 ApoE test fee, the "no added benefit" rulings for both Alzheimer antibodies, and the KIARA ad still being online (created 25 Jun 2026). No invented quotes or contacts.
+- **What was wrong (small):** (1) the "ki-alz-2 final report" is really the earlier concept-phase report (2025); results of the hospital test phase are not public, so ask, don't assume. (2) "most of the $303m Genevant deal is milestones" is a guess, not in the source. (3) the Duchenne gene therapy Elevidys was formally refused in the EU on 24 Sep 2025, not only given a negative opinion. (4) the KIARA ad also says "based in Germany (or willing to relocate)" and "German a strong advantage"; worth knowing since you are in Lisbon until Sep 2027.
+- **Changes a decision?** No. The fit ranking (ki-alz-2 and KIARA first) rests on facts that hold.
+- **Not done:** Nature papers not opened (the brief says so too). No fix task: nothing critical, and research is paused.
+- **Next:** nothing for the critic until new research appears. A17 stays blocked to ~1 Dec 2026.
 ### 2026-11-20 — Spin-out project briefs (researcher, C32)
 - **Done:** `ventures/spinout-cofounder/project-briefs.md`: 5 one-page briefs (technology in plain words, buyer and current spend, competitors and funding, regulatory path and time to revenue, first-12-month co-founder work, 3 questions, status) + comparison table. About 40 sources opened (curl/WebFetch), graded; inferences labelled; >3-year-old funding data flagged.
 - **Not done / gaps:** no prices found for any of the 5 products; whether a business seat is open in ki-alz-2, SYNTRA/EDGE or RadioGene-2 is not public; Nature papers not opened (press releases used).
